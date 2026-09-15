@@ -48,7 +48,8 @@ Setiap peran menuntut repertoar komunikasi tertentu \[116, 129\]. Sering kali, t
 
 *Silakan salin bagian ini ke dalam lembar pengerjaan tugas atau dokumen portofolio Anda.*
 
-**Nama Mahasiswa:** \[Nama Anda / Gunakan Samaran untuk Privasi\] \[350\] **Tanggal Pengerjaan:** \[Tanggal\]
+**Nama Mahasiswa:** Olsen Danilson Sitohang \[350\]  
+**Tanggal Pengerjaan:** 1 September 2026
 
 ### Bagian A: Peta 5 Domain Kehidupan \[135\]
 
@@ -56,42 +57,41 @@ Lengkapi tabel berikut untuk memetakan peran komunikasi Anda saat ini:
 
 | Domain Kehidupan | Peran yang Saya Ambil | Siapa yang Saya Jumpai | Tanggung Jawab Utama Komunikasi |
 |:-----------------|:-----------------|:-----------------|:-----------------|
-| **1. Diri Sendiri** |  |  |  |
-| **2. Keluarga / Sahabat** |  |  |  |
-| **3. Profesional / Akademik** |  |  |  |
-| **4. Komunitas / Kelompok** |  |  |  |
-| **5. Dunia / Publik** |  |  |  |
+| **1. Diri Sendiri** | Pembelajar Reflektif | Diri sendiri | Mengevaluasi progres belajar (C/Hardware) dan meregulasi stres saat menemui kebuntuan (error kode). |
+| **2. Keluarga / Sahabat** | Teman Curhat (Sahabat) | Teman sesama mahasiswa STI / Keluarga di rumah | Mendengarkan keluh kesah beban akademik atau persoalan pribadi dengan memberikan validasi emosional. |
+| **3. Profesional / Akademik** | Anggota Tim Praktikum | Rekan kelompok, Asisten Lab, Dosen | Berdiskusi pembagian tugas (implementasi ADT, setup ESP32), sinkronisasi kode, dan presentasi ke dosen. |
+| **4. Komunitas / Kelompok** | Panitia/Anggota Himpunan | Rekan mahasiswa satu jurusan/kepanitiaan | Mengkoordinasikan tugas proker, mencari jalan tengah dalam perbedaan pendapat saat rapat divisi. |
+| **5. Dunia / Publik** | Kontributor Forum Tech | Audiens forum tech / Reddit / Discord publik | Berbagi tips troubleshooting atau memberikan opini analisis model LLM secara objektif dan solutif. |
 
 ### Bagian B: Analisis Kontras Dua Peran Utama \[136\]
 
 Pilih dua peran dari tabel di atas yang paling kontras atau menantang (misalnya: Peran A = Anggota Tim Proyek, Peran B = Sahabat Pendengar), lalu uraikan perbedaannya:
 
-| Unsur Komunikasi | Peran A: \[Tulis Nama Peran A\] | Peran B: \[Tulis Nama Peran B\] |
+| Unsur Komunikasi | Peran A: Anggota Tim Praktikum | Peran B: Teman Curhat (Sahabat) |
 |:-----------------------|:-----------------------|:-----------------------|
-| **1. Tujuan Tugas & Relasi** \[128\] |  |  |
-| **2. Repertoar Utama** \[129\] |  |  |
-| **3. Pilihan Bahasa & Nada** \[130\] |  |  |
-| **4. Respons yang Harus Dibaca** \[131\] |  |  |
-| **5. Tindakan yang Diharapkan** \[131\] |  |  |
-| **6. Relasi yang Harus Dirawat** \[131\] |  |  |
+| **1. Tujuan Tugas & Relasi** \[128\] | Menyelesaikan program tepat waktu; menjaga profesionalitas kerja kelompok. | Memberikan dukungan emosional, meringankan beban pikiran; mempererat kedekatan personal. |
+| **2. Repertoar Utama** \[129\] | Menyajikan fakta (log error), negosiasi pembagian modul, problem-solving, menagih janji. | Mendengarkan aktif, merangkum keluhan (paraphrase), empati, bertanya kabar/perasaan. |
+| **3. Pilihan Bahasa & Nada** \[130\] | Terstruktur, ringkas, objektif (berbasis data/teknis), langsung ke inti masalah. | Santai, hangat, suportif, kadang menggunakan bahasa gaul/meme untuk mencairkan suasana. |
+| **4. Respons yang Harus Dibaca** \[131\] | Pemahaman terhadap spesifikasi tugas, kesepakatan teknis (commit code). | Ekspresi kelegaan, isyarat butuh didengar vs butuh solusi konkret. |
+| **5. Tindakan yang Diharapkan** \[131\] | File C/ESP32 jalan tanpa error, tugas dapat di-submit ke sistem tepat waktu. | Teman merasa lebih tenang, tidak merasa sendirian menghadapi tekanan kampus. |
+| **6. Relasi yang Harus Dirawat** \[131\] | Kolegalitas, saling mengandalkan dalam hal skill dan kedisiplinan. | Kepercayaan, rasa aman untuk menjadi rentan (vulnerable). |
 
 ### Bagian C: Eksplorasi Kepribadian dan Sasaran Pertumbuhan \[351\]
 
 Jawablah pertanyaan reflektif berikut dengan jujur berdasarkan Template Lampiran B.2 \[351\]:
 
 1.  **Nilai Utama:** Nilai-nilai kemanusiaan apa saja yang paling ingin Anda tampakkan dalam komunikasi Anda sehari-hari? (Contoh: ketulusan, kejujuran, penghargaan, atau keadilan) \[351\]
-    - *Jawaban:*
+    - *Jawaban:* Kejujuran, keandalan (reliability), empati, dan penghargaan terhadap proses belajar.
 2.  **Kekuatan Komunikasi:** Kekuatan atau kecenderungan kepribadian apa yang sudah Anda miliki dan membantu komunikasi Anda selama ini? \[351\]
-    - *Jawaban:*
+    - *Jawaban:* Saya analitis, terstruktur (terbiasa dengan logika algoritma), dan proaktif menawarkan bantuan teknis.
 3.  **Pola Hambatan Otomatis:** Pola atau kebiasaan komunikatif apa yang paling sering menghambat Anda saat berada di bawah tekanan atau situasi tidak nyaman? \[351\]
-    - *Jawaban:*
+    - *Jawaban:* Kurang sabar dan cenderung langsung memotong pembicaraan untuk memberikan solusi taktis saat orang lain sebenarnya hanya ingin didengarkan.
 4.  **Ketegangan Peran & Kepribadian:** Tuliskan satu situasi spesifik di mana kecenderungan kepribadian otomatis Anda bergesekan dengan tuntutan tanggung jawab peran Anda \[136\] (gunakan pola: *"Saya cenderung \[kepribadian\], tetapi peran saya sebagai \[nama peran\] menuntut saya untuk \[perilaku komunikasi\]"*).
-    - *Jawaban:*
+    - *Jawaban:* Saya cenderung sangat analitis dan berorientasi langsung pada solusi, tetapi peran saya sebagai Teman Curhat menuntut saya untuk sekadar mendengar, menahan diri, dan memberikan validasi emosi tanpa terburu-buru menasihati.
 5.  **Sasaran Pertumbuhan Perilaku Terukur:** Berdasarkan ketegangan di atas, susun satu pernyataan sasaran pertumbuhan perilaku yang spesifik untuk 4-6 minggu ke depan \[109, 351\].
-    - *Aturan perumusan:* Jangan menulis sasaran abstrak (seperti "Saya ingin menjadi komunikator hebat") \[109\]. Tulislah sasaran mikro yang nyata, misalnya: *"Ketika seorang teman sedang bercerita, saya akan menahan diri untuk tidak langsung memotong atau memberi solusi selama 3 menit pertama. Saya akan merangkum maknanya dan memvalidasi perasaannya terlebih dahulu."* \[109\]
-    - *Sasaran Saya:*
+    - *Sasaran Saya:* Ketika rekan kuliah atau sahabat mengeluh tentang beban tugas atau masalah pribadi, saya akan mendengarkan tanpa memotong atau menawarkan solusi teknis selama 3 menit pertama. Saya akan fokus memberikan anggukan dan merespons dengan kalimat validasi seperti, "Pasti capek banget ya ngadepin error itu," sebelum akhirnya bertanya apakah mereka butuh bantuan teknis.
 6.  **Umpan Balik Jujur:** Siapa nama (atau inisial) orang terdekat di sekitar Anda yang dapat Anda mintai umpan balik jujur untuk memantau pertumbuhan perilaku ini? \[351\]
-    - *Jawaban:*
+    - *Jawaban:* Mitra B (Rekan satu kelompok praktikum STI saya).
 
 ------------------------------------------------------------------------
 

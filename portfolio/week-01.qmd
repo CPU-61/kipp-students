@@ -97,7 +97,7 @@ Saya menggunakan AI (Gemini) setelah diskusi terjadi, sebagai instrumen evaluasi
 | Response & Adaptation | 4 | Fakta baru tentang isu bluescreen laptop teman langsung merubah cara saya membagi tugas. |
 | Agreement, Action & Relationship | 4 | Ada kesepakatan pembagian tugas riil (Live Share), aksi selesai, relasi terselamatkan. |
 
-**Total:** 18 / 20
+**Total:** 18 / 20 - Lanjut
 
 ::: {.assessor-only}
 ### Assessment dosen

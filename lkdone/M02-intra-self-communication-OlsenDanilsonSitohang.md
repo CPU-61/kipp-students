@@ -1,0 +1,168 @@
+# Lembar Kerja Bab 02
+
+
+# Lembar Kerja Praktis: Tiga Narasi atas Satu Peristiwa
+
+*(Bahan Aktivitas Mandiri & Portofolio Kuliah 2: Percakapan dengan Diri
+Sendiri)*
+
+Lembar kerja ini dirancang untuk melatih kemampuan **kejernihan batin
+(intrapersonal communication)** Anda. Tujuannya adalah membantu Anda
+memisahkan fakta objektif dari cerita batin, mengenali emosi, dan
+merumuskan respons yang disengaja (*chosen response*) alih-alih bereaksi
+secara otomatis (*autopilot*) atas peristiwa sulit dalam kehidupan
+sehari-hari.
+
+------------------------------------------------------------------------
+
+## **Siklus Pemikiran: Dari Rangsangan Menuju Respons**
+
+Sebelum mengisi lembar kerja, ingatlah alur pembentukan makna batin
+berikut:
+Peristiwa (Fakta) → Interpretasi (Asumsi) → Narasi (Identitas) → Emosi → Pilihan → Tindakan
+
+------------------------------------------------------------------------
+
+## **Bagian 1: Identifikasi Kasus (Bahan Mentah)**
+
+Pilihlah satu peristiwa sulit, menantang, atau kurang menyenangkan yang
+baru-baru ini Anda alami (misalnya: pesan tidak dibalas, kritik dari
+dosen, tugas kelompok terhambat, atau rencana yang batal). *Catatan
+Etis: Pilih kasus yang cukup aman untuk dipelajari secara akademis.
+Jangan memilih situasi kekerasan atau trauma berat yang membutuhkan
+bantuan profesional.*
+
+### **1. Peristiwa yang Dapat Diamati (Fakta Objektif)**
+
+*Tuliskan apa yang benar-benar terjadi tanpa penilaian karakter,
+generalisasi (hindari kata “selalu” atau “pasti”), atau dugaan niat.
+Bayangkan apa yang terekam oleh kamera video.* \* **Tuliskan Fakta Anda
+di sini:** Pesan WhatsApp saya yang berisi file `ESP32CAM.c` untuk
+diintegrasikan ke modul ESP32-CAM hanya berstatus dibaca (centang biru)
+selama 5 jam oleh rekan kelompok saya tanpa ada balasan sama sekali.
+
+### **2. Interpretasi Pertama (Asumsi Otomatis)**
+
+*Tuliskan pemikiran atau kesimpulan pertama yang langsung melompat di
+kepala Anda ketika peristiwa itu terjadi.* \* **Tuliskan Interpretasi
+Pertama Anda di sini:** Dia sengaja mengabaikan saya. Dia meremehkan
+kode yang saya buat, atau dia sengaja lepas tangan agar saya yang
+mengerjakan penyolderan kabel jumper-nya sendirian.
+
+### **3. Emosi & Sensasi Tubuh**
+
+*Identifikasi emosi konkret yang Anda rasakan (marah, cemas, malu,
+kecewa, sedih) dan tandai intensitasnya dari skala 0–10. Catat juga
+reaksi fisik yang Anda rasakan (napas pendek, rahang menegang, dada
+sesak).* \* **Emosi yang Dirasakan (dan skala 0-10):** Marah (7/10),
+Cemas (8/10) takut error jelang deadline. \* **Sensasi Tubuh yang
+Muncul:** Rahang menegang dan napas menjadi lebih pendek setiap kali
+mengecek layar HP POCO M7 Pro saya.
+
+------------------------------------------------------------------------
+
+## **Bagian 2: Membedah Tiga Narasi**
+
+Kini, mari kita bawa peristiwa di atas ke dalam tiga kacamata cerita
+batin yang berbeda untuk melihat bagaimana narasi tersebut mengarahkan
+pilihan hidup Anda.
+
+<table>
+<colgroup>
+<col style="width: 101%" />
+</colgroup>
+<tbody>
+<tr>
+<td><pre><code>                            TIGA KACAMATA</code></pre>
+<ol type="1">
+<li>NARASI KORBAN 2. NARASI ANALITIS 3. NARASI PERTUMBUHAN “Semua
+kendali di luar”Membedah fakta, “Mengakui kesulitan, diri saya, saya
+lumpuh asumsi, dan hal yang menemukan pelajaran, tanpa pilihan
+tindakan.” bisa saya kendalikan.” dan bertindak.”</li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+
+### **Versi A: Narasi Korban (Victim Narrative)**
+
+*Tempatkan diri Anda sepenuhnya sebagai korban keadaan. Tuliskan narasi
+di mana semua kendali berada di luar diri Anda, orang lain sepenuhnya
+bersalah, dan Anda tidak memiliki pilihan selain pasrah, menyalahkan
+diri sendiri, atau membalas secara pasif.* \* **Isi Narasi Korban
+Anda:** Situasi ini sangat tidak adil. Selalu saya yang harus nge-push
+kerjaan kelompok. Bro satu ini memang selalu numpang nama doang. Saya
+memang sial dapet kelompok ini, nilai tugas besar saya pasti hancur
+berantakan gara-gara dia. \* **Pilihan Tindakan Otomatis (Reaktif) dari
+Narasi ini:** Mendiamkan balik, tidak mengerjakan modul
+`ESP32-CAMtoDevkit.c` selanjutnya, dan bersiap menyindirnya di grup
+kelas.
+
+### **Versi B: Narasi Analitis (Analytical Narrative)**
+
+*Gunakan kacamata yang objektif dan rasional. Pisahkan dengan tegas
+antara fakta yang diketahui, hal-hal yang masih berupa dugaan (belum
+diketahui), serta faktor-faktor yang berada di bawah kendali Anda
+langsung.* \* **Apa fakta yang benar-benar telah terbukti?** File C
+sudah terkirim, dibaca 5 jam yang lalu, dan belum ada balasan. \* **Apa
+penjelasan lain (alternatif asumsi) yang masuk akal namun belum saya
+periksa?** Dia mungkin sedang menguji kode saya di Windows 11-nya dan
+terkendala error, atau dia sedang sibuk belajar hafalan kisi-kisi UTS
+Pancasila. \* **Faktor apa dalam situasi ini yang berada di bawah
+kendali saya langsung?** Menahan diri untuk tidak bereaksi marah,
+menghubungi dia kembali dengan cara yang netral, dan melanjutkan revisi
+algoritma saya sendiri.
+
+### **Versi C: Narasi Pertumbuhan (Growth Narrative)**
+
+*Gunakan kacamata belas kasih (*compassion*) dan pola pikir bertumbuh
+(*growth mindset*). Akui bahwa situasinya sulit dan emosi Anda valid,
+namun arahkan batin Anda untuk menemukan hikmah/pelajaran serta memilih
+tindakan yang selaras dengan nilai jangka panjang Anda.* \* **Isi Narasi
+Pertumbuhan Anda:** Wajar jika saya merasa cemas karena deadline semakin
+dekat. Namun, mengasumsikan dia lepas tangan tidak akan menyelesaikan
+masalah. Keadaan ini memang menguji kesabaran, tapi saya dapat menunda
+reaksi emosional saya. Saya akan mencari tahu fakta sebenarnya dan fokus
+pada apa yang bisa saya perbaiki saat ini. \* **Pelajaran apa yang dapat
+saya ambil dari situasi ini?** Kecepatan pikiran sering menipu saya;
+jeda waktu sangat penting sebelum menyimpulkan intensi orang lain.
+
+------------------------------------------------------------------------
+
+## **Bagian 3: Merancang Respons (Action & Support)**
+
+### **1. Pilihan Respons Terbaik**
+
+*Berdasarkan Narasi Pertumbuhan Anda, tuliskan tindakan kecil, konkret,
+dan asertif yang akan Anda lakukan sekarang untuk merespons situasi
+tersebut.* \* **Langkah nyata yang saya pilih:** Mengambil jeda fisik
+selama 30 menit. Setelah tenang, saya akan mengirimkan pesan asertif:
+“Halo, apakah ada kendala waktu compile kodenya di ESP32? Kalau butuh
+bantuan troubleshooting, kabari ya.”
+
+### **2. Dukungan yang Diperlukan**
+
+*Siapa orang tepercaya (teman, keluarga, dosen) yang dapat Anda mintai
+umpan balik jujur atau bantuan untuk mendampingi Anda menjalankan
+pilihan ini?* \* **Nama rekan/pendamping:** Asisten Dosen STI / Dosen
+jika masalah teknis memang tidak terselesaikan.
+
+------------------------------------------------------------------------
+
+## **Panduan Evaluasi Mandiri (Rubrik Portofolio)**
+
+Simpan lembar kerja ini ke dalam **Portofolio Komunikasi** Anda.
+Evaluasi kualitas pengerjaan Anda menggunakan kriteria berikut sebelum
+diserahkan kepada dosen:
+
+1.  **Pemisahan Fakta vs Cerita:** Apakah fakta yang Anda tulis di
+    Bagian 1 benar-benar bebas dari asumsi, penilaian moral, dan
+    dramatisasi?
+2.  **Kekayaan Alternatif:** Apakah Narasi Analitis Anda berhasil
+    menawarkan minimal 2 alternatif penjelasan rasional yang berbeda
+    dari interpretasi pertama Anda?
+3.  **Kematangan Emosional:** Apakah emosi Anda diakui secara jujur
+    tanpa dikuasai sepenuhnya oleh reaksi impulsif batin?
+4.  **Kepemilikan Tindakan:** Apakah tindakan akhir yang Anda pilih di
+    Bagian 3 bersifat spesifik, realistis, dan berorientasi pada
+    penyelesaian masalah, bukan sekadar menghindari ketidaknyamanan?

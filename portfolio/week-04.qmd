@@ -1,8 +1,8 @@
 ---
 title: "Five-Language Translation Portfolio"
 week: 4
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "18"
 assessor_score: "—"
 description: "Satu meaning untuk lima person atau character."
 categories: [Fondasi, Language]
@@ -22,4 +22,46 @@ Mengadaptasi repertoire dan language tanpa mengubah core meaning.
 [Buka contoh fiktif Minggu 4](../examples/week-04.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
 :::
 
-{{< include ../includes/evidence-template.md >}}
+## Core meaning
+
+**Fakta yang tidak boleh berubah:** Cara kerja dan fungsi *Application Programming Interface* (API), yaitu sebagai protokol jembatan yang mengirimkan *request* (permintaan) antar dua aplikasi berbeda dan mengembalikan *response* (hasil) secara otomatis.
+
+| Target/character | Versi language | Alasan adaptasi |
+|---|---|---|
+| Anak-anak (Adik Kelas VI SD) | "API itu seperti pelayan di restoran. Kamu pesan makanan, pelayan bawa pesananmu ke dapur, lalu pelayan bawa balik makanannya ke mejamu. Kamu nggak perlu repot masak sendiri!" | Menggunakan analogi fisik (restoran dan pelayan) untuk merepresentasikan proses *request* dan *response* secara sangat konkret. |
+| Friend (Teman Non-STI) | "Gojek nggak bikin map sendiri, bro. Mereka pake API Google Maps. Intinya kayak pinjem fitur aplikasi orang lain biar nyambung ke aplikasi kita aja." | Bahasa kasual ("bro") dan menggunakan *use case* yang sangat akrab di kehidupan sehari-hari (aplikasi ojol) untuk menciptakan kedekatan. |
+| Technical peer (Teman Kelompok STI) | "Endpoint API REST udah siap. Pakai GET buat *fetch* data dan POST buat *submit*. Payload *response*-nya JSON, dokumentasinya udah gue *push*." | Relevan dan presisi tinggi; menggunakan jargon teknis (REST, GET, POST, JSON) agar instruksi operasional integrasi aplikasi jelas tanpa ambiguitas. |
+| Manager (Pengambil Keputusan) | "Integrasi API pihak ketiga ini akan memangkas *development time* hingga 40%. Kita mengubah biaya capex (*build from scratch*) menjadi opex yang lebih fleksibel, sambil tetap menjaga keamanan sistem." | Berfokus pada dampak bisnis (*value proposition*), alokasi waktu, manajemen biaya, dan risiko yang menjadi metrik utama seorang manajer. |
+| Public (Masyarakat Luas) | "API adalah jembatan digital yang memungkinkan berbagai aplikasi saling berbagi informasi penting dengan cepat dan aman, seperti saat Anda membayar belanjaan *online* menggunakan *m-banking*." | Tidak membedah teknis di balik layar, melainkan menjawab kegelisahan publik tentang kegunaan teknologi untuk kemudahan dan keamanan transaksi sehari-hari. |
+
+## Evidence understanding
+
+Saya menguji draf versi "Anak-anak" kepada adik saya. Saya sama sekali tidak menyebutkan kata "komputer" atau "server". Saya hanya menceritakan analogi pelayan restoran.
+Adik saya merespons: "Berarti API itu kayak kurir GoFood juga dong? Ngambilin barang dari toko terus dianter ke kita?" 
+Respons ini membuktikan keberhasilan transfer makna. Ia berhasil mengabstraksikan konsep "jembatan perantara" (pelayan restoran) menjadi analogi lain yang setara (kurir ojol). Saya merespons, "Tepat banget! API itu intinya kurir data."
+
+## Analisis dan batas
+
+Repertoire yang saya gunakan berubah drastis (*code-switching*) dari bercerita fabel/analogi (adik), percakapan tongkrongan santai (sahabat), sinkronisasi teknikal (rekan kelompok), *pitching* efisiensi bisnis (manajer), hingga edukasi literasi digital (publik). Autentisitas saya tetap terjaga karena *core meaning* (API sebagai perantara pesan) tidak terdistorsi di versi mana pun.
+
+Saya menggunakan Gemini AI sebagai alat uji (Cermin AI). Saya memberikan kelima versi draf di atas dan memintanya mendeteksi apakah ada kebocoran jargon. Gemini menemukan bahwa kata *capex* dan *opex* pada draf Manajer berpotensi tidak dipahami jika manajernya bukan dari latar belakang *finance*. Namun, karena asumsi target saya adalah Manajer Proyek IT, saya mempertahankan istilah tersebut.
+
+## Self-assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 3 | Lima target audiens dipetakan profilnya berdasarkan perbedaaan pola pikir dan kebutuhan informasi. |
+| Objective & State | 3 | Kebenaran inti mengenai definisi dan fungsi API tidak terdistorsi di semua ragam bahasa. |
+| Repertoire, Language & AI | 4 | Terjadi kelenturan gaya bahasa yang kentara; AI dilibatkan secara kritis sebagai asisten *reviewer*. |
+| Response & Adaptation | 4 | Pengujian pemahaman pada adik menghasilkan pengembangan analogi baru (Kurir GoFood) secara mandiri. |
+| Agreement, Action & Relationship | 4 | Tanggung jawab komunikator sebagai 'pelayan makna' ditunjukkan tanpa mengandalkan jargon eksklusif. |
+
+**Total: 18/20 — Unggul.**
+
+::: {.assessor-only}
+### Assessment dosen
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai  
+:::

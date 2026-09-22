@@ -1,0 +1,214 @@
+# Lembar Kerja Bab 03
+
+
+# PANDUAN AKTIVITAS PRAKTIS: MENDENGARKAN TANPA MEMPERBAIKI
+
+**Mata Kuliah: Komunikasi Interpersonal dan Publik**  
+**Bahan Kajian: Bab 3 — Keluarga dan Sahabat: Relasi yang Perlu
+Dihadirkan**  
+**Metode: Latihan Berpasangan (*Roleplay* & Refleksi)**
+
+------------------------------------------------------------------------
+
+> *“Komunikasi yang efektif tidak menuntut kesempurnaan kita. Ia hanya
+> menuntut kehadiran, kejujuran, kesediaan untuk mendengarkan, dan
+> keberanian untuk memperbaiki.”*
+
+------------------------------------------------------------------------
+
+## I. Pengantar & Tujuan Belajar
+
+Sering kali, ketika orang terdekat (keluarga atau sahabat) menceritakan
+masalah mereka, kita terbiasa langsung melompat ke peran sebagai
+**“pakar pemecah masalah”**. Kita segera menawarkan saran, solusi, atau
+bahkan menghakimi, padahal mereka mungkin hanya membutuhkan kehadiran
+nyata kita. Kita lupa bahwa kedekatan historis terkadang membuat kita
+berasumsi dan berhenti mendengarkan secara mendalam.
+
+Aktivitas praktis ini dirancang khusus untuk melatih otot **Mendengarkan
+pada Tiga Tingkat (Kata, Makna, dan Pribadi)** tanpa godaan untuk
+“memperbaiki” masalah atau orangnya.
+
+### **Harta Karun yang Akan Anda Peroleh:**
+
+1.  Kemampuan untuk hadir secara penuh tanpa interupsi.
+2.  Kecakapan membedakan isi literal (*kata*), pesan di balik kalimat
+    (*makna*), serta emosi dan kebutuhan terdalam lawan bicara
+    (*pribadi*).
+3.  Keterampilan mengajukan pertanyaan yang lahir dari rasa ingin tahu
+    yang tulus, bukan interogasi.
+4.  Kemampuan menghormati otonomi mitra dengan memeriksa kebutuhan
+    mereka secara eksplisit sebelum menyodorkan saran.
+
+------------------------------------------------------------------------
+
+## III. Lembar Kerja Mahasiswa
+
+**Nama Praktikan:** Olsen Danilson Sitohang  
+**Nama Mitra Latihan:** Mitra C (Teman satu jurusan STI)  
+**Tanggal Pelaksanaan:** 20 September 2026
+
+### **BAGIAN A: Catatan Pendengar (Diisi saat Anda menjadi Pendengar)**
+
+*Tuliskan hasil tangkapan Anda terhadap cerita mitra Anda menggunakan
+kerangka Tiga Tingkat Mendengarkan:*
+
+1.  **Tingkat 1 - Kata (Isi Literal Masalah):** *Apa fakta objektif atau
+    kejadian nyata yang diceritakan oleh mitra Anda?* *Jawab:* Mitra C
+    menceritakan bahwa dia kelelahan karena beban tugas praktikum minggu
+    ini menumpuk, ditambah laptop Windows-nya mengalami *lag* parah saat
+    mencoba menjalankan IDE, sehingga progres kodenya terhambat.
+
+2.  **Tingkat 2 - Makna (Parafrasa Anda):** *Tuliskan kembali kalimat
+    rangkuman/parafrasa yang Anda gunakan di depan mitra untuk
+    mengonfirmasi cerita mereka.* *Jawab:* “Kalau aku tidak salah
+    tangkap, yang bikin kamu beneran capek itu bukan cuma karena tugas
+    praktikumnya banyak, tapi karena laptop yang *lag* bikin waktu
+    pengerjaan jadi molor dan nggak efisien ya?”
+
+3.  **Tingkat 3 - Pribadi (Tebakan Emosi & Kebutuhan):** *Tuliskan
+    tebakan emosi dan kebutuhan bernilai yang Anda sampaikan secara
+    tentatif.* *Jawab:*
+
+    - **Perasaan Mitra:** Frustrasi dan cemas menghadapi tenggat waktu
+      (deadline).
+    - **Kebutuhan/Nilai Mitra:** Kebutuhan akan efisiensi waktu, rasa
+      aman terkait nilai praktikum, dan butuh kepastian bahwa masalah
+      teknisnya bisa teratasi.
+
+4.  **Respons Pembicara terhadap “Pertanyaan Emas” Anda:** *Apa pilihan
+    tindakan yang akhirnya diinginkan oleh mitra Anda? (Hanya ingin
+    didengarkan / dibantu memetakan pilihan / butuh saran)* *Jawab:*
+    Mitra memilih: Dibantu memetakan pilihan dan saran (Dia akhirnya
+    meminta saya mengecek *task manager* dan menanyakan apakah *ada
+    bloatware* di laptopnya perlu di-uninstall agar IDE berjalan
+    lancar).
+
+------------------------------------------------------------------------
+
+### **BAGIAN B: Catatan Umpan Balik (Diisi berdasarkan umpan balik yang Anda terima dari Pembicara)**
+
+*Tuliskan evaluasi jujur yang disampaikan oleh mitra Anda mengenai
+performa menyimak Anda:*
+
+1.  **Momen Kehadiran Paling Berdampak:** *Kapan mitra merasa paling
+    didengarkan dan dipahami secara utuh? Tindakan verbal/nonverbal apa
+    dari Anda yang membantunya?* *Jawab:* Mitra merasa sangat dihargai
+    ketika saya menyingkirkan HP saya dan menatap matanya saat ia
+    bercerita tentang laptopnya yang *lag*, alih-alih saya langsung
+    merebut laptopnya untuk melakukan *troubleshooting*.
+
+2.  **Momen Asumsi atau “Buru-buru Memperbaiki”:** *Di titik mana Anda
+    tanpa sengaja membuat asumsi, menyela, memberikan ekspresi
+    menghakimi, atau tampak ingin langsung memberikan solusi?* *Jawab:*
+    Saat Mitra C baru menyebut kata “Windows lemot”, saya sempat
+    memotong kalimatnya di tengah jalan untuk menyuruhnya mengecek
+    *bloatware*, padahal dia belum selesai menceritakan betapa paniknya
+    dia karena belum *commit* kode sama sekali.
+
+------------------------------------------------------------------------
+
+### **BAGIAN C: Jurnal Refleksi Pasca-Latihan (Diisi Mandiri)**
+
+*Renungkan pengalaman ini secara jujur untuk mengubah pengetahuan
+menjadi kebiasaan:*
+
+1.  **Refleksi Kebiasaan Otomatis:** *Apakah di kehidupan nyata Anda
+    lebih sering berusaha langsung “memperbaiki masalah” atau
+    mendengarkan terlebih dahulu? Apa yang Anda rasakan ketika dipaksa
+    “menahan diri” dari memberikan solusi selama latihan ini?* *Jawab:*
+    Sebagai mahasiswa STI yang terbiasa menangani masalah teknis
+    (solutif), insting otomatis saya adalah membedah masalah (langsung
+    *troubleshooting* laptop/kode). Menahan diri rasanya sangat “gatal”,
+    tetapi saya sadar bahwa mendengarkan emosinya terlebih dahulu
+    membuat dia jauh lebih tenang menerima saran saya nantinya.
+
+2.  **Memahami vs. Menyetujui:** *Bagaimana latihan ini membantu Anda
+    menyadari bahwa Anda bisa memahami dan memvalidasi perasaan
+    seseorang secara mendalam tanpa harus menyetujui seluruh tindakan
+    atau asumsi mereka?* *Jawab:* Saya memvalidasi kepanikannya karena
+    laptop bermasalah (memahami emosinya). Saya bisa melakukan itu tanpa
+    harus menyetujui asumsinya bahwa dia pasti akan gagal di mata kuliah
+    Pak Ade karena insiden tersebut.
+
+3.  **Komitmen Langkah Pertumbuhan:** *Tuliskan satu komitmen perilaku
+    spesifik dan terukur yang akan Anda latih dalam 14 hari ke depan
+    bersama keluarga atau sahabat terdekat Anda!* *Jawab:* Dalam 14 hari
+    ke depan, saya berkomitmen untuk: Menahan diri dari langsung
+    memberikan jawaban atau mengambil alat tulis ketika mendampingi adik
+    saya (kelas VI SD) mengerjakan PR Matematikanya. Saya akan
+    menunggunya selesai mengeluh, lalu memvalidasi kesulitannya membaca
+    piktogram/diagram batang, minimal selama 3 menit sebelum membantu
+    menjelaskan konsepnya.
+
+------------------------------------------------------------------------
+
+## IV. Rubrik Evaluasi Diri (Sesuai Standar Rubrik Universal Buku)
+
+Gunakan rubrik di bawah ini untuk menilai performa Anda sendiri selama
+sesi latihan. Berikan tanda centang (✓) pada kolom tingkat kinerja yang
+paling menggambarkan tindakan Anda:
+
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Dimensi Penilaian</th>
+<th style="text-align: left;">Awal (1)</th>
+<th style="text-align: left;">Berkembang (2)</th>
+<th style="text-align: left;">Cakap (3)</th>
+<th style="text-align: left;">Unggul (4)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>1. Kehadiran &amp; Menyimak
+Aktif</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">✓</span></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>2. Pemisahan Fakta &amp;
+Interpretasi</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">✓</span></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>3. Pendalaman Rasa Ingin
+Tahu</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">✓</span></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>4. Validasi Emosi &amp;
+Otonomi</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math inline">✓</span></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+
+### **Penghitungan Nilai Evaluasi Diri:**
+
+$$\text{Nilai Akhir} = \left( \frac{13}{16} \right) \times 100$$
+\* *Skor Anda:* 13 / 16 \* *Nilai Konversi:* 81.25 (Skala 100)
+
+------------------------------------------------------------------------
+
+*Simpan dokumen panduan, catatan umpan balik, dan jurnal refleksi ini
+sebagai salah satu **Bukti Portofolio Pembelajaran** Anda untuk Bagian
+I.*

@@ -8,44 +8,34 @@ title: "Lembar Kerja Bab 05"
 ---
 
 > **“Produk yang canggih belum tentu bernilai. Nilai lahir ketika pengetahuan, pekerjaan, dan layanan sungguh-sungguh menjawab persoalan manusia.”**
-> — *Komunikasi Interpersonal dan Publik*, Bab 5
 
 ---
 
 ## 📌 PENGANTAR: NILAI ADA DALAM PENGALAMAN PENERIMA
-Sebagai calon profesional, kesalahan terbesar yang sering kita lakukan adalah **terlalu cepat menyodorkan solusi atau membuat fitur sebelum benar-benar memahami masalahnya**. Permintaan awal dari rekan kerja atau pelanggan (seperti meminta dibuatkan "aplikasi baru", "pemberitahuan SMS", atau "sistem pencatatan otomatis") sering kali bukanlah solusi terbaik. Kebutuhan nyata mereka mungkin hanyalah akses informasi yang lebih cepat, kejelasan pembagian tugas, atau pengurangan waktu tunggu.
+Sebagai calon profesional, kesalahan terbesar yang sering kita lakukan adalah **terlalu cepat menyodorkan solusi atau membuat fitur sebelum benar-benar memahami masalahnya**. Permintaan awal dari pelanggan sering kali bukanlah solusi terbaik.
 
 Lembar kerja ini dirancang untuk menuntun Anda melakukan **Wawancara Penemuan Kebutuhan** yang berempati, mendengarkan secara mendalam sebelum menjelaskan, serta merumuskan **Pernyataan Masalah Pelanggan** (*Customer Problem Statement*) secara presisi.
 
 ---
 
 ## 🛠️ FASE 1: PERSIAPAN & WAWANCARA (5 PERTANYAAN PENEMUAN)
-Sebelum melakukan wawancara selama 15–20 menit dengan narasumber (rekan kerja, mahasiswa, staf kampus, atau pemilik usaha mikro di sekitar Anda), pelajari **5 Pertanyaan Penemuan** berikut yang berfungsi sebagai kompas penelusuran Anda:
+Pelajari **5 Pertanyaan Penemuan** berikut yang berfungsi sebagai kompas penelusuran Anda:
 
-1. **Apa yang sedang terjadi?** (Minta contoh peristiwa secara konkret, bukan penjelasan umum).
-2. **Mengapa hal itu menjadi masalah?** (Temukan dampak nyata, beban, kerugian, atau hambatan emosionalnya).
-3. **Siapa yang terdampak?** (Kenali pribadi dan peran spesifik mereka dalam sistem tersebut).
-4. **Keadaan yang lebih baik seperti apa?** (Rumuskan hasil akhir yang diharapkan, bukan berupa fitur atau teknologi tertentu).
-5. **Apa kendalanya?** (Periksa batas-batas nyata seperti waktu, biaya, kebijakan, kemampuan teknis, dan risiko).
-
-### 💡 Repertoar Pertanyaan Profesional Tambahan:
-Jika narasumber mengalami kebuntuan selama wawancara, gunakan jenis pertanyaan berikut secara proporsional:
-*   **Pertanyaan Tertutup (Memastikan fakta):** *"Apakah laporan ini dikirimkan setiap hari Senin?"*
-*   **Pertanyaan Klarifikasi (Memeriksa istilah):** *"Apa yang Ibu maksud dengan sistem yang 'siap digunakan'?"*
-*   **Pertanyaan Dampak (Memahami akibat):** *"Siapa saja yang akan terhambat jika data ini terlambat Anda terima?"*
-*   **Pertanyaan Masa Depan (Merumuskan hasil):** *"Jika masalah ini selesai, seperti apa alur kerja ideal yang Anda bayangkan?"*
-
-*⚠️ **Pemberitahuan Etis & Privasi:** Pastikan Anda mendapatkan persetujuan lisan/tertulis dari narasumber, jelaskan bahwa data sensitif mereka akan dilindungi/disamarkan, dan wawancara bersifat sukarela.*
+1. **Apa yang sedang terjadi?** 
+2. **Mengapa hal itu menjadi masalah?**
+3. **Siapa yang terdampak?** 
+4. **Keadaan yang lebih baik seperti apa?** 
+5. **Apa kendalanya?** 
 
 ---
 
 ## 📝 FASE 2: LEMBAR PENGERJAAN MAHASISWA
 
 ### 👥 1. Profil Narasumber (Disamarkan Demi Privasi)
-*   **Nama Samaran:** 
-*   **Peran/Pekerjaan Nyata:** 
-*   **Domain Hubungan:** Rekan Kerja / Pelanggan / Rekan Mahasiswa *(Coret yang tidak perlu)*
-*   **Konteks Lingkungan:** *(Misal: Kantin Kampus, Kelompok Proyek Kelas, Administrasi Jurusan)*
+*   **Nama Samaran:** Pak Budi
+*   **Peran/Pekerjaan Nyata:** Pemilik Toko Ritel Aksesori Komputer & HP (UMKM)
+*   **Domain Hubungan:** Pelanggan (Klien Eksternal)
+*   **Konteks Lingkungan:** Wawancara dilakukan di area kasir toko saat jam istirahat siang.
 
 ---
 
@@ -53,67 +43,60 @@ Jika narasumber mengalami kebuntuan selama wawancara, gunakan jenis pertanyaan b
 
 #### **Pertanyaan 1: Kejadian Nyata & Contoh Konkret**
 *   *Tuliskan pertanyaan Anda & contoh kasus nyata yang diceritakan narasumber:*
-    > 
+    > **Pertanyaan:** "Pak Budi, bisa ceritakan kejadian terakhir kali Bapak merasa kewalahan saat mengurus stok barang dagangan?"
+    > **Jawaban:** "Minggu lalu pas hari Minggu pembeli lagi ramai-ramainya nyari kabel *charger* dan *flashdisk*. Pas saya cek di etalase kosong, saya cari di gudang belakang ternyata juga sudah habis total sejak dua hari lalu. Saya baru sadar karena pencatatan di buku besar sering kelewat sama karyawan."
 
 #### **Pertanyaan 2: Dampak Nyata & Beban Masalah**
 *   *Tuliskan dampak langsung dari masalah tersebut terhadap pekerjaan, waktu, atau perasaan mereka:*
-    > 
+    > **Pertanyaan:** "Kalau sampai kejadian kehabisan stok tanpa sadar begitu, kerugian paling besar yang Bapak rasakan apa?"
+    > **Jawaban:** "Ya jelas kehilangan omzet. Pembeli yang udah datang malah pindah ke toko sebelah. Selain itu, saya jadi harus lembur tiap malam buat ngitung fisik barang satu-satu (stok opname) biar besoknya bisa langsung kulakan."
 
 #### **Pertanyaan 3: Pemetaan Pihak Terdampak**
 *   *Siapa saja pribadi dan peran yang ikut terganggu oleh peristiwa ini?*
-    > 
+    > **Pertanyaan:** "Selain Bapak yang harus repot lembur, siapa lagi yang kena imbasnya dari masalah ini?"
+    > **Jawaban:** "Karyawan toko saya, Mas. Mereka sering saya marahin karena lupa nulis di buku mutasi kalau barang laku. Pelanggan juga kadang kecewa karena udah nunggu lama dicariin barangnya di gudang, eh ternyata kosong."
 
 #### **Pertanyaan 4: Gambaran Keadaan yang Lebih Baik (Hasil Akhir, Bukan Fitur)**
 *   *Bagaimana situasi ideal yang diharapkan? Ingat: Fokus pada KEMAMPUAN narasumber, bukan teknologi digitalnya.*
-    > 
+    > **Pertanyaan:** "Seandainya masalah ini bisa beres, Bapak ngebayangin proses ngecek barang ini idealnya gimana?"
+    > **Jawaban:** "Saya cuma pengen pas barang laku, jumlah stok saya otomatis berkurang dan saya bisa tahu barang apa yang sisa sedikit sebelum benar-benar habis, jadi bisa langsung kulakan."
 
 #### **Pertanyaan 5: Batasan & Kendala Lapangan**
 *   *Apa saja kendala nyata dari segi waktu, biaya, kebijakan, atau kemampuan yang membatasi solusi mereka?*
-    > 
+    > **Pertanyaan:** "Apakah ada batasan kalau kita mau merapikan pencatatan ini? Misalnya dana untuk beli komputer kasir atau *software*?"
+    > **Jawaban:** "Jujur aja, toko kecil begini nggak sanggup kalau harus beli *software* kasir (POS) yang mahal dan bayar langganan bulanan gede. Karyawan saya juga lulusan SMA biasa, nggak ngerti kalau aplikasinya ribet."
 
 ---
 
 ## ✒️ FASE 3: FORMULASI PERNYATAAN MASALAH PELANGGAN
 
-Gunakan formula terstruktur dari buku ajar berikut untuk menyusun masalah narasumber Anda. **Aturan utama: Pernyataan ini TIDAK BOLEH menyebutkan solusi teknis (seperti aplikasi, website, database, dll.)!**
-
 ### 📐 Formula Standar:
-> **`[Pribadi/Peran]` mengalami `[keadaan yang dapat diamati]` ketika `[konteks]`, sehingga `[dampak]`. Ia membutuhkan `[hasil/kemampuan]`, dengan mempertimbangkan `[kendala]`.**
-
-#### 💡 Contoh Model Buku (Kasus Kantin Kampus):
-*Mahasiswa pengguna kantin mengalami antrean yang tidak dapat diperkirakan pada jam pergantian kuliah sehingga terlambat masuk kelas. Mereka membutuhkan cara mengetahui waktu tunggu dan mengambil pesanan lebih cepat, dengan mempertimbangkan kemampuan kasir, biaya pemilik, serta akses pengguna tanpa telepon pintar.*
-
----
+> **`[Pribadi/Peran]` mengalami `[keadaan yang dapat diamati]` ketika `[konteks]`, sehingga `[dampak]`. Ia membutuhkan `[hasil/kemampuan]`, dengan mempertimbangkan `[kendala]`**.
 
 ### ✍️ Draft 1: Pernyataan Masalah Awal (Sebelum Konfirmasi)
-*Susun draf pertama Anda setelah selesai mewawancarai narasumber:*
-> 
+> Pemilik toko ritel kehabisan stok saat ramai pembeli, sehingga rugi. Ia membutuhkan aplikasi POS berbasis *barcode* agar stok otomatis terpotong, dengan mempertimbangkan karyawannya tidak fasih teknologi. *(Evaluasi: Masih sangat bias karena memuat solusi 'aplikasi POS berbasis barcode')*.
 
 ### 🔄 Draft 2: Pernyataan Masalah Terkonfirmasi (Setelah Konfirmasi)
-*Bacakan draf pertama Anda kepada narasumber, minta masukan mereka ("Apakah rumusan ini menggambarkan situasi Anda?"), dan tulis perbaikannya di bawah ini berdasarkan koreksi narasumber:*
-> 
+*Bacakan draf pertama Anda kepada narasumber, minta masukan mereka, dan tulis perbaikannya di bawah ini:*
+> **"Pemilik toko ritel aksesori mengalami kekosongan stok barang terlaris tanpa peringatan ketika pembeli sedang ramai, sehingga kehilangan potensi penjualan dan waktu istirahat karena harus menghitung fisik barang secara manual. Ia membutuhkan cara melacak ketersediaan barang secara akurat setiap kali transaksi terjadi, dengan mempertimbangkan ketiadaan anggaran untuk perangkat lunak mahal dan staf toko yang belum fasih teknologi."**
 
 ---
 
 ## 🎯 FASE 4: REFLEKSI INTRAPRIBADI
-Tuliskan refleksi singkat Anda (100–150 kata) mengenai proses wawancara ini:
 1. *Seberapa cepat Anda menahan ego untuk tidak langsung menawarkan solusi teknologi di awal percakapan?*
-2. *Asumsi awal apa yang Anda miliki yang ternyata terbukti keliru atau berubah setelah mendengarkan penjelasan narasumber secara utuh?*
-3. *Janji atau langkah kecil apa yang harus segera Anda tepati untuk menjaga kepercayaan profesional dengan narasumber ini?*
-
-> **Jurnal Refleksi:**
-> 
+   Sangat sulit. Mendengar masalah "stok manual di buku", insting saya sebagai anak IT langsung ingin mempromosikan implementasi *ERP no-code* (seperti Odoo Web). Saya menahannya agar saya bisa mendengar akar keluhannya terlebih dahulu.
+2. *Asumsi awal apa yang terbukti keliru?*
+   Saya berasumsi karyawan butuh sistem inventaris canggih dengan pemindai *barcode*. Faktanya, kendala terbesar justru pada ketakutan terhadap biaya operasional *software* dan kurva belajar (*learning curve*) karyawan.
+3. *Janji/langkah kecil apa yang ditepati?*
+   Saya tidak menjanjikan pembuatan "sistem aplikasi". Saya hanya berjanji akan memikirkan desain solusi pencatatan digital gratis yang antarmukanya semudah memakai media sosial, lalu menunjukkannya minggu depan untuk diuji coba.
 
 ---
 
 ## 📊 FASE 5: RUBRIK PENILAIAN MANDIRI (SELF-ASSESSMENT)
-Evaluasi lembar kerja Anda secara jujur menggunakan kriteria rubrik Bab 5 berikut sebelum dikumpulkan ke dalam portofolio Anda.
 
-| Kriteria Evaluasi | ⭐ Belum Tampak (Skor < 60) | ⭐⭐ Mulai Berkembang (Skor 60-79) | ⭐⭐⭐ Cakap / Unggul (Skor 80-100) | Skor Mandiri |
-| :--- | :--- | :--- | :--- | :--- |
-| **Kualitas Mendengarkan** | Langsung menyodorkan solusi tanpa menanyakan konteks atau mengonfirmasi masalah. | Menangkap isi masalah secara umum, namun melompati kendala atau pihak yang terdampak. | Menangkap konteks kejadian, dampak emosional/finansial, kebutuhan riil, serta kendala lapangan secara utuh. | |
-| **Ketepatan Rumusan Masalah** | Rumusan masalah masih berupa usulan solusi teknis (misal: "Memerlukan aplikasi database"). | Berpusat pada masalah, namun bahasanya masih kabur atau belum dikonfirmasi ke narasumber. | Berpusat pada pribadi, menggunakan fakta teramati, terikat konteks yang jelas, bebas solusi, dan telah terkonfirmasi. | |
-| **Etika & Penjagaan Privasi** | Data pribadi dikumpulkan berlebihan, tidak meminta izin narasumber, atau memaksa narasumber. | Meminta izin umum, namun belum menyamarkan identitas atau kurang peka pada data sensitif. | Persetujuan diperoleh secara sukarela, privasi dijaga ketat dengan samaran, dan martabat narasumber sangat dihormati. | |
-| **Keandalan & Hubungan** | Memberikan janji manis berlebihan atau kepastian palsu yang tidak masuk akal demi menyenangkan narasumber. | Menyatakan batas secara umum namun tindak lanjutnya masih mengambang. | Jujur menyatakan batas kemampuan serta memberikan kejelasan langkah dan waktu tindak lanjut berikutnya. | |
-
-*Simpan lembar kerja ini, catatan log wawancara, dan rekaman (jika ada izin) sebagai **Artefak Portofolio Bab 5** Anda.*
+| Kriteria Evaluasi | Skor Mandiri |
+| :--- | :---: |
+| **Kualitas Mendengarkan** | ⭐⭐⭐ (85) - Mampu menangkap *pain point* finansial (hilang omzet), emosional (marah ke staf), serta kendala biaya. |
+| **Ketepatan Rumusan Masalah** | ⭐⭐⭐ (90) - Draf akhir bersih dari usulan solusi (fitur POS dihilangkan) dan fokus pada *impact* serta batas nyata pengguna. |
+| **Etika & Penjagaan Privasi** | ⭐⭐⭐ (90) - Meminta persetujuan wawancara dan melindungi data finansial spesifik tokoh. |
+| **Keandalan & Hubungan** | ⭐⭐⭐ (85) - Tindak lanjut bersifat realistis tanpa janji teknis yang berlebihan di luar kapasitas. |

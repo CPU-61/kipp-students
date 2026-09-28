@@ -70,7 +70,7 @@ AI (Gemini) digunakan secara etis sebagai cermin diskusi. Saya memberikan draf *
 | Response & Adaptation | 4 | Menahan dorongan ego (*curse of knowledge*) untuk mendiktekan *software ERP* rumit setelah mendengar respons soal *budget*. |
 | Agreement, Action & Relationship | 3 | Kesepakatan pada *problem statement* disetujui tanpa janji berlebihan, memuluskan langkah *prototyping* berikutnya. |
 
-**Total: 18/20.**
+**Total: 18/20 — Lanjut.**
 
 ::: {.assessor-only}
 ### Assessment dosen

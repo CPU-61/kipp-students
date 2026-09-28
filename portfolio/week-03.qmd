@@ -63,7 +63,7 @@ AI tidak digunakan untuk mengintervensi percakapan ini karena relasi yang terjal
 | Response & Adaptation | 4 | Jeda 15 menit digunakan sebagai adaptasi dari kebuntuan belajar. |
 | Agreement, Action & Relationship | 4 | Ada perbaikan relasi (repair eksplisit terkait kesalahan kemarin) yang diterima dengan baik. |
 
-**Total: 18/20 — Kompeten.**
+**Total: 18/20 — Lanjut.**
 
 ::: {.assessor-only}
 ### Assessment dosen

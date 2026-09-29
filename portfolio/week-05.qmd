@@ -55,8 +55,8 @@ Pak Budi setuju dengan rumusan ini karena tidak menyodorkan solusi komputerisasi
 ## Evidence, feedback, dan next step
 
 - Transkrip percakapan luring 15 menit, disusun menjadi catatan tertulis dengan persetujuan penggunaan data non-rahasia.
-- Pesan WhatsApp dari Pak Budi yang memvalidasi *problem statement* ("Iya Mas, poinnya memang saya butuh yang nggak pakai biaya langganan dan gampang dipencet karyawan"). ![Bukti Konfirmasi Shared Problem Statement via WhatsApp](../images/evidence-week05.png){#fig-whatsapp width=60% fig-align="center"}
-- Teks mentah dari foto:
+- Pesan WhatsApp dari Pak Budi yang memvalidasi *problem statement* ("Iya Mas, poinnya memang saya butuh yang nggak pakai biaya langganan dan gampang dipencet karyawan").
+**Transkrip pesan whatsapp:**
 > **Pak Budi Konter:** "Jdine gmn mas?"
 > **Saya (mengirimkan voice note & pesan konfirmasi):** "Pak Budi, berdasarkan obrolan kita tadi, saya kan coba rangkum masalah utamanya seperti ini: 'Bapak butuh cara memantau stok barang terlaris secara real-time tanpa biaya berlangganan dan mudah digunakan karyawan.' Apakah rumusan ini sudah pas menggambarkan kebutuhan toko Bapak?"
 >**Pak Budi Konter:** "Iya Mas, poinnya memang saya butuh yang nggak pakai biaya langganan dan gampang dipencet karyawan."

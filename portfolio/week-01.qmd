@@ -123,7 +123,7 @@ Saya menggunakan AI (Gemini) setelah diskusi terjadi, sebagai instrumen evaluasi
 | Response & Adaptation | 4 | Transkrip mendemonstrasikan kelenturan merespons perubahan situasi (seperti *bluescreen* dan penolakan ide). |
 | Agreement, Action & Relationship | 4 | Tindakan kolaboratif berhasil dieksekusi di seluruh domain tanpa meninggalkan kerusakan relasional. |
 
-**Total:** 18 / 20
+**Total:** 18 / 20 - Lanjut
 
 ::: {.assessor-only}
 ### Assessment dosen

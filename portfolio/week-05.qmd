@@ -56,6 +56,10 @@ Pak Budi setuju dengan rumusan ini karena tidak menyodorkan solusi komputerisasi
 
 - Transkrip percakapan luring 15 menit, disusun menjadi catatan tertulis dengan persetujuan penggunaan data non-rahasia.
 - Pesan WhatsApp dari Pak Budi yang memvalidasi *problem statement* ("Iya Mas, poinnya memang saya butuh yang nggak pakai biaya langganan dan gampang dipencet karyawan"). ![Bukti Konfirmasi Shared Problem Statement via WhatsApp](../images/evidence-week05.png){#fig-whatsapp width=60% fig-align="center"}
+- Teks mentah dari foto:
+> **Pak Budi Konter:** "Jdine gmn mas?"
+> **Saya (mengirimkan voice note & pesan konfirmasi):** "Pak Budi, berdasarkan obrolan kita tadi, saya kan coba rangkum masalah utamanya seperti ini: 'Bapak butuh cara memantau stok barang terlaris secara real-time tanpa biaya berlangganan dan mudah digunakan karyawan.' Apakah rumusan ini sudah pas menggambarkan kebutuhan toko Bapak?"
+>**Pak Budi Konter:** "Iya Mas, poinnya memang saya butuh yang nggak pakai biaya langganan dan gampang dipencet karyawan."
 - **Next practice:** Karena kendala biaya dan teknis telah diketahui, rencana tindak lanjut saya adalah mendesain purwarupa (*prototype*) sistem inventaris memanfaatkan *web app no-code* gratis (seperti Odoo via *browser* HP) dan memvalidasi antarmukanya (*UI*) kepada karyawan tokonya secara langsung.
 
 AI (Gemini) digunakan secara etis sebagai cermin diskusi. Saya memberikan draf *problem statement* awal dan Gemini mendeteksi bahwa saya memasukkan frasa *"aplikasi berbasis web"* di dalamnya. Sesuai panduan *Golden Rule*, AI menyarankan menghapus frasa tersebut agar murni berorientasi pada "kebutuhan fungsi", bukan "pemilihan solusi".

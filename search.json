@@ -3908,7 +3908,7 @@
     "href": "assessment/rubric.html",
     "title": "Rubrik Universal",
     "section": "",
-    "text": "Level\nNama\nDeskripsi umum\n\n\n\n\n1\nAwal\nPerilaku masih didominasi asumsi, monolog, atau script\n\n\n2\nBerkembang\nPrinsip terlihat tetapi belum konsisten atau adaptif\n\n\n3\nKompeten\nPerilaku sesuai situasi, berbasis evidence, dan mencapai outcome yang layak\n\n\n4\nLanjut\nMampu menangani complexity, uncertainty, power, dan trade-off secara reflektif",
+    "text": "Rubrik lima dimensi dan total /20 berikut berlaku untuk performance mingguan selain UTS. UTS memakai enam dimensi, skor 1–4/BT, dan nilai sesi /24 × 100 sesuai paket aktif. Ambang pencapaian rubrik universal tidak diterapkan otomatis pada UTS.",
     "crumbs": [
       "Beranda",
       "Rubrik Universal"
@@ -3918,8 +3918,8 @@
     "objectID": "assessment/rubric.html#tingkat-pencapaian",
     "href": "assessment/rubric.html#tingkat-pencapaian",
     "title": "Rubrik Universal",
-    "section": "",
-    "text": "Level\nNama\nDeskripsi umum\n\n\n\n\n1\nAwal\nPerilaku masih didominasi asumsi, monolog, atau script\n\n\n2\nBerkembang\nPrinsip terlihat tetapi belum konsisten atau adaptif\n\n\n3\nKompeten\nPerilaku sesuai situasi, berbasis evidence, dan mencapai outcome yang layak\n\n\n4\nLanjut\nMampu menangani complexity, uncertainty, power, dan trade-off secara reflektif",
+    "section": "Tingkat pencapaian",
+    "text": "Tingkat pencapaian\n\n\n\n\n\n\n\n\nLevel\nNama\nDeskripsi umum\n\n\n\n\n1\nAwal\nPerilaku masih didominasi asumsi, monolog, atau script\n\n\n2\nBerkembang\nPrinsip terlihat tetapi belum konsisten atau adaptif\n\n\n3\nKompeten\nPerilaku sesuai situasi, berbasis evidence, dan mencapai outcome yang layak\n\n\n4\nLanjut\nMampu menangani complexity, uncertainty, power, dan trade-off secara reflektif",
     "crumbs": [
       "Beranda",
       "Rubrik Universal"
@@ -3942,6 +3942,17 @@
     "title": "Rubrik Universal",
     "section": "Perhitungan",
     "text": "Perhitungan\nJumlahkan lima dimensi. Skor maksimum adalah 20.\n\n\n\nTotal\nInterpretasi\n\n\n\n\n5–8\nAwal\n\n\n9–12\nBerkembang\n\n\n13–16\nKompeten\n\n\n17–20\nLanjut\n\n\n\nSkor tidak berdiri sendiri. Assessor tetap memberikan evidence yang mendukung skor dan satu prioritas perbaikan.",
+    "crumbs": [
+      "Beranda",
+      "Rubrik Universal"
+    ]
+  },
+  {
+    "objectID": "assessment/rubric.html#bobot-dan-nilai-akhir-uts",
+    "href": "assessment/rubric.html#bobot-dan-nilai-akhir-uts",
+    "title": "Rubrik Universal",
+    "section": "Bobot dan nilai akhir UTS",
+    "text": "Bobot dan nilai akhir UTS\n\n\n\nKomponen\nBobot\nNilai komponen\n\n\n\n\nMakalah pra-UTS (paper.qmd)\n10%\nNilai dosen pada skala 0–100\n\n\nSesi 1\n18%\nJumlah enam skor / 24 × 100\n\n\nSesi 2a\n18%\nJumlah enam skor / 24 × 100\n\n\nSesi 2b\n18%\nJumlah enam skor / 24 × 100\n\n\nSesi 3a\n18%\nJumlah enam skor / 24 × 100\n\n\nSesi 3b\n18%\nJumlah enam skor / 24 × 100\n\n\nTotal\n100%\n\n\n\n\nNilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b), dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.\nNilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis Belum dihitung sampai nilai makalah dan kelima sesi tersedia.\nRata-rata sesi 2a/2b dan 3a/3b boleh ditampilkan sebagai ringkasan Kasus 2 dan 3. Kontribusi Kasus 1 adalah 18%, Kasus 2 adalah 36%, dan Kasus 3 adalah 36%; ringkasan kasus tidak dihitung lagi sebagai komponen tambahan.\nRubrik makalah belum ditetapkan dalam dokumen ini. Gunakan nilai makalah dari dosen atau rubrik makalah resmi bila tersedia; jangan menerapkan rubrik performance enam dimensi pada makalah atau mengarang skor. Semua usulan skor AI memerlukan moderasi dosen.",
     "crumbs": [
       "Beranda",
       "Rubrik Universal"
@@ -4006,7 +4017,18 @@
     "href": "assessment/index.html#syarat-evidence-yang-kuat",
     "title": "Assessment Pencapaian",
     "section": "Syarat evidence yang kuat",
-    "text": "Syarat evidence yang kuat\n\nSpecific: menunjukkan situasi, person, dan perilaku tertentu.\nObservable: pembaca dapat melihat atau mendengar apa yang dilakukan.\nRelevant: terhubung pada kompetensi minggu tersebut.\nAuthentic: kontribusi mahasiswa dan penggunaan AI dijelaskan.\nDevelopmental: memperlihatkan feedback, adaptation, atau perubahan.\n\nGunakan rubrik universal untuk semua performance dan indeks portfolio untuk melihat status pencapaian mingguan.",
+    "text": "Syarat evidence yang kuat\n\nSpecific: menunjukkan situasi, person, dan perilaku tertentu.\nObservable: pembaca dapat melihat atau mendengar apa yang dilakukan.\nRelevant: terhubung pada kompetensi minggu tersebut.\nAuthentic: kontribusi mahasiswa dan penggunaan AI dijelaskan.\nDevelopmental: memperlihatkan feedback, adaptation, atau perubahan.\n\nGunakan rubrik universal untuk performance mingguan selain UTS. UTS memakai enam dimensi pada paket aktif dan bobot khusus di bawah; gunakan prompt Minggu 08 dan indeks portfolio untuk melihat status pencapaian mingguan.",
+    "crumbs": [
+      "Beranda",
+      "Assessment Pencapaian"
+    ]
+  },
+  {
+    "objectID": "assessment/index.html#bobot-dan-nilai-akhir-uts",
+    "href": "assessment/index.html#bobot-dan-nilai-akhir-uts",
+    "title": "Assessment Pencapaian",
+    "section": "Bobot dan nilai akhir UTS",
+    "text": "Bobot dan nilai akhir UTS\n\n\n\nKomponen\nBobot\nNilai komponen\n\n\n\n\nMakalah pra-UTS (paper.qmd)\n10%\nNilai dosen pada skala 0–100\n\n\nSesi 1\n18%\nJumlah enam skor / 24 × 100\n\n\nSesi 2a\n18%\nJumlah enam skor / 24 × 100\n\n\nSesi 2b\n18%\nJumlah enam skor / 24 × 100\n\n\nSesi 3a\n18%\nJumlah enam skor / 24 × 100\n\n\nSesi 3b\n18%\nJumlah enam skor / 24 × 100\n\n\nTotal\n100%\n\n\n\n\nNilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b), dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.\nNilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis Belum dihitung sampai nilai makalah dan kelima sesi tersedia.\nRata-rata sesi 2a/2b dan 3a/3b boleh ditampilkan sebagai ringkasan Kasus 2 dan 3. Kontribusi Kasus 1 adalah 18%, Kasus 2 adalah 36%, dan Kasus 3 adalah 36%; ringkasan kasus tidak dihitung lagi sebagai komponen tambahan.\nRubrik makalah belum ditetapkan dalam dokumen ini. Gunakan nilai makalah dari dosen atau rubrik makalah resmi bila tersedia; jangan menerapkan rubrik performance enam dimensi pada makalah atau mengarang skor. Semua usulan skor AI memerlukan moderasi dosen.",
     "crumbs": [
       "Beranda",
       "Assessment Pencapaian"

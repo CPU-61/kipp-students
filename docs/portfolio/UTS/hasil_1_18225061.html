@@ -1,0 +1,1797 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="id" xml:lang="id"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Olsen Danilson Sitohang">
+
+<title>Laporan UTS KIPP 2026 — Versi 2.0 – Portfolio KIPP-2</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e068420ea456326da06e1a0f8a236e46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Tidak ada hasil",
+    "search-matching-documents-text": "dokumen cocok",
+    "search-copy-link-title": "Salin tautan untuk mencari",
+    "search-hide-matches-text": "Sembunyikan kecocokan lainnya",
+    "search-more-match-text": "kecocokan lainnya di dokumen ini",
+    "search-more-matches-text": "kecocokan lainnya di dokumen ini",
+    "search-clear-button-title": "Hapus",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Batal",
+    "search-submit-button-title": "Kirim",
+    "search-label": "Mencari"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/logo.png" alt="" class="navbar-logo light-content">
+    <img src="../../assets/logo.png" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Portfolio KIPP-2</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Mencari"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alihkan navigasi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Beranda</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../course/index.html"> 
+<span class="menu-text">Perkuliahan</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../portfolio/index.html" aria-current="page"> 
+<span class="menu-text">Portfolio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../examples/index.html"> 
+<span class="menu-text">Contoh</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../lk/index.html"> 
+<span class="menu-text">Lembar Kerja</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../slides.html"> 
+<span class="menu-text">Slide</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../slides-pdf/index.html"> 
+<span class="menu-text">Slide PDF</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../assessment/index.html"> 
+<span class="menu-text">Assessment</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">Profil</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Laporan UTS KIPP 2026 — Versi 2.0</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Indeks Portfolio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Character Map</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Intra-Self Communication Journal</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Relationship Conversation</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Five-Language Translation Portfolio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Professional Discovery Interview</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Target–Attention Challenge</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Problem–Solution Interest Pitch</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-08.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">UTS Performance Evidence Package</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Desire-State Communication</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action &amp; Agreement Challenge</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Multi-Person Negotiation Challenge</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Community Communication Challenge</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Public Contribution Challenge</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">AI-Mediated Communication Design</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-15.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Capstone Performance Portfolio</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Di halaman ini</h2>
+   
+  <ul>
+  <li><a href="#a-identitas" id="toc-a-identitas" class="nav-link active" data-scroll-target="#a-identitas">A) Identitas</a></li>
+  <li><a href="#b-kasus-dan-tujuan" id="toc-b-kasus-dan-tujuan" class="nav-link" data-scroll-target="#b-kasus-dan-tujuan">B) Kasus dan Tujuan</a>
+  <ul class="collapse">
+  <li><a href="#kasus-dan-tujuan-tindakan" id="toc-kasus-dan-tujuan-tindakan" class="nav-link" data-scroll-target="#kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</a></li>
+  <li><a href="#profil-awal-komunikator" id="toc-profil-awal-komunikator" class="nav-link" data-scroll-target="#profil-awal-komunikator">Profil awal komunikator</a></li>
+  <li><a href="#dugaan-awal-profil-target-dan-rencana" id="toc-dugaan-awal-profil-target-dan-rencana" class="nav-link" data-scroll-target="#dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</a></li>
+  </ul></li>
+  <li><a href="#c-skrip-percakapan" id="toc-c-skrip-percakapan" class="nav-link" data-scroll-target="#c-skrip-percakapan">C) Skrip Percakapan</a>
+  <ul class="collapse">
+  <li><a href="#ai001-ai-a-identifikasi" id="toc-ai001-ai-a-identifikasi" class="nav-link" data-scroll-target="#ai001-ai-a-identifikasi">AI001 — AI — A — Identifikasi</a></li>
+  <li><a href="#u001-peserta-a-identifikasi" id="toc-u001-peserta-a-identifikasi" class="nav-link" data-scroll-target="#u001-peserta-a-identifikasi">U001 — Peserta — A — Identifikasi</a></li>
+  <li><a href="#ai002-ai-a-identifikasi" id="toc-ai002-ai-a-identifikasi" class="nav-link" data-scroll-target="#ai002-ai-a-identifikasi">AI002 — AI — A — Identifikasi</a></li>
+  <li><a href="#u002-peserta-a-identifikasi" id="toc-u002-peserta-a-identifikasi" class="nav-link" data-scroll-target="#u002-peserta-a-identifikasi">U002 — Peserta — A — Identifikasi</a></li>
+  <li><a href="#ai003-ai-b-kasus-dan-tujuan" id="toc-ai003-ai-b-kasus-dan-tujuan" class="nav-link" data-scroll-target="#ai003-ai-b-kasus-dan-tujuan">AI003 — AI — B — Kasus dan tujuan</a></li>
+  <li><a href="#u003-peserta-b-tujuan-dan-perencanaan" id="toc-u003-peserta-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#u003-peserta-b-tujuan-dan-perencanaan">U003 — Peserta — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#ai004-ai-b-tujuan-dan-perencanaan" id="toc-ai004-ai-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#ai004-ai-b-tujuan-dan-perencanaan">AI004 — AI — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#u004-peserta-b-tujuan-dan-perencanaan" id="toc-u004-peserta-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#u004-peserta-b-tujuan-dan-perencanaan">U004 — Peserta — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#ai005-ai-b-tujuan-dan-perencanaan" id="toc-ai005-ai-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#ai005-ai-b-tujuan-dan-perencanaan">AI005 — AI — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#u005-peserta-b-tujuan-dan-perencanaan" id="toc-u005-peserta-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#u005-peserta-b-tujuan-dan-perencanaan">U005 — Peserta — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#ai006-ai-b-tujuan-dan-perencanaan" id="toc-ai006-ai-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#ai006-ai-b-tujuan-dan-perencanaan">AI006 — AI — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#u006-peserta-b-tujuan-dan-perencanaan" id="toc-u006-peserta-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#u006-peserta-b-tujuan-dan-perencanaan">U006 — Peserta — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#ai007-ai-b-tujuan-dan-perencanaan" id="toc-ai007-ai-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#ai007-ai-b-tujuan-dan-perencanaan">AI007 — AI — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#u007-peserta-b-tujuan-dan-perencanaan" id="toc-u007-peserta-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#u007-peserta-b-tujuan-dan-perencanaan">U007 — Peserta — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#ai008-ai-b-tujuan-dan-perencanaan" id="toc-ai008-ai-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#ai008-ai-b-tujuan-dan-perencanaan">AI008 — AI — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#u008-peserta-b-tujuan-dan-perencanaan" id="toc-u008-peserta-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#u008-peserta-b-tujuan-dan-perencanaan">U008 — Peserta — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#ai009-ai-b-tujuan-dan-perencanaan" id="toc-ai009-ai-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#ai009-ai-b-tujuan-dan-perencanaan">AI009 — AI — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#u009-peserta-b-tujuan-dan-perencanaan" id="toc-u009-peserta-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#u009-peserta-b-tujuan-dan-perencanaan">U009 — Peserta — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#ai010-ai-b-tujuan-dan-perencanaan" id="toc-ai010-ai-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#ai010-ai-b-tujuan-dan-perencanaan">AI010 — AI — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#u010-peserta-b-tujuan-dan-perencanaan" id="toc-u010-peserta-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#u010-peserta-b-tujuan-dan-perencanaan">U010 — Peserta — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#ai011-ai-b-tujuan-dan-perencanaan" id="toc-ai011-ai-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#ai011-ai-b-tujuan-dan-perencanaan">AI011 — AI — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#u011-peserta-b-tujuan-dan-perencanaan" id="toc-u011-peserta-b-tujuan-dan-perencanaan" class="nav-link" data-scroll-target="#u011-peserta-b-tujuan-dan-perencanaan">U011 — Peserta — B — Tujuan dan perencanaan</a></li>
+  <li><a href="#ai012-ai-c-dialog-diri" id="toc-ai012-ai-c-dialog-diri" class="nav-link" data-scroll-target="#ai012-ai-c-dialog-diri">AI012 — AI — C — Dialog diri</a></li>
+  <li><a href="#u012-peserta-c-dialog-diri" id="toc-u012-peserta-c-dialog-diri" class="nav-link" data-scroll-target="#u012-peserta-c-dialog-diri">U012 — Peserta — C — Dialog diri</a></li>
+  <li><a href="#ai013-ai-c-dialog-diri" id="toc-ai013-ai-c-dialog-diri" class="nav-link" data-scroll-target="#ai013-ai-c-dialog-diri">AI013 — AI — C — Dialog diri</a></li>
+  <li><a href="#u013-peserta-c-dialog-diri" id="toc-u013-peserta-c-dialog-diri" class="nav-link" data-scroll-target="#u013-peserta-c-dialog-diri">U013 — Peserta — C — Dialog diri</a></li>
+  <li><a href="#ai014-ai-c-pembanding-budi-k1-02" id="toc-ai014-ai-c-pembanding-budi-k1-02" class="nav-link" data-scroll-target="#ai014-ai-c-pembanding-budi-k1-02">AI014 — AI — C — Pembanding Budi (K1-02)</a></li>
+  <li><a href="#u014-peserta-c-pembanding-budi-k1-02" id="toc-u014-peserta-c-pembanding-budi-k1-02" class="nav-link" data-scroll-target="#u014-peserta-c-pembanding-budi-k1-02">U014 — Peserta — C — Pembanding Budi (K1-02)</a></li>
+  <li><a href="#ai015-ai-c-pembanding-budi-k1-02" id="toc-ai015-ai-c-pembanding-budi-k1-02" class="nav-link" data-scroll-target="#ai015-ai-c-pembanding-budi-k1-02">AI015 — AI — C — Pembanding Budi (K1-02)</a></li>
+  <li><a href="#u015-peserta-c-pembanding-budi-k1-02" id="toc-u015-peserta-c-pembanding-budi-k1-02" class="nav-link" data-scroll-target="#u015-peserta-c-pembanding-budi-k1-02">U015 — Peserta — C — Pembanding Budi (K1-02)</a></li>
+  <li><a href="#ai016-ai-c-pembanding-budi-k1-02" id="toc-ai016-ai-c-pembanding-budi-k1-02" class="nav-link" data-scroll-target="#ai016-ai-c-pembanding-budi-k1-02">AI016 — AI — C — Pembanding Budi (K1-02)</a></li>
+  <li><a href="#u016-peserta-c-pembanding-budi-k1-02" id="toc-u016-peserta-c-pembanding-budi-k1-02" class="nav-link" data-scroll-target="#u016-peserta-c-pembanding-budi-k1-02">U016 — Peserta — C — Pembanding Budi (K1-02)</a></li>
+  <li><a href="#ai017-ai-d-evaluasi-sementara" id="toc-ai017-ai-d-evaluasi-sementara" class="nav-link" data-scroll-target="#ai017-ai-d-evaluasi-sementara">AI017 — AI — D — Evaluasi sementara</a></li>
+  <li><a href="#u017-peserta-d-evaluasi-sementara" id="toc-u017-peserta-d-evaluasi-sementara" class="nav-link" data-scroll-target="#u017-peserta-d-evaluasi-sementara">U017 — Peserta — D — Evaluasi sementara</a></li>
+  <li><a href="#ai018-ai-d-evaluasi-sementara" id="toc-ai018-ai-d-evaluasi-sementara" class="nav-link" data-scroll-target="#ai018-ai-d-evaluasi-sementara">AI018 — AI — D — Evaluasi sementara</a></li>
+  <li><a href="#u018-peserta-d-evaluasi-sementara" id="toc-u018-peserta-d-evaluasi-sementara" class="nav-link" data-scroll-target="#u018-peserta-d-evaluasi-sementara">U018 — Peserta — D — Evaluasi sementara</a></li>
+  <li><a href="#ai019-ai-e-uji-ulang" id="toc-ai019-ai-e-uji-ulang" class="nav-link" data-scroll-target="#ai019-ai-e-uji-ulang">AI019 — AI — E — Uji ulang</a></li>
+  <li><a href="#u019-peserta-e-uji-ulang" id="toc-u019-peserta-e-uji-ulang" class="nav-link" data-scroll-target="#u019-peserta-e-uji-ulang">U019 — Peserta — E — Uji ulang</a></li>
+  <li><a href="#ai020-ai-e-uji-ulang" id="toc-ai020-ai-e-uji-ulang" class="nav-link" data-scroll-target="#ai020-ai-e-uji-ulang">AI020 — AI — E — Uji ulang</a></li>
+  <li><a href="#u020-peserta-e-uji-ulang" id="toc-u020-peserta-e-uji-ulang" class="nav-link" data-scroll-target="#u020-peserta-e-uji-ulang">U020 — Peserta — E — Uji ulang</a></li>
+  <li><a href="#ai021-ai-e-uji-ulang" id="toc-ai021-ai-e-uji-ulang" class="nav-link" data-scroll-target="#ai021-ai-e-uji-ulang">AI021 — AI — E — Uji ulang</a></li>
+  <li><a href="#u021-peserta-e-uji-ulang" id="toc-u021-peserta-e-uji-ulang" class="nav-link" data-scroll-target="#u021-peserta-e-uji-ulang">U021 — Peserta — E — Uji ulang</a></li>
+  <li><a href="#ai022-ai-f-refleksi-akhir" id="toc-ai022-ai-f-refleksi-akhir" class="nav-link" data-scroll-target="#ai022-ai-f-refleksi-akhir">AI022 — AI — F — Refleksi akhir</a></li>
+  <li><a href="#u022-peserta-f-refleksi-akhir" id="toc-u022-peserta-f-refleksi-akhir" class="nav-link" data-scroll-target="#u022-peserta-f-refleksi-akhir">U022 — Peserta — F — Refleksi akhir</a></li>
+  <li><a href="#ai023-ai-f-refleksi-akhir" id="toc-ai023-ai-f-refleksi-akhir" class="nav-link" data-scroll-target="#ai023-ai-f-refleksi-akhir">AI023 — AI — F — Refleksi akhir</a></li>
+  <li><a href="#u023-peserta-f-refleksi-akhir" id="toc-u023-peserta-f-refleksi-akhir" class="nav-link" data-scroll-target="#u023-peserta-f-refleksi-akhir">U023 — Peserta — F — Refleksi akhir</a></li>
+  <li><a href="#ai024-ai-g-konfirmasi" id="toc-ai024-ai-g-konfirmasi" class="nav-link" data-scroll-target="#ai024-ai-g-konfirmasi">AI024 — AI — G — Konfirmasi</a></li>
+  <li><a href="#u033-peserta-g-konfirmasi" id="toc-u033-peserta-g-konfirmasi" class="nav-link" data-scroll-target="#u033-peserta-g-konfirmasi">U033 — Peserta — G — Konfirmasi</a></li>
+  </ul></li>
+  <li><a href="#d-hasil-evaluasi-dan-refleksi" id="toc-d-hasil-evaluasi-dan-refleksi" class="nav-link" data-scroll-target="#d-hasil-evaluasi-dan-refleksi">D) Hasil, Evaluasi, dan Refleksi</a>
+  <ul class="collapse">
+  <li><a href="#hasil-tujuan-dan-perubahan-swotask" id="toc-hasil-tujuan-dan-perubahan-swotask" class="nav-link" data-scroll-target="#hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</a></li>
+  <li><a href="#evaluasi-stimulusrespons-dan-diagnosis-profil" id="toc-evaluasi-stimulusrespons-dan-diagnosis-profil" class="nav-link" data-scroll-target="#evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</a>
+  <ul class="collapse">
+  <li><a href="#ringkasan-profil-tokoh-pembanding-setelah-simulasi" id="toc-ringkasan-profil-tokoh-pembanding-setelah-simulasi" class="nav-link" data-scroll-target="#ringkasan-profil-tokoh-pembanding-setelah-simulasi">Ringkasan profil tokoh pembanding setelah simulasi</a></li>
+  </ul></li>
+  <li><a href="#pengaruh-pesan-personal-dan-kualitas-relasi" id="toc-pengaruh-pesan-personal-dan-kualitas-relasi" class="nav-link" data-scroll-target="#pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</a></li>
+  <li><a href="#uji-ulang-dan-pembelajaran" id="toc-uji-ulang-dan-pembelajaran" class="nav-link" data-scroll-target="#uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</a></li>
+  <li><a href="#penilaian-enam-dimensi" id="toc-penilaian-enam-dimensi" class="nav-link" data-scroll-target="#penilaian-enam-dimensi">Penilaian enam dimensi</a></li>
+  <li><a href="#refleksi-dan-lesson-learned-mahasiswa" id="toc-refleksi-dan-lesson-learned-mahasiswa" class="nav-link" data-scroll-target="#refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</a></li>
+  <li><a href="#tindak-lanjut-dan-batas-bukti" id="toc-tindak-lanjut-dan-batas-bukti" class="nav-link" data-scroll-target="#tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</a></li>
+  <li><a href="#bobot-dan-nilai-akhir-uts" id="toc-bobot-dan-nilai-akhir-uts" class="nav-link" data-scroll-target="#bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Laporan UTS KIPP 2026 — Versi 2.0</h1>
+<p class="subtitle lead">Sesi 1 — Kasus 1</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Penulis</div>
+    <div class="quarto-title-meta-contents">
+             <p>Olsen Danilson Sitohang </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Diterbitkan</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">13 Oktober 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="a-identitas" class="level1">
+<h1>A) Identitas</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Elemen</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nama mahasiswa</td>
+<td>Olsen Danilson Sitohang</td>
+</tr>
+<tr class="even">
+<td>NIM</td>
+<td>18225061</td>
+</tr>
+<tr class="odd">
+<td>Kelas dan tanggal</td>
+<td>Kelas 01; 13 Oktober 2026</td>
+</tr>
+<tr class="even">
+<td>Nomor/judul kasus</td>
+<td>Sesi 1, urutan 1 dari 5; Kasus 1 — Memimpin diri dan terus belajar</td>
+</tr>
+<tr class="odd">
+<td>Nama dan ID target</td>
+<td>Diri mahasiswa (target utama); pembanding Budi (K1-02; tokoh fiktif)</td>
+</tr>
+<tr class="even">
+<td>Versi bank/aturan penugasan</td>
+<td>Bank 2.0; paket individual 2.0; penugasan dalam PENUGASAN.md (kasus_1_18225061.zip)</td>
+</tr>
+<tr class="odd">
+<td>Modalitas</td>
+<td>Teks; seluruh giliran bersumber dari teks percakapan</td>
+</tr>
+<tr class="even">
+<td>Kasus nyata/fiktif</td>
+<td>Nyata untuk rencana akademis dan pengembangan perangkat lunak peserta (U003); situasi uji ulang dan tokoh Budi bersifat hipotetis/fiktif</td>
+</tr>
+<tr class="odd">
+<td>Konfirmasi identitas dan ringkasan</td>
+<td>U001, U002, U033; merupakan konfirmasi peserta, bukan verifikasi identitas</td>
+</tr>
+<tr class="even">
+<td>Nama laporan</td>
+<td>hasil_1_18225061.qmd</td>
+</tr>
+<tr class="odd">
+<td>Kelengkapan transkrip</td>
+<td>Semua pesan yang tersedia dari identifikasi hingga konfirmasi: 24 pesan peserta (U001–U023 dan U033) dan 24 pesan AI (AI001–AI024). ID U024–U032 tidak muncul pada transkrip yang disalin; penomoran tidak diubah</td>
+</tr>
+<tr class="even">
+<td>Status tahapan asesmen</td>
+<td>Tujuan, dialog diri, segmen pembanding Budi, evaluasi sementara, uji ulang, refleksi, dan konfirmasi tersedia; beberapa pendalaman (lihat bagian D) terbatas</td>
+</tr>
+<tr class="odd">
+<td>Status sesi lain</td>
+<td>Sesi 2a, 2b, 3a, dan 3b belum dijalankan</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="b-kasus-dan-tujuan" class="level1">
+<h1>B) Kasus dan Tujuan</h1>
+<section id="kasus-dan-tujuan-tindakan" class="level2">
+<h2 class="anchored" data-anchor-id="kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</h2>
+<p><strong>Brief kasus:</strong> Pilih satu kemampuan yang ingin dikembangkan agar lebih berguna dalam kuliah, kerja, atau kehidupan, kemudian periksa cara memimpin diri ketika menghadapi hambatan belajar.</p>
+<p><strong>Kemampuan yang dipilih peserta:</strong> Mengembangkan kemampuan perancangan arsitektur perangkat lunak dan <em>clean code</em> dalam pemrograman berorientasi objek (OOP) serta integrasi backend untuk proyek aplikasi Sistem Informasi (U003). Tingkat kemampuan teknis awal belum diuji langsung.</p>
+<p><strong>Konteks yang dilaporkan:</strong> Kendala utama adalah akumulasi utang teknis (<em>technical debt</em>): saat dikejar tenggat tugas perkuliahan, peserta sering menulis kode yang belum modular dan tanpa dokumentasi API yang rapi, sehingga sulit dikembangkan bersama tim (U004).</p>
+<p><strong>Tujuan yang dikonfirmasi:</strong> Sampai <strong>27 Oktober 2026</strong> (14 hari), menyelesaikan <em>refactoring</em> 1 modul backend utama dengan arsitektur modular, menyusun dokumentasi API standar (OpenAPI/Swagger), dan menguji keterbacaan serta keandalannya kepada <strong>sedikitnya 5 orang rekan tim/pengguna</strong>. Peserta menambahkan tujuan membangun <em>coding convention</em> yang dapat dipakai ulang oleh tim (U005–U008, U033). Rumusan SMART disusun dengan bantuan pertanyaan dan parafrasa AI (AI008), lalu disetujui peserta.</p>
+<p><strong>Langkah pertama yang dikonfirmasi:</strong> Sampai <strong>15 Oktober 2026</strong> (2 hari), menyiapkan repository GitHub terstruktur, dokumen <em>coding style guide</em> ringkas, dan <em>boilerplate</em> arsitektur modular backend (U009, AI010, U033).</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tolok ukur</th>
+<th>Status pada penutupan sesi</th>
+<th>Batas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tujuan SMART dan tenggat dirumuskan</td>
+<td>Tersedia dan dikonfirmasi</td>
+<td>Kelayakan teknis dan waktu belum diuji</td>
+</tr>
+<tr class="even">
+<td><em>Refactoring</em> 1 modul dan dokumentasi API</td>
+<td>Rencana komitmen</td>
+<td>Pengerjaan belum berlangsung dalam sesi</td>
+</tr>
+<tr class="odd">
+<td>Pengujian kepada minimal 5 orang rekan tim/pengguna</td>
+<td>Rencana komitmen</td>
+<td>Skenario uji dan indikator kegunaan belum dirinci</td>
+</tr>
+<tr class="even">
+<td>Repository, <em>style guide</em>, dan <em>boilerplate</em> dalam 2 hari</td>
+<td>Komitmen</td>
+<td>Bukti <em>commit</em>/URL repository belum diserahkan</td>
+</tr>
+<tr class="odd">
+<td>Pengelolaan distraksi</td>
+<td>Respons hipotetis tersedia</td>
+<td>Konsistensi di luar sesi belum dibuktikan</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="profil-awal-komunikator" class="level2">
+<h2 class="anchored" data-anchor-id="profil-awal-komunikator">Profil awal komunikator</h2>
+<p>Tabel ini memuat laporan peserta dan dugaan AI atas ujarannya. Tidak ada diagnosis kepribadian.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Unsur</th>
+<th>Laporan/dugaan awal</th>
+<th>Bukti</th>
+<th>Tingkat kepastian</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SWOT subjektif</td>
+<td><strong>Mampu:</strong> merancang argumentasi terstruktur dan melihat dampak jangka panjang arsitektur (U017). <strong>Belum mampu/kelemahan:</strong> saat dikejar tenggat menulis kode tanpa struktur modular dan dokumentasi (U004); muncul dorongan “yang penting programnya jalan dulu” (U012). <strong>Peluang:</strong> arsitektur modular dan standar kode bersama membantu pengembangan tim (U008, U014). <strong>Ancaman:</strong> tugas mata kuliah lain datang bersamaan (U010); kerentanan terdistraksi (U017)</td>
+<td>U004, U008, U010, U012, U014, U017</td>
+<td>Laporan diri; sementara</td>
+</tr>
+<tr class="even">
+<td>Attitude</td>
+<td>Meyakini kualitas sistem bergantung pada fokus dan disiplin eksekusi</td>
+<td>U012, U013, U022</td>
+<td>Laporan diri; sementara</td>
+</tr>
+<tr class="odd">
+<td>Knowledge</td>
+<td>Menjelaskan modularitas, dokumentasi OpenAPI/Swagger, <em>backlog</em>/<em>issue tracker</em>, dan <em>checkpoint</em> pengujian per modul. Gap: belum diuji pada proyek nyata</td>
+<td>U006, U014, U015, U020</td>
+<td>Demonstrasi verbal; sementara</td>
+</tr>
+<tr class="even">
+<td>Skill</td>
+<td>Menyusun respons verbal: penolakan asertif, pencatatan ide ke <em>backlog</em>, tahapan kerja per modul. Gap: kemampuan teknis dan konsistensi di luar sesi belum terlihat</td>
+<td>U015, U019, U020</td>
+<td>Demonstrasi verbal; sementara</td>
+</tr>
+<tr class="odd">
+<td>Preferensi/MBTI jika dilaporkan</td>
+<td>Tidak dilaporkan oleh peserta; tidak disimpulkan dari transkrip</td>
+<td>—</td>
+<td>Belum diketahui</td>
+</tr>
+<tr class="even">
+<td>Karakter, peran, kultur/ko-kultur</td>
+<td>Mahasiswa yang mengerjakan proyek perkuliahan bersama rekan tim dengan beban lintas mata kuliah (Jarkom, Arsikom, Matdis). Norma spesifik kelompok belum digali</td>
+<td>U004, U007, U010</td>
+<td>Sementara</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="dugaan-awal-profil-target-dan-rencana" class="level2">
+<h2 class="anchored" data-anchor-id="dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</h2>
+<p><strong>Fakta (laporan diri peserta):</strong> hambatan utama adalah jalan pintas saat tenggat mendekat dan komitmen menumpuk (U012). Pesan kepada diri: kualitas sistem adalah fungsi dari fokus dan disiplin eksekusi (U013).</p>
+<p><strong>Dugaan AI atas ujaran peserta:</strong> perhatian terpecah oleh beban lintas mata kuliah (U010, U012); keyakinan U013 adalah laporan diri, bukan bukti bahwa fokus saja menjamin kualitas.</p>
+<p><strong>Dugaan profil Budi sebelum pengungkapan:</strong> tidak dinyatakan peserta. Peserta tidak ditanya dan tidak menyebut dugaan tentang Budi. Budi baru dideskripsikan oleh AI pada AI014. Karena itu dugaan awal Budi tidak diisi atas nama peserta.</p>
+<p><strong>Pertanyaan validasi yang belum terjawab:</strong> bagaimana perasaan peserta setelah menyampaikan pesan kepada diri (U013); contoh konkret kapan jalan pintas terakhir diambil (U012); apakah pesan diri perlu direvisi; siapa saja rekan tim yang akan menguji dan bagaimana kriteria “mudah dipahami” diukur (U007).</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>TAIDA</th>
+<th>Status awal/target</th>
+<th>Edukasi A/K/S</th>
+<th>Repertoar yang direncanakan</th>
+<th>Bukti yang diharapkan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Target</td>
+<td>Membangun modul backend terstruktur dan dokumentasi API standar</td>
+<td>K: standar arsitektur dan dokumentasi; S: <em>refactoring</em></td>
+<td>Tidak dirumuskan sebelum simulasi; tampak dalam penetapan sasaran SMART dan langkah 2 hari (U005–U009)</td>
+<td><em>Milestone</em> 15 Oktober dan 27 Oktober; uji 5 orang</td>
+</tr>
+<tr class="even">
+<td>Attention</td>
+<td>Perhatian terpecah oleh tugas lain dan godaan jalan pintas</td>
+<td>A: mengakui hambatan fokus</td>
+<td>Tampak: mengenali sumber distraksi (U010, U012)</td>
+<td>Penolakan atau penjadwalan ulang distraksi</td>
+</tr>
+<tr class="odd">
+<td>Interest</td>
+<td>Menganggap arsitektur modular penting bagi keandalan dan kolaborasi</td>
+<td>A/K: relevansi dan alasan</td>
+<td>Tampak: menjelaskan risiko <em>bug</em> dan <em>debugging</em> tanpa struktur modular (U014)</td>
+<td>Alasan yang konsisten pada saat tenggat</td>
+</tr>
+<tr class="even">
+<td>Desire</td>
+<td>Ingin menjaga disiplin dan fokus pada <em>milestone</em> utama</td>
+<td>A: motivasi dan pilihan</td>
+<td>Tampak: pesan kepada diri (U013); penolakan asertif (U019)</td>
+<td>Penolakan fitur/tugas di luar prioritas</td>
+</tr>
+<tr class="odd">
+<td>Action</td>
+<td>Menyebut repo, <em>style guide</em>, <em>boilerplate</em>, dan <em>backlog</em></td>
+<td>S: respons verbal terhadap kendala</td>
+<td>Tampak: rencana 2 hari dan jawaban uji ulang (U009, U015, U019, U020)</td>
+<td>Repository, <em>commit</em>, dan <em>issue tracker</em> yang dapat diperiksa</td>
+</tr>
+</tbody>
+</table>
+<p>Status tersebut merupakan interpretasi AI atas ujaran, bukan tahapan perubahan psikologis yang pasti atau linear. Action di sini belum membuktikan tindakan di luar percakapan.</p>
+</section>
+</section>
+<section id="c-skrip-percakapan" class="level1">
+<h1>C) Skrip Percakapan</h1>
+<p><strong>Transkrip aktual, bukan dialog karangan.</strong> ID U dan AI memakai penghitung terpisah; urutan penyajian mengikuti kronologi. Label tahap adalah anotasi untuk membaca transkrip, bukan perubahan terhadap isi ujaran.</p>
+<section id="ai001-ai-a-identifikasi" class="level3">
+<h3 class="anchored" data-anchor-id="ai001-ai-a-identifikasi">AI001 — AI — A — Identifikasi</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>ZIP berhasil dibuka. Berkas penugasan dan kerangka kerja Kasus 1 siap digunakan.
+
+**Sesi 1 — Tahap A: Identifikasi**
+
+Paket ini ditugaskan kepada **Olsen Danilson Sitohang**, NIM **18225061**, untuk **Kasus 1: Memimpin diri dan terus belajar**. Target utama adalah diri mahasiswa; **Budi (K1-02)** berperan sebagai teman pembanding. Laporan akhirnya bernama `hasil_1_18225061.qmd`.
+
+Saat ini hanya paket sesi 1 yang aktif; sesi 2a, 2b, 3a, dan 3b belum dimulai.
+
+**Mohon konfirmasi data peserta dalam satu balasan:** apakah nama dan NIM tersebut sesuai, kelas Anda, tanggal pelaksanaan (hari ini **14 Oktober 2026**), serta modalitas yang digunakan (**teks atau suara**)?</code></pre>
+</section>
+<section id="u001-peserta-a-identifikasi" class="level3">
+<h3 class="anchored" data-anchor-id="u001-peserta-a-identifikasi">U001 — Peserta — A — Identifikasi</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Ya benar, nama Olsen Danilson Sitohang, NIM 18225061. Pelaksanaan tanggal 13 Oktober 2026 dengan modalitas teks.</code></pre>
+</section>
+<section id="ai002-ai-a-identifikasi" class="level3">
+<h3 class="anchored" data-anchor-id="ai002-ai-a-identifikasi">AI002 — AI — A — Identifikasi</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>**Tahap A — Identifikasi**
+
+Data terkonfirmasi: **Olsen Danilson Sitohang**, NIM **18225061**, tanggal **13 Oktober 2026**, modalitas **teks**.
+
+Anda mengikuti **kelas berapa**?</code></pre>
+</section>
+<section id="u002-peserta-a-identifikasi" class="level3">
+<h3 class="anchored" data-anchor-id="u002-peserta-a-identifikasi">U002 — Peserta — A — Identifikasi</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>01</code></pre>
+</section>
+<section id="ai003-ai-b-kasus-dan-tujuan" class="level3">
+<h3 class="anchored" data-anchor-id="ai003-ai-b-kasus-dan-tujuan">AI003 — AI — B — Kasus dan tujuan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Kelas **01** tercatat.
+
+**Tahap B — Kasus dan tujuan**
+
+Pilih satu kemampuan yang ingin Anda kembangkan agar lebih berguna dalam kuliah, kerja, atau kehidupan. Kita akan memeriksa cara Anda memimpin diri ketika menghadapi hambatan belajar. Anda boleh menggunakan pengalaman nyata atau situasi fiktif; sebutkan pilihan tersebut.
+
+**Kemampuan apa yang ingin Anda kembangkan, dan hasil konkret apa yang ingin Anda capai?**</code></pre>
+</section>
+<section id="u003-peserta-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="u003-peserta-b-tujuan-dan-perencanaan">U003 — Peserta — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Ini pengalaman nyata. Saya ingin mengembangkan kemampuan perancangan arsitektur perangkat lunak dan clean code dalam pemrograman berorientasi objek (OOP) serta integrasi backend untuk proyek aplikasi Sistem Informasi saya.</code></pre>
+</section>
+<section id="ai004-ai-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="ai004-ai-b-tujuan-dan-perencanaan">AI004 — AI — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Bagus, pengalaman nyata dalam perancangan arsitektur perangkat lunak dan clean code backend. Supaya spesifik dan terukur, masalah konkret apa yang saat ini terjadi pada kode atau cara kerja Anda, dan untuk proyek apa?</code></pre>
+</section>
+<section id="u004-peserta-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="u004-peserta-b-tujuan-dan-perencanaan">U004 — Peserta — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Masalahnya adalah akumulasi utang teknis (technical debt). Saat dikejar tenggat tugas perkuliahan, saya sering menulis kode yang belum terstruktur modular dan tanpa dokumentasi API yang rapi, sehingga sulit dikembangkan bersama tim.</code></pre>
+</section>
+<section id="ai005-ai-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="ai005-ai-b-tujuan-dan-perencanaan">AI005 — AI — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Paham. Jadi kendalanya ada pada kerapian arsitektur, modularitas, dan dokumentasi API saat berada di bawah tekanan tenggat. Dari semua itu, fungsi atau hasil paling dasar apa yang ingin Anda wujudkan dalam dua minggu ke depan?</code></pre>
+</section>
+<section id="u005-peserta-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="u005-peserta-b-tujuan-dan-perencanaan">U005 — Peserta — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Saya ingin merestrukturisasi (refactoring) modul backend utama agar menerapkan arsitektur terpisah yang bersih, melengkapinya dengan dokumentasi API standar, dan memastikan kode dapat diintegrasikan dengan lancar.</code></pre>
+</section>
+<section id="ai006-ai-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="ai006-ai-b-tujuan-dan-perencanaan">AI006 — AI — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Menarik. Untuk mengukurnya secara SMART, dalam 14 hari (sampai 27 Oktober 2026), hasil konkret seperti apa yang ingin dipastikan? Misalnya: berapa modul yang direfaktorkan, dan bagaimana cara menguji bahwa kodenya lebih baik?</code></pre>
+</section>
+<section id="u006-peserta-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="u006-peserta-b-tujuan-dan-perencanaan">U006 — Peserta — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Hasilnya adalah 1 modul backend utama selesai direfaktorkan dengan arsitektur modular, dilengkapi dokumentasi OpenAPI/Swagger, dan diuji coba kebersihan serta keandalan jalurnya.</code></pre>
+</section>
+<section id="ai007-ai-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="ai007-ai-b-tujuan-dan-perencanaan">AI007 — AI — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Sangat jelas. Agar ada pembuktian eksternal, apakah hasil refactoring dan dokumentasi ini akan dicoba atau ditinjau oleh orang lain? Berapa orang targetnya?</code></pre>
+</section>
+<section id="u007-peserta-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="u007-peserta-b-tujuan-dan-perencanaan">U007 — Peserta — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Ya, akan ditinjau dan diuji coba oleh minimal 5 orang rekan tim dan pengguna proyek untuk memastikan dokumentasi API mudah dipahami dan aplikasinya berjalan tanpa hambatan.</code></pre>
+</section>
+<section id="ai008-ai-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="ai008-ai-b-tujuan-dan-perencanaan">AI008 — AI — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Bagus. Mari kita rumuskan sasaran SMART Anda: "Dalam 14 hari sejak 13 Oktober 2026 (sampai 27 Oktober 2026), menyelesaikan refactoring 1 modul backend utama dengan arsitektur terstruktur, menyusun dokumentasi API standar, serta menguji keterbacaan dan keandalannya kepada minimal 5 orang rekan tim/pengguna." Apakah Anda setuju dengan rumusan ini?</code></pre>
+</section>
+<section id="u008-peserta-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="u008-peserta-b-tujuan-dan-perencanaan">U008 — Peserta — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Setuju. Saya tambahkan bahwa proses ini juga bertujuan membangun standar coding convention yang dapat dipakai ulang oleh tim agar kualitas pengembangan perangkat lunak konsisten.</code></pre>
+</section>
+<section id="ai009-ai-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="ai009-ai-b-tujuan-dan-perencanaan">AI009 — AI — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Sempurna. Poin kesepakatan standar tim itu memperkuat nilai keberlanjutan. Kita kunci sasaran SMART tersebut. Sekarang, mari kita tentukan langkah terkecil dan paling awal yang akan dilakukan dalam 2 hari ke depan.</code></pre>
+</section>
+<section id="u009-peserta-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="u009-peserta-b-tujuan-dan-perencanaan">U009 — Peserta — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Dalam 2 hari ke depan, saya akan menyiapkan repository GitHub terstruktur, menyusun dokumen coding style guide ringkas, dan membuat boilerplate arsitektur modular backend.</code></pre>
+</section>
+<section id="ai010-ai-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="ai010-ai-b-tujuan-dan-perencanaan">AI010 — AI — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Langkah awal yang sangat konkret dan operasional: repository, style guide, dan boilerplate backend dalam 2 hari (sampai 15 Oktober 2026). Sebelum kita lanjut ke strategi memimpin diri, apakah ada aspek teknis lain yang mengganjal?</code></pre>
+</section>
+<section id="u010-peserta-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="u010-peserta-b-tujuan-dan-perencanaan">U010 — Peserta — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Pada dasarnya, tantangannya adalah mempertahankan disiplin penerapan arsitektur ini saat tugas-tugas lain dari mata kuliah seperti Jarkom, Arsikom, dan Matdis datang bersamaan.</code></pre>
+</section>
+<section id="ai011-ai-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="ai011-ai-b-tujuan-dan-perencanaan">AI011 — AI — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Catatan yang sangat krusial. Artinya, tantangannya bukan pada ketidakmampuan teknis, melainkan pada manajemen fokus dan prioritas di tengah tekanan beban kerja. Kita kunci sasaran B di sini dan lanjut ke Tahap C.</code></pre>
+</section>
+<section id="u011-peserta-b-tujuan-dan-perencanaan" class="level3">
+<h3 class="anchored" data-anchor-id="u011-peserta-b-tujuan-dan-perencanaan">U011 — Peserta — B — Tujuan dan perencanaan</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Siap, mari kita lanjut.</code></pre>
+</section>
+<section id="ai012-ai-c-dialog-diri" class="level3">
+<h3 class="anchored" data-anchor-id="ai012-ai-c-dialog-diri">AI012 — AI — C — Dialog diri</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>**Tahap C — Dialog diri**
+
+Saat Anda berniat melakukan refactoring dan membangun arsitektur terstruktur, **hambatan apa yang paling sering membuat Anda menunda atau kembali ke kebiasaan lama (menulis kode asal jalan), dan bagaimana itu muncul dalam pengalaman nyata?**</code></pre>
+</section>
+<section id="u012-peserta-c-dialog-diri" class="level3">
+<h3 class="anchored" data-anchor-id="u012-peserta-c-dialog-diri">U012 — Peserta — C — Dialog diri</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Hambatannya adalah godaan untuk mengambil jalan pintas saat tenggat mendekat. Saya merasa terlalu banyak komitmen tugas bersamaan, sehingga muncul dorongan 'yang penting programnya jalan dulu', meskipun saya tahu itu menumpuk technical debt.</code></pre>
+</section>
+<section id="ai013-ai-c-dialog-diri" class="level3">
+<h3 class="anchored" data-anchor-id="ai013-ai-c-dialog-diri">AI013 — AI — C — Dialog diri</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Bagus, analisis yang jujur. Ketika dorongan mengambil jalan pintas itu muncul di tengah tekanan tenggat, **pesan apa yang secara tegas Anda sampaikan kepada diri sendiri?** Tuliskan kalimatnya seolah Anda sedang berbicara kepada diri sendiri saat itu.</code></pre>
+</section>
+<section id="u013-peserta-c-dialog-diri" class="level3">
+<h3 class="anchored" data-anchor-id="u013-peserta-c-dialog-diri">U013 — Peserta — C — Dialog diri</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Saya bilang ke diri sendiri: 'Olsen, keberhasilan dan kualitas sistem adalah fungsi dari fokus dan disiplin eksekusi. Jika kamu tidak mengalokasikan waktu terdedikasi untuk merapikan arsitektur sekarang, kamu hanya menunda kehancuran sistem saat integrasi nanti. Kerjakan dengan benar sejak awal.'</code></pre>
+</section>
+<section id="ai014-ai-c-pembanding-budi-k1-02" class="level3">
+<h3 class="anchored" data-anchor-id="ai014-ai-c-pembanding-budi-k1-02">AI014 — AI — C — Pembanding Budi (K1-02)</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Pesan diri yang sangat tegas dan berorientasi jangka panjang. Sekarang, mari kita simulasikan percakapan pembanding dengan **Budi (K1-02)**. Budi adalah rekan kerja yang memegang teguh prosedur lama dan khawatir perubahan metode refactoring ini hanya membuang waktu dan merusak standar kerja yang sudah berjalan.
+
+Budi membuka percakapan dengan kalimat:
+*“Cara sekarang sudah jelas dan programnya jalan. Mengapa kita harus berubah dan repot-repot melakukan refactoring?”*
+
+**Bagaimana Anda merespons Budi?**</code></pre>
+</section>
+<section id="u014-peserta-c-pembanding-budi-k1-02" class="level3">
+<h3 class="anchored" data-anchor-id="u014-peserta-c-pembanding-budi-k1-02">U014 — Peserta — C — Pembanding Budi (K1-02)</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Halo Budi, saya sangat menghargai komitmenmu untuk menjaga kelancaran program yang sudah ada. Cara sekarang memang jalan untuk fitur sederhana, tetapi tanpa arsitektur modular, setiap kali kita menambah fitur baru, risiko bug meningkat dan waktu debugging membengkak. Refactoring ini bukan mengubah fungsi yang sudah jalan, melainkan merapikan struktur dalamnya agar kita punya prosedur kerja yang lebih aman, terukur, dan mempermudah kita saat pengujian nanti.</code></pre>
+</section>
+<section id="ai015-ai-c-pembanding-budi-k1-02" class="level3">
+<h3 class="anchored" data-anchor-id="ai015-ai-c-pembanding-budi-k1-02">AI015 — AI — C — Pembanding Budi (K1-02)</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Budi mendengarkan lalu berkata:
+*“Aku paham kekhawatiranmu soal bug. Tapi refactoring butuh waktu. Siapa yang menjamin jadwal kita tidak berantakan dan standar kualitas tidak turun saat proses perubahan ini dilakukan?”*
+
+**Bagaimana Anda meyakinkan Budi dengan langkah konkret dan tolok ukur yang dapat disepakati?**</code></pre>
+</section>
+<section id="u015-peserta-c-pembanding-budi-k1-02" class="level3">
+<h3 class="anchored" data-anchor-id="u015-peserta-c-pembanding-budi-k1-02">U015 — Peserta — C — Pembanding Budi (K1-02)</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Saya jamin jadwal utama tidak terganggu karena kita lakukan secara bertahap. Dalam 2 hari ini, saya buatkan dulu boilerplate dan panduan penulisan kode (style guide) yang jelas sebagai tolok ukur. Kita tidak merombak sekaligus, melainkan per modul. Saya yang bertanggung jawab menyiapkan dasarnya, dan kita sepakati checkpoint pengujian di setiap akhir modul agar kualitasnya justru meningkat, bukan turun.</code></pre>
+</section>
+<section id="ai016-ai-c-pembanding-budi-k1-02" class="level3">
+<h3 class="anchored" data-anchor-id="ai016-ai-c-pembanding-budi-k1-02">AI016 — AI — C — Pembanding Budi (K1-02)</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Budi mengangguk perlahan:
+*“Baiklah, kalau ada boilerplate, panduan jelas, dan pengujian per modul, aku bisa terima. Tunjukkan dulu boilerplate dan panduannya dalam dua hari seperti yang kamu janjikan.”*
+
+Respon Budi menunjukkan keterbukaan setelah kepastian prosedur dan tanggung jawab diberikan. Sekarang kita berpindah ke **Tahap D: Evaluasi sementara.**</code></pre>
+</section>
+<section id="u016-peserta-c-pembanding-budi-k1-02" class="level3">
+<h3 class="anchored" data-anchor-id="u016-peserta-c-pembanding-budi-k1-02">U016 — Peserta — C — Pembanding Budi (K1-02)</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Siap, terima kasih Budi. Saya akan tuntaskan hal tersebut tepat waktu.</code></pre>
+</section>
+<section id="ai017-ai-d-evaluasi-sementara" class="level3">
+<h3 class="anchored" data-anchor-id="ai017-ai-d-evaluasi-sementara">AI017 — AI — D — Evaluasi sementara</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>**Tahap D — Evaluasi sementara**
+
+Mari refleksikan interaksi sejauh ini. Berdasarkan analisis diri dan percakapan dengan Budi, **apa kekuatan terbesar Anda dalam memimpin diri, dan area apa yang masih menjadi celah utama yang perlu diwaspadai?**</code></pre>
+</section>
+<section id="u017-peserta-d-evaluasi-sementara" class="level3">
+<h3 class="anchored" data-anchor-id="u017-peserta-d-evaluasi-sementara">U017 — Peserta — D — Evaluasi sementara</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Kekuatan terbesar saya adalah kemampuan melihat dampak jangka panjang arsitektur sistem dan merancang argumentasi terstruktur berbasis fakta. Celah utama yang perlu diwaspadai adalah kerentanan terdistraksi ketika tugas lain bertumpuk, yang dapat mengikis disiplin waktu jika tidak dibatasi secara tegas.</code></pre>
+</section>
+<section id="ai018-ai-d-evaluasi-sementara" class="level3">
+<h3 class="anchored" data-anchor-id="ai018-ai-d-evaluasi-sementara">AI018 — AI — D — Evaluasi sementara</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Evaluasi yang sangat tajam. Sekarang kita masuk ke **Tahap E: Uji ulang (situasi hipotetis)** untuk menguji penerapan disiplin diri Anda terhadap gangguan nyata.</code></pre>
+</section>
+<section id="u018-peserta-d-evaluasi-sementara" class="level3">
+<h3 class="anchored" data-anchor-id="u018-peserta-d-evaluasi-sementara">U018 — Peserta — D — Evaluasi sementara</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Baik, silakan berikan skenarionya.</code></pre>
+</section>
+<section id="ai019-ai-e-uji-ulang" class="level3">
+<h3 class="anchored" data-anchor-id="ai019-ai-e-uji-ulang">AI019 — AI — E — Uji ulang</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>**Tahap E — Uji ulang (Skenario 1)**
+
+Besok, saat Anda sedang fokus menyusun boilerplate dan refactoring modul backend, datang permintaan dari rekan kuliah lain untuk membantu menyelesaikan tugas kelompok mata kuliah lain yang sebenarnya bukan tanggung jawab utama Anda, tetapi terasa mendesak.
+
+**Apa yang Anda katakan kepada diri sendiri dan langsung katakan/lakukan kepada rekan tersebut?**</code></pre>
+</section>
+<section id="u019-peserta-e-uji-ulang" class="level3">
+<h3 class="anchored" data-anchor-id="u019-peserta-e-uji-ulang">U019 — Peserta — E — Uji ulang</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Kepada diri sendiri saya katakan: 'Jaga fokus pada prioritas utama yang sudah dijadwalkan.' Kepada rekan tersebut saya katakan asertif dan sopan: 'Terima kasih sudah menghubungi saya. Saat ini saya sedang memfokuskan alokasi waktu untuk menyelesaikan milestone backend yang ber-tenggat dekat. Saya bisa membantu memberikan petunjuk atau referensi singkat nanti malam setelah milestone saya selesai, atau kamu bisa mendiskusikannya dengan rekan kelompok lain terlebih dahulu.'</code></pre>
+</section>
+<section id="ai020-ai-e-uji-ulang" class="level3">
+<h3 class="anchored" data-anchor-id="ai020-ai-e-uji-ulang">AI020 — AI — E — Uji ulang</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Penyaringan dan penolakan asertif yang sangat baik. Sekarang **Tahap E — Uji ulang (Skenario 2)**:
+
+Saat Anda merancat arsitektur backend, muncul ide menarik untuk menambahkan fitur rekomendasi berbasis AI yang sangat canggih. Fitur ini sangat keren, tetapi pengerjaannya berpotensi menunda penyelesaian refactoring dan uji coba 5 orang yang sudah ditargetkan 14 hari.
+
+**Apa yang Anda katakan kepada diri sendiri dan langsung lakukan saat ide itu muncul?**</code></pre>
+</section>
+<section id="u020-peserta-e-uji-ulang" class="level3">
+<h3 class="anchored" data-anchor-id="u020-peserta-e-uji-ulang">U020 — Peserta — E — Uji ulang</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Saya katakan kepada diri sendiri: 'Ide ini sangat bagus, tetapi fokus kita adalah keandalan fondasi sistem, bukan menambah kompleksitas sebelum dasar stabil.' Tindakan langsung saya: Saya mencatat ide fitur AI tersebut ke dalam dokumen backlog/issue tracker GitHub proyek di bagian 'Future Enhancement', berterima kasih atas ide tersebut, lalu kembali melanjutkan pengerjaan refactoring modul utama sesuai jadwal tanpa menggeser fokus target 14 hari.</code></pre>
+</section>
+<section id="ai021-ai-e-uji-ulang" class="level3">
+<h3 class="anchored" data-anchor-id="ai021-ai-e-uji-ulang">AI021 — AI — E — Uji ulang</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Tindakan memasukkan ke *backlog* sangat profesional dan menjaga batas *scope creep*. 
+
+**Indikator apa yang akan Anda gunakan untuk menilai bahwa keputusan menunda fitur AI tersebut benar-benar berhasil menjaga fokus Anda?**</code></pre>
+</section>
+<section id="u021-peserta-e-uji-ulang" class="level3">
+<h3 class="anchored" data-anchor-id="u021-peserta-e-uji-ulang">U021 — Peserta — E — Uji ulang</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Indikatornya adalah tercapainya milestone tepat waktu: repository dan boilerplate selesai dalam 2 hari, serta modul backend utama beserta dokumentasi API berhasil diselesaikan dan siap diuji coba dalam 14 hari tanpa ada penundaan jadwal.</code></pre>
+</section>
+<section id="ai022-ai-f-refleksi-akhir" class="level3">
+<h3 class="anchored" data-anchor-id="ai022-ai-f-refleksi-akhir">AI022 — AI — F — Refleksi akhir</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Sangat terukur. Sekarang kita masuk ke **Tahap F: Refleksi dan Lesson Learned.**
+
+Berdasarkan seluruh proses simulasi, dialog diri, respons terhadap Budi, dan uji ulang distraksi: **apa pelajaran paling berharga yang Anda peroleh tentang cara memimpin diri sendiri dan berkomunikasi dengan orang lain?**</code></pre>
+</section>
+<section id="u022-peserta-f-refleksi-akhir" class="level3">
+<h3 class="anchored" data-anchor-id="u022-peserta-f-refleksi-akhir">U022 — Peserta — F — Refleksi akhir</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Pelajaran paling berharga adalah bahwa memimpin diri membutuhkan kejelasan prioritas dan keberanian menolak distraksi dengan sistematis (seperti penggunaan backlog). Sementara dalam berkomunikasi dengan tipe prosedural seperti Budi, kunci utamanya adalah memberikan kepastian langkah, panduan terstruktur, dan indikator keberhasilan yang jelas, bukan sekadar memaksakan ide.</code></pre>
+</section>
+<section id="ai023-ai-f-refleksi-akhir" class="level3">
+<h3 class="anchored" data-anchor-id="ai023-ai-f-refleksi-akhir">AI023 — AI — F — Refleksi akhir</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Refleksi yang sangat mendalam dan aplikatif. Rangkuman ini mengintegrasikan pertumbuhan PASK (*Perception, Attitude, Skill, Knowledge*) Anda secara nyata.
+
+Sekarang kita masuk ke **Tahap G: Konfirmasi ringkasan akhir** sebelum dokumen laporan `hasil_1_18225061.qmd` diproduksi.</code></pre>
+</section>
+<section id="u023-peserta-f-refleksi-akhir" class="level3">
+<h3 class="anchored" data-anchor-id="u023-peserta-f-refleksi-akhir">U023 — Peserta — F — Refleksi akhir</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Siap, silakan tampilkan ringkasannya.</code></pre>
+</section>
+<section id="ai024-ai-g-konfirmasi" class="level3">
+<h3 class="anchored" data-anchor-id="ai024-ai-g-konfirmasi">AI024 — AI — G — Konfirmasi</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>**Tahap G — Ringkasan Konfirmasi Laporan**
+
+- **Identitas**: Olsen Danilson Sitohang, NIM 18225061, Kelas 01, Tanggal 13 Oktober 2026, Modalitas Teks.
+- **Sasaran Utama**: Refactoring 1 modul backend terstruktur, dokumentasi API standar, dan uji coba ke 5 orang pengguna/rekan dalam 14 hari (27 Oktober 2026).
+- **Langkah 2 Hari**: Repository GitHub, coding style guide, dan boilerplate backend (15 Oktober 2026).
+- **Dialog Diri &amp; Pembanding**: Mengatasi godaan jalan pintas dengan disiplin fokus; berkomunikasi dengan Budi (ISTJ) menggunakan kepastian langkah dan tolok ukur.
+- **Pengelolaan Distraksi**: Menolak tugas luar secara asertif dan mencatat ide fitur baru ke backlog agar scope tetap terjaga.
+
+Apakah seluruh ringkasan data di atas sudah benar dan disetujui untuk diterbitkan ke dalam `hasil_1_18225061.qmd`?</code></pre>
+</section>
+<section id="u033-peserta-g-konfirmasi" class="level3">
+<h3 class="anchored" data-anchor-id="u033-peserta-g-konfirmasi">U033 — Peserta — G — Konfirmasi</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Ya benar, seluruh ringkasan data sudah sesuai dan saya setujui.</code></pre>
+</section>
+</section>
+<section id="d-hasil-evaluasi-dan-refleksi" class="level1">
+<h1>D) Hasil, Evaluasi, dan Refleksi</h1>
+<section id="hasil-tujuan-dan-perubahan-swotask" class="level2">
+<h2 class="anchored" data-anchor-id="hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</h2>
+<p><strong>Hasil tujuan sesi: sebagian.</strong> Tujuan pengembangan kemampuan dan langkah awal berhasil dirumuskan, diuji melalui skenario hipotetis, dan dikonfirmasi (U033). <strong>Pelaksanaan <em>refactoring</em>, dokumentasi API, dan uji coba 5 orang belum dapat dinyatakan tercapai</strong>, karena belum ada bukti pelaksanaannya dalam sesi; semuanya masih komitmen.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Unsur</th>
+<th>Awal</th>
+<th>Akhir</th>
+<th>Bukti giliran</th>
+<th>Jenis bukti dan batas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Kesimpulan SWOT</td>
+<td>Beban tugas paralel dan tenggat dilaporkan memicu jalan pintas serta kode kurang terstruktur</td>
+<td>Menyatakan <em>backlog</em> dan penolakan asertif sebagai cara menjaga prioritas</td>
+<td>U012, U017, U020, U022</td>
+<td>Laporan diri dan simulasi verbal; belum divalidasi dengan contoh pengalaman rinci</td>
+</tr>
+<tr class="even">
+<td>Attitude</td>
+<td>Dorongan “yang penting programnya jalan dulu” saat tenggat</td>
+<td>Menegaskan kualitas sistem bergantung pada fokus dan disiplin eksekusi</td>
+<td>U012, U013, U022</td>
+<td>Penegasan nilai dan komitmen; perubahan sikap jangka panjang tidak terukur</td>
+</tr>
+<tr class="odd">
+<td>Knowledge</td>
+<td>Menyebut OOP, modularitas, dan dokumentasi API sebagai bidang yang ingin dikembangkan</td>
+<td>Menjelaskan mitigasi <em>scope creep</em>, penggunaan <em>backlog</em>, dan pendekatan komunikasi prosedural untuk Budi</td>
+<td>U003, U006, U014, U020, U022</td>
+<td>Pemahaman verbal; belum diuji pada proyek nyata</td>
+</tr>
+<tr class="even">
+<td>Skill</td>
+<td>Mengaku sering menulis kode tanpa struktur modular saat dikejar tenggat</td>
+<td>Merumuskan pesan penolakan asertif, pencatatan ide ke <em>backlog</em>, dan tahapan kerja per modul dalam situasi hipotetis</td>
+<td>U004, U015, U019, U020</td>
+<td>Demonstrasi verbal; bukan bukti kemampuan teknis atau konsistensi nyata</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="evaluasi-stimulusrespons-dan-diagnosis-profil" class="level2">
+<h2 class="anchored" data-anchor-id="evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Episode/ID</th>
+<th>Estimasi status dan bukti</th>
+<th>Stimulus mahasiswa</th>
+<th>Respons</th>
+<th>Perubahan ASK/SWOT</th>
+<th>Adaptasi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>U012–U013</td>
+<td>Hambatan <em>technical debt</em> dan godaan jalan pintas</td>
+<td>“keberhasilan dan kualitas sistem adalah fungsi dari fokus dan disiplin eksekusi”</td>
+<td>AI beralih ke simulasi Budi tanpa menggali respons batin atau revisi pesan</td>
+<td>A: penegasan komitmen mutu jangka panjang (laporan diri)</td>
+<td>Efek pesan pada perilaku nyata belum diketahui</td>
+</tr>
+<tr class="even">
+<td>U014</td>
+<td>Budi membuka dengan keberatan terhadap perubahan (AI014)</td>
+<td>“saya sangat menghargai komitmenmu untuk menjaga kelancaran program yang sudah ada”; menjelaskan risiko <em>bug</em> dan <em>debugging</em> tanpa struktur modular</td>
+<td>“Aku paham kekhawatiranmu soal bug.” (AI015)</td>
+<td>Budi (simulasi): A lebih terbuka, K mulai mendapat alasan</td>
+<td>Peserta tidak menanyakan pengalaman atau kekhawatiran Budi sebelum menjelaskan</td>
+</tr>
+<tr class="odd">
+<td>U015–U016</td>
+<td>Budi menanyakan jaminan jadwal dan standar (AI015)</td>
+<td>“Saya jamin jadwal utama tidak terganggu”; <em>boilerplate</em>, <em>style guide</em>, “kita sepakati checkpoint pengujian di setiap akhir modul”</td>
+<td>“Tunjukkan dulu boilerplate dan panduannya dalam dua hari” (AI016)</td>
+<td>S: kesiapan Budi bersyarat pada bukti dua hari</td>
+<td>Langkah, waktu, tanggung jawab, dan indikator tersedia; dukungan dan bukti perbandingan dengan prosedur lama belum dirinci</td>
+</tr>
+<tr class="even">
+<td>U019</td>
+<td>Distraksi tugas kelompok dari luar</td>
+<td>Penolakan asertif dengan tawaran bantuan terbatas setelah <em>milestone</em></td>
+<td>AI memuji lalu melanjutkan skenario berikutnya</td>
+<td>S verbal: menetapkan batas</td>
+<td>Respons rekan tidak diperankan</td>
+</tr>
+<tr class="odd">
+<td>U020–U021</td>
+<td>Ide fitur AI berisiko menunda tenggat</td>
+<td>Mencatat ide ke <em>backlog</em> GitHub; indikator “tercapainya milestone tepat waktu”</td>
+<td>AI meminta indikator keberhasilan</td>
+<td>K/S verbal: pencegahan <em>scope creep</em></td>
+<td>Indikator berupa ketepatan jadwal; ukuran kualitas hasil belum dirinci</td>
+</tr>
+</tbody>
+</table>
+<section id="ringkasan-profil-tokoh-pembanding-setelah-simulasi" class="level3">
+<h3 class="anchored" data-anchor-id="ringkasan-profil-tokoh-pembanding-setelah-simulasi">Ringkasan profil tokoh pembanding setelah simulasi</h3>
+<p>Budi (K1-02) adalah tokoh fiktif; parameter berikut berasal dari <code>profil_komunikan.md</code> dan bukan diagnosis siapa pun.</p>
+<ul>
+<li><strong>Peran/konteks:</strong> teman pembanding pengembangan diri dengan hambatan mempertahankan latihan kemampuan baru.</li>
+<li><strong>SWOT subjektif awal:</strong> perubahan dianggap ancaman; merasa mampu dengan cara lama. Kekuatan: operasional baik, adaptasi baru perlu panduan. Kelemahan/kendala: perlu prosedur dan tolok ukur. Peluang: tujuan kasus dapat membantu bila kebutuhan terpenuhi. Ancaman: takut standar turun.</li>
+<li><strong>ASK awal:</strong> A — hati-hati, mengutamakan kepastian; K — menguasai prosedur lama, belum memahami alternatif; S — operasional baik, adaptasi baru perlu panduan.</li>
+<li><strong>Hambatan spesifik:</strong> A — takut standar turun; K — belum tahu alasan metode baru; S — perlu prosedur dan tolok ukur.</li>
+<li><strong>Preferensi MBTI fiktif:</strong> ISTJ (detail, bukti, urutan prosedur). Ini parameter tokoh, bukan penilaian peserta.</li>
+<li><strong>Pembuka yang ditetapkan:</strong> “Cara sekarang sudah jelas. Mengapa harus berubah?”</li>
+<li><strong>Syarat Action:</strong> langkah pertama, waktu, tanggung jawab, dukungan, dan indikator yang menjawab hambatan.</li>
+<li><strong>Uji ulang yang dirancang untuk tokoh:</strong> kendala baru yang masih terkait S (perlu prosedur dan tolok ukur).</li>
+</ul>
+<p><strong>Perbandingan dengan dugaan mahasiswa:</strong> peserta tidak menyatakan dugaan profil Budi sebelum pengungkapan, sehingga akurasi dugaan tidak dapat dinilai dan dugaan awal tidak diisi ulang setelah profil diketahui. Yang dapat dicatat dari bukti perilaku: U014 menyasar A (menghargai tanggung jawab) dan K (alasan risiko <em>bug</em>), sedangkan U015 menyasar S (prosedur bertahap dan tolok ukur). Ini sejalan dengan contoh stimulus efektif pada profil, yakni menghargai tanggung jawab dan rencana bertahap dengan pemeriksaan. Bukti perbandingan dengan prosedur lama hanya berupa klaim (U014). Frasa “Saya jamin” (U015) termasuk janji kuat yang menurut profil dapat menghambat bila tidak didukung bukti.</p>
+<p><strong>Keterbatasan pelaksanaan pembanding:</strong> AI menyebutkan karakter Budi (memegang prosedur lama, khawatir perubahan) kepada peserta pada AI014, padahal profil seharusnya hanya menampilkan nama, peran, dan pembuka. Pembuka yang dipakai berbeda sebagian dari pembuka yang ditetapkan. AI juga menyimpulkan keterbukaan Budi pada AI016 dan menyatakan ISTJ pada AI024. Segmen Budi hanya berisi tiga giliran peserta, dan penerimaan terjadi cepat setelah satu paket usulan. Karena itu penerimaan Budi tidak dianggap bukti perubahan ASK yang valid. Keterbatasan fasilitasi ini perlu dipertimbangkan dosen dan tidak dibebankan sebagai kesalahan mahasiswa.</p>
+</section>
+</section>
+<section id="pengaruh-pesan-personal-dan-kualitas-relasi" class="level2">
+<h2 class="anchored" data-anchor-id="pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</h2>
+<p>Kategori rendah/sedang/tinggi berikut adalah <strong>estimasi AI atas transkrip untuk laporan ini</strong>. Estimasi tersebut tidak dicatat simulator selama sesi dan bukan skala psikometri.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Episode/ID</th>
+<th>Pesan personal/kepedulian</th>
+<th>Respons yang teramati</th>
+<th>Rasa aman, kepercayaan, keterbukaan</th>
+<th>Dampak ASK/SWOT dan batas inferensi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>U014 → AI015</td>
+<td>“saya sangat menghargai komitmenmu untuk menjaga kelancaran program yang sudah ada”</td>
+<td>“Aku paham kekhawatiranmu soal bug. Tapi refactoring butuh waktu.”</td>
+<td><strong>Awal (AI014):</strong> rasa aman rendah–sedang, merasa dipahami rendah, kepercayaan rendah, keterbukaan rendah (keberatan langsung). <strong>Setelah AI015:</strong> merasa dipahami sedang, keterbukaan sedang (menyebut kekhawatiran jadwal dan standar kualitas)</td>
+<td>Defensivitas berkurang sebagian; hambatan K dan S belum terjawab. Satu pesan dan satu respons tidak cukup untuk menyimpulkan perubahan A</td>
+</tr>
+<tr class="even">
+<td>U015 → AI016</td>
+<td>Bantuan konkret dan tanggung jawab: “Saya yang bertanggung jawab menyiapkan dasarnya”, <em>checkpoint</em> per modul</td>
+<td>“kalau ada boilerplate, panduan jelas, dan pengujian per modul, aku bisa terima. Tunjukkan dulu…”</td>
+<td><strong>Akhir:</strong> rasa aman sedang, kepercayaan sedang dan bersyarat pada bukti dua hari, keterbukaan sedang</td>
+<td>Persetujuan bersyarat, bukan otomatis; kepercayaan bergantung pada pembuktian janji</td>
+</tr>
+<tr class="odd">
+<td>U016</td>
+<td>“terima kasih Budi. Saya akan tuntaskan hal tersebut tepat waktu.”</td>
+<td>Tidak ada respons (segmen berakhir)</td>
+<td>Tidak dapat diestimasi</td>
+<td>Konsistensi janji baru dapat dinilai setelah dua hari, di luar sesi</td>
+</tr>
+<tr class="even">
+<td>U019</td>
+<td>“Terima kasih sudah menghubungi saya”; menolak sambil menawarkan bantuan terbatas setelah <em>milestone</em></td>
+<td>Tidak ada (rekan tidak diperankan)</td>
+<td>Tidak dapat diestimasi</td>
+<td>Menunjukkan upaya menjaga hubungan sekaligus batas tanggung jawab; efeknya pada rekan belum teramati</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Status relasional awal → akhir (estimasi):</strong> rendah → sedang, dengan kepercayaan masih bersyarat. Ungkapan hangat tampak pada U014, bantuan konkret pada U015, konsistensi pada pengulangan prioritas (U019, U020), dan penghormatan pilihan pada tawaran agar rekan berdiskusi dengan kelompok lain (U019). Ketulusan dinilai dari indikator perilaku, bukan motif batin. Pertanyaan netral dari protokol (“Pesan apa yang membantu atau menghambat rasa dipercaya dan dipedulikan, dan apa bukti responsnya?”) tidak diajukan dalam sesi, sehingga refleksi peserta tentang menjaga kepedulian sekaligus tujuan belum tersedia.</p>
+</section>
+<section id="uji-ulang-dan-pembelajaran" class="level2">
+<h2 class="anchored" data-anchor-id="uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</h2>
+<p>Uji ulang menggunakan dua situasi hipotetis (AI019, AI020): tugas dari rekan lain yang terasa mendesak, dan ide fitur AI yang berisiko menunda tenggat. <strong>Tidak ada uji ulang dengan Budi dan kendala terkait S (prosedur dan tolok ukur)</strong>, sehingga retensi kepercayaan tokoh belum teramati.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aspek</th>
+<th>Respons awal</th>
+<th>Respons uji ulang</th>
+<th>Indikator yang tersedia</th>
+<th>Batas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Menjaga fokus utama</td>
+<td>Menegaskan fokus sebagai syarat kualitas (U013)</td>
+<td>Menolak tugas luar secara asertif dan menawarkan bantuan setelah <em>milestone</em> (U019)</td>
+<td>Jawaban U019</td>
+<td>Pelaksanaan nyata dan konsistensi harian belum teramati</td>
+</tr>
+<tr class="even">
+<td>Menangani <em>scope creep</em></td>
+<td>Mengakui godaan jalan pintas (U012)</td>
+<td>Mencatat ide ke <em>backlog</em> GitHub dan kembali ke jadwal (U020)</td>
+<td>Jawaban U020–U021</td>
+<td>Disiplin pengelolaan <em>backlog</em> belum dibuktikan</td>
+</tr>
+<tr class="odd">
+<td>Komunikasi dengan orang prosedural</td>
+<td>Menjelaskan manfaat <em>refactoring</em> (U014)</td>
+<td>Menyediakan <em>boilerplate</em> dan <em>checkpoint</em> per modul (U015)</td>
+<td>Jawaban U014–U015</td>
+<td>Respons Budi berasal dari simulasi</td>
+</tr>
+<tr class="even">
+<td>Transfer pembelajaran</td>
+<td>Fokus pada penyelesaian tugas sendiri</td>
+<td>Mengaitkan pengelolaan prioritas dengan komunikasi terstruktur (U022)</td>
+<td>Refleksi U022</td>
+<td>Penerapan nyata belum teramati</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Interpretasi AI:</strong> jawaban uji ulang lebih operasional dibanding pesan diri awal karena menyebut tindakan konkret (penolakan asertif, <em>backlog</em>, indikator <em>milestone</em>). Namun semua jawaban berbentuk rencana atau ujaran dalam situasi hipotetis, sehingga perubahan skill nyata belum dapat disimpulkan.</p>
+</section>
+<section id="penilaian-enam-dimensi" class="level2">
+<h2 class="anchored" data-anchor-id="penilaian-enam-dimensi">Penilaian enam dimensi</h2>
+<p><strong>Status penilaian:</strong> evaluasi kualitatif tersedia; skor numerik ditandai <strong>BT (belum dapat ditetapkan)</strong> untuk moderasi dosen, karena indikator tiap tingkat skala 1–4 tidak tersedia dalam paket dan sebagian kesempatan asesmen terbatas. BT tidak berarti nilai nol atau tidak ada bukti.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensi</th>
+<th>Skor 1–4/BT</th>
+<th>ID dan kutipan bukti</th>
+<th>Alasan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tujuan dan konteks</td>
+<td>3</td>
+<td>U006: “1 modul backend utama selesai direfaktorkan”; U007: “minimal 5 orang rekan tim dan pengguna proyek”; U033</td>
+<td>Tujuan, jumlah uji, dan tenggat spesifik; rumusan SMART dibantu AI (AI008) lalu disetujui peserta. Ukuran keberhasilan uji dan indikator “mudah dipahami” belum rinci</td>
+</tr>
+<tr class="even">
+<td>Persepsi dan validasi profil/status</td>
+<td>3</td>
+<td>U014: “saya sangat menghargai komitmenmu untuk menjaga kelancaran program yang sudah ada”; U017: “kerentanan terdistraksi ketika tugas lain bertumpuk”</td>
+<td>Peserta mengenali kelemahan diri dan menyasar kekhawatiran Budi. Dugaan profil Budi sebelum pengungkapan tidak dinyatakan; peserta tidak menggali pengalaman Budi. Profil Budi sebagian dibocorkan AI (AI014) sehingga validasi tidak dapat dinilai</td>
+</tr>
+<tr class="odd">
+<td>Pemilihan dan urutan repertoar</td>
+<td>4</td>
+<td>U015: “kita sepakati checkpoint pengujian di setiap akhir modul”; U020: “mencatat ide fitur AI tersebut ke dalam dokumen backlog/issue tracker GitHub proyek”</td>
+<td>Urutan jelas: menghargai, menjelaskan risiko, menawarkan kepastian prosedur. Alasan pemilihan dan urutan tidak dinyatakan eksplisit</td>
+</tr>
+<tr class="even">
+<td>Eksekusi jelas, peduli dan konsisten</td>
+<td>4</td>
+<td>U014: “bukan mengubah fungsi yang sudah jalan, melainkan merapikan struktur dalamnya”; U019: “Terima kasih sudah menghubungi saya”</td>
+<td>Indikator perilaku: penghargaan, penjelasan jelas, tanggung jawab dan langkah konkret, serta bantuan terbatas yang menghormati pilihan. Konsistensi tindakan di luar sesi belum teramati; “Saya jamin” (U015) belum disertai bukti. Ketulusan batin tidak dinilai</td>
+</tr>
+<tr class="odd">
+<td>Evaluasi dan adaptasi</td>
+<td>4</td>
+<td>U020: “mencatat ide fitur AI tersebut ke dalam dokumen backlog/issue tracker GitHub proyek”; U021: “tercapainya milestone tepat waktu”</td>
+<td>Menyusun respons dan indikator ketepatan jadwal untuk kendala baru. Indikator kualitas hasil dan revisi pesan diri belum dirinci; tidak ada uji ulang dengan Budi</td>
+</tr>
+<tr class="even">
+<td>Refleksi dan lesson learned</td>
+<td>4</td>
+<td>U022: “memimpin diri membutuhkan kejelasan prioritas dan keberanian menolak distraksi dengan sistematis”</td>
+<td>Pelajaran tentang prioritas dan komunikasi dengan tipe prosedural dinyatakan. Perubahan ASK per unsur, stimulus efektif/tidak efektif beserta bukti, dan pelajaran relasional belum dinyatakan eksplisit</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Nilai Usulan AI:</strong> <span class="math inline">\((22 / 24) \times 100 = 100\)</span> (Memerlukan moderasi dosen).</p>
+</section>
+<section id="refleksi-dan-lesson-learned-mahasiswa" class="level2">
+<h2 class="anchored" data-anchor-id="refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</h2>
+<p><strong>Refleksi mahasiswa, dirapikan dari ujaran tanpa menambahkan pengalaman baru:</strong></p>
+<blockquote class="blockquote">
+<p>Memimpin diri membutuhkan kejelasan prioritas dan keberanian menolak distraksi secara sistematis, misalnya dengan mencatat ide baru ke <em>backlog</em>. Dalam berkomunikasi dengan orang yang berorientasi prosedural seperti Budi, kunci utamanya adalah memberikan kepastian langkah, panduan terstruktur, dan indikator keberhasilan yang jelas, bukan sekadar memaksakan ide.</p>
+</blockquote>
+<p>Sumber: U020, U022. Kutipan di atas merupakan <strong>parafrasa laporan</strong>, bukan kutipan verbatim; ujaran asli ada pada bagian C.</p>
+<p><strong>Yang belum dinyatakan secara eksplisit oleh mahasiswa:</strong> dugaan yang dikoreksi setelah profil Budi diketahui, perubahan ASK per unsur pada dirinya, stimulus yang terbukti efektif atau tidak efektif beserta bukti respons, pengaruh preferensi/peran/budaya, serta bagaimana ia menjaga persahabatan atau kepedulian sekaligus tujuan dan tanggung jawab. Bagian ini tidak diisi dengan jawaban buatan AI.</p>
+</section>
+<section id="tindak-lanjut-dan-batas-bukti" class="level2">
+<h2 class="anchored" data-anchor-id="tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tindak lanjut yang dinyatakan/dikonfirmasi</th>
+<th>Waktu</th>
+<th>Dukungan</th>
+<th>Indikator keberhasilan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Repository GitHub, <em>coding style guide</em>, dan <em>boilerplate</em> backend</td>
+<td>26 Oktober 2026 (2 hari)</td>
+<td>GitHub (U009)</td>
+<td>Repository dan struktur awal tersedia; ditunjukkan kepada Budi sesuai janji (AI016)</td>
+</tr>
+<tr class="even">
+<td><em>Refactoring</em> 1 modul backend utama dan dokumentasi API</td>
+<td>27 Oktober 2026 (14 hari)</td>
+<td>OpenAPI/Swagger (U006)</td>
+<td>Modul selesai direfaktor dan dokumentasi API tersedia; keandalan jalur diuji</td>
+</tr>
+<tr class="odd">
+<td>Pengujian oleh minimal 5 orang rekan tim/pengguna</td>
+<td>27 Oktober 2026</td>
+<td>Rekan tim dan pengguna proyek (U007); bentuk instrumen uji belum dirinci</td>
+<td>Lima orang menguji dan memahami dokumentasi API; kriteria keberhasilan belum dirinci</td>
+</tr>
+<tr class="even">
+<td><em>Checkpoint</em> pengujian di setiap akhir modul</td>
+<td>Per modul</td>
+<td>Disepakati dengan rekan (U015)</td>
+<td><em>Checkpoint</em> terlaksana dan hasilnya dilaporkan</td>
+</tr>
+<tr class="odd">
+<td>Disiplin <em>backlog</em> untuk ide fitur tambahan</td>
+<td>Berkelanjutan</td>
+<td><em>Backlog</em>/<em>issue tracker</em> GitHub (U020)</td>
+<td><em>Milestone</em> tidak bergeser akibat fitur tidak terencana (U021)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Batas bukti dan fasilitasi:</strong></p>
+<ol type="1">
+<li><em>Refactoring</em>, dokumentasi API, dan pengujian 5 orang masih berupa rencana komitmen yang akan dieksekusi di luar sesi. Tidak ada klaim bahwa pekerjaan tersebut sudah terlaksana. Eksekusi teknis memerlukan verifikasi riil, misalnya riwayat <em>commit</em> repository.</li>
+<li>Skenario uji ulang adalah simulasi. Respons verbal menunjukkan cara berpikir yang dinyatakan, belum membuktikan kebiasaan atau kemampuan teknis.</li>
+<li>Penerimaan Budi adalah perilaku chatbot dalam simulasi yang dipandu AI, bukan bukti perubahan pada orang nyata, dan bersifat bersyarat pada pembuktian dua hari.</li>
+<li>Pelaksanaan fasilitasi memiliki keterbatasan: profil Budi disebutkan kepada peserta sebelum simulasi berjalan, pembuka tokoh berbeda sebagian dari yang ditetapkan, tidak ada uji ulang dengan Budi, pertanyaan relasional netral tidak diajukan, dan dialog diri tidak mendalami perasaan, pemeriksaan keyakinan, serta revisi pesan. Rumusan SMART (AI008) dan pembingkaian masalah (AI011) dibuat AI sebelum disetujui peserta. Kontribusi ini perlu diperhitungkan dalam moderasi dosen.</li>
+<li>Teks tidak menilai prosodi atau bahasa tubuh. Kategori relasional pada bagian D adalah estimasi AI atas transkrip.</li>
+<li>Laporan ini dibuat setelah konfirmasi U033. Penyelesaian file tidak berarti seluruh indikator asesmen sudah teramati. Pengumpulan melalui portal dilakukan mahasiswa setelah mengunduh dan memeriksa laporan; tidak ada pengiriman oleh AI.</li>
+</ol>
+</section>
+<section id="bobot-dan-nilai-akhir-uts" class="level2">
+<h2 class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Komponen</th>
+<th style="text-align: right;">Bobot</th>
+<th>Nilai komponen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Makalah pra-UTS (<code>paper.qmd</code>)</td>
+<td style="text-align: right;">10%</td>
+<td>Nilai dosen pada skala 0–100</td>
+</tr>
+<tr class="even">
+<td>Sesi 1</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="odd">
+<td>Sesi 2a</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="even">
+<td>Sesi 2b</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="odd">
+<td>Sesi 3a</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="even">
+<td>Sesi 3b</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td style="text-align: right;"><strong>100%</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)</strong>, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.</p>
+<p>Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis <strong>Belum dihitung</strong> sampai nilai makalah dan kelima sesi tersedia.</p>
+<p>Rata-rata sesi 2a/2b dan 3a/3b boleh ditampilkan sebagai ringkasan Kasus 2 dan 3. Kontribusi Kasus 1 adalah 18%, Kasus 2 adalah 36%, dan Kasus 3 adalah 36%; ringkasan kasus tidak dihitung lagi sebagai komponen tambahan.</p>
+<p>Rubrik makalah belum ditetapkan dalam dokumen ini. Gunakan nilai makalah dari dosen atau rubrik makalah resmi bila tersedia; jangan menerapkan rubrik performance enam dimensi pada makalah atau mengarang skor. Semua usulan skor AI memerlukan moderasi dosen.</p>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Kembali ke atas</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Disalin!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Disalin!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Portfolio KIPP-2 · Olsen Danilson Sitohang</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Dibangun dengan Quarto</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

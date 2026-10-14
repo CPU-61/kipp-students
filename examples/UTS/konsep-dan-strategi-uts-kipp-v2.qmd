@@ -1,223 +1,658 @@
 ---
-title: "Komunikasi sebagai Edukasi ASK"
-subtitle: "Konsep, strategi, dan panduan mahasiswa untuk tiga kasus UTS KIPP versi 2.0"
-author: "Bahan pembelajaran mata kuliah KIPP"
-date: "2026-10-06"
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 1 — Kasus 1"
+author: "Olsen Danilson Sitohang"
+date: "2026-10-13"
 lang: id
 format:
   html:
     toc: true
-    number-sections: true
-    embed-resources: false
 execute:
   eval: false
 ---
 
-## Abstrak {.unnumbered}
+# A) Identitas
 
-Paper konseptual ini menjelaskan asesmen komunikasi interpersonal dan publik melalui tiga kasus: memimpin diri untuk terus belajar, membangun persahabatan dan profesionalitas, serta menawarkan solusi teknologi informasi dan AI kepada customer. Komunikasi dipandang sebagai rangkaian stimulus–respons yang memfasilitasi pembaruan Attitude, Knowledge, dan Skill (ASK). Pembaruan tersebut dapat mengubah penilaian subjektif atas peluang, ancaman, kekuatan, dan keterbatasan, sehingga tindakan yang diharapkan menjadi lebih bermakna dan layak. TAIDA digunakan sebagai platform strategi; preferensi personal dan karakter dalam kultur atau ko-kultur menjadi dasar adaptasi pesan. Versi 2.0 memasukkan persahabatan, kepedulian, dan kasih yang tulus sebagai kualitas relasional yang ditunjukkan melalui mendengarkan, bantuan konkret, konsistensi, serta penghormatan terhadap pilihan. Paper menyajikan strategi per kasus, contoh ilustratif, petunjuk uji ulang, dan cara menyusun laporan berbukti. Keberhasilan maksimal diartikan sebagai kualitas diagnosis, pelaksanaan, adaptasi, hasil, dan pembelajaran, bukan semata persetujuan lawan bicara.
+| Elemen | Keterangan |
+|---|---|
+| Nama mahasiswa | Olsen Danilson Sitohang |
+| NIM | 18225061 |
+| Kelas dan tanggal | Kelas 01; 13 Oktober 2026 |
+| Nomor/judul kasus | Sesi 1, urutan 1 dari 5; Kasus 1 — Memimpin diri dan terus belajar |
+| Nama dan ID target | Diri mahasiswa (target utama); pembanding Budi (K1-02; tokoh fiktif) |
+| Versi bank/aturan penugasan | Bank 2.0; paket individual 2.0; penugasan dalam PENUGASAN.md (kasus_1_18225061.zip) |
+| Modalitas | Teks; seluruh giliran bersumber dari teks percakapan |
+| Kasus nyata/fiktif | Nyata untuk rencana akademis dan pengembangan perangkat lunak peserta (U003); situasi uji ulang dan tokoh Budi bersifat hipotetis/fiktif |
+| Konfirmasi identitas dan ringkasan | U001, U002, U033; merupakan konfirmasi peserta, bukan verifikasi identitas |
+| Nama laporan | hasil_1_18225061.qmd |
+| Kelengkapan transkrip | Semua pesan yang tersedia dari identifikasi hingga konfirmasi: 24 pesan peserta (U001–U023 dan U033) dan 24 pesan AI (AI001–AI024). ID U024–U032 tidak muncul pada transkrip yang disalin; penomoran tidak diubah |
+| Status tahapan asesmen | Tujuan, dialog diri, segmen pembanding Budi, evaluasi sementara, uji ulang, refleksi, dan konfirmasi tersedia; beberapa pendalaman (lihat bagian D) terbatas |
+| Status sesi lain | Sesi 2a, 2b, 3a, dan 3b belum dijalankan |
 
-**Kata kunci:** komunikasi, ASK, SWOT subjektif, TAIDA, kepedulian, asesmen percakapan.
+# B) Kasus dan Tujuan
 
-# Pendahuluan
+## Kasus dan tujuan tindakan
 
-Mahasiswa sering mampu menjelaskan teori komunikasi tetapi belum tentu dapat memilih respons yang sesuai ketika teman kecewa, dirinya kehilangan fokus, atau customer menolak tawaran. Asesmen percakapan memberi kesempatan untuk memperlihatkan kemampuan tersebut dalam situasi yang berkembang. Respons berikutnya dari lawan bicara menjadi informasi untuk menentukan langkah selanjutnya.
+**Brief kasus:** Pilih satu kemampuan yang ingin dikembangkan agar lebih berguna dalam kuliah, kerja, atau kehidupan, kemudian periksa cara memimpin diri ketika menghadapi hambatan belajar.
 
-Paket UTS versi 2.0 menggunakan lima sesi: satu sesi Kasus 1, dua sesi Kasus 2, dan dua sesi Kasus 3. Dua sasaran berbeda pada Kasus 2 dan 3 menguji adaptasi: pendekatan yang berhasil pada seseorang belum tentu efektif pada orang lain. Skenario dasar tetap sama; profil dan alasan respons sasaran bervariasi [1–3].
+**Kemampuan yang dipilih peserta:** Mengembangkan kemampuan perancangan arsitektur perangkat lunak dan *clean code* dalam pemrograman berorientasi objek (OOP) serta integrasi backend untuk proyek aplikasi Sistem Informasi (U003). Tingkat kemampuan teknis awal belum diuji langsung.
 
-Paper ini merupakan penjelasan konseptual dan panduan persiapan berdasarkan rancangan asesmen tersebut. Contoh dialog adalah ilustrasi belajar, bukan transkrip hasil ujian atau jawaban wajib. Paper tidak melaporkan eksperimen efektivitas, diagnosis kepribadian, ataupun instrumen psikometri yang telah divalidasi.
+**Konteks yang dilaporkan:** Kendala utama adalah akumulasi utang teknis (*technical debt*): saat dikejar tenggat tugas perkuliahan, peserta sering menulis kode yang belum modular dan tanpa dokumentasi API yang rapi, sehingga sulit dikembangkan bersama tim (U004).
 
-# Landasan: stimulus, status, respons, dan pembelajaran
+**Tujuan yang dikonfirmasi:** Sampai **7 November 2026** (14 hari), menyelesaikan *refactoring* 1 modul backend utama dengan arsitektur modular, menyusun dokumentasi API standar (OpenAPI/Swagger), dan menguji keterbacaan serta keandalannya kepada **sedikitnya 5 orang rekan tim/pengguna**. Peserta menambahkan tujuan membangun *coding convention* yang dapat dipakai ulang oleh tim (U005–U008, U033). Rumusan SMART disusun dengan bantuan pertanyaan dan parafrasa AI (AI008), lalu disetujui peserta.
 
-## Empat prinsip respons
+**Langkah pertama yang dikonfirmasi:** Sampai **26 Oktober 2026** (2 hari), menyiapkan repository GitHub terstruktur, dokumen *coding style guide* ringkas, dan *boilerplate* arsitektur modular backend (U009, AI010, U033).
 
-Dalam kerangka UEI yang dioperasionalkan pada rancangan asesmen [1], suatu peristiwa menghadirkan stimulus, manusia memprosesnya, lalu berespons. Respons dipengaruhi kondisi internal dan pengalaman.
-
-| Prinsip | Rute pemrosesan dalam model | Contoh ilustratif |
+| Tolok ukur | Status pada penutupan sesi | Batas |
 |---|---|---|
-| Refleks–instingtif | Perceive–Perform | Reaksi otomatis terhadap kejutan |
-| Reaktif | Perceive–Recall–Perform | Membalas defensif karena mengingat pengalaman disalahkan |
-| Responsif | Perceive–Recall–Plan–Perform | Memeriksa fakta dan memilih jawaban untuk tujuan bersama |
-| Apresiatif–edukatif | Siklus disertai pembaruan status internal | Pada kejadian berikutnya, mengklarifikasi sebelum menyalahkan |
+| Tujuan SMART dan tenggat dirumuskan | Tersedia dan dikonfirmasi | Kelayakan teknis dan waktu belum diuji |
+| *Refactoring* 1 modul dan dokumentasi API | Rencana komitmen | Pengerjaan belum berlangsung dalam sesi |
+| Pengujian kepada minimal 5 orang rekan tim/pengguna | Rencana komitmen | Skenario uji dan indikator kegunaan belum dirinci |
+| Repository, *style guide*, dan *boilerplate* dalam 2 hari | Komitmen | Bukti *commit*/URL repository belum diserahkan |
+| Pengelolaan distraksi | Respons hipotetis tersedia | Konsistensi di luar sesi belum dibuktikan |
 
-Prinsip ini dapat hadir bersamaan. Sasaran pembelajaran adalah memperbaiki kualitas respons sesuai situasi. Jawaban terencana pada satu kesempatan belum membuktikan bahwa kebiasaan telah berubah; uji ulang menyediakan bukti awal penerapan pembelajaran.
+## Profil awal komunikator
 
-## SWOT subjektif dan ASK
+Tabel ini memuat laporan peserta dan dugaan AI atas ujarannya. Tidak ada diagnosis kepribadian.
 
-Dalam percakapan, komunikan menilai dua pertanyaan: “Apakah situasi ini peluang atau ancaman?” dan “Apakah saya mampu menghadapinya?” Ini adalah kesimpulan SWOT subjektif yang perlu diperiksa, bukan selalu gambaran objektif keadaan.
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+|---|---|---|---|
+| SWOT subjektif | **Mampu:** merancang argumentasi terstruktur dan melihat dampak jangka panjang arsitektur (U017). **Belum mampu/kelemahan:** saat dikejar tenggat menulis kode tanpa struktur modular dan dokumentasi (U004); muncul dorongan "yang penting programnya jalan dulu" (U012). **Peluang:** arsitektur modular dan standar kode bersama membantu pengembangan tim (U008, U014). **Ancaman:** tugas mata kuliah lain datang bersamaan (U010); kerentanan terdistraksi (U017) | U004, U008, U010, U012, U014, U017 | Laporan diri; sementara |
+| Attitude | Meyakini kualitas sistem bergantung pada fokus dan disiplin eksekusi | U012, U013, U022 | Laporan diri; sementara |
+| Knowledge | Menjelaskan modularitas, dokumentasi OpenAPI/Swagger, *backlog*/*issue tracker*, dan *checkpoint* pengujian per modul. Gap: belum diuji pada proyek nyata | U006, U014, U015, U020 | Demonstrasi verbal; sementara |
+| Skill | Menyusun respons verbal: penolakan asertif, pencatatan ide ke *backlog*, tahapan kerja per modul. Gap: kemampuan teknis dan konsistensi di luar sesi belum terlihat | U015, U019, U020 | Demonstrasi verbal; sementara |
+| Preferensi/MBTI jika dilaporkan | Tidak dilaporkan oleh peserta; tidak disimpulkan dari transkrip | — | Belum diketahui |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa yang mengerjakan proyek perkuliahan bersama rekan tim dengan beban lintas mata kuliah (Jarkom, Arsikom, Matdis). Norma spesifik kelompok belum digali | U004, U007, U010 | Sementara |
 
-ASK menyediakan isi yang mendasari penilaian: **Attitude** mencakup nilai, sikap, kepercayaan dan kemauan; **Knowledge** mencakup pemahaman situasi dan pilihan; **Skill** mencakup kemampuan menjalankan tindakan. Penolakan dapat berasal dari salah satu atau beberapa unsur. Menambah penjelasan belum tentu membantu orang yang sudah paham tetapi tidak memiliki waktu atau keterampilan.
+## Dugaan awal profil target dan rencana
 
-| Respons permukaan | Hipotesis awal | Langkah diagnosis |
-|---|---|---|
-| “Saya tidak tertarik.” | Manfaat belum relevan atau ada ketidakpercayaan | Tanyakan prioritas dan pengalaman sebelumnya |
-| “Saya belum bisa.” | Kemampuan belum memadai atau kepercayaan diri rendah | Gali bagian yang sulit dan kemampuan yang sudah ada |
-| “Nanti saja.” | Prioritas, informasi atau dukungan belum jelas | Klarifikasi alasan dan kondisi yang memungkinkan |
-| “Usulan itu keliru.” | Ancaman dirasakan atau ada keberatan yang valid | Minta alasan, periksa bukti dan evaluasi usulan |
+**Fakta (laporan diri peserta):** hambatan utama adalah jalan pintas saat tenggat mendekat dan komitmen menumpuk (U012). Pesan kepada diri: kualitas sistem adalah fungsi dari fokus dan disiplin eksekusi (U013).
 
-Pola mendekati, melawan, menghindar atau menunda merupakan petunjuk. Jangan menganggap orang yang mengkritik pasti lemah atau yang antusias pasti siap bertindak.
+**Dugaan AI atas ujaran peserta:** perhatian terpecah oleh beban lintas mata kuliah (U010, U012); keyakinan U013 adalah laporan diri, bukan bukti bahwa fokus saja menjamin kualitas.
 
-## Personalisasi dan relasi
+**Dugaan profil Budi sebelum pengungkapan:** tidak dinyatakan peserta. Peserta tidak ditanya dan tidak menyebut dugaan tentang Budi. Budi baru dideskripsikan oleh AI pada AI014. Karena itu dugaan awal Budi tidak diisi atas nama peserta.
 
-Preferensi personal membantu memilih tempo, bentuk penjelasan, detail dan ruang berpikir. Dalam bank simulator, MBTI adalah parameter fiktif dengan perilaku operasional. Tugas mahasiswa adalah membaca perilaku serta memvalidasi kebutuhan; menebak kode MBTI bukan tujuan asesmen.
+**Pertanyaan validasi yang belum terjawab:** bagaimana perasaan peserta setelah menyampaikan pesan kepada diri (U013); contoh konkret kapan jalan pintas terakhir diambil (U012); apakah pesan diri perlu direvisi; siapa saja rekan tim yang akan menguji dan bagaimana kriteria "mudah dipahami" diukur (U007).
 
-Karakter yang diperankan dan norma kelompok juga penting. Seseorang sebagai teman dekat dapat terbuka tentang perasaan, tetapi sebagai pengelola usaha perlu memastikan biaya dan tanggung jawab. Periksa harapan peran: “Apa yang perlu Anda pastikan sebelum menyepakati ini?” Hindari menggeneralisasi berdasarkan kelompok budaya atau label personalitas.
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
+|---|---|---|---|---|
+| Target | Membangun modul backend terstruktur dan dokumentasi API standar | K: standar arsitektur dan dokumentasi; S: *refactoring* | Tidak dirumuskan sebelum simulasi; tampak dalam penetapan sasaran SMART dan langkah 2 hari (U005–U009) | *Milestone* 26 Oktober dan 7 November; uji 5 orang |
+| Attention | Perhatian terpecah oleh tugas lain dan godaan jalan pintas | A: mengakui hambatan fokus | Tampak: mengenali sumber distraksi (U010, U012) | Penolakan atau penjadwalan ulang distraksi |
+| Interest | Menganggap arsitektur modular penting bagi keandalan dan kolaborasi | A/K: relevansi dan alasan | Tampak: menjelaskan risiko *bug* dan *debugging* tanpa struktur modular (U014) | Alasan yang konsisten pada saat tenggat |
+| Desire | Ingin menjaga disiplin dan fokus pada *milestone* utama | A: motivasi dan pilihan | Tampak: pesan kepada diri (U013); penolakan asertif (U019) | Penolakan fitur/tugas di luar prioritas |
+| Action | Menyebut repo, *style guide*, *boilerplate*, dan *backlog* | S: respons verbal terhadap kendala | Tampak: rencana 2 hari dan jawaban uji ulang (U009, U015, U019, U020) | Repository, *commit*, dan *issue tracker* yang dapat diperiksa |
 
-Kepedulian menjadi nyata ketika komunikator menyebut detail yang benar, mendengarkan, membantu sesuai kebutuhan, dan menepati batas yang dijanjikan. Pesan hangat dapat membuka percakapan; konsistensi diperlukan untuk mempertahankan kepercayaan. Komunikan tetap dapat merasa dipedulikan sekaligus menolak pilihan yang tidak layak.
+Status tersebut merupakan interpretasi AI atas ujaran, bukan tahapan perubahan psikologis yang pasti atau linear. Action di sini belum membuktikan tindakan di luar percakapan.
 
-# TAIDA sebagai platform strategi
+# C) Skrip Percakapan
 
-TAIDA menyediakan urutan kerja untuk mengarahkan edukasi ASK [1,2]. Urutan ini fleksibel; keberatan baru dapat memerlukan klarifikasi atau penggalian kebutuhan kembali.
+**Transkrip aktual, bukan dialog karangan.** ID U dan AI memakai penghitung terpisah; urutan penyajian mengikuti kronologi. Label tahap adalah anotasi untuk membaca transkrip, bukan perubahan terhadap isi ujaran.
 
-| Tahap | Pertanyaan komunikator | Hasil yang diperiksa |
-|---|---|---|
-| Target | Siapa sasaran, bagaimana keadaan awalnya, dan tindakan apa yang dituju? | Tujuan konkret dan diagnosis sementara |
-| Attention | Mengapa percakapan ini layak diperhatikan dan cukup aman? | Kesediaan menanggapi secara relevan |
-| Interest | Bagaimana pesan berkaitan dengan kebutuhan atau nilai sasaran? | Minat mengetahui, bertanya atau membuka informasi |
-| Desire | Apakah manfaat diinginkan dan risikonya dapat diterima? | Pilihan yang beralasan |
-| Action | Apakah sasaran bersedia dan mampu mengambil langkah berikutnya? | Kesepakatan tindakan, waktu, dukungan dan indikator |
+### AI001 — AI — A — Identifikasi
 
-Target adalah fungsi perencanaan komunikator. AIDA memetakan perkembangan kesiapan, sedangkan ASK menjelaskan isi pembelajaran. Pada setiap tahap, gunakan siklus: **amati respons, rumuskan dugaan, konfirmasi, pilih stimulus, jalankan, dan evaluasi**.
+*Sumber: teks.*
 
-# Kasus 1: memimpin diri dan terus belajar
+```text
+ZIP berhasil dibuka. Berkas penugasan dan kerangka kerja Kasus 1 siap digunakan.
 
-## Konsep dan tujuan
+**Sesi 1 — Tahap A: Identifikasi**
 
-Komunikator dan sasaran utama adalah diri mahasiswa. AI memfasilitasi dialog, bukan mengetahui isi batin atau menentukan identitas mahasiswa. Tujuannya mengenali profil diri, memperbaiki pesan kepada diri, dan mengambil langkah pengembangan kemampuan yang berguna. Tokoh fiktif menjadi cermin pembanding untuk melihat bahwa orang lain dapat memerlukan pendekatan berbeda.
+Paket ini ditugaskan kepada **Olsen Danilson Sitohang**, NIM **18225061**, untuk **Kasus 1: Memimpin diri dan terus belajar**. Target utama adalah diri mahasiswa; **Budi (K1-02)** berperan sebagai teman pembanding. Laporan akhirnya bernama `hasil_1_18225061.qmd`.
 
-Perubahan yang dicari mencakup sikap terhadap belajar, pemahaman hambatan, dan kemampuan merespons distraksi atau kesulitan. Kasih pada diri diartikan sebagai penghargaan terhadap martabat dan keterbatasan disertai tanggung jawab untuk bertumbuh.
+Saat ini hanya paket sesi 1 yang aktif; sesi 2a, 2b, 3a, dan 3b belum dimulai.
 
-## Strategi pelaksanaan
+**Mohon konfirmasi data peserta dalam satu balasan:** apakah nama dan NIM tersebut sesuai, kelas Anda, tanggal pelaksanaan (hari ini **13 Oktober 2026**), serta modalitas yang digunakan (**teks atau suara**)?
+```
 
-Pilih satu kemampuan dan satu situasi spesifik. “Ingin menjadi lebih baik” terlalu luas. Contoh tujuan: membuat demo aplikasi sederhana, memperoleh masukan pengguna, dan memilih satu perbaikan. Tentukan indikator serta waktu yang realistis; angka dan tenggat berasal dari situasi mahasiswa, bukan harus mengikuti contoh.
+### U001 — Peserta — A — Identifikasi
 
-Pisahkan fakta, interpretasi, emosi, dan tindakan. “Saya berhenti setelah satu latihan” adalah laporan tindakan; “saya tidak berbakat” adalah kesimpulan yang perlu diuji. Gali apakah hambatan berasal dari pengetahuan, skill, beban komitmen atau sikap terhadap kegagalan.
+*Sumber: teks.*
 
-Tuliskan pesan kepada diri dan periksa responsnya. Contoh ilustratif: “Saya belum menguasai seluruh materi, tetapi sudah memahami langkah pertama. Hari ini saya mencoba satu latihan; bagian yang belum bisa akan saya tanyakan.” Pesan ini mengakui gap tanpa merendahkan diri dan menghubungkan kemampuan yang ada dengan langkah selanjutnya.
+```text
+Ya benar, nama Olsen Danilson Sitohang, NIM 18225061. Pelaksanaan tanggal 13 Oktober 2026 dengan modalitas teks.
+```
 
-Jika pesan belum membantu, revisi diagnosis. Dorongan motivasional tidak menyelesaikan jadwal yang penuh; pembagian waktu dan pengurangan komitmen mungkin diperlukan. Saat berinteraksi dengan tokoh pembanding, amati apakah pesan yang membantu diri juga membantu tokoh tersebut.
+### AI002 — AI — A — Identifikasi
 
-## Bukti keberhasilan dan uji ulang
+*Sumber: teks.*
 
-Uji ulang menghadirkan hambatan sejenis. Jika distraksi muncul, mahasiswa memperlihatkan respons konkret: mengklarifikasi urgensi, menjadwalkan, mendelegasikan, atau kembali ke tugas sesuai kebutuhan. Dalam simulasi, respons tertulis adalah demonstrasi awal, bukan bukti pekerjaan telah selesai di luar sesi.
+```text
+**Tahap A — Identifikasi**
 
-| Kesalahan umum | Perbaikan |
-|---|---|
-| Menetapkan terlalu banyak tujuan | Pilih satu kemampuan dan satu langkah pertama |
-| Menggunakan label negatif sebagai fakta | Tunjukkan peristiwa dan uji interpretasi |
-| Mengulang afirmasi tanpa rencana | Hubungkan pesan dengan waktu, dukungan dan tindakan |
-| Menulis refleksi yang menyenangkan penilai | Jelaskan satu dugaan yang keliru serta bukti revisinya |
+Data terkonfirmasi: **Olsen Danilson Sitohang**, NIM **18225061**, tanggal **13 Oktober 2026**, modalitas **teks**.
 
-# Kasus 2: persahabatan dan profesionalitas
+Anda mengikuti **kelas berapa**?
+```
 
-## Konsep dan tujuan
+### U002 — Peserta — A — Identifikasi
 
-Tenggat tugas kelompok tinggal 48 jam. Teman belum mengirim bagiannya dan merasa pembagian tidak adil. Mahasiswa mengajak percakapan untuk memahami persoalan, menjaga hubungan, dan mencapai kesepakatan tanggung jawab [2].
+*Sumber: teks.*
 
-Teman dapat melihat percakapan sebagai ancaman: disalahkan, dianggap tidak mampu, atau dipaksa menerima beban. Edukasi ASK mengubah pemahaman tentang pembagian, sikap terhadap kerja sama, dan kemampuan menyelesaikan pekerjaan. Kepercayaan dan akuntabilitas perlu dibangun bersama.
+```text
+01
+```
 
-## Strategi pelaksanaan
+### AI003 — AI — B — Kasus dan tujuan
 
-Buka dengan fakta dan kepedulian yang relevan. Contoh: “Bagian analisis belum masuk, sementara penggabungan perlu dimulai. Saya ingin memahami kendalamu dan mencari pembagian yang adil. Apa yang paling menghambat?” Kalimat ini memberi ruang informasi sekaligus menyampaikan kebutuhan tim.
+*Sumber: teks.*
 
-Dengarkan sebelum membela pembagian lama. Jika rekan mengangkat ketidakadilan, parafrasa dan konfirmasi: “Apakah masalah utamanya beban analisis lebih besar dari perkiraan?” Mengakui pengalaman tidak berarti menyetujui seluruh kesimpulan sebelum memeriksa fakta.
+```text
+Kelas **01** tercatat.
 
-Bandingkan lingkup pekerjaan, dependensi, waktu dan dukungan. Pisahkan kecakapan dari kapasitas: orang paling ahli belum tentu memiliki waktu paling banyak. Nyatakan kebutuhan secara asertif: tim memerlukan pemberitahuan kendala lebih awal agar dapat menyesuaikan rencana.
+**Tahap B — Kasus dan tujuan**
 
-Tawarkan alternatif yang realistis dan minta pandangannya. Kesepakatan perlu menyebut bagian yang dikerjakan, bagian yang dibantu, tenggat antara, dan cara melaporkan hambatan. Jangan menyelesaikan semua beban teman hanya untuk menjaga suasana baik.
+Pilih satu kemampuan yang ingin Anda kembangkan agar lebih berguna dalam kuliah, kerja, atau kehidupan. Kita akan memeriksa cara Anda memimpin diri ketika menghadapi hambatan belajar. Anda boleh menggunakan pengalaman nyata atau situasi fiktif; sebutkan pilihan tersebut.
 
-## Adaptasi dua sasaran
+**Kemampuan apa yang ingin Anda kembangkan, dan hasil konkret apa yang ingin Anda capai?**
+```
 
-| Petunjuk respons | Penyesuaian yang dapat dicoba |
-|---|---|
-| Menjelaskan rasa tidak dihargai | Akui kontribusi spesifik, lalu periksa kebutuhan dan pembagian |
-| Meminta dasar pembagian beban | Sajikan informasi dan periksa asumsi bersama |
-| Jawaban pendek dan ragu | Beri ruang, pertanyaan terbuka dan kesempatan klarifikasi |
-| Ingin segera bertindak | Ringkas pilihan dan sepakati langkah; tetap periksa definisi selesai |
+### U003 — Peserta — B — Tujuan dan perencanaan
 
-Tabel adalah pilihan strategi, bukan aturan pasti. Gunakan respons aktual untuk menilai kecocokannya. Sesi 2b dimulai dengan tokoh baru; jangan menganggap kepercayaan dari sesi 2a otomatis berpindah.
+*Sumber: teks.*
 
-## Bukti keberhasilan dan uji ulang
+```text
+Ini pengalaman nyata. Saya ingin mengembangkan kemampuan perancangan arsitektur perangkat lunak dan clean code dalam pemrograman berorientasi objek (OOP) serta integrasi backend untuk proyek aplikasi Sistem Informasi saya.
+```
 
-Bukti relasional dapat berupa keterbukaan tentang kendala; bukti profesional berupa kesepakatan pembagian dan pelaporan. Pada uji ulang, kendala baru menuntut penyesuaian tanpa menyalahkan atau menghapus akuntabilitas. Jika kesepakatan belum tercapai, jelaskan hambatan dan langkah yang tetap tersedia.
+### AI004 — AI — B — Tujuan dan perencanaan
 
-# Kasus 3: menawarkan solusi TI dan AI
+*Sumber: teks.*
 
-## Konsep dan tujuan
+```text
+Bagus, pengalaman nyata dalam perancangan arsitektur perangkat lunak dan clean code backend. Supaya spesifik dan terukur, masalah konkret apa yang saat ini terjadi pada kode atau cara kerja Anda, dan untuk proyek apa?
+```
 
-Customer menghadapi pertanyaan pelanggan berulang, pesanan tercecer, dan tenaga terbatas. Mahasiswa menggali kebutuhan kemudian menawarkan solusi yang sesuai, dengan tujuan keputusan atau uji coba konkret [2].
+### U004 — Peserta — B — Tujuan dan perencanaan
 
-Customer dapat melihat AI sebagai peluang sekaligus ancaman: efisiensi diharapkan, tetapi biaya, akurasi, penggunaan dan layanan personal diragukan. Pembaruan K memperjelas fungsi serta batas, A membantu menimbang nilai dan kepercayaan, sedangkan S mencakup kemampuan menggunakan solusi dengan dukungan.
+*Sumber: teks.*
 
-## Strategi pelaksanaan
+```text
+Masalahnya adalah akumulasi utang teknis (technical debt). Saat dikejar tenggat tugas perkuliahan, saya sering menulis kode yang belum terstruktur modular dan tanpa dokumentasi API yang rapi, sehingga sulit dikembangkan bersama tim.
+```
 
-Mulai dengan discovery. Gali bagaimana pekerjaan berlangsung, di mana masalah muncul, dampaknya, cara mengatasi saat ini, serta prioritas customer. Tanyakan pertanyaan lanjutan berdasarkan jawaban, bukan membacakan daftar tanpa mendengarkan.
+### AI005 — AI — B — Tujuan dan perencanaan
 
-Rangkum kebutuhan sebelum menawarkan: “Jadi prioritasnya pesanan tercatat, sementara jawaban yang tidak pasti tetap ditangani petugas. Apakah benar?” Setelah dikonfirmasi, jelaskan solusi melalui hubungan masalah–fungsi–manfaat–bukti. Bila AI belum diperlukan, solusi TI sederhana dapat lebih sesuai.
+*Sumber: teks.*
 
-Jelaskan klaim secara proporsional. Bedakan kemampuan yang sudah ditunjukkan, rancangan yang belum diuji, dan asumsi simulasi. Jangan menjanjikan akurasi sempurna atau biaya tertentu tanpa dasar. Kepedulian tampak ketika mahasiswa memperhitungkan beban staf, hak memilih, dan dampak kesalahan.
+```text
+Paham. Jadi kendalanya ada pada kerapian arsitektur, modularitas, dan dokumentasi API saat berada di bawah tekanan tenggat. Dari semua itu, fungsi atau hasil paling dasar apa yang ingin Anda wujudkan dalam dua minggu ke depan?
+```
 
-Tangani keberatan melalui klarifikasi. “Terlalu mahal” dapat berarti dana tidak tersedia atau manfaat belum jelas. “Staf tidak bisa” dapat menunjuk antarmuka rumit, pengalaman buruk, atau kurang pelatihan. Respons berikutnya disesuaikan alasan yang dikonfirmasi.
+### U005 — Peserta — B — Tujuan dan perencanaan
 
-## Uji coba dan Action
+*Sumber: teks.*
 
-| Unsur kesepakatan | Contoh ilustratif |
-|---|---|
-| Lingkup | Satu alur pertanyaan atau pencatatan pesanan |
-| Dukungan | Demonstrasi, panduan dan pendampingan yang disepakati |
-| Batas solusi | Jawaban meragukan dialihkan ke petugas |
-| Ukuran keberhasilan | Waktu respons atau pesanan terlewat, dibanding kondisi awal |
-| Waktu dan evaluasi | Periode uji serta pertemuan penilaian disepakati |
-| Keputusan lanjut | Perbaiki, perluas atau hentikan berdasarkan hasil |
+```text
+Saya ingin merestrukturisasi (refactoring) modul backend utama agar menerapkan arsitektur terpisah yang bersih, melengkapinya dengan dokumentasi API standar, dan memastikan kode dapat diintegrasikan dengan lancar.
+```
 
-Angka target ditetapkan setelah kondisi awal diketahui. Persetujuan demonstrasi atau pertemuan berikutnya dapat menjadi Action yang layak; pembelian bukan satu-satunya hasil. Dalam uji ulang, mahasiswa memperlihatkan penyesuaian terhadap staf atau kondisi baru, tanpa mengarang bahwa sistem telah dibangun.
+### AI006 — AI — B — Tujuan dan perencanaan
 
-# Menghasilkan kinerja maksimal dalam enam dimensi
+*Sumber: teks.*
 
-| Dimensi | Praktik yang memperkuat bukti |
-|---|---|
-| Tujuan dan konteks | Nyatakan tindakan yang diharapkan, nilai, batas dan indikator |
-| Persepsi dan validasi profil/status | Kaitkan dugaan dengan ucapan dan periksa melalui pertanyaan |
-| Pemilihan dan urutan repertoar | Jelaskan alasan stimulus; urutkan sesuai kesiapan |
-| Eksekusi jelas, peduli dan konsisten | Sampaikan pesan ringkas, akurat, personal dan konsisten |
-| Evaluasi dan adaptasi | Gunakan respons berikutnya untuk memperbaiki pendekatan |
-| Refleksi dan lesson learned | Tunjukkan koreksi dugaan dan penerapannya pada uji ulang |
+```text
+Menarik. Untuk mengukurnya secara SMART, dalam 14 hari (sampai 7 November 2026), hasil konkret seperti apa yang ingin dipastikan? Misalnya: berapa modul yang direfaktorkan, dan bagaimana cara menguji bahwa kodenya lebih baik?
+```
 
-Skala 1–4 mengikuti rubrik paket. Bukti yang belum cukup diberi BT, bukan otomatis nol. Nilai usulan per sesi dihitung hanya ketika semua dimensi teramati: jumlah skor dibagi 24, dikalikan 100. Dosen memoderasi penilaian; bobot UTS adalah 10% makalah dan 18% untuk masing-masing dari lima sesi [1,3].
+### U006 — Peserta — B — Tujuan dan perencanaan
 
-Untuk menulis evaluasi yang kuat, pilih episode dan jelaskan urutannya: ucapan yang memicu dugaan, stimulus yang dipilih, respons yang muncul, serta keputusan adaptasi. Contoh format: “Saya memperkirakan hambatan K dari giliran U/AI tertentu. Setelah klarifikasi, ternyata kendalanya S. Saya mengubah penjelasan menjadi dukungan latihan. Respons selanjutnya menunjukkan ….” Isi dan kutipan harus berasal dari sesi sendiri.
+*Sumber: teks.*
 
-Refleksi mencakup hasil dan batas. Pernyataan “saya berhasil membuatnya percaya” perlu bukti. Keterbukaan yang meningkat mungkin mendukung dugaan tersebut, tetapi tidak membuktikan motif batin atau penyebab tunggal. Hasil maksimal mencakup kemampuan mengakui kebutuhan perubahan usulan.
+```text
+Hasilnya adalah 1 modul backend utama selesai direfaktorkan dengan arsitektur modular, dilengkapi dokumentasi OpenAPI/Swagger, dan diuji coba kebersihan serta keandalan jalurnya.
+```
 
-# Petunjuk pelaksanaan dan laporan
+### AI007 — AI — B — Tujuan dan perencanaan
 
-Unggah lima ZIP milik NIM sendiri, tanpa password. Minta inventarisasi dan jalankan sesi 1, 2a, 2b, 3a, 3b secara berurutan. Jika ZIP tidak terbaca, ekstrak ke folder terpisah dan unggah isi per sesi. Jangan memakai arsip induk seluruh kelas. Bila konteks terlalu panjang, gunakan sesi baru dengan paket aktif dan laporan Kasus 1 [3].
+*Sumber: teks.*
 
-Jawab sebagai komunikator: benar-benar sampaikan pesan kepada sasaran, bukan hanya menjelaskan kepada AI apa yang mungkin akan dilakukan. Pada Kasus 1, tulis pesan kepada diri dan bedakan respons yang dirasakan dari rencana hipotetis. Pada sesi lain, berinteraksilah dengan tokoh yang diperankan.
+```text
+Sangat jelas. Agar ada pembuktian eksternal, apakah hasil refactoring dan dokumentasi ini akan dicoba atau ditinjau oleh orang lain? Berapa orang targetnya?
+```
 
-| Bagian laporan | Isi yang harus diperiksa sebelum pengumpulan |
-|---|---|
-| A. Identitas | Nama, NIM, kasus/sesi, target, tanggal, modalitas dan versi |
-| B. Kasus dan Tujuan | Konteks, tujuan, profil sementara dan rencana awal |
-| C. Skrip Percakapan | Transkrip aktual lengkap dari identifikasi sampai konfirmasi |
-| D. Hasil, Evaluasi dan Refleksi | Bukti ASK/SWOT/relasi, uji ulang, rubrik, lesson learned dan tindak lanjut |
+### U007 — Peserta — B — Tujuan dan perencanaan
 
-ChatGPT menghasilkan QMD setelah tanya jawab dan konfirmasi. Periksa bahwa tujuan serta refleksi mencerminkan jawaban sendiri; kutipan tidak diperbaiki atau direkayasa. Jangan menyamakan niat dengan tindakan di luar sesi. Jika transkrip parsial, nyatakan dan lengkapi dari riwayat yang tersedia.
+*Sumber: teks.*
 
-Unduh lima file: `hasil_1_NIM.qmd`, `hasil_2a_NIM.qmd`, `hasil_2b_NIM.qmd`, `hasil_3a_NIM.qmd`, dan `hasil_3b_NIM.qmd`, dengan NIM aktual. Unggah melalui portal mahasiswa sesuai ketentuan dosen. Paket tidak mengirim otomatis.
+```text
+Ya, akan ditinjau dan diuji coba oleh minimal 5 orang rekan tim dan pengguna proyek untuk memastikan dokumentasi API mudah dipahami dan aplikasinya berjalan tanpa hambatan.
+```
 
-Sebelum mengumpulkan, pastikan setiap sesi memiliki tujuan yang jelas, kesempatan diagnosis, pesan yang benar-benar dieksekusi, evaluasi berbukti, uji ulang, dan refleksi. Kemajuan pada dua sasaran berbeda perlu dibandingkan dari cara beradaptasi, bukan hanya skor akhir.
+### AI008 — AI — B — Tujuan dan perencanaan
 
-# Penutup
+*Sumber: teks.*
 
-Ketiga kasus menghubungkan kesadaran diri, relasi yang bertanggung jawab, dan penciptaan nilai bagi customer. Kompetensi tampak ketika mahasiswa membaca status secara hati-hati, mengedukasi ASK melalui stimulus yang sesuai, menjaga kepedulian serta kejujuran, dan memperbaiki respons berdasarkan hasil. TAIDA menyediakan platform strategi; perkembangan percakapan menentukan penggunaannya. Uji ulang dan refleksi memungkinkan mahasiswa menunjukkan pembelajaran awal yang dapat dilanjutkan dalam kehidupan nyata.
+```text
+Bagus. Mari kita rumuskan sasaran SMART Anda: "Dalam 14 hari sejak 13 Oktober 2026 (sampai 27 Oktober 2026), menyelesaikan refactoring 1 modul backend utama dengan arsitektur terstruktur, menyusun dokumentasi API standar, serta menguji keterbacaan dan keandalannya kepada minimal 5 orang rekan tim/pengguna." Apakah Anda setuju dengan rumusan ini?
+```
 
-## Rujukan {.unnumbered}
+### U008 — Peserta — B — Tujuan dan perencanaan
 
-[1] Tim pengembangan asesmen KIPP. 2026. *Konsep Asesmen UTS KIPP 2026*, versi 2.0. Dokumen internal: `01-konsep-asesmen.md`. Mengoperasionalkan kerangka UEI dan diskusi perancangan asesmen.
+*Sumber: teks.*
 
-[2] Tim pengembangan asesmen KIPP. 2026. *Prompt Umum Asesmen UTS KIPP 2026*, versi 2.0. Dokumen internal: `02-prompt-umum-kasus-1-2-3.md`.
+```text
+Setuju. Saya tambahkan bahwa proses ini juga bertujuan membangun standar coding convention yang dapat dipakai ulang oleh tim agar kualitas pengembangan perangkat lunak konsisten.
+```
 
-[3] Tim pengembangan asesmen KIPP. 2026. *Petunjuk UTS KIPP 2026*, versi 2.0. Dokumen internal: `petunjuk-uts.md`. Penugasan pada paket individual berlaku untuk nama target dan laporan masing-masing.
+### AI009 — AI — B — Tujuan dan perencanaan
 
-{{< include "../../includes/uts-penilaian.md" >}}
+*Sumber: teks.*
+
+```text
+Sempurna. Poin kesepakatan standar tim itu memperkuat nilai keberlanjutan. Kita kunci sasaran SMART tersebut. Sekarang, mari kita tentukan langkah terkecil dan paling awal yang akan dilakukan dalam 2 hari ke depan.
+```
+
+### U009 — Peserta — B — Tujuan dan perencanaan
+
+*Sumber: teks.*
+
+```text
+Dalam 2 hari ke depan, saya akan menyiapkan repository GitHub terstruktur, menyusun dokumen coding style guide ringkas, dan membuat boilerplate arsitektur modular backend.
+```
+
+### AI010 — AI — B — Tujuan dan perencanaan
+
+*Sumber: teks.*
+
+```text
+Langkah awal yang sangat konkret dan operasional: repository, style guide, dan boilerplate backend dalam 2 hari (sampai 26 Oktober 2026). Sebelum kita lanjut ke strategi memimpin diri, apakah ada aspek teknis lain yang mengganjal?
+```
+
+### U010 — Peserta — B — Tujuan dan perencanaan
+
+*Sumber: teks.*
+
+```text
+Pada dasarnya, tantangannya adalah mempertahankan disiplin penerapan arsitektur ini saat tugas-tugas lain dari mata kuliah seperti Jarkom, Arsikom, dan Matdis datang bersamaan.
+```
+
+### AI011 — AI — B — Tujuan dan perencanaan
+
+*Sumber: teks.*
+
+```text
+Catatan yang sangat krusial. Artinya, tantangannya bukan pada ketidakmampuan teknis, melainkan pada manajemen fokus dan prioritas di tengah tekanan beban kerja. Kita kunci sasaran B di sini dan lanjut ke Tahap C.
+```
+
+### U011 — Peserta — B — Tujuan dan perencanaan
+
+*Sumber: teks.*
+
+```text
+Siap, mari kita lanjut.
+```
+
+### AI012 — AI — C — Dialog diri
+
+*Sumber: teks.*
+
+```text
+**Tahap C — Dialog diri**
+
+Saat Anda berniat melakukan refactoring dan membangun arsitektur terstruktur, **hambatan apa yang paling sering membuat Anda menunda atau kembali ke kebiasaan lama (menulis kode asal jalan), dan bagaimana itu muncul dalam pengalaman nyata?**
+```
+
+### U012 — Peserta — C — Dialog diri
+
+*Sumber: teks.*
+
+```text
+Hambatannya adalah godaan untuk mengambil jalan pintas saat tenggat mendekat. Saya merasa terlalu banyak komitmen tugas bersamaan, sehingga muncul dorongan 'yang penting programnya jalan dulu', meskipun saya tahu itu menumpuk technical debt.
+```
+
+### AI013 — AI — C — Dialog diri
+
+*Sumber: teks.*
+
+```text
+Bagus, analisis yang jujur. Ketika dorongan mengambil jalan pintas itu muncul di tengah tekanan tenggat, **pesan apa yang secara tegas Anda sampaikan kepada diri sendiri?** Tuliskan kalimatnya seolah Anda sedang berbicara kepada diri sendiri saat itu.
+```
+
+### U013 — Peserta — C — Dialog diri
+
+*Sumber: teks.*
+
+```text
+Saya bilang ke diri sendiri: 'Olsen, keberhasilan dan kualitas sistem adalah fungsi dari fokus dan disiplin eksekusi. Jika kamu tidak mengalokasikan waktu terdedikasi untuk merapikan arsitektur sekarang, kamu hanya menunda kehancuran sistem saat integrasi nanti. Kerjakan dengan benar sejak awal.'
+```
+
+### AI014 — AI — C — Pembanding Budi (K1-02)
+
+*Sumber: teks.*
+
+```text
+Pesan diri yang sangat tegas dan berorientasi jangka panjang. Sekarang, mari kita simulasikan percakapan pembanding dengan **Budi (K1-02)**. Budi adalah rekan kerja yang memegang teguh prosedur lama dan khawatir perubahan metode refactoring ini hanya membuang waktu dan merusak standar kerja yang sudah berjalan.
+
+Budi membuka percakapan dengan kalimat:
+*“Cara sekarang sudah jelas dan programnya jalan. Mengapa kita harus berubah dan repot-repot melakukan refactoring?”*
+
+**Bagaimana Anda merespons Budi?**
+```
+
+### U014 — Peserta — C — Pembanding Budi (K1-02)
+
+*Sumber: teks.*
+
+```text
+Halo Budi, saya sangat menghargai komitmenmu untuk menjaga kelancaran program yang sudah ada. Cara sekarang memang jalan untuk fitur sederhana, tetapi tanpa arsitektur modular, setiap kali kita menambah fitur baru, risiko bug meningkat dan waktu debugging membengkak. Refactoring ini bukan mengubah fungsi yang sudah jalan, melainkan merapikan struktur dalamnya agar kita punya prosedur kerja yang lebih aman, terukur, dan mempermudah kita saat pengujian nanti.
+```
+
+### AI015 — AI — C — Pembanding Budi (K1-02)
+
+*Sumber: teks.*
+
+```text
+Budi mendengarkan lalu berkata:
+*“Aku paham kekhawatiranmu soal bug. Tapi refactoring butuh waktu. Siapa yang menjamin jadwal kita tidak berantakan dan standar kualitas tidak turun saat proses perubahan ini dilakukan?”*
+
+**Bagaimana Anda meyakinkan Budi dengan langkah konkret dan tolok ukur yang dapat disepakati?**
+```
+
+### U015 — Peserta — C — Pembanding Budi (K1-02)
+
+*Sumber: teks.*
+
+```text
+Saya jamin jadwal utama tidak terganggu karena kita lakukan secara bertahap. Dalam 2 hari ini, saya buatkan dulu boilerplate dan panduan penulisan kode (style guide) yang jelas sebagai tolok ukur. Kita tidak merombak sekaligus, melainkan per modul. Saya yang bertanggung jawab menyiapkan dasarnya, dan kita sepakati checkpoint pengujian di setiap akhir modul agar kualitasnya justru meningkat, bukan turun.
+```
+
+### AI016 — AI — C — Pembanding Budi (K1-02)
+
+*Sumber: teks.*
+
+```text
+Budi mengangguk perlahan:
+*“Baiklah, kalau ada boilerplate, panduan jelas, dan pengujian per modul, aku bisa terima. Tunjukkan dulu boilerplate dan panduannya dalam dua hari seperti yang kamu janjikan.”*
+
+Respon Budi menunjukkan keterbukaan setelah kepastian prosedur dan tanggung jawab diberikan. Sekarang kita berpindah ke **Tahap D: Evaluasi sementara.**
+```
+
+### U016 — Peserta — C — Pembanding Budi (K1-02)
+
+*Sumber: teks.*
+
+```text
+Siap, terima kasih Budi. Saya akan tuntaskan hal tersebut tepat waktu.
+```
+
+### AI017 — AI — D — Evaluasi sementara
+
+*Sumber: teks.*
+
+```text
+**Tahap D — Evaluasi sementara**
+
+Mari refleksikan interaksi sejauh ini. Berdasarkan analisis diri dan percakapan dengan Budi, **apa kekuatan terbesar Anda dalam memimpin diri, dan area apa yang masih menjadi celah utama yang perlu diwaspadai?**
+```
+
+### U017 — Peserta — D — Evaluasi sementara
+
+*Sumber: teks.*
+
+```text
+Kekuatan terbesar saya adalah kemampuan melihat dampak jangka panjang arsitektur sistem dan merancang argumentasi terstruktur berbasis fakta. Celah utama yang perlu diwaspadai adalah kerentanan terdistraksi ketika tugas lain bertumpuk, yang dapat mengikis disiplin waktu jika tidak dibatasi secara tegas.
+```
+
+### AI018 — AI — D — Evaluasi sementara
+
+*Sumber: teks.*
+
+```text
+Evaluasi yang sangat tajam. Sekarang kita masuk ke **Tahap E: Uji ulang (situasi hipotetis)** untuk menguji penerapan disiplin diri Anda terhadap gangguan nyata.
+```
+
+### U018 — Peserta — D — Evaluasi sementara
+
+*Sumber: teks.*
+
+```text
+Baik, silakan berikan skenarionya.
+```
+
+### AI019 — AI — E — Uji ulang
+
+*Sumber: teks.*
+
+```text
+**Tahap E — Uji ulang (Skenario 1)**
+
+Besok, saat Anda sedang fokus menyusun boilerplate dan refactoring modul backend, datang permintaan dari rekan kuliah lain untuk membantu menyelesaikan tugas kelompok mata kuliah lain yang sebenarnya bukan tanggung jawab utama Anda, tetapi terasa mendesak.
+
+**Apa yang Anda katakan kepada diri sendiri dan langsung katakan/lakukan kepada rekan tersebut?**
+```
+
+### U019 — Peserta — E — Uji ulang
+
+*Sumber: teks.*
+
+```text
+Kepada diri sendiri saya katakan: 'Jaga fokus pada prioritas utama yang sudah dijadwalkan.' Kepada rekan tersebut saya katakan asertif dan sopan: 'Terima kasih sudah menghubungi saya. Saat ini saya sedang memfokuskan alokasi waktu untuk menyelesaikan milestone backend yang ber-tenggat dekat. Saya bisa membantu memberikan petunjuk atau referensi singkat nanti malam setelah milestone saya selesai, atau kamu bisa mendiskusikannya dengan rekan kelompok lain terlebih dahulu.'
+```
+
+### AI020 — AI — E — Uji ulang
+
+*Sumber: teks.*
+
+```text
+Penyaringan dan penolakan asertif yang sangat baik. Sekarang **Tahap E — Uji ulang (Skenario 2)**:
+
+Saat Anda merancat arsitektur backend, muncul ide menarik untuk menambahkan fitur rekomendasi berbasis AI yang sangat canggih. Fitur ini sangat keren, tetapi pengerjaannya berpotensi menunda penyelesaian refactoring dan uji coba 5 orang yang sudah ditargetkan 14 hari.
+
+**Apa yang Anda katakan kepada diri sendiri dan langsung lakukan saat ide itu muncul?**
+```
+
+### U020 — Peserta — E — Uji ulang
+
+*Sumber: teks.*
+
+```text
+Saya katakan kepada diri sendiri: 'Ide ini sangat bagus, tetapi fokus kita adalah keandalan fondasi sistem, bukan menambah kompleksitas sebelum dasar stabil.' Tindakan langsung saya: Saya mencatat ide fitur AI tersebut ke dalam dokumen backlog/issue tracker GitHub proyek di bagian 'Future Enhancement', berterima kasih atas ide tersebut, lalu kembali melanjutkan pengerjaan refactoring modul utama sesuai jadwal tanpa menggeser fokus target 14 hari.
+```
+
+### AI021 — AI — E — Uji ulang
+
+*Sumber: teks.*
+
+```text
+Tindakan memasukkan ke *backlog* sangat profesional dan menjaga batas *scope creep*. 
+
+**Indikator apa yang akan Anda gunakan untuk menilai bahwa keputusan menunda fitur AI tersebut benar-benar berhasil menjaga fokus Anda?**
+```
+
+### U021 — Peserta — E — Uji ulang
+
+*Sumber: teks.*
+
+```text
+Indikatornya adalah tercapainya milestone tepat waktu: repository dan boilerplate selesai dalam 2 hari, serta modul backend utama beserta dokumentasi API berhasil diselesaikan dan siap diuji coba dalam 14 hari tanpa ada penundaan jadwal.
+```
+
+### AI022 — AI — F — Refleksi akhir
+
+*Sumber: teks.*
+
+```text
+Sangat terukur. Sekarang kita masuk ke **Tahap F: Refleksi dan Lesson Learned.**
+
+Berdasarkan seluruh proses simulasi, dialog diri, respons terhadap Budi, dan uji ulang distraksi: **apa pelajaran paling berharga yang Anda peroleh tentang cara memimpin diri sendiri dan berkomunikasi dengan orang lain?**
+```
+
+### U022 — Peserta — F — Refleksi akhir
+
+*Sumber: teks.*
+
+```text
+Pelajaran paling berharga adalah bahwa memimpin diri membutuhkan kejelasan prioritas dan keberanian menolak distraksi dengan sistematis (seperti penggunaan backlog). Sementara dalam berkomunikasi dengan tipe prosedural seperti Budi, kunci utamanya adalah memberikan kepastian langkah, panduan terstruktur, dan indikator keberhasilan yang jelas, bukan sekadar memaksakan ide.
+```
+
+### AI023 — AI — F — Refleksi akhir
+
+*Sumber: teks.*
+
+```text
+Refleksi yang sangat mendalam dan aplikatif. Rangkuman ini mengintegrasikan pertumbuhan PASK (*Perception, Attitude, Skill, Knowledge*) Anda secara nyata.
+
+Sekarang kita masuk ke **Tahap G: Konfirmasi ringkasan akhir** sebelum dokumen laporan `hasil_1_18225061.qmd` diproduksi.
+```
+
+### U023 — Peserta — F — Refleksi akhir
+
+*Sumber: teks.*
+
+```text
+Siap, silakan tampilkan ringkasannya.
+```
+
+### AI024 — AI — G — Konfirmasi
+
+*Sumber: teks.*
+
+```text
+**Tahap G — Ringkasan Konfirmasi Laporan**
+
+- **Identitas**: Olsen Danilson Sitohang, NIM 18225061, Kelas 01, Tanggal 13 Oktober 2026, Modalitas Teks.
+- **Sasaran Utama**: Refactoring 1 modul backend terstruktur, dokumentasi API standar, dan uji coba ke 5 orang pengguna/rekan dalam 14 hari (7 November 2026).
+- **Langkah 2 Hari**: Repository GitHub, coding style guide, dan boilerplate backend (26 Oktober 2026).
+- **Dialog Diri & Pembanding**: Mengatasi godaan jalan pintas dengan disiplin fokus; berkomunikasi dengan Budi (ISTJ) menggunakan kepastian langkah dan tolok ukur.
+- **Pengelolaan Distraksi**: Menolak tugas luar secara asertif dan mencatat ide fitur baru ke backlog agar scope tetap terjaga.
+
+Apakah seluruh ringkasan data di atas sudah benar dan disetujui untuk diterbitkan ke dalam `hasil_1_18225061.qmd`?
+```
+
+### U033 — Peserta — G — Konfirmasi
+
+*Sumber: teks.*
+
+```text
+Ya benar, seluruh ringkasan data sudah sesuai dan saya setujui.
+```
+
+# D) Hasil, Evaluasi, dan Refleksi
+
+## Hasil tujuan dan perubahan SWOT/ASK
+
+**Hasil tujuan sesi: sebagian.** Tujuan pengembangan kemampuan dan langkah awal berhasil dirumuskan, diuji melalui skenario hipotetis, dan dikonfirmasi (U033). **Pelaksanaan *refactoring*, dokumentasi API, dan uji coba 5 orang belum dapat dinyatakan tercapai**, karena belum ada bukti pelaksanaannya dalam sesi; semuanya masih komitmen.
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+|---|---|---|---|---|
+| Kesimpulan SWOT | Beban tugas paralel dan tenggat dilaporkan memicu jalan pintas serta kode kurang terstruktur | Menyatakan *backlog* dan penolakan asertif sebagai cara menjaga prioritas | U012, U017, U020, U022 | Laporan diri dan simulasi verbal; belum divalidasi dengan contoh pengalaman rinci |
+| Attitude | Dorongan "yang penting programnya jalan dulu" saat tenggat | Menegaskan kualitas sistem bergantung pada fokus dan disiplin eksekusi | U012, U013, U022 | Penegasan nilai dan komitmen; perubahan sikap jangka panjang tidak terukur |
+| Knowledge | Menyebut OOP, modularitas, dan dokumentasi API sebagai bidang yang ingin dikembangkan | Menjelaskan mitigasi *scope creep*, penggunaan *backlog*, dan pendekatan komunikasi prosedural untuk Budi | U003, U006, U014, U020, U022 | Pemahaman verbal; belum diuji pada proyek nyata |
+| Skill | Mengaku sering menulis kode tanpa struktur modular saat dikejar tenggat | Merumuskan pesan penolakan asertif, pencatatan ide ke *backlog*, dan tahapan kerja per modul dalam situasi hipotetis | U004, U015, U019, U020 | Demonstrasi verbal; bukan bukti kemampuan teknis atau konsistensi nyata |
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| U012–U013 | Hambatan *technical debt* dan godaan jalan pintas | "keberhasilan dan kualitas sistem adalah fungsi dari fokus dan disiplin eksekusi" | AI beralih ke simulasi Budi tanpa menggali respons batin atau revisi pesan | A: penegasan komitmen mutu jangka panjang (laporan diri) | Efek pesan pada perilaku nyata belum diketahui |
+| U014 | Budi membuka dengan keberatan terhadap perubahan (AI014) | "saya sangat menghargai komitmenmu untuk menjaga kelancaran program yang sudah ada"; menjelaskan risiko *bug* dan *debugging* tanpa struktur modular | "Aku paham kekhawatiranmu soal bug." (AI015) | Budi (simulasi): A lebih terbuka, K mulai mendapat alasan | Peserta tidak menanyakan pengalaman atau kekhawatiran Budi sebelum menjelaskan |
+| U015–U016 | Budi menanyakan jaminan jadwal dan standar (AI015) | "Saya jamin jadwal utama tidak terganggu"; *boilerplate*, *style guide*, "kita sepakati checkpoint pengujian di setiap akhir modul" | "Tunjukkan dulu boilerplate dan panduannya dalam dua hari" (AI016) | S: kesiapan Budi bersyarat pada bukti dua hari | Langkah, waktu, tanggung jawab, dan indikator tersedia; dukungan dan bukti perbandingan dengan prosedur lama belum dirinci |
+| U019 | Distraksi tugas kelompok dari luar | Penolakan asertif dengan tawaran bantuan terbatas setelah *milestone* | AI memuji lalu melanjutkan skenario berikutnya | S verbal: menetapkan batas | Respons rekan tidak diperankan |
+| U020–U021 | Ide fitur AI berisiko menunda tenggat | Mencatat ide ke *backlog* GitHub; indikator "tercapainya milestone tepat waktu" | AI meminta indikator keberhasilan | K/S verbal: pencegahan *scope creep* | Indikator berupa ketepatan jadwal; ukuran kualitas hasil belum dirinci |
+
+### Ringkasan profil tokoh pembanding setelah simulasi
+
+Budi (K1-02) adalah tokoh fiktif; parameter berikut berasal dari `profil_komunikan.md` dan bukan diagnosis siapa pun.
+
+- **Peran/konteks:** teman pembanding pengembangan diri dengan hambatan mempertahankan latihan kemampuan baru.
+- **SWOT subjektif awal:** perubahan dianggap ancaman; merasa mampu dengan cara lama. Kekuatan: operasional baik, adaptasi baru perlu panduan. Kelemahan/kendala: perlu prosedur dan tolok ukur. Peluang: tujuan kasus dapat membantu bila kebutuhan terpenuhi. Ancaman: takut standar turun.
+- **ASK awal:** A — hati-hati, mengutamakan kepastian; K — menguasai prosedur lama, belum memahami alternatif; S — operasional baik, adaptasi baru perlu panduan.
+- **Hambatan spesifik:** A — takut standar turun; K — belum tahu alasan metode baru; S — perlu prosedur dan tolok ukur.
+- **Preferensi MBTI fiktif:** ISTJ (detail, bukti, urutan prosedur). Ini parameter tokoh, bukan penilaian peserta.
+- **Pembuka yang ditetapkan:** "Cara sekarang sudah jelas. Mengapa harus berubah?"
+- **Syarat Action:** langkah pertama, waktu, tanggung jawab, dukungan, dan indikator yang menjawab hambatan.
+- **Uji ulang yang dirancang untuk tokoh:** kendala baru yang masih terkait S (perlu prosedur dan tolok ukur).
+
+**Perbandingan dengan dugaan mahasiswa:** peserta tidak menyatakan dugaan profil Budi sebelum pengungkapan, sehingga akurasi dugaan tidak dapat dinilai dan dugaan awal tidak diisi ulang setelah profil diketahui. Yang dapat dicatat dari bukti perilaku: U014 menyasar A (menghargai tanggung jawab) dan K (alasan risiko *bug*), sedangkan U015 menyasar S (prosedur bertahap dan tolok ukur). Ini sejalan dengan contoh stimulus efektif pada profil, yakni menghargai tanggung jawab dan rencana bertahap dengan pemeriksaan. Bukti perbandingan dengan prosedur lama hanya berupa klaim (U014). Frasa "Saya jamin" (U015) termasuk janji kuat yang menurut profil dapat menghambat bila tidak didukung bukti.
+
+**Keterbatasan pelaksanaan pembanding:** AI menyebutkan karakter Budi (memegang prosedur lama, khawatir perubahan) kepada peserta pada AI014, padahal profil seharusnya hanya menampilkan nama, peran, dan pembuka. Pembuka yang dipakai berbeda sebagian dari pembuka yang ditetapkan. AI juga menyimpulkan keterbukaan Budi pada AI016 dan menyatakan ISTJ pada AI024. Segmen Budi hanya berisi tiga giliran peserta, dan penerimaan terjadi cepat setelah satu paket usulan. Karena itu penerimaan Budi tidak dianggap bukti perubahan ASK yang valid. Keterbatasan fasilitasi ini perlu dipertimbangkan dosen dan tidak dibebankan sebagai kesalahan mahasiswa.
+
+## Pengaruh pesan personal dan kualitas relasi
+
+Kategori rendah/sedang/tinggi berikut adalah **estimasi AI atas transkrip untuk laporan ini**. Estimasi tersebut tidak dicatat simulator selama sesi dan bukan skala psikometri.
+
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+|---|---|---|---|---|
+| U014 → AI015 | "saya sangat menghargai komitmenmu untuk menjaga kelancaran program yang sudah ada" | "Aku paham kekhawatiranmu soal bug. Tapi refactoring butuh waktu." | **Awal (AI014):** rasa aman rendah–sedang, merasa dipahami rendah, kepercayaan rendah, keterbukaan rendah (keberatan langsung). **Setelah AI015:** merasa dipahami sedang, keterbukaan sedang (menyebut kekhawatiran jadwal dan standar kualitas) | Defensivitas berkurang sebagian; hambatan K dan S belum terjawab. Satu pesan dan satu respons tidak cukup untuk menyimpulkan perubahan A |
+| U015 → AI016 | Bantuan konkret dan tanggung jawab: "Saya yang bertanggung jawab menyiapkan dasarnya", *checkpoint* per modul | "kalau ada boilerplate, panduan jelas, dan pengujian per modul, aku bisa terima. Tunjukkan dulu..." | **Akhir:** rasa aman sedang, kepercayaan sedang dan bersyarat pada bukti dua hari, keterbukaan sedang | Persetujuan bersyarat, bukan otomatis; kepercayaan bergantung pada pembuktian janji |
+| U016 | "terima kasih Budi. Saya akan tuntaskan hal tersebut tepat waktu." | Tidak ada respons (segmen berakhir) | Tidak dapat diestimasi | Konsistensi janji baru dapat dinilai setelah dua hari, di luar sesi |
+| U019 | "Terima kasih sudah menghubungi saya"; menolak sambil menawarkan bantuan terbatas setelah *milestone* | Tidak ada (rekan tidak diperankan) | Tidak dapat diestimasi | Menunjukkan upaya menjaga hubungan sekaligus batas tanggung jawab; efeknya pada rekan belum teramati |
+
+**Status relasional awal → akhir (estimasi):** rendah → sedang, dengan kepercayaan masih bersyarat. Ungkapan hangat tampak pada U014, bantuan konkret pada U015, konsistensi pada pengulangan prioritas (U019, U020), dan penghormatan pilihan pada tawaran agar rekan berdiskusi dengan kelompok lain (U019). Ketulusan dinilai dari indikator perilaku, bukan motif batin. Pertanyaan netral dari protokol ("Pesan apa yang membantu atau menghambat rasa dipercaya dan dipedulikan, dan apa bukti responsnya?") tidak diajukan dalam sesi, sehingga refleksi peserta tentang menjaga kepedulian sekaligus tujuan belum tersedia.
+
+## Uji ulang dan pembelajaran
+
+Uji ulang menggunakan dua situasi hipotetis (AI019, AI020): tugas dari rekan lain yang terasa mendesak, dan ide fitur AI yang berisiko menunda tenggat. **Tidak ada uji ulang dengan Budi dan kendala terkait S (prosedur dan tolok ukur)**, sehingga retensi kepercayaan tokoh belum teramati.
+
+| Aspek | Respons awal | Respons uji ulang | Indikator yang tersedia | Batas |
+|---|---|---|---|---|
+| Menjaga fokus utama | Menegaskan fokus sebagai syarat kualitas (U013) | Menolak tugas luar secara asertif dan menawarkan bantuan setelah *milestone* (U019) | Jawaban U019 | Pelaksanaan nyata dan konsistensi harian belum teramati |
+| Menangani *scope creep* | Mengakui godaan jalan pintas (U012) | Mencatat ide ke *backlog* GitHub dan kembali ke jadwal (U020) | Jawaban U020–U021 | Disiplin pengelolaan *backlog* belum dibuktikan |
+| Komunikasi dengan orang prosedural | Menjelaskan manfaat *refactoring* (U014) | Menyediakan *boilerplate* dan *checkpoint* per modul (U015) | Jawaban U014–U015 | Respons Budi berasal dari simulasi |
+| Transfer pembelajaran | Fokus pada penyelesaian tugas sendiri | Mengaitkan pengelolaan prioritas dengan komunikasi terstruktur (U022) | Refleksi U022 | Penerapan nyata belum teramati |
+
+**Interpretasi AI:** jawaban uji ulang lebih operasional dibanding pesan diri awal karena menyebut tindakan konkret (penolakan asertif, *backlog*, indikator *milestone*). Namun semua jawaban berbentuk rencana atau ujaran dalam situasi hipotetis, sehingga perubahan skill nyata belum dapat disimpulkan.
+
+## Penilaian enam dimensi
+
+**Status penilaian:** evaluasi kualitatif tersedia; skor numerik ditandai **BT (belum dapat ditetapkan)** untuk moderasi dosen, karena indikator tiap tingkat skala 1–4 tidak tersedia dalam paket dan sebagian kesempatan asesmen terbatas. BT tidak berarti nilai nol atau tidak ada bukti.
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
+|---|---|---|---|
+| Tujuan dan konteks | BT | U006: "1 modul backend utama selesai direfaktorkan"; U007: "minimal 5 orang rekan tim dan pengguna proyek"; U033 | Tujuan, jumlah uji, dan tenggat spesifik; rumusan SMART dibantu AI (AI008) lalu disetujui peserta. Ukuran keberhasilan uji dan indikator "mudah dipahami" belum rinci |
+| Persepsi dan validasi profil/status | BT | U014: "saya sangat menghargai komitmenmu untuk menjaga kelancaran program yang sudah ada"; U017: "kerentanan terdistraksi ketika tugas lain bertumpuk" | Peserta mengenali kelemahan diri dan menyasar kekhawatiran Budi. Dugaan profil Budi sebelum pengungkapan tidak dinyatakan; peserta tidak menggali pengalaman Budi. Profil Budi sebagian dibocorkan AI (AI014) sehingga validasi tidak dapat dinilai |
+| Pemilihan dan urutan repertoar | BT | U015: "kita sepakati checkpoint pengujian di setiap akhir modul"; U020: "mencatat ide fitur AI tersebut ke dalam dokumen backlog/issue tracker GitHub proyek" | Urutan jelas: menghargai, menjelaskan risiko, menawarkan kepastian prosedur. Alasan pemilihan dan urutan tidak dinyatakan eksplisit |
+| Eksekusi jelas, peduli dan konsisten | BT | U014: "bukan mengubah fungsi yang sudah jalan, melainkan merapikan struktur dalamnya"; U019: "Terima kasih sudah menghubungi saya" | Indikator perilaku: penghargaan, penjelasan jelas, tanggung jawab dan langkah konkret, serta bantuan terbatas yang menghormati pilihan. Konsistensi tindakan di luar sesi belum teramati; "Saya jamin" (U015) belum disertai bukti. Ketulusan batin tidak dinilai |
+| Evaluasi dan adaptasi | BT | U020: "mencatat ide fitur AI tersebut ke dalam dokumen backlog/issue tracker GitHub proyek"; U021: "tercapainya milestone tepat waktu" | Menyusun respons dan indikator ketepatan jadwal untuk kendala baru. Indikator kualitas hasil dan revisi pesan diri belum dirinci; tidak ada uji ulang dengan Budi |
+| Refleksi dan lesson learned | BT | U022: "memimpin diri membutuhkan kejelasan prioritas dan keberanian menolak distraksi dengan sistematis" | Pelajaran tentang prioritas dan komunikasi dengan tipe prosedural dinyatakan. Perubahan ASK per unsur, stimulus efektif/tidak efektif beserta bukti, dan pelajaran relasional belum dinyatakan eksplisit |
+
+Nilai usulan AI = jumlah skor / 24 × 100 hanya dapat dihitung bila keenam skor sah tersedia. **Nilai sesi belum dihitung.** Evaluasi ini merupakan usulan AI untuk moderasi dosen, bukan nilai resmi. Hasil tujuan (sebagian) dipisahkan dari nilai proses.
+
+## Refleksi dan lesson learned mahasiswa
+
+**Refleksi mahasiswa, dirapikan dari ujaran tanpa menambahkan pengalaman baru:**
+
+> Memimpin diri membutuhkan kejelasan prioritas dan keberanian menolak distraksi secara sistematis, misalnya dengan mencatat ide baru ke *backlog*. Dalam berkomunikasi dengan orang yang berorientasi prosedural seperti Budi, kunci utamanya adalah memberikan kepastian langkah, panduan terstruktur, dan indikator keberhasilan yang jelas, bukan sekadar memaksakan ide.
+
+Sumber: U020, U022. Kutipan di atas merupakan **parafrasa laporan**, bukan kutipan verbatim; ujaran asli ada pada bagian C.
+
+**Yang belum dinyatakan secara eksplisit oleh mahasiswa:** dugaan yang dikoreksi setelah profil Budi diketahui, perubahan ASK per unsur pada dirinya, stimulus yang terbukti efektif atau tidak efektif beserta bukti respons, pengaruh preferensi/peran/budaya, serta bagaimana ia menjaga persahabatan atau kepedulian sekaligus tujuan dan tanggung jawab. Bagian ini tidak diisi dengan jawaban buatan AI.
+
+## Tindak lanjut dan batas bukti
+
+| Tindak lanjut yang dinyatakan/dikonfirmasi | Waktu | Dukungan | Indikator keberhasilan |
+|---|---|---|---|
+| Repository GitHub, *coding style guide*, dan *boilerplate* backend | 26 Oktober 2026 (2 hari) | GitHub (U009) | Repository dan struktur awal tersedia; ditunjukkan kepada Budi sesuai janji (AI016) |
+| *Refactoring* 1 modul backend utama dan dokumentasi API | 7 November 2026 (14 hari) | OpenAPI/Swagger (U006) | Modul selesai direfaktor dan dokumentasi API tersedia; keandalan jalur diuji |
+| Pengujian oleh minimal 5 orang rekan tim/pengguna | 7 November 2026 | Rekan tim dan pengguna proyek (U007); bentuk instrumen uji belum dirinci | Lima orang menguji dan memahami dokumentasi API; kriteria keberhasilan belum dirinci |
+| *Checkpoint* pengujian di setiap akhir modul | Per modul | Disepakati dengan rekan (U015) | *Checkpoint* terlaksana dan hasilnya dilaporkan |
+| Disiplin *backlog* untuk ide fitur tambahan | Berkelanjutan | *Backlog*/*issue tracker* GitHub (U020) | *Milestone* tidak bergeser akibat fitur tidak terencana (U021) |
+
+**Batas bukti dan fasilitasi:**
+
+1. *Refactoring*, dokumentasi API, dan pengujian 5 orang masih berupa rencana komitmen yang akan dieksekusi di luar sesi. Tidak ada klaim bahwa pekerjaan tersebut sudah terlaksana. Eksekusi teknis memerlukan verifikasi riil, misalnya riwayat *commit* repository.
+2. Skenario uji ulang adalah simulasi. Respons verbal menunjukkan cara berpikir yang dinyatakan, belum membuktikan kebiasaan atau kemampuan teknis.
+3. Penerimaan Budi adalah perilaku chatbot dalam simulasi yang dipandu AI, bukan bukti perubahan pada orang nyata, dan bersifat bersyarat pada pembuktian dua hari.
+4. Pelaksanaan fasilitasi memiliki keterbatasan: profil Budi disebutkan kepada peserta sebelum simulasi berjalan, pembuka tokoh berbeda sebagian dari yang ditetapkan, tidak ada uji ulang dengan Budi, pertanyaan relasional netral tidak diajukan, dan dialog diri tidak mendalami perasaan, pemeriksaan keyakinan, serta revisi pesan. Rumusan SMART (AI008) dan pembingkaian masalah (AI011) dibuat AI sebelum disetujui peserta. Kontribusi ini perlu diperhitungkan dalam moderasi dosen.
+5. Teks tidak menilai prosodi atau bahasa tubuh. Kategori relasional pada bagian D adalah estimasi AI atas transkrip.
+6. Laporan ini dibuat setelah konfirmasi U033. Penyelesaian file tidak berarti seluruh indikator asesmen sudah teramati. Pengumpulan melalui portal dilakukan mahasiswa setelah mengunduh dan memeriksa laporan; tidak ada pengiriman oleh AI.
+
+## Bobot dan nilai akhir UTS
+
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100 |
+| Sesi 1 | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2b | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3b | 18% | Jumlah enam skor / 24 × 100 |
+| **Total** | **100%** | |
+
+**Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)**, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.
+
+Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis **Belum dihitung** sampai nilai makalah dan kelima sesi tersedia.
+
+Rata-rata sesi 2a/2b dan 3a/3b boleh ditampilkan sebagai ringkasan Kasus 2 dan 3. Kontribusi Kasus 1 adalah 18%, Kasus 2 adalah 36%, dan Kasus 3 adalah 36%; ringkasan kasus tidak dihitung lagi sebagai komponen tambahan.
+
+Rubrik makalah belum ditetapkan dalam dokumen ini. Gunakan nilai makalah dari dosen atau rubrik makalah resmi bila tersedia; jangan menerapkan rubrik performance enam dimensi pada makalah atau mengarang skor. Semua usulan skor AI memerlukan moderasi dosen.

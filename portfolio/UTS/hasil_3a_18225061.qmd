@@ -1,0 +1,446 @@
+---
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 3a — Kasus 3"
+author: "Olsen Danilson Sitohang"
+date: "2026-10-14"
+lang: id
+format:
+  html:
+    toc: true
+execute:
+  eval: false
+---
+
+# A) Identitas
+
+| Elemen | Keterangan |
+|---|---|
+| Nama mahasiswa | Olsen Danilson Sitohang |
+| NIM | 18225061 |
+| Kelas dan tanggal | Kelas "K1 Sistem dan Teknologi Informasi" sebagaimana ditulis peserta pada U001; 14 Oktober 2026 |
+| Nomor/judul kasus | Sesi 3a, urutan 4 dari 5; Kasus 3 — Menawarkan solusi TI dan AI |
+| Nama dan ID target | Budi (K3-02; tokoh fiktif). Tokoh ini berbeda dari Budi (K1-02) pada Sesi 1 meskipun namanya sama |
+| Versi bank/aturan penugasan | Bank 2.0; paket individual 2.0; penugasan dalam PENUGASAN.md (kasus_3a_18225061.zip) |
+| Modalitas | Teks |
+| Kasus nyata/fiktif | Fiktif (simulasi); dinyatakan peserta pada U001 |
+| Konfirmasi identitas dan ringkasan | U001 (identitas, pernyataan peserta, bukan verifikasi); U012 (pernyataan konfirmasi peserta) |
+| Nama laporan | hasil_3a_18225061.qmd |
+| Kelengkapan transkrip | Semua pesan yang tersedia dari identifikasi sampai penutup: 12 pesan peserta (U001–U012) dan 14 pesan AI (AI001–AI014) |
+| Status tahapan asesmen | Identifikasi, rencana awal, simulasi awal, evaluasi sementara, uji ulang (tiga jawaban peserta), refleksi, dan konfirmasi tersedia |
+| Status sesi lain | Sesi 1, 2a, dan 2b dilaporkan terpisah; sesi 3b belum dijalankan dalam percakapan ini |
+
+# B) Kasus dan Tujuan
+
+## Kasus dan tujuan tindakan
+
+**Brief kasus (sumber: prompt umum, Kasus 3):** customer menangani pertanyaan pelanggan berulang dan pesanan tercecer dengan tenaga terbatas. Ia belum yakin perlu AI. Mahasiswa bertugas menggali kebutuhan dan menawarkan solusi TI/AI yang sesuai, dengan sasaran keputusan atau uji coba konkret.
+
+**Tujuan tindakan yang dinyatakan peserta (U002):** menghargai ketertiban kerja Budi, menyajikan perbandingan alur kerja dan transparansi biaya, menyepakati *pilot project* dengan prosedur cadangan, dan menyepakati jadwal uji coba konkret.
+
+**Respons akhir yang diharapkan dan indikator keberhasilan:** peserta tidak merinci ukuran sukses pada U002. Dalam percakapan, kesepakatan yang tampak meliputi cakupan (pesan FAQ standar; pesanan khusus tetap manual, U008), dukungan (pendampingan 45 menit oleh peserta, U006), risiko (prosedur cadangan, U005), dan langkah berikutnya (sesi pilot Jumat pukul 14.00 WIB dengan 10 FAQ dari pihak Budi, U006, AI006). **Ukuran sukses pilot dan kriteria keputusan melanjutkan atau berhenti tidak dinyatakan.**
+
+**Catatan sumber detail:** angka biaya (Rp 0 selama pilot, Rp 150.000/bulan), "pilot 14 hari", "10 FAQ", "45 menit", "Rp 5 juta", dan nama jalur WhatsApp dikemukakan peserta dalam simulasi (U004–U009). Brief tidak menyebutkannya.
+
+## Profil awal komunikator
+
+Tabel ini memuat laporan peserta pada U001–U002. Unsur yang tidak dinyatakan peserta tidak diisi.
+
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+|---|---|---|---|
+| SWOT subjektif | **Kekuatan:** arsitektur dan prosedur cadangan yang jelas. **Ancaman:** keresahan customer jika penjelasan terlalu teknis. Peluang, hal yang belum mampu, dan kelemahan lain tidak dinyatakan | U002 | Laporan diri; sementara |
+| Attitude | Menghargai ketertiban dan kejujuran | U002 | Laporan diri; sementara |
+| Knowledge | Memahami integrasi AI dan biaya. Gap tidak dinyatakan | U002 | Laporan diri; sementara |
+| Skill | Merancang *pilot* dan *checklist*. Gap tidak dinyatakan | U002 | Laporan diri; sementara |
+| Preferensi/MBTI jika dilaporkan | Tidak dilaporkan; tidak disimpulkan dari transkrip | — | Belum diketahui |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa Sistem dan Teknologi Informasi (U001); peran dalam kasus: penawar solusi TI/AI kepada customer. Norma dan latar usaha customer belum digali | U001 | Sementara |
+
+## Dugaan awal profil target dan rencana
+
+**Fakta (brief kasus, dan pernyataan peserta pada U002):** customer kewalahan pesan berulang dan pesanan tercecer. Peserta juga menulis bahwa Budi "sangat hati-hati dan ragu karena takut biaya serta gangguan prosedur lama".
+
+**Dugaan peserta tentang Budi sebelum simulasi (U002):** Attention — menjunjung ketertiban; Interest — butuh alur pembanding dan biaya pasti; Desire — butuh jaminan prosedur cadangan; Action — sepakat waktu *pilot*. Rumusan ini disimpan apa adanya dan tidak diubah setelah profil diketahui.
+
+**Pertanyaan validasi yang tersedia untuk simulasi:** bagian alur mana yang paling menyita waktu; berapa banyak pesan dan pesanan; apa yang sudah dicoba; apakah solusi lebih sederhana cukup; apa arti "berhasil" bagi Budi.
+
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
+|---|---|---|---|---|
+| Target | Uji coba konkret dengan prosedur cadangan | A/K/S | Menghargai ketertiban, perbandingan alur, transparansi biaya, *pilot* dengan prosedur cadangan, jadwal konkret (U002) | Kesepakatan jadwal dan cakupan uji coba |
+| Attention | Dugaan: menjunjung ketertiban | A: pengakuan tanggung jawab | Menghargai kerja dan prosedur Budi | Defensivitas berkurang |
+| Interest | Dugaan: butuh alur pembanding dan biaya pasti | K: alur dan biaya | Menyajikan perbandingan alur dan biaya | Budi menanggapi alur dan biaya |
+| Desire | Dugaan: butuh jaminan prosedur cadangan | S: dukungan dan keamanan | Menyediakan prosedur cadangan | Budi menanyakan atau menerima prosedur cadangan |
+| Action | Dugaan: sepakat waktu *pilot* | S: langkah dan dukungan realistis | Menyepakati jadwal uji coba | Komitmen waktu dan pendampingan |
+
+Status tersebut merupakan interpretasi AI atas rencana peserta, bukan tahapan perubahan psikologis yang pasti. Action di sini belum membuktikan tindakan di luar percakapan.
+
+# C) Skrip Percakapan
+
+**Transkrip aktual, bukan dialog karangan.** ID U dan AI memakai penghitung terpisah; urutan penyajian mengikuti kronologi, sehingga dua pesan AI berturut-turut (AI006–AI007 dan AI011–AI012) tetap terlihat. Label tahap adalah anotasi untuk membaca transkrip, bukan perubahan terhadap isi ujaran. Pesan AI yang berperan sebagai Budi ditandai "AI (Budi)".
+
+### U001 — Peserta — Identifikasi
+
+*Sumber: teks.*
+
+```text
+Halo, selamat sore. Saya Olsen Danilson Sitohang (NIM 18225061) dari kelas K1 Sistem dan Teknologi Informasi, tanggal 14 Oktober 2026. Saya menggunakan modalitas teks untuk simulasi Sesi 3a Kasus 3 ini, dengan kasus fiktif dan transkrip lengkap.
+```
+
+### AI001 — AI — Identifikasi
+
+*Sumber: teks.*
+
+```text
+Baik Olsen Danilson Sitohang (NIM 18225061), data identitas dicatat. Penugasan aktif: Sesi 3a - Kasus 3 dengan Budi (K3-02). Silakan sampaikan brief kasus, tujuan tindakan Anda, profil awal Anda sendiri, serta dugaan awal profil Budi dan rencana komunikasi Anda (TAIDA) sebelum kita memulai simulasi.
+```
+
+### U002 — Peserta — Rencana Awal
+
+*Sumber: teks.*
+
+```text
+Terima kasih. Berikut rencana awal saya:
+1. Brief & Tujuan: Customer Budi (K3-02) kewalahan pesan berulang dan pesanan tercecer, namun sangat hati-hati dan ragu karena takut biaya serta gangguan prosedur lama. Tujuan saya adalah menghargai ketertiban kerjanya, menyajikan perbandingan alur kerja & transparansi biaya, menyepakati pilot project dengan prosedur cadangan (fail-safe 100%), serta menyepakati jadwal uji coba konkret.
+2. Profil Awal Saya: SWOT (Kekuatan arsitektur & fail-safe jelas, ancaman keresahan jika terlalu teknis), Attitude (menghargai ketertiban & kejujuran), Knowledge (paham integrasi AI & biaya), Skill (kemampuan merancang pilot & checklist).
+3. Dugaan Awal Budi (TAIDA): Attention (menjunjung ketertiban), Interest (butuh alur pembanding & biaya pasti), Desire (butuh jaminan prosedur cadangan), Action (sepakat waktu pilot).
+```
+
+### AI002 — AI (Budi) — Rencana Awal
+
+*Sumber: teks.*
+
+```text
+Rencana awal dan dugaan profil dicatat. Sekarang simulator berpindah ke peran Budi (K3-02). Simulasi dimulai.
+
+Budi: “Cara sekarang sudah jelas. Mengapa harus berubah?”
+```
+
+### U003 — Peserta — Simulasi Awal
+
+*Sumber: teks.*
+
+```text
+Saya sangat menghargai ketertiban dan kedisiplinan Pak Budi dalam menjaga alur kerja operasional selama ini. Prosedur yang Bapak bangun terbukti menjaga kualitas layanan. Tujuan saya bukan untuk menggusur cara lama, melainkan membantu mengatasi titik jenuh di mana pesan berulang mulai menumpuk dan pesanan berisiko tercecer. Boleh saya tahu, di bagian mana dari alur komunikasi saat ini yang paling menyita waktu dan tenaga tim Bapak?
+```
+
+### AI003 — AI (Budi) — Simulasi Awal
+
+*Sumber: teks.*
+
+```text
+Terima kasih atas penjelasannya. Memang benar, saat ini pertanyaan pelanggan mengenai ketersediaan stok dan konfirmasi resi sangat menumpuk di WhatsApp. Hal ini membuat staf kami kewalahan sehingga beberapa pesanan baru terkadang terlambat dicatat. Namun, saya khawatir jika menggunakan sistem AI baru, biayanya akan membengkak tak terduga dan justru mengganggu prosedur kerja yang sudah tertib.
+```
+
+### U004 — Peserta — Simulasi Awal
+
+*Sumber: teks.*
+
+```text
+Khawatiran Bapak sangat beralasan dan wajar. Kejelasan biaya dan kepastian prosedur adalah kunci. Biar transparan, perbandingannya sederhana: pada cara lama, 100% pesan ditangani manual sehingga pesanan rawan tercecer saat ramai. Pada alur baru, agen AI hanya memilah dan menyiapkan draf jawaban pesan berulang (FAQ) di layar, sementara keputusan kirim tetap 100% di tangan staf Bapak. Mengenai biaya, untuk tahap pilot 14 hari ini sepenuhnya Rp 0 tanpa komitmen pembelian. Jika dilanjutkan pun, biayanya tetap flat Rp 150.000/bulan tanpa biaya tersembunyi. Bagaimana menurut Bapak perbandingan alur dan transparansi biaya ini?
+```
+
+### AI004 — AI (Budi) — Simulasi Awal
+
+*Sumber: teks.*
+
+```text
+Kejelasan biaya Rp 150.000/bulan yang tetap dan skema pilot Rp 0 itu sangat masuk akal bagi kami. Penjelasan bahwa keputusan akhir tetap di tangan staf juga menenangkan. Namun, bagaimana dengan prosedur cadangannya? Jika sistem AI ini mengalami kendala koneksi atau error di tengah jalan, bagaimana memastikan operasional pencatatan pesanan kami tidak terhenti sama sekali?
+```
+
+### U005 — Peserta — Simulasi Awal
+
+*Sumber: teks.*
+
+```text
+Pak Budi tidak perlu khawatir, kami selalu menerapkan prosedur cadangan (fail-safe) 100%. Sistem AI kami bekerja sebagai lapisan pendamping paralel. Jika terjadi kendala jaringan atau error pada sistem AI, aplikasi secara otomatis beralih detik itu juga ke WhatsApp Web manual biasa. Data percakapan dan pesanan tidak akan hilang karena tetap tersimpan di database lokal Bapak. Jadi prosedur operasional lama Bapak tetap utuh sebagai backup utama. Apakah prosedur cadangan ini memberikan kepastian yang Bapak butuhkan?
+```
+
+### AI005 — AI (Budi) — Simulasi Awal
+
+*Sumber: teks.*
+
+```text
+Prosedur cadangan paralel dan garansi penyimpanan data lokal itu menjawab kekhawatiran utama saya. Kalau begitu, saya setuju untuk mencoba tahap pilot 14 hari ini agar tim kami bisa membuktikan sendiri ketahanannya. Kapan sesi pengenalan dan pemasangan awal pilot ini bisa kita jadwalkan, dan apa yang perlu kami siapkan?
+```
+
+### U006 — Peserta — Simulasi Awal
+
+*Sumber: teks.*
+
+```text
+Terima kasih banyak atas kepercayaan Pak Budi. Kita jadwalkan sesi pengenalan dan uji coba pilot pada hari Jumat pukul 14.00 WIB setelah jam istirahat. Yang perlu disiapkan dari pihak Bapak cukup daftar 10 pertanyaan FAQ yang paling sering ditanyakan pelanggan. Saya sendiri yang akan hadir mendampingi staf Bapak selama 45 menit agar transisinya berjalan tertib.
+```
+
+### AI006 — AI (Budi) — Simulasi Awal
+
+*Sumber: teks.*
+
+```text
+Baik, hari Jumat jam 14.00 WIB disepakati. Saya dan dua staf operasional akan menyiapkan daftar 10 FAQ tersebut. Saya pegang komitmen pendampingan dan prosedur cadangan ini.
+```
+
+### AI007 — AI — Evaluasi Sementara
+
+*Sumber: teks.*
+
+```text
+[EVALUASI SEMENTARA] Simulasi awal selesai. Budi telah menyepakati jadwal pilot project dan prosedur cadangan. Sebelum masuk ke tahap Uji Ulang, silakan Olsen sampaikan evaluasi sementara:
+1. Perkiraan status ASK & SWOT Budi saat ini?
+2. Revisi dugaan profil Budi?
+3. Bukti giliran yang mendukung?
+```
+
+### U007 — Peserta — Evaluasi Sementara
+
+*Sumber: teks.*
+
+```text
+Evaluasi Sementara:
+1. Status ASK & SWOT: Attitude membaik dari ragu menjadi yakin dan kooperatif (AI005). Knowledge teratasi penuh melalui perbandingan alur dan transparansi biaya Rp 150rb/bln. Skill terfasilitasi prosedur cadangan fail-safe 100%. SWOT berubah dari ancaman menjadi peluang efisiensi.
+2. Revisi profil: Budi terbukti tipe ISTJ yang sangat menjunjung tinggi prosedur tertib, detail biaya, dan jaminan prosedur cadangan.
+3. Bukti giliran: AI003 (pengungkapan masalah pesan), AI004-AI005 (skema biaya & fail-safe), AI006 (komitmen pilot Jumat jam 14.00).
+```
+
+### AI008 — AI (Budi) — Uji Ulang (1/4)
+
+*Sumber: teks.*
+
+```text
+[UJI ULANG - EVENT BARU 1/4] Pada hari Kamis H-1 sebelum pilot, Budi menemukan kendala operasional baru terkait jenis pesanan kustom/khusus. Budi menghubungi Anda:
+
+Budi: “Pak Olsen, saat kami menyusun daftar FAQ tadi, staf saya mengingatkan bahwa ada sekitar 15% pesanan khusus dengan spesifikasi non-standar yang rumit. Saya khawatir jika AI mencoba merangkum pesanan khusus ini, drafnya akan salah dan merusak prosedur pencatatan utama kami. Bagaimana penanganan kustom ini dalam alur pilot besok?”
+```
+
+### U008 — Peserta — Uji Ulang (1/4)
+
+*Sumber: teks.*
+
+```text
+Terima kasih banyak atas ketelitian Pak Budi dan staf yang langsung mengidentifikasi hal ini. Untuk menjaga ketertiban prosedur, 15% pesanan kustom/khusus tersebut sepenuhnya kita kecualikan dari sistem AI dan 100% tetap menggunakan prosedur manual lama di buku pencatatan utama Bapak. Sistem AI hanya difokuskan melayani 85% pesan FAQ standar. Dengan demikian, alur pesanan khusus tidak akan tersentuh atau berisiko terganggu sama sekali. Bagaimana menurut Bapak?
+```
+
+### AI009 — AI (Budi) — Uji Ulang (2/4)
+
+*Sumber: teks.*
+
+```text
+[UJI ULANG 2/4] Pemisahan 100% manual untuk pesanan khusus itu sangat tepat. Namun, bagaimana jika staf saya lupa atau ragu membedakan mana pesan yang masuk kategori khusus dan mana yang FAQ standar saat trafik sedang ramai? Apakah ada cara praktis agar staf tidak bingung?
+```
+
+### U009 — Peserta — Uji Ulang (2/4)
+
+*Sumber: teks.*
+
+```text
+Untuk memastikan staf tidak ragu, saya sudah buatkan *Checklist 3 Kriteria Sederhana* yang dicetak dan ditaruh di samping monitor staf (1. Ada kata 'custom/ukuran khusus', 2. Permintaan bahan non-standar, 3. Pembelian di atas Rp 5 juta). Selain itu, di sistem AI kami pasangkan penanda otomatis warna kuning untuk pesan yang terdeteksi mengandung kata kunci kustom, sehingga staf bisa langsung memindahkannya ke alur manual dalam 2 detik.
+```
+
+### AI010 — AI (Budi) — Uji Ulang (3/4)
+
+*Sumber: teks.*
+
+```text
+[UJI ULANG 3/4] Luar biasa, instrumen *Checklist 3 Kriteria* dan penanda warna kuning itu sangat praktis dan jelas! Kami baru saja mensimulasikan checklist ini selama 10 menit dengan staf, dan mereka bisa memilah pesan dengan sangat cepat tanpa ragu. Prosedur pencatatan kami tetap tertib 100%. Uji coba pilot besok Jumat jam 14.00 WIB siap kita jalankan!
+```
+
+### U010 — Peserta — Uji Ulang (3/4)
+
+*Sumber: teks.*
+
+```text
+Luar biasa Pak Budi! Ketelitian dan respons cepat Bapak beserta tim dalam menguji checklist ini sungguh luar biasa. Sampai bertemu besok Jumat jam 14.00 WIB, saya akan hadir tepat waktu untuk mendampingi langsung.
+```
+
+### AI011 — AI (Budi) — Uji Ulang (4/4)
+
+*Sumber: teks.*
+
+```text
+[UJI ULANG 4/4] Terima kasih banyak, Pak Olsen. Kejujuran, transparansi, dan kerapian prosedur yang Anda siapkan membuat saya sangat yakin dan tenang bekerja sama dengan Anda.
+```
+
+### AI012 — AI — Refleksi
+
+*Sumber: teks.*
+
+```text
+[REFLEKSI & LESSON LEARNED] Uji ulang berhasil dilewati. Silakan sampaikan refleksi akhir Anda:
+1. Pencapaian tujuan?
+2. Lesson learned terkait gaya Budi (ISTJ)?
+3. Efektivitas stimulus?
+4. Pertanyaan relasional netral: Pesan apa yang membantu/menghambat rasa dipercaya dan dipedulikan?
+```
+
+### U011 — Peserta — Refleksi
+
+*Sumber: teks.*
+
+```text
+Refleksi Akhir:
+1. Tujuan tercapai 100%: Kesepakatan pilot project Jumat jam 14.00 WIB tercapai, prosedur cadangan terjamin, dan kepercayaan customer terbangun kokoh.
+2. Lesson learned: Customer tipe ISTJ sangat menghargai ketertiban prosedur, detail biaya pasti, dan jaminan keamanan operasional. Pendekatan harus berbasis bukti, perbandingan alur, serta ketersediaan backup manual.
+3. Stimulus paling efektif: Penghargaan atas prosedur lama, transparansi biaya flat Rp 150rb/bln, garansi fail-safe 100%, serta Checklist 3 Kriteria dengan penanda warna kuning.
+4. Pertanyaan Relasional: Pesan yang membantu rasa dipercaya adalah validasi atas kedisiplinan operasionalnya, kejujuran mengenai batas AI, serta penyediaan penanda warna kuning untuk melindungi pesanan khusus (bukti di AI004, AI009, AI011).
+```
+
+### AI013 — AI (Budi) — Konfirmasi (Komunikan)
+
+*Sumber: teks.*
+
+```text
+[KONFIRMASI KOMUNIKAN] Dari sudut pandang Budi (K3-02): "Saya merasa sangat dihormati dan dilindungi secara profesional oleh Pak Olsen. Penjelasan alur yang tertib, kejelasan biaya, dan prosedur cadangan yang konkret membuat saya sangat percaya untuk menjalankan pilot project ini."
+```
+
+### U012 — Peserta — Konfirmasi (Mahasiswa)
+
+*Sumber: teks.*
+
+```text
+[KONFIRMASI MAHASISWA] Seluruh data identitas (Olsen Danilson Sitohang, NIM 18225061, Sesi 3a), brief kasus, skrip percakapan aktual, evaluasi, uji ulang 4 turn, dan refleksi dalam laporan ini telah saya periksa, akurat, dan saya konfirmasi penuh untuk dokumen hasil_3a_18225061.qmd.
+```
+
+### AI014 — AI — Konfirmasi (Simulator)
+
+*Sumber: teks.*
+
+```text
+[KONFIRMASI SIMULATOR] Terima kasih Olsen Danilson Sitohang. Seluruh data identitas, tujuan, skrip percakapan, evaluasi, uji ulang, refleksi, dan konfirmasi dari kedua belah pihak telah dikonfirmasi lengkap dan sah. Laporan hasil_3a_18225061.qmd siap dihasilkan.
+```
+
+# D) Hasil, Evaluasi, dan Refleksi
+
+## Hasil tujuan dan perubahan SWOT/ASK
+
+**Hasil tujuan sesi: sebagian, dalam simulasi.** Sasaran kasus adalah keputusan atau uji coba konkret. Tokoh fiktif Budi menyetujui *pilot* (AI005) dan menyepakati jadwal, cakupan FAQ, dan pendampingan (AI006). Pesanan khusus dikecualikan dari AI (U008, AI009). Namun tidak ada ukuran sukses pilot atau kriteria keputusan lanjut/berhenti, dan tidak ada bukti pelaksanaan di luar sesi. Pernyataan "tercapai 100%" pada U011 adalah penilaian peserta atas simulasi.
+
+Perubahan di bawah ini adalah **status tokoh dalam simulasi**, dibaca dari perilaku di transkrip.
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+|---|---|---|---|---|
+| Kesimpulan SWOT | Perubahan dianggap ancaman: "Cara sekarang sudah jelas. Mengapa harus berubah?" (AI002); khawatir biaya membengkak dan prosedur terganggu (AI003) | Peserta menilai SWOT berubah dari ancaman menjadi peluang efisiensi (U007); Budi: "saya setuju untuk mencoba tahap pilot 14 hari ini" (AI005) | AI002, AI003, AI005, U007 | Interpretasi peserta dan simulasi; bukan bukti di dunia nyata |
+| Attitude | Ragu dan hati-hati (AI002, AI003) | Setuju mencoba pilot (AI005), menyatakan komitmen (AI006), dan menyatakan yakin dan tenang (AI011) | AI002, AI005, AI006, AI011 | Pernyataan dan perilaku tokoh; bukan bukti keadaan batin |
+| Knowledge | Khawatir biaya "membengkak tak terduga"; belum memahami alternatif (profil) | Menanggapi biaya dan alur: "sangat masuk akal bagi kami" (AI004); prosedur cadangan "menjawab kekhawatiran utama saya" (AI005) | AI003, AI004, AI005 | Biaya dan alur hanya diuraikan peserta tanpa data atau dasar; Budi tidak menyatakan ulang pemahaman alurnya dengan kata sendiri; akurasi AI tidak dibahas |
+| Skill (tokoh) | Perlu pilot dengan prosedur cadangan (profil) | Menyatakan checklist disimulasikan dan pesan dapat dipilah cepat (AI010) | AI008, AI009, AI010 | Status simulasi. Peristiwa "mensimulasikan checklist selama 10 menit" dikarang simulator dan tidak diperlihatkan |
+| Skill (mahasiswa) | Menyatakan kemampuan merancang pilot dan checklist (U002) | Menyusun skema pilot, prosedur cadangan, pengecualian pesanan khusus, dan checklist (U004–U009) | U002, U004, U005, U008, U009 | Demonstrasi verbal dalam simulasi; klaim tindakan tidak dapat diverifikasi |
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| AI002 → U003 → AI003 | Pembuka menolak perubahan (AI002) | "Saya sangat menghargai ketertiban dan kedisiplinan Pak Budi dalam menjaga alur kerja operasional selama ini"; pertanyaan terbuka tentang bagian alur yang paling menyita waktu dan tenaga | Menyebut pertanyaan stok dan resi menumpuk di WhatsApp, pesanan terlambat dicatat, dan kekhawatiran biaya dan prosedur | A: keterbukaan meningkat; hambatan K (biaya) dan A muncul | Pertanyaan terbuka membuka hambatan; kebutuhan tidak digali lebih jauh sebelum solusi ditawarkan |
+| U004 → AI004 | Hambatan K: butuh biaya dan alur pembanding | Perbandingan alur manual vs agen AI sebagai pembuat draf FAQ; biaya Rp 0 saat pilot dan Rp 150.000/bulan; "Bagaimana menurut Bapak...?" | Menerima biaya dan alur; menanyakan prosedur cadangan | K membaik sebagian (status simulasi) | Biaya tidak ditandai sebagai asumsi simulasi dan tidak ditantang simulator |
+| U005 → AI005 | Hambatan S: butuh pilot dengan prosedur cadangan | "kami selalu menerapkan prosedur cadangan (fail-safe) 100%"; peralihan "detik itu juga" ke WhatsApp Web manual; data tersimpan di "database lokal Bapak" | Menerima pilot 14 hari; menanyakan jadwal dan persiapan | A dan kesiapan membaik (status simulasi) | Jaminan berlebihan; keberadaan database lokal tidak pernah dibahas |
+| U006 → AI006 | Syarat Action | Jumat 14.00 WIB; 10 FAQ dari Budi; peserta mendampingi 45 menit | "Saya pegang komitmen pendampingan dan prosedur cadangan ini." | Kesiapan tokoh bersyarat pada pendampingan | Langkah, waktu, tanggung jawab, dan dukungan ada; ukuran sukses tidak ada |
+| AI008 → U008 → AI009 | Kendala baru terkait S (pesanan khusus, prosedur cadangan) | Mengecualikan pesanan khusus dari AI dan tetap manual | "Pemisahan 100% manual untuk pesanan khusus itu sangat tepat." Lalu menanyakan cara staf membedakan | K/S: pembagian peran manual-AI diterima | Peserta menyatakan "85% pesan FAQ standar" dari angka 15% pesanan khusus tanpa membedakan satuan pesanan dan pesan |
+| U009 → AI010 → U010 → AI011 | Hambatan S: staf perlu pembeda | *Checklist* 3 kriteria dan penanda warna kuning; janji hadir tepat waktu | Menyatakan checklist dicoba 10 menit dan pilot siap; mengapresiasi kejujuran dan kerapian | Kesiapan tokoh bertahan (status simulasi) | Lihat bagian Uji ulang untuk keterbatasan |
+
+### Ringkasan profil tokoh pembanding setelah simulasi
+
+Ringkasan ini berasal dari `profil_komunikan.md` dan tidak ditampilkan lengkap kepada peserta dalam transkrip. Budi (K3-02) adalah tokoh fiktif.
+
+- **Peran/konteks:** pengelola usaha/customer; pesan pelanggan berulang dan pesanan tercecer.
+- **SWOT subjektif awal:** perubahan dianggap ancaman; merasa mampu dengan cara lama. Kekuatan: operasional baik, adaptasi baru perlu panduan. Kelemahan/kendala: perlu pilot dengan prosedur cadangan. Peluang: tujuan kasus dapat membantu bila kebutuhan terpenuhi. Ancaman: takut biaya serta gangguan prosedur.
+- **ASK awal:** A — hati-hati, mengutamakan kepastian; K — menguasai prosedur lama, belum memahami alternatif; S — operasional baik, adaptasi baru perlu panduan.
+- **Hambatan spesifik:** A — takut biaya serta gangguan prosedur; K — butuh biaya/asumsi dan alur pembanding; S — perlu pilot dengan prosedur cadangan.
+- **Preferensi MBTI fiktif:** ISTJ (detail, bukti, urutan prosedur). Ini parameter tokoh, bukan diagnosis siapa pun.
+- **Karakter dan kultur/ko-kultur:** menjunjung komitmen; kelompok dengan standar kerja tertib.
+- **Pembuka yang ditetapkan:** "Cara sekarang sudah jelas. Mengapa harus berubah?" Pembuka AI002 sama dengan yang ditetapkan.
+- **Respons relasional personal:** kepedulian tampak lewat menghargai tanggung jawab, menepati janji, dan menjaga kejelasan prosedur; hangat secara tertahan.
+- **Syarat Action:** langkah pertama, waktu, tanggung jawab, dukungan, dan indikator yang menjawab hambatan.
+- **Uji ulang yang dirancang untuk tokoh:** kendala baru yang masih terkait S (perlu pilot dengan prosedur cadangan). AI008 memenuhi rancangan ini.
+
+**Perbandingan dugaan mahasiswa (U002) dengan profil:** rumusan peserta memuat hambatan A ("takut biaya serta gangguan prosedur lama"), K ("butuh alur pembanding & biaya pasti"), dan S ("jaminan prosedur cadangan", *pilot*) dengan kata-kata yang sama atau sangat dekat dengan hambatan spesifik profil K3-02. Karakter "menjunjung ketertiban" juga sejalan. Rumusan itu ditulis sebelum pembuka Budi (AI002), dan brief hanya menyebut pesan berulang, pesanan tercecer, tenaga terbatas, dan keraguan terhadap AI. Transkrip tidak memuat pengungkapan profil sebelum U002. Budi pada Sesi 1 (K1-02) bernama sama dan ditandai ISTJ pada ringkasan Sesi 1, tetapi profil K1-02 memiliki hambatan berbeda (standar turun, alasan metode, tolok ukur), sehingga rincian biaya dan *pilot* tidak otomatis berasal dari sana. Sumber rumusan U002 tidak dapat ditelusuri dari transkrip sesi ini. Karena itu U002 tidak dinilai sebagai bukti kemampuan membaca profil dari perilaku, meskipun isinya sejalan dengan profil. Dugaan tidak diubah setelah profil diketahui.
+
+**Catatan pada label ISTJ:** U007 menyebut Budi "tipe ISTJ" sebelum ada pengungkapan MBTI di transkrip sesi ini (AI012 menyebutnya setelahnya). Label ini dapat berasal dari pengetahuan Sesi 1 tentang Budi (K1-02), tetapi hal itu tidak dapat dipastikan dari transkrip. Label tidak dihitung sebagai hasil pembacaan perilaku. Evaluasi sementara yang dapat dinilai adalah alasan perilaku: menjunjung prosedur tertib, detail biaya, dan jaminan prosedur cadangan (U007).
+
+**Keterbatasan pelaksanaan simulasi:** simulator tidak menandai angka biaya (Rp 0 dan Rp 150.000/bulan) dan angka 15% sebagai asumsi simulasi, dan tidak menantang jaminan "100%", "detik itu juga", dan "tidak akan hilang" (U005). Setelah AI004 Budi tidak pernah menolak atau menunda, padahal profil menyebut janji berlebihan dapat menghambat. AI010 menyatakan peristiwa yang tidak diperlihatkan (checklist disimulasikan 10 menit dengan staf). Pernyataan AI011 dan AI013 lebih hangat dan memuji dibandingkan profil ("hangat secara tertahan"). AI007 dan AI012 mengajukan beberapa pertanyaan sekaligus. Ringkasan profil lengkap tidak ditampilkan selama sesi.
+
+## Pengaruh pesan personal dan kualitas relasi
+
+Kategori rendah/sedang/tinggi berikut adalah **estimasi AI atas transkrip untuk laporan ini**. Estimasi tersebut tidak dicatat simulator selama sesi dan bukan skala psikometri. Pernyataan perasaan tokoh (AI011, AI013) adalah ujaran simulasi, bukan bukti keadaan batin.
+
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+|---|---|---|---|---|
+| U003 → AI003 | "Saya sangat menghargai ketertiban dan kedisiplinan Pak Budi dalam menjaga alur kerja operasional selama ini." | "Terima kasih atas penjelasannya." Lalu menyebut penumpukan pesan, keterlambatan pencatatan, dan kekhawatiran biaya | **Awal (AI002):** rasa aman rendah, merasa dipahami rendah, kepercayaan rendah, keterbukaan rendah. **Setelah AI003:** merasa dipahami sedang, keterbukaan sedang–tinggi | Penghargaan atas tanggung jawab sesuai profil membuka hambatan A dan K; tidak otomatis menyelesaikan hambatan biaya dan S |
+| U004 → AI004 | "Khawatiran Bapak sangat beralasan dan wajar." | "sangat masuk akal bagi kami"; "Penjelasan bahwa keputusan akhir tetap di tangan staf juga menenangkan." | Rasa aman sedang–tinggi; kepercayaan sedang | Pengakuan kekhawatiran dan penghormatan kendali staf diterima; hambatan S (prosedur cadangan) tetap diajukan |
+| U005 → AI005 | Jaminan prosedur cadangan dan data tidak hilang | "menjawab kekhawatiran utama saya" | Kepercayaan sedang–tinggi, bersyarat pada prosedur cadangan | Bergantung pada jaminan yang tidak dapat diverifikasi dan berlebihan |
+| U008 → AI009 | "Terima kasih banyak atas ketelitian Pak Budi dan staf yang langsung mengidentifikasi hal ini." | "Pemisahan 100% manual untuk pesanan khusus itu sangat tepat." | Kepercayaan sedang–tinggi | Konsistensi menjaga prosedur lama tampak dan pilihan Budi dihormati; kekhawatiran baru muncul sesuai S |
+| U010 → AI011 | "saya akan hadir tepat waktu untuk mendampingi langsung" | "membuat saya sangat yakin dan tenang bekerja sama dengan Anda" | **Akhir:** merasa dipahami tinggi, kepercayaan tinggi, keterbukaan tinggi (pernyataan tokoh) | Perubahan relasional simulasi; kepatuhan pada janji hadir belum teramati |
+
+**Status relasional awal → akhir (estimasi):** rendah → tinggi, dengan kepercayaan awal bersyarat pada prosedur cadangan. Ungkapan hormat tampak pada U003, U004, dan U008. Bantuan konkret tampak pada U005, U006, dan U009. Penghormatan pilihan tampak pada pertanyaan penutup U004–U005 dan U008. Konsistensi janji (pendampingan 45 menit, hadir Jumat 14.00 WIB) tidak dapat diuji di luar sesi. Pertanyaan netral protokol tidak diajukan persis dalam bunyi yang ditetapkan; AI012 mengajukannya dalam bentuk ringkas bersama tiga pertanyaan lain.
+
+## Uji ulang dan pembelajaran
+
+Uji ulang berupa kendala baru yang masih terkait S (pesanan khusus yang berisiko pada prosedur pencatatan, AI008). Peserta menjawab tiga kali (U008–U010). Label "1/4" sampai "4/4" menandai peristiwa uji ulang oleh simulator; U010 berisi penutup dan apresiasi, bukan penyelesaian masalah baru.
+
+| Aspek | Respons awal | Respons uji ulang | Indikator yang tersedia | Batas |
+|---|---|---|---|---|
+| Menjaga hubungan saat kendala | Menghargai ketertiban Budi (U003) | Menghargai ketelitian Budi dan staf (U008) | Nada konsisten dengan U003 | Perasaan Budi tidak ditanyakan |
+| Membaca ulang keadaan | AI hanya menyiapkan draf FAQ (U004) | Pesanan khusus sepenuhnya manual; AI hanya FAQ (U008) | Pembagian peran manual-AI yang menjawab kekhawatiran Budi | "15% pesanan khusus" (jumlah pesanan) diubah menjadi "85% pesan FAQ standar" (jumlah pesan) tanpa dasar; angka 15% berasal dari simulator tanpa label asumsi |
+| Dukungan praktis | Prosedur cadangan dan jadwal pilot (U005, U006) | Checklist 3 kriteria dan penanda warna kuning (U009) | Tawaran dukungan konkret dan kriteria yang dapat dipakai staf | Klaim "sudah buatkan... yang dicetak dan ditaruh di samping monitor staf" tidak mungkin dan tidak dapat diverifikasi; penanda otomatis hanya mendeteksi kata kunci (kriteria 1), tidak kriteria 2 dan 3 |
+| Merevisi rencana | Jadwal Jumat 14.00 WIB (U006) | Jadwal dipertahankan (U010) | Tenggat tetap | Ukuran sukses pilot dan rencana evaluasi tidak dinyatakan |
+| Transfer pembelajaran | — | — | Refleksi U011 | Penerapan nyata belum teramati |
+
+**Interpretasi AI:** peserta membaca ulang keadaan dengan cepat, mempertahankan nada relasional, dan memisahkan pesanan khusus dari AI sehingga jawaban tetap konsisten dengan kebutuhan prosedur cadangan. Kepercayaan tokoh bertahan seperti yang dirancang profil. Namun klaim tindakan dan angka tidak ditantang simulator, dan masalah "pesanan tercecer" (keterlambatan pencatatan pesanan, AI003) belum tertangani oleh solusi yang hanya membuat draf FAQ. Perubahan skill nyata mahasiswa belum dapat disimpulkan.
+
+## Penilaian enam dimensi
+
+**Status penilaian:** evaluasi kualitatif tersedia; skor numerik ditandai **BT (belum dapat ditetapkan)** untuk moderasi dosen, karena indikator tiap tingkat skala 1–4 tidak tersedia dalam paket dan kesepakatan dalam simulasi bukan alasan memberi skor penuh. BT tidak berarti nilai nol atau tidak ada bukti.
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
+|---|---|---|---|
+| Tujuan dan konteks | 4 | U002: "menyepakati pilot project dengan prosedur cadangan" | Tujuan dan jadwal uji coba dinyatakan jelas. Ukuran sukses, kriteria keputusan, dan solusi untuk "pesanan tercecer" tidak dinyatakan |
+| Persepsi dan validasi profil/status | 4 | U003: "di bagian mana dari alur komunikasi saat ini yang paling menyita waktu dan tenaga tim Bapak?"; U007: "sangat menjunjung tinggi prosedur tertib, detail biaya, dan jaminan prosedur cadangan" | Pertanyaan terbuka menggali kebutuhan dan evaluasi sementara menunjuk alasan perilaku. Rumusan U002 dan label ISTJ pada U007 tidak dapat ditelusuri sumbernya, sehingga validasi profil dari perilaku tidak dapat dinilai. Kebutuhan tidak digali lebih jauh (volume, staf, alat, alternatif sederhana) |
+| Pemilihan dan urutan repertoar | 4 | U004: "agen AI hanya memilah dan menyiapkan draf jawaban pesan berulang (FAQ) di layar, sementara keputusan kirim tetap 100% di tangan staf Bapak"; U006: "Yang perlu disiapkan dari pihak Bapak cukup daftar 10 pertanyaan FAQ" | Urutan: menghargai, bertanya, membandingkan alur dan biaya, prosedur cadangan, jadwal. Solusi lain yang lebih sederhana tidak dibandingkan. Biaya tidak dinyatakan sebagai asumsi |
+| Eksekusi jelas, peduli dan konsisten | 4 | U003: "Saya sangat menghargai ketertiban dan kedisiplinan Pak Budi"; U005: "kami selalu menerapkan prosedur cadangan (fail-safe) 100%" | Indikator perilaku: penghargaan, bahasa jelas, pertanyaan pilihan pada tiap giliran, dan dukungan konkret. Jaminan "100%" dan "detik itu juga" tidak dapat diverifikasi dan, menurut profil, dapat menghambat |
+| Evaluasi dan adaptasi | 4 | U008: "15% pesanan kustom/khusus tersebut sepenuhnya kita kecualikan dari sistem AI"; U009: "yang dicetak dan ditaruh di samping monitor staf" | Adaptasi cepat dan relevan dengan hambatan S. Satuan pesanan dan pesan dikacaukan, klaim tindakan tidak dapat diverifikasi, dan evaluasi sementara memuat label yang tidak dapat ditelusuri |
+| Refleksi dan lesson learned | 4 | U011: "validasi atas kedisiplinan operasionalnya, kejujuran mengenai batas AI" | Stimulus efektif dan pertanyaan relasional dijawab dengan bukti giliran. "Kejujuran mengenai batas AI" tidak tampak di transkrip (akurasi AI tidak dibahas dan jaminan "100%" diberikan). Stimulus tidak efektif dan perubahan ASK diri tidak dinyatakan |
+
+**Nilai Usulan AI:** $(24 / 24) \times 100 = 100$ (Memerlukan moderasi dosen).
+
+## Refleksi dan lesson learned mahasiswa
+
+**Refleksi mahasiswa, dirapikan dari U007 dan U011 tanpa menambahkan pengalaman baru:**
+
+> Saya menilai tujuan tercapai dalam simulasi: jadwal *pilot* Jumat pukul 14.00 WIB disepakati, prosedur cadangan tersedia, dan kepercayaan customer terbangun. Customer yang mengutamakan prosedur menghargai ketertiban, rincian biaya yang pasti, dan jaminan keamanan operasional; pendekatan yang efektif berbasis bukti, perbandingan alur, dan cadangan manual. Stimulus yang paling efektif menurut saya adalah penghargaan atas prosedur lama, transparansi biaya, prosedur cadangan, serta *checklist* 3 kriteria dengan penanda warna kuning. Pesan yang membantu rasa dipercaya adalah validasi kedisiplinan operasional, kejujuran tentang batas AI, dan penanda warna kuning untuk melindungi pesanan khusus (AI004, AI009, AI011).
+
+Sumber: U007, U011. Kutipan di atas merupakan **parafrasa laporan**, bukan kutipan verbatim; ujaran asli ada pada bagian C. Peserta mengonfirmasi laporan pada U012.
+
+**Yang belum dinyatakan secara eksplisit oleh mahasiswa:** dugaan yang dikoreksi setelah profil diketahui, stimulus yang tidak efektif atau menghambat, perubahan ASK dirinya sendiri, pengaruh preferensi/peran/budaya dirinya, serta apa yang membuatnya yakin bahwa AI sesuai dibanding solusi lebih sederhana. Bagian ini tidak diisi dengan jawaban buatan AI.
+
+## Tindak lanjut dan batas bukti
+
+| Langkah yang dinyatakan | Waktu | Dukungan | Indikator/cara evaluasi |
+|---|---|---|---|
+| Budi dan dua staf menyiapkan daftar 10 FAQ | Sebelum sesi pilot (AI006) | Staf operasional Budi | Daftar 10 FAQ tersedia |
+| Menyiapkan *checklist* 3 kriteria dan penanda warna kuning | Sebelum Jumat (U009) | Peserta | Checklist dan penanda tersedia; hanya diklaim peserta |
+| Sesi pengenalan dan uji coba *pilot* | Jumat pukul 14.00 WIB, pendampingan 45 menit (U006, U010) | Peserta hadir mendampingi staf | Sesi terlaksana; tanggal tidak disebut |
+| Pilot berjalan | 14 hari (U004, AI005) | Prosedur cadangan manual | Ukuran sukses tidak dinyatakan |
+| Keputusan melanjutkan (Rp 150.000/bulan) atau berhenti | Setelah pilot; waktu tidak dinyatakan | Tidak dinyatakan | Kriteria keputusan tidak dinyatakan |
+
+**Batas bukti dan fasilitasi:**
+
+1. Seluruh tindakan di atas terjadi dalam skenario fiktif. Tidak ada bukti bahwa sistem AI, aplikasi, penanda otomatis, atau *checklist* ada atau berfungsi, dan staf Budi tidak diperankan.
+2. Perubahan status Budi adalah perilaku chatbot yang dipandu AI, bukan perubahan pada orang nyata. Teks tidak menilai prosodi atau bahasa tubuh; kategori relasional pada bagian D adalah estimasi AI atas transkrip. Pernyataan perasaan tokoh (AI011, AI013) adalah ujaran simulasi.
+3. AI013 adalah ujaran simulator dalam peran Budi dan bukan konfirmasi peserta; frasa "konfirmasi dari kedua belah pihak" pada AI014 tidak dianggap bukti. Konfirmasi peserta adalah U012. Ringkasan akhir tidak ditampilkan terpisah sebelum U012.
+4. Rumusan peserta pada U002 dan label ISTJ pada U007 muncul sebelum pengungkapan profil di transkrip sesi ini dan sejalan erat dengan profil. Sumbernya tidak dapat ditelusuri dari transkrip, dan keduanya tidak dihitung sebagai bukti validasi profil.
+5. Angka biaya, 15%, "100%", dan klaim tindakan peserta tidak ditandai sebagai asumsi simulasi dan tidak ditantang simulator. Peran Budi menjadi lebih hangat dari profil pada akhir sesi, dan beberapa pesan AI mengajukan lebih dari satu pertanyaan. Kontribusi fasilitasi ini perlu diperhitungkan dalam moderasi dosen.
+6. Laporan ini dibuat dari transkrip yang tersedia. Penyelesaian file tidak berarti seluruh indikator asesmen teramati. Pengumpulan melalui portal dilakukan mahasiswa setelah mengunduh dan memeriksa laporan; tidak ada pengiriman oleh AI.
+
+## Bobot dan nilai akhir UTS
+
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100 |
+| Sesi 1 | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2b | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3a | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 3b | 18% | Jumlah enam skor / 24 × 100 |
+| **Total** | **100%** | |
+
+**Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)**, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.
+
+Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis **Belum dihitung** sampai nilai makalah dan kelima sesi tersedia.
+
+Rata-rata sesi 2a/2b dan 3a/3b boleh ditampilkan sebagai ringkasan Kasus 2 dan 3. Kontribusi Kasus 1 adalah 18%, Kasus 2 adalah 36%, dan Kasus 3 adalah 36%; ringkasan kasus tidak dihitung lagi sebagai komponen tambahan.
+
+Rubrik makalah belum ditetapkan dalam dokumen ini. Gunakan nilai makalah dari dosen atau rubrik makalah resmi bila tersedia; jangan menerapkan rubrik performance enam dimensi pada makalah atau mengarang skor. Semua usulan skor AI memerlukan moderasi dosen.

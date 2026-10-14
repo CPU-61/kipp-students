@@ -1,0 +1,1621 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="id" xml:lang="id"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Olsen Danilson Sitohang">
+
+<title>Laporan UTS KIPP 2026 — Versi 2.0 – Portfolio KIPP-2</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e068420ea456326da06e1a0f8a236e46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Tidak ada hasil",
+    "search-matching-documents-text": "dokumen cocok",
+    "search-copy-link-title": "Salin tautan untuk mencari",
+    "search-hide-matches-text": "Sembunyikan kecocokan lainnya",
+    "search-more-match-text": "kecocokan lainnya di dokumen ini",
+    "search-more-matches-text": "kecocokan lainnya di dokumen ini",
+    "search-clear-button-title": "Hapus",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Batal",
+    "search-submit-button-title": "Kirim",
+    "search-label": "Mencari"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/logo.png" alt="" class="navbar-logo light-content">
+    <img src="../../assets/logo.png" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Portfolio KIPP-2</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Mencari"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alihkan navigasi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Beranda</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../course/index.html"> 
+<span class="menu-text">Perkuliahan</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../portfolio/index.html" aria-current="page"> 
+<span class="menu-text">Portfolio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../examples/index.html"> 
+<span class="menu-text">Contoh</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../lk/index.html"> 
+<span class="menu-text">Lembar Kerja</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../slides.html"> 
+<span class="menu-text">Slide</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../slides-pdf/index.html"> 
+<span class="menu-text">Slide PDF</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../assessment/index.html"> 
+<span class="menu-text">Assessment</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">Profil</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Laporan UTS KIPP 2026 — Versi 2.0</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Indeks Portfolio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Character Map</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Intra-Self Communication Journal</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Relationship Conversation</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Five-Language Translation Portfolio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Professional Discovery Interview</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Target–Attention Challenge</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Problem–Solution Interest Pitch</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-08.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">UTS Performance Evidence Package</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Desire-State Communication</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action &amp; Agreement Challenge</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Multi-Person Negotiation Challenge</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Community Communication Challenge</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Public Contribution Challenge</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">AI-Mediated Communication Design</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../portfolio/week-15.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Capstone Performance Portfolio</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Di halaman ini</h2>
+   
+  <ul>
+  <li><a href="#a-identitas" id="toc-a-identitas" class="nav-link active" data-scroll-target="#a-identitas">A) Identitas</a></li>
+  <li><a href="#b-kasus-dan-tujuan" id="toc-b-kasus-dan-tujuan" class="nav-link" data-scroll-target="#b-kasus-dan-tujuan">B) Kasus dan Tujuan</a>
+  <ul class="collapse">
+  <li><a href="#kasus-dan-tujuan-tindakan" id="toc-kasus-dan-tujuan-tindakan" class="nav-link" data-scroll-target="#kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</a></li>
+  <li><a href="#profil-awal-komunikator" id="toc-profil-awal-komunikator" class="nav-link" data-scroll-target="#profil-awal-komunikator">Profil awal komunikator</a></li>
+  <li><a href="#dugaan-awal-profil-target-dan-rencana" id="toc-dugaan-awal-profil-target-dan-rencana" class="nav-link" data-scroll-target="#dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</a></li>
+  </ul></li>
+  <li><a href="#c-skrip-percakapan" id="toc-c-skrip-percakapan" class="nav-link" data-scroll-target="#c-skrip-percakapan">C) Skrip Percakapan</a>
+  <ul class="collapse">
+  <li><a href="#u001-peserta-identifikasi" id="toc-u001-peserta-identifikasi" class="nav-link" data-scroll-target="#u001-peserta-identifikasi">U001 — Peserta — Identifikasi</a></li>
+  <li><a href="#ai001-ai-identifikasi" id="toc-ai001-ai-identifikasi" class="nav-link" data-scroll-target="#ai001-ai-identifikasi">AI001 — AI — Identifikasi</a></li>
+  <li><a href="#u002-peserta-rencana-awal" id="toc-u002-peserta-rencana-awal" class="nav-link" data-scroll-target="#u002-peserta-rencana-awal">U002 — Peserta — Rencana Awal</a></li>
+  <li><a href="#ai002-ai-budi-rencana-awal" id="toc-ai002-ai-budi-rencana-awal" class="nav-link" data-scroll-target="#ai002-ai-budi-rencana-awal">AI002 — AI (Budi) — Rencana Awal</a></li>
+  <li><a href="#u003-peserta-simulasi-awal" id="toc-u003-peserta-simulasi-awal" class="nav-link" data-scroll-target="#u003-peserta-simulasi-awal">U003 — Peserta — Simulasi Awal</a></li>
+  <li><a href="#ai003-ai-budi-simulasi-awal" id="toc-ai003-ai-budi-simulasi-awal" class="nav-link" data-scroll-target="#ai003-ai-budi-simulasi-awal">AI003 — AI (Budi) — Simulasi Awal</a></li>
+  <li><a href="#u004-peserta-simulasi-awal" id="toc-u004-peserta-simulasi-awal" class="nav-link" data-scroll-target="#u004-peserta-simulasi-awal">U004 — Peserta — Simulasi Awal</a></li>
+  <li><a href="#ai004-ai-budi-simulasi-awal" id="toc-ai004-ai-budi-simulasi-awal" class="nav-link" data-scroll-target="#ai004-ai-budi-simulasi-awal">AI004 — AI (Budi) — Simulasi Awal</a></li>
+  <li><a href="#u005-peserta-simulasi-awal" id="toc-u005-peserta-simulasi-awal" class="nav-link" data-scroll-target="#u005-peserta-simulasi-awal">U005 — Peserta — Simulasi Awal</a></li>
+  <li><a href="#ai005-ai-budi-simulasi-awal" id="toc-ai005-ai-budi-simulasi-awal" class="nav-link" data-scroll-target="#ai005-ai-budi-simulasi-awal">AI005 — AI (Budi) — Simulasi Awal</a></li>
+  <li><a href="#u006-peserta-simulasi-awal" id="toc-u006-peserta-simulasi-awal" class="nav-link" data-scroll-target="#u006-peserta-simulasi-awal">U006 — Peserta — Simulasi Awal</a></li>
+  <li><a href="#ai006-ai-budi-simulasi-awal" id="toc-ai006-ai-budi-simulasi-awal" class="nav-link" data-scroll-target="#ai006-ai-budi-simulasi-awal">AI006 — AI (Budi) — Simulasi Awal</a></li>
+  <li><a href="#ai007-ai-evaluasi-sementara" id="toc-ai007-ai-evaluasi-sementara" class="nav-link" data-scroll-target="#ai007-ai-evaluasi-sementara">AI007 — AI — Evaluasi Sementara</a></li>
+  <li><a href="#u007-peserta-evaluasi-sementara" id="toc-u007-peserta-evaluasi-sementara" class="nav-link" data-scroll-target="#u007-peserta-evaluasi-sementara">U007 — Peserta — Evaluasi Sementara</a></li>
+  <li><a href="#ai008-ai-budi-uji-ulang-14" id="toc-ai008-ai-budi-uji-ulang-14" class="nav-link" data-scroll-target="#ai008-ai-budi-uji-ulang-14">AI008 — AI (Budi) — Uji Ulang (1/4)</a></li>
+  <li><a href="#u008-peserta-uji-ulang-14" id="toc-u008-peserta-uji-ulang-14" class="nav-link" data-scroll-target="#u008-peserta-uji-ulang-14">U008 — Peserta — Uji Ulang (1/4)</a></li>
+  <li><a href="#ai009-ai-budi-uji-ulang-24" id="toc-ai009-ai-budi-uji-ulang-24" class="nav-link" data-scroll-target="#ai009-ai-budi-uji-ulang-24">AI009 — AI (Budi) — Uji Ulang (2/4)</a></li>
+  <li><a href="#u009-peserta-uji-ulang-24" id="toc-u009-peserta-uji-ulang-24" class="nav-link" data-scroll-target="#u009-peserta-uji-ulang-24">U009 — Peserta — Uji Ulang (2/4)</a></li>
+  <li><a href="#ai010-ai-budi-uji-ulang-34" id="toc-ai010-ai-budi-uji-ulang-34" class="nav-link" data-scroll-target="#ai010-ai-budi-uji-ulang-34">AI010 — AI (Budi) — Uji Ulang (3/4)</a></li>
+  <li><a href="#u010-peserta-uji-ulang-34" id="toc-u010-peserta-uji-ulang-34" class="nav-link" data-scroll-target="#u010-peserta-uji-ulang-34">U010 — Peserta — Uji Ulang (3/4)</a></li>
+  <li><a href="#ai011-ai-budi-uji-ulang-44" id="toc-ai011-ai-budi-uji-ulang-44" class="nav-link" data-scroll-target="#ai011-ai-budi-uji-ulang-44">AI011 — AI (Budi) — Uji Ulang (4/4)</a></li>
+  <li><a href="#ai012-ai-refleksi" id="toc-ai012-ai-refleksi" class="nav-link" data-scroll-target="#ai012-ai-refleksi">AI012 — AI — Refleksi</a></li>
+  <li><a href="#u011-peserta-refleksi" id="toc-u011-peserta-refleksi" class="nav-link" data-scroll-target="#u011-peserta-refleksi">U011 — Peserta — Refleksi</a></li>
+  <li><a href="#ai013-ai-budi-konfirmasi-komunikan" id="toc-ai013-ai-budi-konfirmasi-komunikan" class="nav-link" data-scroll-target="#ai013-ai-budi-konfirmasi-komunikan">AI013 — AI (Budi) — Konfirmasi (Komunikan)</a></li>
+  <li><a href="#u012-peserta-konfirmasi-mahasiswa" id="toc-u012-peserta-konfirmasi-mahasiswa" class="nav-link" data-scroll-target="#u012-peserta-konfirmasi-mahasiswa">U012 — Peserta — Konfirmasi (Mahasiswa)</a></li>
+  <li><a href="#ai014-ai-konfirmasi-simulator" id="toc-ai014-ai-konfirmasi-simulator" class="nav-link" data-scroll-target="#ai014-ai-konfirmasi-simulator">AI014 — AI — Konfirmasi (Simulator)</a></li>
+  </ul></li>
+  <li><a href="#d-hasil-evaluasi-dan-refleksi" id="toc-d-hasil-evaluasi-dan-refleksi" class="nav-link" data-scroll-target="#d-hasil-evaluasi-dan-refleksi">D) Hasil, Evaluasi, dan Refleksi</a>
+  <ul class="collapse">
+  <li><a href="#hasil-tujuan-dan-perubahan-swotask" id="toc-hasil-tujuan-dan-perubahan-swotask" class="nav-link" data-scroll-target="#hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</a></li>
+  <li><a href="#evaluasi-stimulusrespons-dan-diagnosis-profil" id="toc-evaluasi-stimulusrespons-dan-diagnosis-profil" class="nav-link" data-scroll-target="#evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</a>
+  <ul class="collapse">
+  <li><a href="#ringkasan-profil-tokoh-pembanding-setelah-simulasi" id="toc-ringkasan-profil-tokoh-pembanding-setelah-simulasi" class="nav-link" data-scroll-target="#ringkasan-profil-tokoh-pembanding-setelah-simulasi">Ringkasan profil tokoh pembanding setelah simulasi</a></li>
+  </ul></li>
+  <li><a href="#pengaruh-pesan-personal-dan-kualitas-relasi" id="toc-pengaruh-pesan-personal-dan-kualitas-relasi" class="nav-link" data-scroll-target="#pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</a></li>
+  <li><a href="#uji-ulang-dan-pembelajaran" id="toc-uji-ulang-dan-pembelajaran" class="nav-link" data-scroll-target="#uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</a></li>
+  <li><a href="#penilaian-enam-dimensi" id="toc-penilaian-enam-dimensi" class="nav-link" data-scroll-target="#penilaian-enam-dimensi">Penilaian enam dimensi</a></li>
+  <li><a href="#refleksi-dan-lesson-learned-mahasiswa" id="toc-refleksi-dan-lesson-learned-mahasiswa" class="nav-link" data-scroll-target="#refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</a></li>
+  <li><a href="#tindak-lanjut-dan-batas-bukti" id="toc-tindak-lanjut-dan-batas-bukti" class="nav-link" data-scroll-target="#tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</a></li>
+  <li><a href="#bobot-dan-nilai-akhir-uts" id="toc-bobot-dan-nilai-akhir-uts" class="nav-link" data-scroll-target="#bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Laporan UTS KIPP 2026 — Versi 2.0</h1>
+<p class="subtitle lead">Sesi 3a — Kasus 3</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Penulis</div>
+    <div class="quarto-title-meta-contents">
+             <p>Olsen Danilson Sitohang </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Diterbitkan</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">14 Oktober 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="a-identitas" class="level1">
+<h1>A) Identitas</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Elemen</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nama mahasiswa</td>
+<td>Olsen Danilson Sitohang</td>
+</tr>
+<tr class="even">
+<td>NIM</td>
+<td>18225061</td>
+</tr>
+<tr class="odd">
+<td>Kelas dan tanggal</td>
+<td>Kelas “K1 Sistem dan Teknologi Informasi” sebagaimana ditulis peserta pada U001; 14 Oktober 2026</td>
+</tr>
+<tr class="even">
+<td>Nomor/judul kasus</td>
+<td>Sesi 3a, urutan 4 dari 5; Kasus 3 — Menawarkan solusi TI dan AI</td>
+</tr>
+<tr class="odd">
+<td>Nama dan ID target</td>
+<td>Budi (K3-02; tokoh fiktif). Tokoh ini berbeda dari Budi (K1-02) pada Sesi 1 meskipun namanya sama</td>
+</tr>
+<tr class="even">
+<td>Versi bank/aturan penugasan</td>
+<td>Bank 2.0; paket individual 2.0; penugasan dalam PENUGASAN.md (kasus_3a_18225061.zip)</td>
+</tr>
+<tr class="odd">
+<td>Modalitas</td>
+<td>Teks</td>
+</tr>
+<tr class="even">
+<td>Kasus nyata/fiktif</td>
+<td>Fiktif (simulasi); dinyatakan peserta pada U001</td>
+</tr>
+<tr class="odd">
+<td>Konfirmasi identitas dan ringkasan</td>
+<td>U001 (identitas, pernyataan peserta, bukan verifikasi); U012 (pernyataan konfirmasi peserta)</td>
+</tr>
+<tr class="even">
+<td>Nama laporan</td>
+<td>hasil_3a_18225061.qmd</td>
+</tr>
+<tr class="odd">
+<td>Kelengkapan transkrip</td>
+<td>Semua pesan yang tersedia dari identifikasi sampai penutup: 12 pesan peserta (U001–U012) dan 14 pesan AI (AI001–AI014)</td>
+</tr>
+<tr class="even">
+<td>Status tahapan asesmen</td>
+<td>Identifikasi, rencana awal, simulasi awal, evaluasi sementara, uji ulang (tiga jawaban peserta), refleksi, dan konfirmasi tersedia</td>
+</tr>
+<tr class="odd">
+<td>Status sesi lain</td>
+<td>Sesi 1, 2a, dan 2b dilaporkan terpisah; sesi 3b belum dijalankan dalam percakapan ini</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="b-kasus-dan-tujuan" class="level1">
+<h1>B) Kasus dan Tujuan</h1>
+<section id="kasus-dan-tujuan-tindakan" class="level2">
+<h2 class="anchored" data-anchor-id="kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</h2>
+<p><strong>Brief kasus (sumber: prompt umum, Kasus 3):</strong> customer menangani pertanyaan pelanggan berulang dan pesanan tercecer dengan tenaga terbatas. Ia belum yakin perlu AI. Mahasiswa bertugas menggali kebutuhan dan menawarkan solusi TI/AI yang sesuai, dengan sasaran keputusan atau uji coba konkret.</p>
+<p><strong>Tujuan tindakan yang dinyatakan peserta (U002):</strong> menghargai ketertiban kerja Budi, menyajikan perbandingan alur kerja dan transparansi biaya, menyepakati <em>pilot project</em> dengan prosedur cadangan, dan menyepakati jadwal uji coba konkret.</p>
+<p><strong>Respons akhir yang diharapkan dan indikator keberhasilan:</strong> peserta tidak merinci ukuran sukses pada U002. Dalam percakapan, kesepakatan yang tampak meliputi cakupan (pesan FAQ standar; pesanan khusus tetap manual, U008), dukungan (pendampingan 45 menit oleh peserta, U006), risiko (prosedur cadangan, U005), dan langkah berikutnya (sesi pilot Jumat pukul 14.00 WIB dengan 10 FAQ dari pihak Budi, U006, AI006). <strong>Ukuran sukses pilot dan kriteria keputusan melanjutkan atau berhenti tidak dinyatakan.</strong></p>
+<p><strong>Catatan sumber detail:</strong> angka biaya (Rp 0 selama pilot, Rp 150.000/bulan), “pilot 14 hari”, “10 FAQ”, “45 menit”, “Rp 5 juta”, dan nama jalur WhatsApp dikemukakan peserta dalam simulasi (U004–U009). Brief tidak menyebutkannya.</p>
+</section>
+<section id="profil-awal-komunikator" class="level2">
+<h2 class="anchored" data-anchor-id="profil-awal-komunikator">Profil awal komunikator</h2>
+<p>Tabel ini memuat laporan peserta pada U001–U002. Unsur yang tidak dinyatakan peserta tidak diisi.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Unsur</th>
+<th>Laporan/dugaan awal</th>
+<th>Bukti</th>
+<th>Tingkat kepastian</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SWOT subjektif</td>
+<td><strong>Kekuatan:</strong> arsitektur dan prosedur cadangan yang jelas. <strong>Ancaman:</strong> keresahan customer jika penjelasan terlalu teknis. Peluang, hal yang belum mampu, dan kelemahan lain tidak dinyatakan</td>
+<td>U002</td>
+<td>Laporan diri; sementara</td>
+</tr>
+<tr class="even">
+<td>Attitude</td>
+<td>Menghargai ketertiban dan kejujuran</td>
+<td>U002</td>
+<td>Laporan diri; sementara</td>
+</tr>
+<tr class="odd">
+<td>Knowledge</td>
+<td>Memahami integrasi AI dan biaya. Gap tidak dinyatakan</td>
+<td>U002</td>
+<td>Laporan diri; sementara</td>
+</tr>
+<tr class="even">
+<td>Skill</td>
+<td>Merancang <em>pilot</em> dan <em>checklist</em>. Gap tidak dinyatakan</td>
+<td>U002</td>
+<td>Laporan diri; sementara</td>
+</tr>
+<tr class="odd">
+<td>Preferensi/MBTI jika dilaporkan</td>
+<td>Tidak dilaporkan; tidak disimpulkan dari transkrip</td>
+<td>—</td>
+<td>Belum diketahui</td>
+</tr>
+<tr class="even">
+<td>Karakter, peran, kultur/ko-kultur</td>
+<td>Mahasiswa Sistem dan Teknologi Informasi (U001); peran dalam kasus: penawar solusi TI/AI kepada customer. Norma dan latar usaha customer belum digali</td>
+<td>U001</td>
+<td>Sementara</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="dugaan-awal-profil-target-dan-rencana" class="level2">
+<h2 class="anchored" data-anchor-id="dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</h2>
+<p><strong>Fakta (brief kasus, dan pernyataan peserta pada U002):</strong> customer kewalahan pesan berulang dan pesanan tercecer. Peserta juga menulis bahwa Budi “sangat hati-hati dan ragu karena takut biaya serta gangguan prosedur lama”.</p>
+<p><strong>Dugaan peserta tentang Budi sebelum simulasi (U002):</strong> Attention — menjunjung ketertiban; Interest — butuh alur pembanding dan biaya pasti; Desire — butuh jaminan prosedur cadangan; Action — sepakat waktu <em>pilot</em>. Rumusan ini disimpan apa adanya dan tidak diubah setelah profil diketahui.</p>
+<p><strong>Pertanyaan validasi yang tersedia untuk simulasi:</strong> bagian alur mana yang paling menyita waktu; berapa banyak pesan dan pesanan; apa yang sudah dicoba; apakah solusi lebih sederhana cukup; apa arti “berhasil” bagi Budi.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>TAIDA</th>
+<th>Status awal/target</th>
+<th>Edukasi A/K/S</th>
+<th>Repertoar yang direncanakan</th>
+<th>Bukti yang diharapkan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Target</td>
+<td>Uji coba konkret dengan prosedur cadangan</td>
+<td>A/K/S</td>
+<td>Menghargai ketertiban, perbandingan alur, transparansi biaya, <em>pilot</em> dengan prosedur cadangan, jadwal konkret (U002)</td>
+<td>Kesepakatan jadwal dan cakupan uji coba</td>
+</tr>
+<tr class="even">
+<td>Attention</td>
+<td>Dugaan: menjunjung ketertiban</td>
+<td>A: pengakuan tanggung jawab</td>
+<td>Menghargai kerja dan prosedur Budi</td>
+<td>Defensivitas berkurang</td>
+</tr>
+<tr class="odd">
+<td>Interest</td>
+<td>Dugaan: butuh alur pembanding dan biaya pasti</td>
+<td>K: alur dan biaya</td>
+<td>Menyajikan perbandingan alur dan biaya</td>
+<td>Budi menanggapi alur dan biaya</td>
+</tr>
+<tr class="even">
+<td>Desire</td>
+<td>Dugaan: butuh jaminan prosedur cadangan</td>
+<td>S: dukungan dan keamanan</td>
+<td>Menyediakan prosedur cadangan</td>
+<td>Budi menanyakan atau menerima prosedur cadangan</td>
+</tr>
+<tr class="odd">
+<td>Action</td>
+<td>Dugaan: sepakat waktu <em>pilot</em></td>
+<td>S: langkah dan dukungan realistis</td>
+<td>Menyepakati jadwal uji coba</td>
+<td>Komitmen waktu dan pendampingan</td>
+</tr>
+</tbody>
+</table>
+<p>Status tersebut merupakan interpretasi AI atas rencana peserta, bukan tahapan perubahan psikologis yang pasti. Action di sini belum membuktikan tindakan di luar percakapan.</p>
+</section>
+</section>
+<section id="c-skrip-percakapan" class="level1">
+<h1>C) Skrip Percakapan</h1>
+<p><strong>Transkrip aktual, bukan dialog karangan.</strong> ID U dan AI memakai penghitung terpisah; urutan penyajian mengikuti kronologi, sehingga dua pesan AI berturut-turut (AI006–AI007 dan AI011–AI012) tetap terlihat. Label tahap adalah anotasi untuk membaca transkrip, bukan perubahan terhadap isi ujaran. Pesan AI yang berperan sebagai Budi ditandai “AI (Budi)”.</p>
+<section id="u001-peserta-identifikasi" class="level3">
+<h3 class="anchored" data-anchor-id="u001-peserta-identifikasi">U001 — Peserta — Identifikasi</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Halo, selamat sore. Saya Olsen Danilson Sitohang (NIM 18225061) dari kelas K1 Sistem dan Teknologi Informasi, tanggal 14 Oktober 2026. Saya menggunakan modalitas teks untuk simulasi Sesi 3a Kasus 3 ini, dengan kasus fiktif dan transkrip lengkap.</code></pre>
+</section>
+<section id="ai001-ai-identifikasi" class="level3">
+<h3 class="anchored" data-anchor-id="ai001-ai-identifikasi">AI001 — AI — Identifikasi</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Baik Olsen Danilson Sitohang (NIM 18225061), data identitas dicatat. Penugasan aktif: Sesi 3a - Kasus 3 dengan Budi (K3-02). Silakan sampaikan brief kasus, tujuan tindakan Anda, profil awal Anda sendiri, serta dugaan awal profil Budi dan rencana komunikasi Anda (TAIDA) sebelum kita memulai simulasi.</code></pre>
+</section>
+<section id="u002-peserta-rencana-awal" class="level3">
+<h3 class="anchored" data-anchor-id="u002-peserta-rencana-awal">U002 — Peserta — Rencana Awal</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Terima kasih. Berikut rencana awal saya:
+1. Brief &amp; Tujuan: Customer Budi (K3-02) kewalahan pesan berulang dan pesanan tercecer, namun sangat hati-hati dan ragu karena takut biaya serta gangguan prosedur lama. Tujuan saya adalah menghargai ketertiban kerjanya, menyajikan perbandingan alur kerja &amp; transparansi biaya, menyepakati pilot project dengan prosedur cadangan (fail-safe 100%), serta menyepakati jadwal uji coba konkret.
+2. Profil Awal Saya: SWOT (Kekuatan arsitektur &amp; fail-safe jelas, ancaman keresahan jika terlalu teknis), Attitude (menghargai ketertiban &amp; kejujuran), Knowledge (paham integrasi AI &amp; biaya), Skill (kemampuan merancang pilot &amp; checklist).
+3. Dugaan Awal Budi (TAIDA): Attention (menjunjung ketertiban), Interest (butuh alur pembanding &amp; biaya pasti), Desire (butuh jaminan prosedur cadangan), Action (sepakat waktu pilot).</code></pre>
+</section>
+<section id="ai002-ai-budi-rencana-awal" class="level3">
+<h3 class="anchored" data-anchor-id="ai002-ai-budi-rencana-awal">AI002 — AI (Budi) — Rencana Awal</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Rencana awal dan dugaan profil dicatat. Sekarang simulator berpindah ke peran Budi (K3-02). Simulasi dimulai.
+
+Budi: “Cara sekarang sudah jelas. Mengapa harus berubah?”</code></pre>
+</section>
+<section id="u003-peserta-simulasi-awal" class="level3">
+<h3 class="anchored" data-anchor-id="u003-peserta-simulasi-awal">U003 — Peserta — Simulasi Awal</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Saya sangat menghargai ketertiban dan kedisiplinan Pak Budi dalam menjaga alur kerja operasional selama ini. Prosedur yang Bapak bangun terbukti menjaga kualitas layanan. Tujuan saya bukan untuk menggusur cara lama, melainkan membantu mengatasi titik jenuh di mana pesan berulang mulai menumpuk dan pesanan berisiko tercecer. Boleh saya tahu, di bagian mana dari alur komunikasi saat ini yang paling menyita waktu dan tenaga tim Bapak?</code></pre>
+</section>
+<section id="ai003-ai-budi-simulasi-awal" class="level3">
+<h3 class="anchored" data-anchor-id="ai003-ai-budi-simulasi-awal">AI003 — AI (Budi) — Simulasi Awal</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Terima kasih atas penjelasannya. Memang benar, saat ini pertanyaan pelanggan mengenai ketersediaan stok dan konfirmasi resi sangat menumpuk di WhatsApp. Hal ini membuat staf kami kewalahan sehingga beberapa pesanan baru terkadang terlambat dicatat. Namun, saya khawatir jika menggunakan sistem AI baru, biayanya akan membengkak tak terduga dan justru mengganggu prosedur kerja yang sudah tertib.</code></pre>
+</section>
+<section id="u004-peserta-simulasi-awal" class="level3">
+<h3 class="anchored" data-anchor-id="u004-peserta-simulasi-awal">U004 — Peserta — Simulasi Awal</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Khawatiran Bapak sangat beralasan dan wajar. Kejelasan biaya dan kepastian prosedur adalah kunci. Biar transparan, perbandingannya sederhana: pada cara lama, 100% pesan ditangani manual sehingga pesanan rawan tercecer saat ramai. Pada alur baru, agen AI hanya memilah dan menyiapkan draf jawaban pesan berulang (FAQ) di layar, sementara keputusan kirim tetap 100% di tangan staf Bapak. Mengenai biaya, untuk tahap pilot 14 hari ini sepenuhnya Rp 0 tanpa komitmen pembelian. Jika dilanjutkan pun, biayanya tetap flat Rp 150.000/bulan tanpa biaya tersembunyi. Bagaimana menurut Bapak perbandingan alur dan transparansi biaya ini?</code></pre>
+</section>
+<section id="ai004-ai-budi-simulasi-awal" class="level3">
+<h3 class="anchored" data-anchor-id="ai004-ai-budi-simulasi-awal">AI004 — AI (Budi) — Simulasi Awal</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Kejelasan biaya Rp 150.000/bulan yang tetap dan skema pilot Rp 0 itu sangat masuk akal bagi kami. Penjelasan bahwa keputusan akhir tetap di tangan staf juga menenangkan. Namun, bagaimana dengan prosedur cadangannya? Jika sistem AI ini mengalami kendala koneksi atau error di tengah jalan, bagaimana memastikan operasional pencatatan pesanan kami tidak terhenti sama sekali?</code></pre>
+</section>
+<section id="u005-peserta-simulasi-awal" class="level3">
+<h3 class="anchored" data-anchor-id="u005-peserta-simulasi-awal">U005 — Peserta — Simulasi Awal</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Pak Budi tidak perlu khawatir, kami selalu menerapkan prosedur cadangan (fail-safe) 100%. Sistem AI kami bekerja sebagai lapisan pendamping paralel. Jika terjadi kendala jaringan atau error pada sistem AI, aplikasi secara otomatis beralih detik itu juga ke WhatsApp Web manual biasa. Data percakapan dan pesanan tidak akan hilang karena tetap tersimpan di database lokal Bapak. Jadi prosedur operasional lama Bapak tetap utuh sebagai backup utama. Apakah prosedur cadangan ini memberikan kepastian yang Bapak butuhkan?</code></pre>
+</section>
+<section id="ai005-ai-budi-simulasi-awal" class="level3">
+<h3 class="anchored" data-anchor-id="ai005-ai-budi-simulasi-awal">AI005 — AI (Budi) — Simulasi Awal</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Prosedur cadangan paralel dan garansi penyimpanan data lokal itu menjawab kekhawatiran utama saya. Kalau begitu, saya setuju untuk mencoba tahap pilot 14 hari ini agar tim kami bisa membuktikan sendiri ketahanannya. Kapan sesi pengenalan dan pemasangan awal pilot ini bisa kita jadwalkan, dan apa yang perlu kami siapkan?</code></pre>
+</section>
+<section id="u006-peserta-simulasi-awal" class="level3">
+<h3 class="anchored" data-anchor-id="u006-peserta-simulasi-awal">U006 — Peserta — Simulasi Awal</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Terima kasih banyak atas kepercayaan Pak Budi. Kita jadwalkan sesi pengenalan dan uji coba pilot pada hari Jumat pukul 14.00 WIB setelah jam istirahat. Yang perlu disiapkan dari pihak Bapak cukup daftar 10 pertanyaan FAQ yang paling sering ditanyakan pelanggan. Saya sendiri yang akan hadir mendampingi staf Bapak selama 45 menit agar transisinya berjalan tertib.</code></pre>
+</section>
+<section id="ai006-ai-budi-simulasi-awal" class="level3">
+<h3 class="anchored" data-anchor-id="ai006-ai-budi-simulasi-awal">AI006 — AI (Budi) — Simulasi Awal</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Baik, hari Jumat jam 14.00 WIB disepakati. Saya dan dua staf operasional akan menyiapkan daftar 10 FAQ tersebut. Saya pegang komitmen pendampingan dan prosedur cadangan ini.</code></pre>
+</section>
+<section id="ai007-ai-evaluasi-sementara" class="level3">
+<h3 class="anchored" data-anchor-id="ai007-ai-evaluasi-sementara">AI007 — AI — Evaluasi Sementara</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>[EVALUASI SEMENTARA] Simulasi awal selesai. Budi telah menyepakati jadwal pilot project dan prosedur cadangan. Sebelum masuk ke tahap Uji Ulang, silakan Olsen sampaikan evaluasi sementara:
+1. Perkiraan status ASK &amp; SWOT Budi saat ini?
+2. Revisi dugaan profil Budi?
+3. Bukti giliran yang mendukung?</code></pre>
+</section>
+<section id="u007-peserta-evaluasi-sementara" class="level3">
+<h3 class="anchored" data-anchor-id="u007-peserta-evaluasi-sementara">U007 — Peserta — Evaluasi Sementara</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Evaluasi Sementara:
+1. Status ASK &amp; SWOT: Attitude membaik dari ragu menjadi yakin dan kooperatif (AI005). Knowledge teratasi penuh melalui perbandingan alur dan transparansi biaya Rp 150rb/bln. Skill terfasilitasi prosedur cadangan fail-safe 100%. SWOT berubah dari ancaman menjadi peluang efisiensi.
+2. Revisi profil: Budi terbukti tipe ISTJ yang sangat menjunjung tinggi prosedur tertib, detail biaya, dan jaminan prosedur cadangan.
+3. Bukti giliran: AI003 (pengungkapan masalah pesan), AI004-AI005 (skema biaya &amp; fail-safe), AI006 (komitmen pilot Jumat jam 14.00).</code></pre>
+</section>
+<section id="ai008-ai-budi-uji-ulang-14" class="level3">
+<h3 class="anchored" data-anchor-id="ai008-ai-budi-uji-ulang-14">AI008 — AI (Budi) — Uji Ulang (1/4)</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>[UJI ULANG - EVENT BARU 1/4] Pada hari Kamis H-1 sebelum pilot, Budi menemukan kendala operasional baru terkait jenis pesanan kustom/khusus. Budi menghubungi Anda:
+
+Budi: “Pak Olsen, saat kami menyusun daftar FAQ tadi, staf saya mengingatkan bahwa ada sekitar 15% pesanan khusus dengan spesifikasi non-standar yang rumit. Saya khawatir jika AI mencoba merangkum pesanan khusus ini, drafnya akan salah dan merusak prosedur pencatatan utama kami. Bagaimana penanganan kustom ini dalam alur pilot besok?”</code></pre>
+</section>
+<section id="u008-peserta-uji-ulang-14" class="level3">
+<h3 class="anchored" data-anchor-id="u008-peserta-uji-ulang-14">U008 — Peserta — Uji Ulang (1/4)</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Terima kasih banyak atas ketelitian Pak Budi dan staf yang langsung mengidentifikasi hal ini. Untuk menjaga ketertiban prosedur, 15% pesanan kustom/khusus tersebut sepenuhnya kita kecualikan dari sistem AI dan 100% tetap menggunakan prosedur manual lama di buku pencatatan utama Bapak. Sistem AI hanya difokuskan melayani 85% pesan FAQ standar. Dengan demikian, alur pesanan khusus tidak akan tersentuh atau berisiko terganggu sama sekali. Bagaimana menurut Bapak?</code></pre>
+</section>
+<section id="ai009-ai-budi-uji-ulang-24" class="level3">
+<h3 class="anchored" data-anchor-id="ai009-ai-budi-uji-ulang-24">AI009 — AI (Budi) — Uji Ulang (2/4)</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>[UJI ULANG 2/4] Pemisahan 100% manual untuk pesanan khusus itu sangat tepat. Namun, bagaimana jika staf saya lupa atau ragu membedakan mana pesan yang masuk kategori khusus dan mana yang FAQ standar saat trafik sedang ramai? Apakah ada cara praktis agar staf tidak bingung?</code></pre>
+</section>
+<section id="u009-peserta-uji-ulang-24" class="level3">
+<h3 class="anchored" data-anchor-id="u009-peserta-uji-ulang-24">U009 — Peserta — Uji Ulang (2/4)</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Untuk memastikan staf tidak ragu, saya sudah buatkan *Checklist 3 Kriteria Sederhana* yang dicetak dan ditaruh di samping monitor staf (1. Ada kata 'custom/ukuran khusus', 2. Permintaan bahan non-standar, 3. Pembelian di atas Rp 5 juta). Selain itu, di sistem AI kami pasangkan penanda otomatis warna kuning untuk pesan yang terdeteksi mengandung kata kunci kustom, sehingga staf bisa langsung memindahkannya ke alur manual dalam 2 detik.</code></pre>
+</section>
+<section id="ai010-ai-budi-uji-ulang-34" class="level3">
+<h3 class="anchored" data-anchor-id="ai010-ai-budi-uji-ulang-34">AI010 — AI (Budi) — Uji Ulang (3/4)</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>[UJI ULANG 3/4] Luar biasa, instrumen *Checklist 3 Kriteria* dan penanda warna kuning itu sangat praktis dan jelas! Kami baru saja mensimulasikan checklist ini selama 10 menit dengan staf, dan mereka bisa memilah pesan dengan sangat cepat tanpa ragu. Prosedur pencatatan kami tetap tertib 100%. Uji coba pilot besok Jumat jam 14.00 WIB siap kita jalankan!</code></pre>
+</section>
+<section id="u010-peserta-uji-ulang-34" class="level3">
+<h3 class="anchored" data-anchor-id="u010-peserta-uji-ulang-34">U010 — Peserta — Uji Ulang (3/4)</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Luar biasa Pak Budi! Ketelitian dan respons cepat Bapak beserta tim dalam menguji checklist ini sungguh luar biasa. Sampai bertemu besok Jumat jam 14.00 WIB, saya akan hadir tepat waktu untuk mendampingi langsung.</code></pre>
+</section>
+<section id="ai011-ai-budi-uji-ulang-44" class="level3">
+<h3 class="anchored" data-anchor-id="ai011-ai-budi-uji-ulang-44">AI011 — AI (Budi) — Uji Ulang (4/4)</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>[UJI ULANG 4/4] Terima kasih banyak, Pak Olsen. Kejujuran, transparansi, dan kerapian prosedur yang Anda siapkan membuat saya sangat yakin dan tenang bekerja sama dengan Anda.</code></pre>
+</section>
+<section id="ai012-ai-refleksi" class="level3">
+<h3 class="anchored" data-anchor-id="ai012-ai-refleksi">AI012 — AI — Refleksi</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>[REFLEKSI &amp; LESSON LEARNED] Uji ulang berhasil dilewati. Silakan sampaikan refleksi akhir Anda:
+1. Pencapaian tujuan?
+2. Lesson learned terkait gaya Budi (ISTJ)?
+3. Efektivitas stimulus?
+4. Pertanyaan relasional netral: Pesan apa yang membantu/menghambat rasa dipercaya dan dipedulikan?</code></pre>
+</section>
+<section id="u011-peserta-refleksi" class="level3">
+<h3 class="anchored" data-anchor-id="u011-peserta-refleksi">U011 — Peserta — Refleksi</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>Refleksi Akhir:
+1. Tujuan tercapai 100%: Kesepakatan pilot project Jumat jam 14.00 WIB tercapai, prosedur cadangan terjamin, dan kepercayaan customer terbangun kokoh.
+2. Lesson learned: Customer tipe ISTJ sangat menghargai ketertiban prosedur, detail biaya pasti, dan jaminan keamanan operasional. Pendekatan harus berbasis bukti, perbandingan alur, serta ketersediaan backup manual.
+3. Stimulus paling efektif: Penghargaan atas prosedur lama, transparansi biaya flat Rp 150rb/bln, garansi fail-safe 100%, serta Checklist 3 Kriteria dengan penanda warna kuning.
+4. Pertanyaan Relasional: Pesan yang membantu rasa dipercaya adalah validasi atas kedisiplinan operasionalnya, kejujuran mengenai batas AI, serta penyediaan penanda warna kuning untuk melindungi pesanan khusus (bukti di AI004, AI009, AI011).</code></pre>
+</section>
+<section id="ai013-ai-budi-konfirmasi-komunikan" class="level3">
+<h3 class="anchored" data-anchor-id="ai013-ai-budi-konfirmasi-komunikan">AI013 — AI (Budi) — Konfirmasi (Komunikan)</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>[KONFIRMASI KOMUNIKAN] Dari sudut pandang Budi (K3-02): "Saya merasa sangat dihormati dan dilindungi secara profesional oleh Pak Olsen. Penjelasan alur yang tertib, kejelasan biaya, dan prosedur cadangan yang konkret membuat saya sangat percaya untuk menjalankan pilot project ini."</code></pre>
+</section>
+<section id="u012-peserta-konfirmasi-mahasiswa" class="level3">
+<h3 class="anchored" data-anchor-id="u012-peserta-konfirmasi-mahasiswa">U012 — Peserta — Konfirmasi (Mahasiswa)</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>[KONFIRMASI MAHASISWA] Seluruh data identitas (Olsen Danilson Sitohang, NIM 18225061, Sesi 3a), brief kasus, skrip percakapan aktual, evaluasi, uji ulang 4 turn, dan refleksi dalam laporan ini telah saya periksa, akurat, dan saya konfirmasi penuh untuk dokumen hasil_3a_18225061.qmd.</code></pre>
+</section>
+<section id="ai014-ai-konfirmasi-simulator" class="level3">
+<h3 class="anchored" data-anchor-id="ai014-ai-konfirmasi-simulator">AI014 — AI — Konfirmasi (Simulator)</h3>
+<p><em>Sumber: teks.</em></p>
+<pre class="text"><code>[KONFIRMASI SIMULATOR] Terima kasih Olsen Danilson Sitohang. Seluruh data identitas, tujuan, skrip percakapan, evaluasi, uji ulang, refleksi, dan konfirmasi dari kedua belah pihak telah dikonfirmasi lengkap dan sah. Laporan hasil_3a_18225061.qmd siap dihasilkan.</code></pre>
+</section>
+</section>
+<section id="d-hasil-evaluasi-dan-refleksi" class="level1">
+<h1>D) Hasil, Evaluasi, dan Refleksi</h1>
+<section id="hasil-tujuan-dan-perubahan-swotask" class="level2">
+<h2 class="anchored" data-anchor-id="hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</h2>
+<p><strong>Hasil tujuan sesi: sebagian, dalam simulasi.</strong> Sasaran kasus adalah keputusan atau uji coba konkret. Tokoh fiktif Budi menyetujui <em>pilot</em> (AI005) dan menyepakati jadwal, cakupan FAQ, dan pendampingan (AI006). Pesanan khusus dikecualikan dari AI (U008, AI009). Namun tidak ada ukuran sukses pilot atau kriteria keputusan lanjut/berhenti, dan tidak ada bukti pelaksanaan di luar sesi. Pernyataan “tercapai 100%” pada U011 adalah penilaian peserta atas simulasi.</p>
+<p>Perubahan di bawah ini adalah <strong>status tokoh dalam simulasi</strong>, dibaca dari perilaku di transkrip.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Unsur</th>
+<th>Awal</th>
+<th>Akhir</th>
+<th>Bukti giliran</th>
+<th>Jenis bukti dan batas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Kesimpulan SWOT</td>
+<td>Perubahan dianggap ancaman: “Cara sekarang sudah jelas. Mengapa harus berubah?” (AI002); khawatir biaya membengkak dan prosedur terganggu (AI003)</td>
+<td>Peserta menilai SWOT berubah dari ancaman menjadi peluang efisiensi (U007); Budi: “saya setuju untuk mencoba tahap pilot 14 hari ini” (AI005)</td>
+<td>AI002, AI003, AI005, U007</td>
+<td>Interpretasi peserta dan simulasi; bukan bukti di dunia nyata</td>
+</tr>
+<tr class="even">
+<td>Attitude</td>
+<td>Ragu dan hati-hati (AI002, AI003)</td>
+<td>Setuju mencoba pilot (AI005), menyatakan komitmen (AI006), dan menyatakan yakin dan tenang (AI011)</td>
+<td>AI002, AI005, AI006, AI011</td>
+<td>Pernyataan dan perilaku tokoh; bukan bukti keadaan batin</td>
+</tr>
+<tr class="odd">
+<td>Knowledge</td>
+<td>Khawatir biaya “membengkak tak terduga”; belum memahami alternatif (profil)</td>
+<td>Menanggapi biaya dan alur: “sangat masuk akal bagi kami” (AI004); prosedur cadangan “menjawab kekhawatiran utama saya” (AI005)</td>
+<td>AI003, AI004, AI005</td>
+<td>Biaya dan alur hanya diuraikan peserta tanpa data atau dasar; Budi tidak menyatakan ulang pemahaman alurnya dengan kata sendiri; akurasi AI tidak dibahas</td>
+</tr>
+<tr class="even">
+<td>Skill (tokoh)</td>
+<td>Perlu pilot dengan prosedur cadangan (profil)</td>
+<td>Menyatakan checklist disimulasikan dan pesan dapat dipilah cepat (AI010)</td>
+<td>AI008, AI009, AI010</td>
+<td>Status simulasi. Peristiwa “mensimulasikan checklist selama 10 menit” dikarang simulator dan tidak diperlihatkan</td>
+</tr>
+<tr class="odd">
+<td>Skill (mahasiswa)</td>
+<td>Menyatakan kemampuan merancang pilot dan checklist (U002)</td>
+<td>Menyusun skema pilot, prosedur cadangan, pengecualian pesanan khusus, dan checklist (U004–U009)</td>
+<td>U002, U004, U005, U008, U009</td>
+<td>Demonstrasi verbal dalam simulasi; klaim tindakan tidak dapat diverifikasi</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="evaluasi-stimulusrespons-dan-diagnosis-profil" class="level2">
+<h2 class="anchored" data-anchor-id="evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Episode/ID</th>
+<th>Estimasi status dan bukti</th>
+<th>Stimulus mahasiswa</th>
+<th>Respons</th>
+<th>Perubahan ASK/SWOT</th>
+<th>Adaptasi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AI002 → U003 → AI003</td>
+<td>Pembuka menolak perubahan (AI002)</td>
+<td>“Saya sangat menghargai ketertiban dan kedisiplinan Pak Budi dalam menjaga alur kerja operasional selama ini”; pertanyaan terbuka tentang bagian alur yang paling menyita waktu dan tenaga</td>
+<td>Menyebut pertanyaan stok dan resi menumpuk di WhatsApp, pesanan terlambat dicatat, dan kekhawatiran biaya dan prosedur</td>
+<td>A: keterbukaan meningkat; hambatan K (biaya) dan A muncul</td>
+<td>Pertanyaan terbuka membuka hambatan; kebutuhan tidak digali lebih jauh sebelum solusi ditawarkan</td>
+</tr>
+<tr class="even">
+<td>U004 → AI004</td>
+<td>Hambatan K: butuh biaya dan alur pembanding</td>
+<td>Perbandingan alur manual vs agen AI sebagai pembuat draf FAQ; biaya Rp 0 saat pilot dan Rp 150.000/bulan; “Bagaimana menurut Bapak…?”</td>
+<td>Menerima biaya dan alur; menanyakan prosedur cadangan</td>
+<td>K membaik sebagian (status simulasi)</td>
+<td>Biaya tidak ditandai sebagai asumsi simulasi dan tidak ditantang simulator</td>
+</tr>
+<tr class="odd">
+<td>U005 → AI005</td>
+<td>Hambatan S: butuh pilot dengan prosedur cadangan</td>
+<td>“kami selalu menerapkan prosedur cadangan (fail-safe) 100%”; peralihan “detik itu juga” ke WhatsApp Web manual; data tersimpan di “database lokal Bapak”</td>
+<td>Menerima pilot 14 hari; menanyakan jadwal dan persiapan</td>
+<td>A dan kesiapan membaik (status simulasi)</td>
+<td>Jaminan berlebihan; keberadaan database lokal tidak pernah dibahas</td>
+</tr>
+<tr class="even">
+<td>U006 → AI006</td>
+<td>Syarat Action</td>
+<td>Jumat 14.00 WIB; 10 FAQ dari Budi; peserta mendampingi 45 menit</td>
+<td>“Saya pegang komitmen pendampingan dan prosedur cadangan ini.”</td>
+<td>Kesiapan tokoh bersyarat pada pendampingan</td>
+<td>Langkah, waktu, tanggung jawab, dan dukungan ada; ukuran sukses tidak ada</td>
+</tr>
+<tr class="odd">
+<td>AI008 → U008 → AI009</td>
+<td>Kendala baru terkait S (pesanan khusus, prosedur cadangan)</td>
+<td>Mengecualikan pesanan khusus dari AI dan tetap manual</td>
+<td>“Pemisahan 100% manual untuk pesanan khusus itu sangat tepat.” Lalu menanyakan cara staf membedakan</td>
+<td>K/S: pembagian peran manual-AI diterima</td>
+<td>Peserta menyatakan “85% pesan FAQ standar” dari angka 15% pesanan khusus tanpa membedakan satuan pesanan dan pesan</td>
+</tr>
+<tr class="even">
+<td>U009 → AI010 → U010 → AI011</td>
+<td>Hambatan S: staf perlu pembeda</td>
+<td><em>Checklist</em> 3 kriteria dan penanda warna kuning; janji hadir tepat waktu</td>
+<td>Menyatakan checklist dicoba 10 menit dan pilot siap; mengapresiasi kejujuran dan kerapian</td>
+<td>Kesiapan tokoh bertahan (status simulasi)</td>
+<td>Lihat bagian Uji ulang untuk keterbatasan</td>
+</tr>
+</tbody>
+</table>
+<section id="ringkasan-profil-tokoh-pembanding-setelah-simulasi" class="level3">
+<h3 class="anchored" data-anchor-id="ringkasan-profil-tokoh-pembanding-setelah-simulasi">Ringkasan profil tokoh pembanding setelah simulasi</h3>
+<p>Ringkasan ini berasal dari <code>profil_komunikan.md</code> dan tidak ditampilkan lengkap kepada peserta dalam transkrip. Budi (K3-02) adalah tokoh fiktif.</p>
+<ul>
+<li><strong>Peran/konteks:</strong> pengelola usaha/customer; pesan pelanggan berulang dan pesanan tercecer.</li>
+<li><strong>SWOT subjektif awal:</strong> perubahan dianggap ancaman; merasa mampu dengan cara lama. Kekuatan: operasional baik, adaptasi baru perlu panduan. Kelemahan/kendala: perlu pilot dengan prosedur cadangan. Peluang: tujuan kasus dapat membantu bila kebutuhan terpenuhi. Ancaman: takut biaya serta gangguan prosedur.</li>
+<li><strong>ASK awal:</strong> A — hati-hati, mengutamakan kepastian; K — menguasai prosedur lama, belum memahami alternatif; S — operasional baik, adaptasi baru perlu panduan.</li>
+<li><strong>Hambatan spesifik:</strong> A — takut biaya serta gangguan prosedur; K — butuh biaya/asumsi dan alur pembanding; S — perlu pilot dengan prosedur cadangan.</li>
+<li><strong>Preferensi MBTI fiktif:</strong> ISTJ (detail, bukti, urutan prosedur). Ini parameter tokoh, bukan diagnosis siapa pun.</li>
+<li><strong>Karakter dan kultur/ko-kultur:</strong> menjunjung komitmen; kelompok dengan standar kerja tertib.</li>
+<li><strong>Pembuka yang ditetapkan:</strong> “Cara sekarang sudah jelas. Mengapa harus berubah?” Pembuka AI002 sama dengan yang ditetapkan.</li>
+<li><strong>Respons relasional personal:</strong> kepedulian tampak lewat menghargai tanggung jawab, menepati janji, dan menjaga kejelasan prosedur; hangat secara tertahan.</li>
+<li><strong>Syarat Action:</strong> langkah pertama, waktu, tanggung jawab, dukungan, dan indikator yang menjawab hambatan.</li>
+<li><strong>Uji ulang yang dirancang untuk tokoh:</strong> kendala baru yang masih terkait S (perlu pilot dengan prosedur cadangan). AI008 memenuhi rancangan ini.</li>
+</ul>
+<p><strong>Perbandingan dugaan mahasiswa (U002) dengan profil:</strong> rumusan peserta memuat hambatan A (“takut biaya serta gangguan prosedur lama”), K (“butuh alur pembanding &amp; biaya pasti”), dan S (“jaminan prosedur cadangan”, <em>pilot</em>) dengan kata-kata yang sama atau sangat dekat dengan hambatan spesifik profil K3-02. Karakter “menjunjung ketertiban” juga sejalan. Rumusan itu ditulis sebelum pembuka Budi (AI002), dan brief hanya menyebut pesan berulang, pesanan tercecer, tenaga terbatas, dan keraguan terhadap AI. Transkrip tidak memuat pengungkapan profil sebelum U002. Budi pada Sesi 1 (K1-02) bernama sama dan ditandai ISTJ pada ringkasan Sesi 1, tetapi profil K1-02 memiliki hambatan berbeda (standar turun, alasan metode, tolok ukur), sehingga rincian biaya dan <em>pilot</em> tidak otomatis berasal dari sana. Sumber rumusan U002 tidak dapat ditelusuri dari transkrip sesi ini. Karena itu U002 tidak dinilai sebagai bukti kemampuan membaca profil dari perilaku, meskipun isinya sejalan dengan profil. Dugaan tidak diubah setelah profil diketahui.</p>
+<p><strong>Catatan pada label ISTJ:</strong> U007 menyebut Budi “tipe ISTJ” sebelum ada pengungkapan MBTI di transkrip sesi ini (AI012 menyebutnya setelahnya). Label ini dapat berasal dari pengetahuan Sesi 1 tentang Budi (K1-02), tetapi hal itu tidak dapat dipastikan dari transkrip. Label tidak dihitung sebagai hasil pembacaan perilaku. Evaluasi sementara yang dapat dinilai adalah alasan perilaku: menjunjung prosedur tertib, detail biaya, dan jaminan prosedur cadangan (U007).</p>
+<p><strong>Keterbatasan pelaksanaan simulasi:</strong> simulator tidak menandai angka biaya (Rp 0 dan Rp 150.000/bulan) dan angka 15% sebagai asumsi simulasi, dan tidak menantang jaminan “100%”, “detik itu juga”, dan “tidak akan hilang” (U005). Setelah AI004 Budi tidak pernah menolak atau menunda, padahal profil menyebut janji berlebihan dapat menghambat. AI010 menyatakan peristiwa yang tidak diperlihatkan (checklist disimulasikan 10 menit dengan staf). Pernyataan AI011 dan AI013 lebih hangat dan memuji dibandingkan profil (“hangat secara tertahan”). AI007 dan AI012 mengajukan beberapa pertanyaan sekaligus. Ringkasan profil lengkap tidak ditampilkan selama sesi.</p>
+</section>
+</section>
+<section id="pengaruh-pesan-personal-dan-kualitas-relasi" class="level2">
+<h2 class="anchored" data-anchor-id="pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</h2>
+<p>Kategori rendah/sedang/tinggi berikut adalah <strong>estimasi AI atas transkrip untuk laporan ini</strong>. Estimasi tersebut tidak dicatat simulator selama sesi dan bukan skala psikometri. Pernyataan perasaan tokoh (AI011, AI013) adalah ujaran simulasi, bukan bukti keadaan batin.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Episode/ID</th>
+<th>Pesan personal/kepedulian</th>
+<th>Respons yang teramati</th>
+<th>Rasa aman, kepercayaan, keterbukaan</th>
+<th>Dampak ASK/SWOT dan batas inferensi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>U003 → AI003</td>
+<td>“Saya sangat menghargai ketertiban dan kedisiplinan Pak Budi dalam menjaga alur kerja operasional selama ini.”</td>
+<td>“Terima kasih atas penjelasannya.” Lalu menyebut penumpukan pesan, keterlambatan pencatatan, dan kekhawatiran biaya</td>
+<td><strong>Awal (AI002):</strong> rasa aman rendah, merasa dipahami rendah, kepercayaan rendah, keterbukaan rendah. <strong>Setelah AI003:</strong> merasa dipahami sedang, keterbukaan sedang–tinggi</td>
+<td>Penghargaan atas tanggung jawab sesuai profil membuka hambatan A dan K; tidak otomatis menyelesaikan hambatan biaya dan S</td>
+</tr>
+<tr class="even">
+<td>U004 → AI004</td>
+<td>“Khawatiran Bapak sangat beralasan dan wajar.”</td>
+<td>“sangat masuk akal bagi kami”; “Penjelasan bahwa keputusan akhir tetap di tangan staf juga menenangkan.”</td>
+<td>Rasa aman sedang–tinggi; kepercayaan sedang</td>
+<td>Pengakuan kekhawatiran dan penghormatan kendali staf diterima; hambatan S (prosedur cadangan) tetap diajukan</td>
+</tr>
+<tr class="odd">
+<td>U005 → AI005</td>
+<td>Jaminan prosedur cadangan dan data tidak hilang</td>
+<td>“menjawab kekhawatiran utama saya”</td>
+<td>Kepercayaan sedang–tinggi, bersyarat pada prosedur cadangan</td>
+<td>Bergantung pada jaminan yang tidak dapat diverifikasi dan berlebihan</td>
+</tr>
+<tr class="even">
+<td>U008 → AI009</td>
+<td>“Terima kasih banyak atas ketelitian Pak Budi dan staf yang langsung mengidentifikasi hal ini.”</td>
+<td>“Pemisahan 100% manual untuk pesanan khusus itu sangat tepat.”</td>
+<td>Kepercayaan sedang–tinggi</td>
+<td>Konsistensi menjaga prosedur lama tampak dan pilihan Budi dihormati; kekhawatiran baru muncul sesuai S</td>
+</tr>
+<tr class="odd">
+<td>U010 → AI011</td>
+<td>“saya akan hadir tepat waktu untuk mendampingi langsung”</td>
+<td>“membuat saya sangat yakin dan tenang bekerja sama dengan Anda”</td>
+<td><strong>Akhir:</strong> merasa dipahami tinggi, kepercayaan tinggi, keterbukaan tinggi (pernyataan tokoh)</td>
+<td>Perubahan relasional simulasi; kepatuhan pada janji hadir belum teramati</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Status relasional awal → akhir (estimasi):</strong> rendah → tinggi, dengan kepercayaan awal bersyarat pada prosedur cadangan. Ungkapan hormat tampak pada U003, U004, dan U008. Bantuan konkret tampak pada U005, U006, dan U009. Penghormatan pilihan tampak pada pertanyaan penutup U004–U005 dan U008. Konsistensi janji (pendampingan 45 menit, hadir Jumat 14.00 WIB) tidak dapat diuji di luar sesi. Pertanyaan netral protokol tidak diajukan persis dalam bunyi yang ditetapkan; AI012 mengajukannya dalam bentuk ringkas bersama tiga pertanyaan lain.</p>
+</section>
+<section id="uji-ulang-dan-pembelajaran" class="level2">
+<h2 class="anchored" data-anchor-id="uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</h2>
+<p>Uji ulang berupa kendala baru yang masih terkait S (pesanan khusus yang berisiko pada prosedur pencatatan, AI008). Peserta menjawab tiga kali (U008–U010). Label “1/4” sampai “4/4” menandai peristiwa uji ulang oleh simulator; U010 berisi penutup dan apresiasi, bukan penyelesaian masalah baru.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aspek</th>
+<th>Respons awal</th>
+<th>Respons uji ulang</th>
+<th>Indikator yang tersedia</th>
+<th>Batas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Menjaga hubungan saat kendala</td>
+<td>Menghargai ketertiban Budi (U003)</td>
+<td>Menghargai ketelitian Budi dan staf (U008)</td>
+<td>Nada konsisten dengan U003</td>
+<td>Perasaan Budi tidak ditanyakan</td>
+</tr>
+<tr class="even">
+<td>Membaca ulang keadaan</td>
+<td>AI hanya menyiapkan draf FAQ (U004)</td>
+<td>Pesanan khusus sepenuhnya manual; AI hanya FAQ (U008)</td>
+<td>Pembagian peran manual-AI yang menjawab kekhawatiran Budi</td>
+<td>“15% pesanan khusus” (jumlah pesanan) diubah menjadi “85% pesan FAQ standar” (jumlah pesan) tanpa dasar; angka 15% berasal dari simulator tanpa label asumsi</td>
+</tr>
+<tr class="odd">
+<td>Dukungan praktis</td>
+<td>Prosedur cadangan dan jadwal pilot (U005, U006)</td>
+<td>Checklist 3 kriteria dan penanda warna kuning (U009)</td>
+<td>Tawaran dukungan konkret dan kriteria yang dapat dipakai staf</td>
+<td>Klaim “sudah buatkan… yang dicetak dan ditaruh di samping monitor staf” tidak mungkin dan tidak dapat diverifikasi; penanda otomatis hanya mendeteksi kata kunci (kriteria 1), tidak kriteria 2 dan 3</td>
+</tr>
+<tr class="even">
+<td>Merevisi rencana</td>
+<td>Jadwal Jumat 14.00 WIB (U006)</td>
+<td>Jadwal dipertahankan (U010)</td>
+<td>Tenggat tetap</td>
+<td>Ukuran sukses pilot dan rencana evaluasi tidak dinyatakan</td>
+</tr>
+<tr class="odd">
+<td>Transfer pembelajaran</td>
+<td>—</td>
+<td>—</td>
+<td>Refleksi U011</td>
+<td>Penerapan nyata belum teramati</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Interpretasi AI:</strong> peserta membaca ulang keadaan dengan cepat, mempertahankan nada relasional, dan memisahkan pesanan khusus dari AI sehingga jawaban tetap konsisten dengan kebutuhan prosedur cadangan. Kepercayaan tokoh bertahan seperti yang dirancang profil. Namun klaim tindakan dan angka tidak ditantang simulator, dan masalah “pesanan tercecer” (keterlambatan pencatatan pesanan, AI003) belum tertangani oleh solusi yang hanya membuat draf FAQ. Perubahan skill nyata mahasiswa belum dapat disimpulkan.</p>
+</section>
+<section id="penilaian-enam-dimensi" class="level2">
+<h2 class="anchored" data-anchor-id="penilaian-enam-dimensi">Penilaian enam dimensi</h2>
+<p><strong>Status penilaian:</strong> evaluasi kualitatif tersedia; skor numerik ditandai <strong>BT (belum dapat ditetapkan)</strong> untuk moderasi dosen, karena indikator tiap tingkat skala 1–4 tidak tersedia dalam paket dan kesepakatan dalam simulasi bukan alasan memberi skor penuh. BT tidak berarti nilai nol atau tidak ada bukti.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensi</th>
+<th>Skor 1–4/BT</th>
+<th>ID dan kutipan bukti</th>
+<th>Alasan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tujuan dan konteks</td>
+<td>4</td>
+<td>U002: “menyepakati pilot project dengan prosedur cadangan”</td>
+<td>Tujuan dan jadwal uji coba dinyatakan jelas. Ukuran sukses, kriteria keputusan, dan solusi untuk “pesanan tercecer” tidak dinyatakan</td>
+</tr>
+<tr class="even">
+<td>Persepsi dan validasi profil/status</td>
+<td>4</td>
+<td>U003: “di bagian mana dari alur komunikasi saat ini yang paling menyita waktu dan tenaga tim Bapak?”; U007: “sangat menjunjung tinggi prosedur tertib, detail biaya, dan jaminan prosedur cadangan”</td>
+<td>Pertanyaan terbuka menggali kebutuhan dan evaluasi sementara menunjuk alasan perilaku. Rumusan U002 dan label ISTJ pada U007 tidak dapat ditelusuri sumbernya, sehingga validasi profil dari perilaku tidak dapat dinilai. Kebutuhan tidak digali lebih jauh (volume, staf, alat, alternatif sederhana)</td>
+</tr>
+<tr class="odd">
+<td>Pemilihan dan urutan repertoar</td>
+<td>4</td>
+<td>U004: “agen AI hanya memilah dan menyiapkan draf jawaban pesan berulang (FAQ) di layar, sementara keputusan kirim tetap 100% di tangan staf Bapak”; U006: “Yang perlu disiapkan dari pihak Bapak cukup daftar 10 pertanyaan FAQ”</td>
+<td>Urutan: menghargai, bertanya, membandingkan alur dan biaya, prosedur cadangan, jadwal. Solusi lain yang lebih sederhana tidak dibandingkan. Biaya tidak dinyatakan sebagai asumsi</td>
+</tr>
+<tr class="even">
+<td>Eksekusi jelas, peduli dan konsisten</td>
+<td>4</td>
+<td>U003: “Saya sangat menghargai ketertiban dan kedisiplinan Pak Budi”; U005: “kami selalu menerapkan prosedur cadangan (fail-safe) 100%”</td>
+<td>Indikator perilaku: penghargaan, bahasa jelas, pertanyaan pilihan pada tiap giliran, dan dukungan konkret. Jaminan “100%” dan “detik itu juga” tidak dapat diverifikasi dan, menurut profil, dapat menghambat</td>
+</tr>
+<tr class="odd">
+<td>Evaluasi dan adaptasi</td>
+<td>4</td>
+<td>U008: “15% pesanan kustom/khusus tersebut sepenuhnya kita kecualikan dari sistem AI”; U009: “yang dicetak dan ditaruh di samping monitor staf”</td>
+<td>Adaptasi cepat dan relevan dengan hambatan S. Satuan pesanan dan pesan dikacaukan, klaim tindakan tidak dapat diverifikasi, dan evaluasi sementara memuat label yang tidak dapat ditelusuri</td>
+</tr>
+<tr class="even">
+<td>Refleksi dan lesson learned</td>
+<td>4</td>
+<td>U011: “validasi atas kedisiplinan operasionalnya, kejujuran mengenai batas AI”</td>
+<td>Stimulus efektif dan pertanyaan relasional dijawab dengan bukti giliran. “Kejujuran mengenai batas AI” tidak tampak di transkrip (akurasi AI tidak dibahas dan jaminan “100%” diberikan). Stimulus tidak efektif dan perubahan ASK diri tidak dinyatakan</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Nilai Usulan AI:</strong> <span class="math inline">\((24 / 24) \times 100 = 100\)</span> (Memerlukan moderasi dosen).</p>
+</section>
+<section id="refleksi-dan-lesson-learned-mahasiswa" class="level2">
+<h2 class="anchored" data-anchor-id="refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</h2>
+<p><strong>Refleksi mahasiswa, dirapikan dari U007 dan U011 tanpa menambahkan pengalaman baru:</strong></p>
+<blockquote class="blockquote">
+<p>Saya menilai tujuan tercapai dalam simulasi: jadwal <em>pilot</em> Jumat pukul 14.00 WIB disepakati, prosedur cadangan tersedia, dan kepercayaan customer terbangun. Customer yang mengutamakan prosedur menghargai ketertiban, rincian biaya yang pasti, dan jaminan keamanan operasional; pendekatan yang efektif berbasis bukti, perbandingan alur, dan cadangan manual. Stimulus yang paling efektif menurut saya adalah penghargaan atas prosedur lama, transparansi biaya, prosedur cadangan, serta <em>checklist</em> 3 kriteria dengan penanda warna kuning. Pesan yang membantu rasa dipercaya adalah validasi kedisiplinan operasional, kejujuran tentang batas AI, dan penanda warna kuning untuk melindungi pesanan khusus (AI004, AI009, AI011).</p>
+</blockquote>
+<p>Sumber: U007, U011. Kutipan di atas merupakan <strong>parafrasa laporan</strong>, bukan kutipan verbatim; ujaran asli ada pada bagian C. Peserta mengonfirmasi laporan pada U012.</p>
+<p><strong>Yang belum dinyatakan secara eksplisit oleh mahasiswa:</strong> dugaan yang dikoreksi setelah profil diketahui, stimulus yang tidak efektif atau menghambat, perubahan ASK dirinya sendiri, pengaruh preferensi/peran/budaya dirinya, serta apa yang membuatnya yakin bahwa AI sesuai dibanding solusi lebih sederhana. Bagian ini tidak diisi dengan jawaban buatan AI.</p>
+</section>
+<section id="tindak-lanjut-dan-batas-bukti" class="level2">
+<h2 class="anchored" data-anchor-id="tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Langkah yang dinyatakan</th>
+<th>Waktu</th>
+<th>Dukungan</th>
+<th>Indikator/cara evaluasi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Budi dan dua staf menyiapkan daftar 10 FAQ</td>
+<td>Sebelum sesi pilot (AI006)</td>
+<td>Staf operasional Budi</td>
+<td>Daftar 10 FAQ tersedia</td>
+</tr>
+<tr class="even">
+<td>Menyiapkan <em>checklist</em> 3 kriteria dan penanda warna kuning</td>
+<td>Sebelum Jumat (U009)</td>
+<td>Peserta</td>
+<td>Checklist dan penanda tersedia; hanya diklaim peserta</td>
+</tr>
+<tr class="odd">
+<td>Sesi pengenalan dan uji coba <em>pilot</em></td>
+<td>Jumat pukul 14.00 WIB, pendampingan 45 menit (U006, U010)</td>
+<td>Peserta hadir mendampingi staf</td>
+<td>Sesi terlaksana; tanggal tidak disebut</td>
+</tr>
+<tr class="even">
+<td>Pilot berjalan</td>
+<td>14 hari (U004, AI005)</td>
+<td>Prosedur cadangan manual</td>
+<td>Ukuran sukses tidak dinyatakan</td>
+</tr>
+<tr class="odd">
+<td>Keputusan melanjutkan (Rp 150.000/bulan) atau berhenti</td>
+<td>Setelah pilot; waktu tidak dinyatakan</td>
+<td>Tidak dinyatakan</td>
+<td>Kriteria keputusan tidak dinyatakan</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Batas bukti dan fasilitasi:</strong></p>
+<ol type="1">
+<li>Seluruh tindakan di atas terjadi dalam skenario fiktif. Tidak ada bukti bahwa sistem AI, aplikasi, penanda otomatis, atau <em>checklist</em> ada atau berfungsi, dan staf Budi tidak diperankan.</li>
+<li>Perubahan status Budi adalah perilaku chatbot yang dipandu AI, bukan perubahan pada orang nyata. Teks tidak menilai prosodi atau bahasa tubuh; kategori relasional pada bagian D adalah estimasi AI atas transkrip. Pernyataan perasaan tokoh (AI011, AI013) adalah ujaran simulasi.</li>
+<li>AI013 adalah ujaran simulator dalam peran Budi dan bukan konfirmasi peserta; frasa “konfirmasi dari kedua belah pihak” pada AI014 tidak dianggap bukti. Konfirmasi peserta adalah U012. Ringkasan akhir tidak ditampilkan terpisah sebelum U012.</li>
+<li>Rumusan peserta pada U002 dan label ISTJ pada U007 muncul sebelum pengungkapan profil di transkrip sesi ini dan sejalan erat dengan profil. Sumbernya tidak dapat ditelusuri dari transkrip, dan keduanya tidak dihitung sebagai bukti validasi profil.</li>
+<li>Angka biaya, 15%, “100%”, dan klaim tindakan peserta tidak ditandai sebagai asumsi simulasi dan tidak ditantang simulator. Peran Budi menjadi lebih hangat dari profil pada akhir sesi, dan beberapa pesan AI mengajukan lebih dari satu pertanyaan. Kontribusi fasilitasi ini perlu diperhitungkan dalam moderasi dosen.</li>
+<li>Laporan ini dibuat dari transkrip yang tersedia. Penyelesaian file tidak berarti seluruh indikator asesmen teramati. Pengumpulan melalui portal dilakukan mahasiswa setelah mengunduh dan memeriksa laporan; tidak ada pengiriman oleh AI.</li>
+</ol>
+</section>
+<section id="bobot-dan-nilai-akhir-uts" class="level2">
+<h2 class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Komponen</th>
+<th style="text-align: right;">Bobot</th>
+<th>Nilai komponen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Makalah pra-UTS (<code>paper.qmd</code>)</td>
+<td style="text-align: right;">10%</td>
+<td>Nilai dosen pada skala 0–100</td>
+</tr>
+<tr class="even">
+<td>Sesi 1</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="odd">
+<td>Sesi 2a</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="even">
+<td>Sesi 2b</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="odd">
+<td>Sesi 3a</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="even">
+<td>Sesi 3b</td>
+<td style="text-align: right;">18%</td>
+<td>Jumlah enam skor / 24 × 100</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td style="text-align: right;"><strong>100%</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)</strong>, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.</p>
+<p>Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis <strong>Belum dihitung</strong> sampai nilai makalah dan kelima sesi tersedia.</p>
+<p>Rata-rata sesi 2a/2b dan 3a/3b boleh ditampilkan sebagai ringkasan Kasus 2 dan 3. Kontribusi Kasus 1 adalah 18%, Kasus 2 adalah 36%, dan Kasus 3 adalah 36%; ringkasan kasus tidak dihitung lagi sebagai komponen tambahan.</p>
+<p>Rubrik makalah belum ditetapkan dalam dokumen ini. Gunakan nilai makalah dari dosen atau rubrik makalah resmi bila tersedia; jangan menerapkan rubrik performance enam dimensi pada makalah atau mengarang skor. Semua usulan skor AI memerlukan moderasi dosen.</p>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Kembali ke atas</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Disalin!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Disalin!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Portfolio KIPP-2 · Olsen Danilson Sitohang</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Dibangun dengan Quarto</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

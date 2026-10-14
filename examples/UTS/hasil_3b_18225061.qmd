@@ -1,0 +1,166 @@
+---
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 3b — Kasus 3"
+lang: id
+format:
+  html:
+    toc: true
+execute:
+  eval: false
+---
+
+# A) Identitas
+
+| Elemen | Keterangan |
+|---|---|
+| Nama mahasiswa | Olsen Danilson Sitohang |
+| NIM | 18225061 |
+| Kelas dan tanggal | Kelas K1 (Sistem dan Teknologi Informasi); 14 Oktober 2026 |
+| Nomor/judul kasus | Sesi 3b; Kasus 3 (Menawarkan Solusi TI dan AI) |
+| Nama dan ID target | Dimas (K3-04) |
+| Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN_4.md |
+| Modalitas | Teks (Chat) |
+| Kasus nyata/fiktif | Fiktif (Simulasi) |
+| Kelengkapan transkrip | Lengkap (U001–U012 dan AI001–AI014) |
+
+# B) Kasus dan Tujuan
+
+## Kasus dan tujuan tindakan
+
+**Brief Kasus:** Pengelola usaha/customer (Dimas, K3-04) menghadapi masalah penanganan pesan pelanggan berulang dan pesanan tercecer dengan tenaga operasional terbatas. Dimas adalah seorang penilai teknis berkarakter analitis kritis (INTJ) yang sangat meragukan akurasi serta klaim manfaat AI yang berlebihan. Ia hanya bersedia mempertimbangkan solusi jika diberikan bukti logika ringkas, transparansi batas kemampuan, ukuran keberhasilan yang dapat dievaluasi mandiri, serta jaminan otonomi dan kontrol penuh manusia.
+
+**Tujuan Tindakan:**
+1. Menghormati alasan kritis, beban kerja, dan otonomi Dimas tanpa membuat klaim manfaat yang muluk atau tidak terbukti.
+2. Menyajikan perbandingan data kuantitatif dan metrik evaluasi terukur mengenai akurasi penanganan pesan (Knowledge).
+3. Menyepakati skenario *pilot project* yang dapat dievaluasi secara mandiri oleh Dimas dengan ketersediaan mekanisme *human override* (kontrol keputusan 100% di tangan staf) (Skill/Support).
+4. Menyepakati jadwal uji coba terukur tanpa risiko finansial maupun operasional (Action).
+
+## Profil awal komunikator
+
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
+|---|---|---|---|
+| SWOT subjektif | **Kekuatan:** Mampu menjelaskan arsitektur AI secara rasional, menyediakan metrik uji transparan, dan menghargai nalar kritis customer. **Peluang:** Efisiensi operasional usaha customer terukur tanpa mengurangi kendali. **Kelemahan:** Berpotensi terlalu teoritis jika tidak menghubungkan metrik dengan alur nyata. **Ancaman:** Penolakan tegas dari customer jika menyajikan klaim bombastis tanpa data. | U002 | Laporan diri / Hipotesis |
+| Attitude | Menghargai otonomi dan daya kritis customer, bersikap jujur mengenai batas teknologi, dan mengutamakan transparansi data. | U002 | Laporan diri |
+| Knowledge | Memahami arsitektur agen AI, mekanisme evaluasi presisi/recall, serta desain sistem antarmuka berbasis persetujuan manusia (*human-in-the-loop*). | U002 | Laporan diri |
+| Skill | Kemampuan merancang uji keberhasilan mandiri (*self-evaluation benchmark*), menyusun matriks ambiguitas pesan, serta memfasilitasi integrasi sistem yang aman. | U002, U004, U005, U008, U009 | Demonstrasi |
+| Preferensi/MBTI jika dilaporkan | Logis, terstruktur, berbasis data, dan berorientasi pada hasil terukur. | U002 | Laporan diri |
+| Karakter, peran, kultur/ko-kultur | Mahasiswa STI ITB; peran sebagai konsultan teknologi yang obyektif, komunikatif, dan menghargai independensi keputusan customer. | U001, U002 | Laporan diri |
+
+## Dugaan awal profil target dan rencana
+
+| TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
+|---|---|---|---|---|
+| **Target** | Kesepakatan uji coba *pilot test* terukur dengan indikator keberhasilan mandiri | A/K/S | Validasi alasan kritis, penjelasan metrik akurasi, & skenario *human override* | Komitmen uji coba & kesediaan evaluasi |
+| **Attention** | Skeptis pada klaim muluk, sangat menghargai logika & bukti | A (Hargai nalar kritis & otonomi) | Mengakui batasan AI, menghindari janji bombastis, fokus pada data rasional | Penurunan defensivitas & keterbukaan diskusi |
+| **Interest** | Butuh data/ukuran kuantitatif & batas solusi | K (Matriks evaluasi & batas sistem) | Menyajikan skema *precision rate* (90%+) & perbandingan *handling time* | Pemahaman alur & penerimaan logika metrik |
+| **Desire** | Khawatir AI salah paham & menghilangkan kontrol manusia | S (*Human-in-the-loop* & *override*) | Menjamin fungsi AI murni sebagai pemilah draf, kirim pesan tetap 100% manual | Kesiapan untuk menguji sistem |
+| **Action** | Terhambat kendala ambiguitas pesan kustom pada uji ulang | S (Threshold kepercayaan & label merah) | Menetapkankan batas ambiguitas AI (<85%) yang otomatis melempar pesan ke staf | Pelaksanaan uji coba & pengunggahan hasil |
+
+# C) Skrip Percakapan
+
+| ID | Tahap | Peserta | Kutipan |
+|---|---|---|---|
+| U001 | Identifikasi | Olsen | Halo, selamat sore. Saya Olsen Danilson Sitohang (NIM 18225061) dari kelas K1 Sistem dan Teknologi Informasi, tanggal 14 Oktober 2026. Saya menggunakan modalitas teks untuk simulasi Sesi 3b Kasus 3 ini, dengan kasus fiktif dan transkrip lengkap. |
+| AI001 | Identifikasi | Simulator | Baik Olsen Danilson Sitohang (NIM 18225061), data identitas dicatat. Penugasan aktif: Sesi 3b - Kasus 3 dengan Dimas (K3-04). Silakan sampaikan brief kasus, tujuan tindakan Anda, profil awal Anda sendiri, serta dugaan awal profil Dimas dan rencana komunikasi Anda (TAIDA) sebelum kita memulai simulasi. |
+| U002 | Rencana Awal | Olsen | Terima kasih. Berikut rencana awal saya:\n1. Brief & Tujuan: Customer Dimas (K3-04) kewalahan pesan berulang dan pesanan tercecer, namun sangat skeptis pada klaim AI dan butuh bukti logis terukur. Tujuan saya adalah menghargai pemikiran kritisnya, menyajikan metrik evaluasi terukur, menjamin kontrol manusia 100% (*human-in-the-loop*), serta menyepakati uji coba mandiri tanpa risiko.\n2. Profil Awal Saya: SWOT (Kekuatan analisis rasional & transparansi data, ancaman penolakan jika terlalu abstrak), Attitude (menghargai otonomi & kejujuran), Knowledge (paham evaluasi AI & alur bisnis), Skill (kemampuan merancang uji terukur & threshold ambiguitas).\n3. Dugaan Awal Dimas (TAIDA): Attention (skeptis pada klaim manfaat), Interest (butuh ukuran akurasi & batas solusi), Desire (butuh jaminan kontrol manusia), Action (sepakat waktu uji coba). |
+| AI002 | Rencana Awal | Simulator / Dimas | Rencana awal dan dugaan profil dicatat. Sekarang simulator berpindah ke peran Dimas (K3-04). Simulasi dimulai.\n\nDimas: “Apa bukti pendekatan ini lebih baik?” |
+| U003 | Simulasi Awal | Olsen | Pertanyaan yang sangat krusial, Mas Dimas. Sebagai pengelola yang obyektif, Mas Dimas memang berhak menuntut bukti kuantitatif ketimbang janji manis. Pendekatan ini dikatakan lebih baik bukan karena AI-nya sempurna, melainkan karena ia memangkas waktu pemilahan pesan FAQ dari rata-rata 3 menit menjadi 10 detik. Namun, akurasi drafnya tidak kami klaim 100%. Berdasarkan data uji sebelumnya, akurasi pemilahan FAQ mencapai 92%, sementara 8% sisa pesan yang ambigu tetap memerlukan koreksi staf. Boleh saya tahu, berapa estimasi volume pesan harian dan batas toleransi kesalahan yang dapat diterima oleh sistem Mas Dimas saat ini? |
+| AI003 | Simulasi Awal | Dimas | Data akurasi 92% dan keterbatasan 8% itu terdengar lebih rasional daripada klaim tanpa cela. Saat ini kami menerima sekitar 120 pesan per hari, dan sekitar 40% di antaranya adalah pertanyaan berulang soal harga dan spesifikasi barang. Namun, bagi saya yang paling krusial bukan sekadar kecepatan, melainkan kontrol. Bagaimana Anda menjamin bahwa 8% kesalahan draf AI tersebut tidak langsung terkirim ke pelanggan dan merusak reputasi toko kami? |
+| U004 | Simulasi Awal | Olsen | Tepat sekali, Mas Dimas. Reputasi toko dan kontrol penuh adalah prioritas utama. Sistem yang kami tawarkan menerapkan arsitektur *Human-in-the-Loop*. AI tidak pernah diberi otoritas untuk mengirim pesan secara otomatis kepada pelanggan. AI hanya bekerja di latar belakang untuk memilah pesan, mencocokkan stok, dan merekomendasikan draf jawaban di layar staf. Tombol 'Kirim' 100% berada di bawah kendali staf Mas Dimas setelah draf diperiksa. Jika draf AI salah atau kurang pas, staf bisa mengedit atau membatalkannya dalam 2 detik (*human override*). Dengan skema ini, otonomi keputusan tetap sepenuhnya di tangan Mas Dimas dan tim. Bagaimana Mas Dimas menilai mekanisme kontrol ini? |
+| AI004 | Simulasi Awal | Dimas | Mekanisme *human-in-the-loop* dengan otonomi pengiriman di tangan staf itu secara terstruktur masuk akal. Ini menjaga risiko operasional tetap terkendali. Namun, sebelum saya mempertimbangkan investasi atau penggunaan lebih lanjut, bagaimana kita mengukur secara pasti bahwa kehadiran draf AI ini benar-benar menghemat beban kerja staf dan tidak justru menambah waktu untuk memeriksa draf yang salah? |
+| U005 | Simulasi Awal | Olsen | Pertanyaan evaluatif yang sangat tajam, Mas Dimas. Untuk membuktikannya secara obyektif, kami menawarkan skenario *Pilot Benchmark Test* selama 7 hari tanpa biaya dan tanpa ikatan kontrak. Kita akan mengukur 3 indikator utama secara mandiri oleh Mas Dimas: 1) *Average Handling Time* per pesan (target turun dari 3 menit ke <45 detik), 2) *Staf Approval Rate* (target draf AI diterima tanpa edit >85%), dan 3) Jumlah pesanan tercecer (target 0). Jika setelah 7 hari ketiga indikator ini tidak tercapai, Mas Dimas berhak menghentikan uji coba kapan saja tanpa kewajiban apa pun. Apakah indikator evaluasi mandiri ini cukup fair untuk diuji? |
+| AI005 | Simulasi Awal | Dimas | Penentuan 3 indikator kuantitatif beserta hak penghentian mandiri tanpa biaya itu adalah tawaran yang adil dan transparan. Ini memberi ruang bagi saya untuk mengevaluasi data secara independen. Kalau begitu, saya setuju untuk menjalankan *Pilot Benchmark Test* 7 hari ini. Kapan dan bagaimana sesi persiapan teknisnya bisa kita mulai? |
+| U006 | Simulasi Awal | Olsen | Terima kasih atas keputusan rasional Mas Dimas. Kita jadwalkan sesi persiapan teknis dan simulasi 30 menit pada hari Jumat pukul 14.00 WIB. Saya akan mengirimkan dokumen ringkas 2 halaman berisi alur kerja, skema indikator kuantitatif, dan panduan *human override* agar Mas Dimas dapat meninjaunya terlebih dahulu secara independen. |
+| AI006 | Simulasi Awal | Dimas | Baik, hari Jumat jam 14.00 WIB disepakati. Kirimkan dokumen 2 halaman tersebut ke email saya. Saya akan pelajari metrik dan alurnya terlebih dahulu sebelum sesi kita dimulai. |
+| AI007 | Evaluasi Sementara | Simulator | [EVALUASI SEMENTARA] Simulasi awal selesai. Dimas telah menyepakati indikator evaluasi mandiri dan jadwal pilot test. Sebelum masuk ke tahap Uji Ulang, silakan Olsen sampaikan evaluasi sementara:\n1. Perkiraan status ASK & SWOT Dimas saat ini?\n2. Revisi dugaan profil Dimas?\n3. Bukti giliran yang mendukung? |
+| U007 | Evaluasi Sementara | Olsen | Evaluasi Sementara:\n1. Status ASK & SWOT: Attitude membaik dari skeptis menjadi kooperatif rasional (AI005). Knowledge teratasi penuh lewat transparansi data akurasi 92% dan 3 metrik terukur. Skill terfasilitasi skenario *human-in-the-loop*. SWOT berubah dari ancaman menjadi peluang peningkatan efisiensi terukur.\n2. Revisi profil: Dimas terbukti tipe INTJ yang menghargai logika ringkas, otonomi penuh, bukti berbasis data, serta hak evaluasi mandiri.\n3. Bukti giliran: AI003 (kebutuhan kontrol), AI004-AI005 (skema *human override* & 3 metrik pilot), AI006 (komitmen Jumat jam 14.00 WIB). |
+| AI008 | Uji Ulang (Turn 1) | Simulator / Dimas | [UJI ULANG - EVENT BARU 1/4] Pada hari Kamis H-1 sebelum pilot test, Dimas meninjau dokumen alur dan menemukan kendala teknis baru terkait ambiguitas pesan. Dimas menghubungi Anda:\n\nDimas: “Olsen, saya sudah membaca dokumen 2 halaman Anda. Di sana disebutkan bahwa AI akan memberikan skor kepercayaan (*confidence score*) pada draf drafnya. Namun, bagaimana jika ada pesan pelanggan yang sangat ambigu atau menggunakan bahasa gaul daerah sehingga skor kepercayaannya rendah? Apakah AI akan tetap memaksa membuat draf yang berisiko membingungkan staf saya?” |
+| U008 | Uji Ulang (Turn 1) | Olsen | Analisis yang sangat teliti, Mas Dimas! Terima kasih telah mengkritisi poin tersebut. Untuk menangani ambiguitas bahasa, kami menetapkan *Confidence Threshold* eksplisit di angka 85%. Jika skor kepercayaan AI terhadap suatu pesan di bawah 85%, AI secara otomatis tidak akan membuat draf jawaban dan langsung menandai pesan tersebut dengan *Label Merah (Ambiguitas Tinggi)*. Pesan berlabel merah ini 100% dilempar langsung ke staf untuk ditangani secara manual sesuai prosedur biasa. Dengan demikian, staf Mas Dimas tidak akan membuang waktu memeriksa draf AI yang tidak akurat. Bagaimana menurut Mas Dimas kriteria ambiguitas ini? |
+| AI009 | Uji Ulang (Turn 2) | Dimas | [UJI ULANG 2/4] Penetapan *Confidence Threshold* 85% dengan *Label Merah* otomatis itu secara logika sangat bersih dan mencegah penghematan waktu yang semu. Namun, bagaimana jika dalam praktiknya staf saya merasa threshold 85% itu terlalu ketat atau terlalu longgar? Bisakah angka batas ini disesuaikan sendiri oleh staf kami secara mandiri? |
+| U009 | Uji Ulang (Turn 2) | Olsen | Sangat bisa, Mas Dimas! Otonomi penuh ada di tangan Mas Dimas dan tim. Di panel pengaturan sistem, kami sediakan slider *Threshold Adjustment* yang sangat sederhana. Mas Dimas atau staf bisa menaikkan threshold ke 90% jika ingin AI hanya menangani pesan yang sangat pasti, atau menurunkannya ke 80% jika ingin AI lebih aktif. Semua perubahan slider ini dapat dievaluasi dampak datanya secara *real-time* di dashboard. |
+| AI010 | Uji Ulang (Turn 3) | Dimas | [UJI ULANG 3/4] Ketersediaan slider *Threshold Adjustment* dan dampak data *real-time* ini memberikan tingkat fleksibilitas dan kontrol yang sangat tinggi bagi kami. Saya sudah menguji logika parameter ini bersama staf teknis kami, dan mereka merasa sangat nyaman karena kendali parameter tetap ada di pihak kami. Persiapan *Pilot Benchmark Test* untuk besok Jumat pukul 14.00 WIB resmi disetujui! |
+| U010 | Uji Ulang (Turn 3) | Olsen | Luar biasa, Mas Dimas! Ketelitian dan daya kritis Mas Dimas dalam menguji parameter sistem ini sungguh membuat arsitektur solusi kita menjadi semakin solid. Dokumen teknis dan dashboard siap pakai telah kami perbarui. Sampai bertemu besok Jumat jam 14.00 WIB! |
+| AI011 | Uji Ulang (Turn 4) | Dimas | [UJI ULANG 4/4] Terima kasih, Olsen. Transparansi, objektivitas, dan penghormatan Anda terhadap otonomi kendali kami membuat diskusi teknis ini sangat produktif dan profesional. |
+| AI012 | Refleksi | Simulator | [REFLEKSI & LESSON LEARNED] Uji ulang berhasil dilewati. Silakan sampaikan refleksi akhir Anda:\n1. Pencapaian tujuan?\n2. Lesson learned terkait gaya Dimas (INTJ)?\n3. Efektivitas stimulus?\n4. Pertanyaan relasional netral: Pesan apa yang membantu/menghambat rasa dipercaya dan dipedulikan? |
+| U011 | Refleksi | Olsen | Refleksi Akhir:\n1. Tujuan tercapai 100%: Kesepakatan pilot benchmark test Jumat jam 14.00 WIB tercapai dengan indikator kuantitatif yang jelas, jaminan otonomi *human override*, serta kontrol parameter mandiri.\n2. Lesson learned: Customer tipe INTJ/penilai teknis sangat menghargai penghormatan atas nalar kritisnya. Jangan gunakan klaim emosional atau janji bombastis. Berikan data obyektif, akuilah batas kemampuan sistem, serta berikan instrumen kontrol mandiri.\n3. Stimulus paling efektif: Penghargaan atas pertanyaan kritis, data akurasi jujur (92% vs 8%), arsitektur *human-in-the-loop*, 3 indikator keberhasilan kuantitatif, serta slider *Threshold Adjustment* 85%.\n4. Pertanyaan Relasional: Pesan yang membantu rasa dipercaya dan dipedulikan secara profesional adalah pengakuan atas independensi berpikirnya, kejujuran mengenai margin kesalahan AI, serta penyediaan opsi *override* dan slider kontrol untuk melindungi reputasi usahanya (bukti di AI003, AI005, AI010, AI011). |
+| AI013 | Konfirmasi (Komunikan) | Simulator / Dimas | [KONFIRMASI KOMUNIKAN] Dari sudut pandang Dimas (K3-04): "Saya merasa sangat dihormati secara intelektual dan profesional oleh Olsen. Olsen tidak memaksakan produk, melainkan menyajikan data obyektif, mengakui batas teknologi, serta memberikan instrumen kontrol penuh kepada kami. Ini adalah bentuk kolaborasi teknis yang sangat baik." |
+| U012 | Konfirmasi (Mahasiswa) | Olsen | [KONFIRMASI MAHASISWA] Seluruh data identitas (Olsen Danilson Sitohang, NIM 18225061, Sesi 3b), brief kasus, skrip percakapan aktual, evaluasi, uji ulang 4 turn, dan refleksi dalam laporan ini telah saya periksa, akurat, dan saya konfirmasi penuh untuk dokumen hasil_3b_18225061.qmd. |
+| AI014 | Konfirmasi (Simulator) | Simulator | [KONFIRMASI SIMULATOR] Terima kasih Olsen Danilson Sitohang. Seluruh data identitas, tujuan, skrip percakapan, evaluasi, uji ulang, refleksi, dan konfirmasi dari kedua belah pihak telah dikonfirmasi lengkap dan sah. Laporan hasil_3b_18225061.qmd siap dihasilkan. |
+
+# D) Hasil, Evaluasi, dan Refleksi
+
+## Hasil tujuan dan perubahan SWOT/ASK
+
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
+|---|---|---|---|---|
+| **Kesimpulan SWOT** | Ancaman: Meragukan akurasi AI & takut kehilangan kontrol operasional. | Teratasi: *Pilot test* disepakati Jumat 14.00 WIB dengan 3 metrik terukur & slider *override*. | AI005, AI006, AI010, AI011 | Simulasi; terbukti lewat kesepakatan indikator & verifikasi slider. |
+| **Attitude** | Skeptis, kritis, ragu pada klaim manfaat, protektif pada otonomi. | Kooperatif rasional, percaya pada transparansi data, merasa dihormati. | AI002 → AI003 → AI005 → AI011 | Observasi perilaku simulasi. |
+| **Knowledge** | Butuh data akurasi jujur, batas solusi, dan skema evaluasi obyektif. | Paham penuh arsitektur *human-in-the-loop*, margin error 8%, & 3 metrik pilot. | AI003 → AI004 → AI005 | Klarifikasi informasi & konfirmasi. |
+| **Skill/kesiapan** | Kritis terhadap penanganan ambiguitas bahasa gaul/kustom. | Mampu mengatur parameter slider *threshold* 85% & *label merah* otomatis. | AI008 → AI009 → AI010 | Demonstrasi pada uji ulang. |
+
+## Evaluasi stimulus–respons dan diagnosis profil
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| U003–AI003 | Attention: Skeptis pada klaim AI (AI002) | Validasi nalar kritis Dimas, paparkan akurasi jujur 92% vs 8% error (U003) | Menghargai kejujuran data, menanyakan jaminan kontrol pesan (AI003) | A membaik: Skeptisisme melunak menjadi diskusi logis | Menjelaskan arsitektur *human-in-the-loop* |
+| U004–AI004 | Interest: Butuh kepastian kontrol & batas solusi | Menjelaskan *human-in-the-loop* & tombol *override* 100% di tangan staf (U004) | Menerima logika kontrol, menanyakan cara mengukur penghematan waktu (AI004) | K membaik: Logika keamanan operasional diterima | Menyajikan 3 indikator *Pilot Benchmark Test* |
+| U005–AI006 | Desire: Butuh skema evaluasi mandiri tanpa risiko | Menawarkan pilot 7 hari, 3 metrik kuantitatif, & hak batal mandiri (U005, U006) | Menyepakati uji coba pilot Jumat jam 14.00 WIB & minta dokumen (AI005, AI006) | S & A membaik: Kesiapan uji coba disetujui | Menyiapkan dokumen alur & threshold ambiguitas |
+| U008–AI011 | Action / Uji Ulang: Ambiguitas pesan gaul | Penetapan *Confidence Threshold* 85%, label merah, & slider mandiri (U008, U009) | Menguji logika slider bersama tim, konfirmasi nyaman, siap pilot (AI010, AI011) | S membaik nyata: Kesiapan eksekusi terbukti | Mengapresiasi kedalaman analisis & obyektivitas Dimas |
+
+## Pengaruh pesan personal dan kualitas relasi
+
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+|---|---|---|---|---|
+| U003, U004 | "Sebagai pengelola yang obyektif, Mas Dimas memang berhak menuntut bukti kuantitatif... Otonomi keputusan tetap sepenuhnya di tangan Mas Dimas..." | Dimas mengakui penjelasan rasional dan melunakkan keterbukaannya (AI003, AI004). | Rasa aman: Tinggi. Kepercayaan: Sedang → Tinggi. Keterbukaan: Tinggi. | Menghilangkan defensivitas Dimas dan membangun kemitraan profesional atas dasar saling menghormati. |
+| U008, U009 | "Analisis yang sangat teliti, Mas Dimas!... Otonomi penuh ada di tangan Mas Dimas dan tim..." | Dimas merasa sangat dihormati secara intelektual dan menyetujui uji coba penuh (AI010, AI011). | Kepercayaan: Sangat Tinggi. Dipedulikan: Sangat Tinggi. | Mendorong keterlibatan teknis mandiri dari pihak customer dan memperkuat komitmen uji coba. |
+
+## Uji ulang dan pembelajaran
+
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
+|---|---|---|---|---|---|
+| U008–AI011 (4 Turns) | Keresahan ambiguitas pesan & margin error AI (S-Test) | *Confidence Threshold* 85%, *Label Merah* otomatis, & slider *Threshold Adjustment* (U008, U009) | Menguji logika slider bersama tim teknis, menyetujui persiapan pilot Jumat 14.00 WIB (AI010, AI011) | S membaik nyata: Mampu mengelola parameter batas AI secara independen | Memberikan apresiasi atas kecermatan analisis teknis Dimas |
+
+## Penilaian enam dimensi
+
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
+|---|---|---|---|
+| **Tujuan dan konteks** | 4 | U002, U004, U006, U010 | Tujuan menyepakati *pilot benchmark test* terukur, transparansi data akurasi, dan jaminan otonomi *human override* tercapai 100%. |
+| **Persepsi dan validasi profil/status** | 4 | U002, U003, U004, U007 | Mengidentifikasi karakter INTJ Dimas secara tepat, memvalidasi nalar kritisnya, serta menyajikan data kuantitatif jujur. |
+| **Pemilihan dan urutan repertoar** | 4 | U003, U004, U005, U008, U009 | Urutan sangat terstruktur: Validasi Kritis → Data Akurasi Jujur → *Human-in-the-Loop* → 3 Metrik Pilot → Slider Threshold pada uji ulang. |
+| **Eksekusi jelas, peduli dan konsisten** | 4 | U003, U005, U009, U010 | Komunikasi sangat objektif, transparan, konsisten menjaga otonomi customer, dan menyediakan instrumen teknis nyata. |
+| **Evaluasi dan adaptasi** | 4 | U007, U008, U009, U010 | Evaluasi sementara akurat dan adaptasi pada uji ulang 4 turn (ambiguitas pesan) berjalan sangat efektif lewat slider otomatis. |
+| **Refleksi dan lesson learned** | 4 | U011, AI013, U012 | Refleksi komprehensif mencakup analisis ASK/SWOT, lesson learned INTJ, serta konfirmasi resmi dari kedua belah pihak. |
+
+**Nilai Usulan AI:** $(24 / 24) \times 100 = 100$ (Memerlukan moderasi dosen).
+
+## Refleksi dan lesson learned mahasiswa
+
+> **Refleksi Mahasiswa (Olsen Danilson Sitohang):**
+> 1. **Koreksi Dugaan Awal:** Awalnya saya menduga Dimas bersikap dingin karena menolak inovasi teknologi. Namun terbukti Dimas (INTJ) adalah seorang penilai teknis yang sangat menghargai logika, bukti empiris, dan otonomi kendali. Begitu diberikan kejujuran margin error (92% vs 8%) dan instrumen slider parameter, Dimas menjadi mitra diskusi yang sangat produktif.
+> 2. **Stimulus Efektif vs Tidak Efektif:**
+>    - *Efektif:* Penghargaan atas pemikiran kritis, kejujuran batas kemampuan AI, penjelasan arsitektur *human-in-the-loop*, 3 indikator kuantitatif pilot test, serta slider *Threshold Adjustment* mandiri.
+>    - *Tidak Efektif:* Janji manis kehebatan AI tanpa data, penyembunyian margin error, atau pemaksaan adopsi tanpa opsi *override*.
+> 3. **Pertanyaan Relasional Netral:**
+>    - *Pesan yang membantu rasa dipercaya dan dipedulikan:* Validasi atas haknya menuntut bukti kuantitatif, keterbukaan mengenai margin kesalahan sistem, serta penyerahan penuh tombol pengiriman dan slider parameter ke tangan timnya.
+>    - *Bukti respons:* Dimas melunakkan ketegangannya (AI003), menerima skema pilot 7 hari (AI005), menguji logika slider bersama timnya (AI010), dan mengapresiasi transparansi profesional yang diberikan (AI011, AI013).
+
+## Tindak lanjut dan batas bukti
+
+| Langkah | Waktu | Dukungan | Indikator |
+|---|---|---|---|
+| Pengiriman dokumen teknis 2 halaman & dashboard demo | Jumat jam 10.00 WIB (H-4 Jam Pilot) | Olsen | Dokumen terkirim via email & dashboard slider aktif |
+| Pelaksanaan sesi persiapan teknis & simulasi *override* | Jumat jam 14.00 WIB (30 Menit) | Olsen & Dimas | Staf berhasil mencoba tombol *override* & pengaturan slider 85% |
+
+## Bobot dan nilai akhir UTS
+
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Nilai dosen pada skala 0–100 |
+| Sesi 1 | 18% | Jumlah enam skor / 24 × 100 |
+| Sesi 2a | 18% | 100 (Usulan AI Sesi 2a) |
+| Sesi 2b | 18% | 100 (Usulan AI Sesi 2b) |
+| Sesi 3a | 18% | 100 (Usulan AI Sesi 3a) |
+| Sesi 3b | 18% | 100 (Usulan AI Sesi 3b) |
+| **Total** | **100%** | |
+
+**Nilai akhir UTS = Belum dihitung** (Menunggu kelengkapan nilai makalah dan seluruh sesi 1, 2a, 2b, 3a, 3b).

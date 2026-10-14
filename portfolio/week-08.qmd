@@ -1,25 +1,88 @@
 ---
 title: "UTS Performance Evidence Package"
 week: 8
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "18"
 assessor_score: "—"
 description: "Integrated performance Target–Attention–Interest."
 categories: [Assessment, UTS]
 ---
 
-## Kompetensi target
+## Performance Card
 
-Mengintegrasikan person recognition, state recognition, repertoire, language, response, dan adaptation.
+- **Nama & NIM:** Olsen Danilson Sitohang (18225061)
+- **Person / Target Sesi:**
+  1. **Sesi 1 (Kasus 1):** Diri Sendiri & Tokoh Pembanding Budi (K1-02, ISTJ, Fiktif)
+  2. **Sesi 2a (Kasus 2):** Fajar (K2-06, ESTP, Fiktif)
+  3. **Sesi 2b (Kasus 2):** Elsa (K2-05, ISFJ, Fiktif)
+  4. **Sesi 3a (Kasus 3):** Budi (K3-02, ISTJ, Fiktif)
+  5. **Sesi 3b (Kasus 3):** Dimas (K3-04, INTJ, Fiktif)
+- **Initial State:** Variatif lintas target—mulai dari dorongan *technical debt* internal, kecemasan keadilan pembagian tugas kelompok, hingga skeptisisme tingkat tinggi terhadap efisiensi dan keamanan integrasi agen AI/sistem IT.
+- **Objective:** Mengintegrasikan diagnosis PASK/SWOT, preferensi MBTI, dan tahapan TAIDA untuk membangun *shared problem statement*, mengelola kendala *scope creep*, serta menyepakati *pilot project* dan batas tanggung jawab terstruktur.
+- **Evidence Package:** 1 Makalah Konseptual Teoretis (`paper.html`) + 5 Laporan Sesi Komunikasi Aktual (`hasil_1_18225061.html` s.d. `hasil_3b_18225061.html`).
+- **Boundary:** Menjaga kerahasiaan identitas, menghindari janji manis (*overpromising*), memberikan jaminan *fail-safe* / *human override* 100%, dan memastikan integritas data dalam simulasi.
 
-## Evidence wajib
+---
 
-- Performance card dan initial state.
-- Rekaman/transcript serta observer sheet.
-- Feedback, replay, evidence improvement, dan reflection.
+## 📄 Berkas Laporan UTS W08 (Tautan Indeks)
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 8](../examples/week-08.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+Berikut adalah tautan langsung menuju 6 berkas laporan lengkap UTS W08 yang telah di-render dan dipublikasikan di folder `portfolio/UTS/`:
+
+1. 📚 [Makalah Pra-UTS (Paper Konseptual MBTI & PASK)](UTS/paper.html)
+2. 🎯 [Laporan Sesi 1 — Kasus 1: Memimpin Diri dan Terus Belajar](UTS/hasil_1_18225061.html)
+3. 👥 [Laporan Sesi 2a — Kasus 2: Persahabatan & Profesionalitas (Target: Fajar - ESTP)](UTS/hasil_2a_18225061.html)
+4. 👥 [Laporan Sesi 2b — Kasus 2: Persahabatan & Profesionalitas (Target: Elsa - ISFJ)](UTS/hasil_2b_18225061.html)
+5. 🤖 [Laporan Sesi 3a — Kasus 3: Menawarkan Solusi TI dan AI (Target: Budi - ISTJ)](UTS/hasil_3a_18225061.html)
+6. 🤖 [Laporan Sesi 3b — Kasus 3: Menawarkan Solusi TI dan AI (Target: Dimas - INTJ)](UTS/hasil_3b_18225061.html)
+
+---
+
+## Decisive Moment & Adaptasi Komunikasi
+
+### 1. Sesi 3b (Dimas - INTJ: Analitis & Kritis)
+> **Dimas (INTJ):** “Bagaimana jika ada pesan pelanggan yang sangat ambigu atau menggunakan bahasa gaul daerah? Apakah AI akan tetap memaksa membuat draf yang berisiko membingungkan staf saya?”  
+> **Olsen (Adaptasi):** “Analisis yang sangat teliti, Mas Dimas! Untuk menangani ambiguitas bahasa, kami menetapkan *Confidence Threshold* eksplisit di angka 85%. Jika skor kepercayaan AI di bawah 85%, pesan otomatis ditandai *Label Merah* dan 100% dilempar langsung ke staf untuk ditangani secara manual. Kami juga sediakan *slider adjustment* di *dashboard* agar tim Anda bisa mengatur batas ini secara mandiri.”
+
+*Analisis Adaptasi:* Mengubah kekhawatiran kredibilitas menjadi kepastian otonomi teknis melalui indikator kuantitatif dan instrumen kendali langsung (*Human-in-the-Loop*).
+
+### 2. Sesi 2b (Elsa - ISFJ: Empati & Penjaga Layanan)
+> **Elsa (ISFJ):** “Saya merasa beban membantu teman merapikan format kemarin menyita waktu, tapi saya enggak enak mau bilang karena takut dianggap lepas tangan.”  
+> **Olsen (Adaptasi):** “Kepedulian kamu luar biasa Sa, tapi itu bukan beban yang harus kamu tanggung sendiri. Bagian kamu kita fokuskan murni ke 1 tugas utama: pengolahan tabel data sampel Modul 2. Untuk penulisan narasi dan *formatting*, aku sudah konfirmasi alihkan ke Rian yang porsinya masih longgar.”
+
+*Analisis Adaptasi:* Memvalidasi empati Elsa terlebih dahulu sebelum melakukan redistribusi tugas, memastikan tidak ada pihak lain yang dirugikan sehingga Elsa merasa aman secara emosional.
+
+### 3. Sesi 3a (Budi - ISTJ: Prosedural & Konservatif)
+> **Budi (ISTJ):** “Jika terjadi kendala koneksi atau error di tengah jalan, bagaimana memastikan operasional pencatatan pesanan kami tidak terhenti sama sekali?”  
+> **Olsen (Adaptasi):** “Sistem AI bekerja sebagai lapisan pendamping paralel. Jika terjadi kendala jaringan, aplikasi otomatis beralih detik itu juga ke WhatsApp Web manual. Data tetap tersimpan di database lokal Bapak, sehingga prosedur operasional lama tetap utuh sebagai *backup* utama.”
+
+*Analisis Adaptasi:* Memberikan kepastian prosedur cadangan (*fail-safe 100%*) dan garansi tanpa risiko finansial (Pilot Rp 0 selama 14 hari) untuk menjawab keraguan tipe prosedural.
+
+---
+
+## Observer Feedback, Replay, dan Refleksi
+
+- **Evaluasi Simulator/AI:** AI dimanfaatkan secara etis sebagai simulator tokoh pembanding/komunikan serta fasilitator refleksi pasca-sesi. AI menguji ketahanan argumen melalui skenario *event* baru (seperti error 500 server, kendala *outlier* Excel, dan ambiguitas pesan gaul).
+- **Adaptasi Replay:** Pada setiap sesi uji ulang, respons otomatis yang bersifat "menagih/memaksa" berhasil ditahan dan digantikan dengan penyediaan alat bantu praktis (*mock server*, *template* Excel dengan filter warna hijau, *checklist* 3 kriteria, dan *slider threshold*).
+- **Refleksi Utama:** Keberhasilan komunikasi interpersonal bukan diukur dari kemenangan memaksakan produk/ide, melainkan dari kemampuan memvalidasi hambatan komunikan, menyelaraskan gaya bahasa dengan preferensi MBTI mereka, dan membangun kesepakatan (*action plan*) yang aman tanpa merusak kualitas hubungan.
+
+---
+
+## Self-assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Profil, nilai, *workload*, dan gaya MBTI dari 5 target (ISTJ, ESTP, ISFJ, INTJ) dipetakan dan divalidasi utuh. |
+| Objective & State | 3 | State awal (skeptis, cemas, ragu) dan pergeseran sinyal *Interest/Action* teridentifikasi jelas di setiap sesi. |
+| Repertoire, Language & AI | 4 | Repertoar fleksibel (penolakan asertif, *backlog*, *fail-safe*, *human-in-the-loop*); AI dipakai etis sebagai evaluator pasca-sesi. |
+| Response & Adaptation | 4 | Respons dan keberatan target pada sesi uji ulang langsung mengubah rencana dan metrik secara terstruktur di tengah percakapan. |
+| Agreement, Action & Relationship | 3 | Kesepakatan *milestone*, jadwal *pilot test*, dan batas tanggung jawab terdefinisi eksplisit di tiap sesi tanpa merusak relasi. |
+
+**Total: 18/20 — Lanjut**
+
+::: {.assessor-only}
+### Assessment dosen
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai  
 :::
-
-{{< include ../includes/evidence-template.md >}}

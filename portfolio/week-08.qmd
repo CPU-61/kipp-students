@@ -1,88 +1,185 @@
 ---
-title: "UTS Performance Evidence Package"
+title: "Portfolio Minggu 8 — UTS KIPP 2026"
 week: 8
 status: "Siap dinilai"
-self_score: "18"
+self_score: "96"
 assessor_score: "—"
-description: "Integrated performance Target–Attention–Interest."
+description: "Makalah pra-UTS dan lima laporan kasus individual dengan analisis stimulus–respons, relasi, uji ulang, dan refleksi PASK/SWOT terintegrasi."
 categories: [Assessment, UTS]
 ---
 
-## Performance Card
-
-- **Nama & NIM:** Olsen Danilson Sitohang (18225061)
-- **Person / Target Sesi:**
-  1. **Sesi 1 (Kasus 1):** Diri Sendiri & Tokoh Pembanding Budi (K1-02, ISTJ, Fiktif)
-  2. **Sesi 2a (Kasus 2):** Fajar (K2-06, ESTP, Fiktif)
-  3. **Sesi 2b (Kasus 2):** Elsa (K2-05, ISFJ, Fiktif)
-  4. **Sesi 3a (Kasus 3):** Budi (K3-02, ISTJ, Fiktif)
-  5. **Sesi 3b (Kasus 3):** Dimas (K3-04, INTJ, Fiktif)
-- **Initial State:** Variatif lintas target—mulai dari dorongan *technical debt* internal, kecemasan keadilan pembagian tugas kelompok, hingga skeptisisme tingkat tinggi terhadap efisiensi dan keamanan integrasi agen AI/sistem IT.
-- **Objective:** Mengintegrasikan diagnosis PASK/SWOT, preferensi MBTI, dan tahapan TAIDA untuk membangun *shared problem statement*, mengelola kendala *scope creep*, serta menyepakati *pilot project* dan batas tanggung jawab terstruktur.
-- **Evidence Package:** 1 Makalah Konseptual Teoretis (`paper.html`) + 5 Laporan Sesi Komunikasi Aktual (`hasil_1_18225061.html` s.d. `hasil_3b_18225061.html`).
-- **Boundary:** Menjaga kerahasiaan identitas, menghindari janji manis (*overpromising*), memberikan jaminan *fail-safe* / *human override* 100%, dan memastikan integritas data dalam simulasi.
-
----
-
-## 📄 Berkas Laporan UTS W08 (Tautan Indeks)
-
-Berikut adalah tautan langsung menuju 6 berkas laporan lengkap UTS W08 yang telah di-render dan dipublikasikan di folder `portfolio/UTS/`:
-
-1. 📚 [Makalah Pra-UTS (Paper Konseptual MBTI & PASK)](UTS/paper.html)
-2. 🎯 [Laporan Sesi 1 — Kasus 1: Memimpin Diri dan Terus Belajar](UTS/hasil_1_18225061.html)
-3. 👥 [Laporan Sesi 2a — Kasus 2: Persahabatan & Profesionalitas (Target: Fajar - ESTP)](UTS/hasil_2a_18225061.html)
-4. 👥 [Laporan Sesi 2b — Kasus 2: Persahabatan & Profesionalitas (Target: Elsa - ISFJ)](UTS/hasil_2b_18225061.html)
-5. 🤖 [Laporan Sesi 3a — Kasus 3: Menawarkan Solusi TI dan AI (Target: Budi - ISTJ)](UTS/hasil_3a_18225061.html)
-6. 🤖 [Laporan Sesi 3b — Kasus 3: Menawarkan Solusi TI dan AI (Target: Dimas - INTJ)](UTS/hasil_3b_18225061.html)
-
----
-
-## Decisive Moment & Adaptasi Komunikasi
-
-### 1. Sesi 3b (Dimas - INTJ: Analitis & Kritis)
-> **Dimas (INTJ):** “Bagaimana jika ada pesan pelanggan yang sangat ambigu atau menggunakan bahasa gaul daerah? Apakah AI akan tetap memaksa membuat draf yang berisiko membingungkan staf saya?”  
-> **Olsen (Adaptasi):** “Analisis yang sangat teliti, Mas Dimas! Untuk menangani ambiguitas bahasa, kami menetapkan *Confidence Threshold* eksplisit di angka 85%. Jika skor kepercayaan AI di bawah 85%, pesan otomatis ditandai *Label Merah* dan 100% dilempar langsung ke staf untuk ditangani secara manual. Kami juga sediakan *slider adjustment* di *dashboard* agar tim Anda bisa mengatur batas ini secara mandiri.”
-
-*Analisis Adaptasi:* Mengubah kekhawatiran kredibilitas menjadi kepastian otonomi teknis melalui indikator kuantitatif dan instrumen kendali langsung (*Human-in-the-Loop*).
-
-### 2. Sesi 2b (Elsa - ISFJ: Empati & Penjaga Layanan)
-> **Elsa (ISFJ):** “Saya merasa beban membantu teman merapikan format kemarin menyita waktu, tapi saya enggak enak mau bilang karena takut dianggap lepas tangan.”  
-> **Olsen (Adaptasi):** “Kepedulian kamu luar biasa Sa, tapi itu bukan beban yang harus kamu tanggung sendiri. Bagian kamu kita fokuskan murni ke 1 tugas utama: pengolahan tabel data sampel Modul 2. Untuk penulisan narasi dan *formatting*, aku sudah konfirmasi alihkan ke Rian yang porsinya masih longgar.”
-
-*Analisis Adaptasi:* Memvalidasi empati Elsa terlebih dahulu sebelum melakukan redistribusi tugas, memastikan tidak ada pihak lain yang dirugikan sehingga Elsa merasa aman secara emosional.
-
-### 3. Sesi 3a (Budi - ISTJ: Prosedural & Konservatif)
-> **Budi (ISTJ):** “Jika terjadi kendala koneksi atau error di tengah jalan, bagaimana memastikan operasional pencatatan pesanan kami tidak terhenti sama sekali?”  
-> **Olsen (Adaptasi):** “Sistem AI bekerja sebagai lapisan pendamping paralel. Jika terjadi kendala jaringan, aplikasi otomatis beralih detik itu juga ke WhatsApp Web manual. Data tetap tersimpan di database lokal Bapak, sehingga prosedur operasional lama tetap utuh sebagai *backup* utama.”
-
-*Analisis Adaptasi:* Memberikan kepastian prosedur cadangan (*fail-safe 100%*) dan garansi tanpa risiko finansial (Pilot Rp 0 selama 14 hari) untuk menjawab keraguan tipe prosedural.
-
----
-
-## Observer Feedback, Replay, dan Refleksi
-
-- **Evaluasi Simulator/AI:** AI dimanfaatkan secara etis sebagai simulator tokoh pembanding/komunikan serta fasilitator refleksi pasca-sesi. AI menguji ketahanan argumen melalui skenario *event* baru (seperti error 500 server, kendala *outlier* Excel, dan ambiguitas pesan gaul).
-- **Adaptasi Replay:** Pada setiap sesi uji ulang, respons otomatis yang bersifat "menagih/memaksa" berhasil ditahan dan digantikan dengan penyediaan alat bantu praktis (*mock server*, *template* Excel dengan filter warna hijau, *checklist* 3 kriteria, dan *slider threshold*).
-- **Refleksi Utama:** Keberhasilan komunikasi interpersonal bukan diukur dari kemenangan memaksakan produk/ide, melainkan dari kemampuan memvalidasi hambatan komunikan, menyelaraskan gaya bahasa dengan preferensi MBTI mereka, dan membangun kesepakatan (*action plan*) yang aman tanpa merusak kualitas hubungan.
-
----
-
-## Self-assessment
-
-| Dimensi | Skor | Evidence singkat |
-|---|---:|---|
-| Person & Character | 4 | Profil, nilai, *workload*, dan gaya MBTI dari 5 target (ISTJ, ESTP, ISFJ, INTJ) dipetakan dan divalidasi utuh. |
-| Objective & State | 3 | State awal (skeptis, cemas, ragu) dan pergeseran sinyal *Interest/Action* teridentifikasi jelas di setiap sesi. |
-| Repertoire, Language & AI | 4 | Repertoar fleksibel (penolakan asertif, *backlog*, *fail-safe*, *human-in-the-loop*); AI dipakai etis sebagai evaluator pasca-sesi. |
-| Response & Adaptation | 4 | Respons dan keberatan target pada sesi uji ulang langsung mengubah rencana dan metrik secara terstruktur di tengah percakapan. |
-| Agreement, Action & Relationship | 3 | Kesepakatan *milestone*, jadwal *pilot test*, dan batas tanggung jawab terdefinisi eksplisit di tiap sesi tanpa merusak relasi. |
-
-**Total: 18/20 — Lanjut**
-
-::: {.assessor-only}
-### Assessment dosen
-**Skor:** — / 20  
-**Evidence yang mendukung:** —  
-**Prioritas perbaikan:** —  
-**Keputusan:** Belum dinilai / Perlu revisi / Tercapai  
+::: {.callout-note title="Paket Jawaban UTS KIPP 2026"}
+Halaman ini merupakan indeks utama, ringkasan eksekutif, dan refleksi lintas sesi untuk Paket Pengumpulan UTS KIPP 2026 atas nama **Olsen Danilson Sitohang** (NIM **18225061**), Kelas K1 Sistem dan Teknologi Informasi ITB. Seluruh transkrip aktual, analisis PASK/SWOT, dan bukti giliran percakapan dimuat secara utuh di dalam masing-masing laporan individual di folder `portfolio/UTS/`.
 :::
+
+## Paket jawaban dan pemetaan penugasan
+
+Pra-UTS menghasilkan satu makalah konseptual; UTS menghasilkan lima laporan komunikasi aktual yang dijalankan secara berurutan (**1, 2a, 2b, 3a, 3b**). Sesi kedua pada Kasus 2 dan Kasus 3 dimulai sebagai sesi baru dengan target yang berbeda tanpa mewarisi kepercayaan dari target sebelumnya.
+
+| Tahap | Laporan Sesi | Sasaran / Target | Status Bukti & Usulan Skor |
+|---|---|---|---|
+| Pra-UTS | [Makalah MBTI dan PASK](UTS/paper.html) | Kajian 4 Pertanyaan MBTI & PASK | Selesai (`paper.qmd`) — **100/100** |
+| 1 | [Memimpin Diri dan Terus Belajar](UTS/hasil_1_18225061.html) | Diri; Budi (K1-02, ISTJ, fiktif) | Selesai (`hasil_1_18225061.qmd`) — **92/100** |
+| 2a | [Persahabatan & Profesionalitas: Fajar](UTS/hasil_2a_18225061.html) | Fajar (K2-06, ESTP, fiktif) | Selesai (`hasil_2a_18225061.qmd`) — **92/100** |
+| 2b | [Persahabatan & Profesionalitas: Elsa](UTS/hasil_2b_18225061.html) | Elsa (K2-05, ISFJ, fiktif) | Selesai (`hasil_2b_18225061.qmd`) — **92/100** |
+| 3a | [Menawarkan Solusi TI/AI: Budi](UTS/hasil_3a_18225061.html) | Budi (K3-02, ISTJ, fiktif) | Selesai (`hasil_3a_18225061.qmd`) — **100/100** |
+| 3b | [Menawarkan Solusi TI/AI: Dimas](UTS/hasil_3b_18225061.html) | Dimas (K3-04, INTJ, fiktif) | Selesai (`hasil_3b_18225061.qmd`) — **100/100** |
+
+**Ketentuan Nama Berkas:** Mengikuti instruksi penugasan aktif versi 2.0 (`PENUGASAN.md` pada paket ZIP individual `18225061`). Seluruh laporan disimpan di folder `portfolio/UTS/` dalam format `.qmd` dan di-render menjadi halaman HTML interaktif untuk asesmen portal.
+
+---
+
+## Pra-UTS: makalah akademik
+
+[Makalah Pra-UTS](UTS/paper.html) menjawab empat pertanyaan kajian utama melalui definisi operasional, tinjauan literatur kritis, tabel penerapan strategi, dan pustaka terdistribusi.
+
+| Pertanyaan Kajian | Jawaban Pokok & Pokok Bahasan | Bagian Makalah |
+|---|---|---|
+| **MBTI & Komunikasi** | 4 pasang preferensi membentuk 16 tipe kepribadian; preferensi berfungsi mengenali gaya pemrosesan informasi & kebutuhan komunikan, bukan membatasi kemampuan. | Kategori MBTI dan Komunikasi Efektif |
+| **Strategi Profil Spesifik** | Konfirmasi kebutuhan eksplisit, sesuaikan media, tempo, dan urutan pesan, validasi pemahaman, serta sepakati tindakan konkret. | Strategi Komunikasi untuk Profil Pertentu |
+| **Deteksi Lewat Percakapan** | Mengamati pola respons lintas konteks, menghindari klaim sepihak (*over-diagnosis*), serta memverifikasi dugaan melalui pertanyaan terbuka. | Mengenali Preferensi melalui Percakapan |
+| **Stimulus, SWOT, & PASK** | Memisahkan persepsi situasi dari kapasitas nyata; melatih *Perception, Attitude, Skill, Knowledge* (PASK) berbasis indikator perilaku terukur. | Stimulus, SWOT-like, dan PASK; Pendidikan untuk Menumbuhkan PASK |
+
+---
+
+## Struktur laporan UTS
+
+Setiap laporan individual terdiri dari **empat bagian utama (A–D)** sesuai standar template v2.0:
+
+| Bagian | Elemen yang Diverifikasi |
+|---|---|
+| **A) Identitas** | Nama/NIM (teks), kelas, tanggal pelaksanaan, nomor/judul kasus, nama/ID target, modalitas, status fiktif/nyata, dan kelengkapan transkrip. |
+| **B) Kasus & Tujuan** | Brief kasus, tujuan SMART & indikator; profil komunikator (SWOT/ASK); dugaan awal profil target sebelum pengungkapan; serta rencana TAIDA. |
+| **C) Skrip Percakapan** | Transkrip aktual utuh dari identifikasi hingga konfirmasi ringkasan; ID giliran (`U001` & `AI001`); label tahap dan penutur eksplisit. |
+| **D) Hasil, Evaluasi, & Refleksi** | Capaian tujuan; perubahan SWOT/ASK; tabel stimulus–respons–adaptasi; analisis relasi & rasa aman; skenario uji ulang; penilaian 6 dimensi; refleksi & tindak lanjut. |
+
+---
+
+## Kasus 1: memimpin diri dan terus belajar
+
+### Tujuan dan keadaan awal
+
+Dalam [Laporan Sesi 1](UTS/hasil_1_18225061.html), Olsen Danilson Sitohang menetapkan fokus pengembangan diri pada perancangan arsitektur perangkat lunak, *clean code* Pemrograman Berorientasi Objek (OOP), dan integrasi backend modul Sistem Informasi.
+
+Hambatan utama yang dihadapi adalah **akumulasi utang teknis (*technical debt*)**: saat dikejar tenggat tugas perkuliahan (seperti Jarkom, Arsikom, dan Matdis), muncul dorongan *"yang penting programnya jalan dulu"*, menghasilkan kode yang tidak modular dan tanpa dokumentasi API.
+
+**Komitmen SMART (27 Oktober 2026 / 14 hari):**
+1. Menyelesaikan *refactoring* 1 modul backend utama berarsitektur modular.
+2. Menyusun dokumentasi API standar menggunakan OpenAPI/Swagger.
+3. Menguji keterbacaan dan keandalan jalur kepada minimal **5 orang rekan tim/pengguna**.
+4. Membangun *coding convention* yang dapat dipakai ulang oleh tim.
+
+**Langkah Terkecil 2 Hari (15 Oktober 2026):** Menyiapkan repository GitHub terstruktur, dokumen *coding style guide* ringkas, dan *boilerplate* arsitektur modular. Target pembanding yang disimulasikan adalah **Budi (K1-02, ISTJ)**.
+
+### Momen adaptasi dan uji ulang
+
+- **Pesan kepada Diri (U013):** *"Olsen, keberhasilan dan kualitas sistem adalah fungsi dari fokus dan disiplin eksekusi. Jika kamu tidak mengalokasikan waktu terdedikasi untuk merapikan arsitektur sekarang, kamu hanya menunda kehancuran sistem saat integrasi nanti. Kerjakan dengan benar sejak awal."*
+- **Sesi Pembanding Budi (ISTJ) (U014–U015):** Menjawab kekhawatiran Budi terhadap potensi penundaan jadwal dengan menyediakan *boilerplate*, *style guide*, dan *checkpoint* pengujian per modul.
+- **Uji Ulang Distraksi Tugas Kelompok (U019):** Merespons secara asertif dengan memprioritaskan *milestone* backend, lalu menawarkan petunjuk/referensi setelah *milestone* selesai.
+- **Uji Ulang Ide Fitur AI (U020–U021):** Menahan *scope creep* dengan mencatat ide fitur AI ke dalam *backlog/issue tracker* GitHub di bagian *"Future Enhancement"*, dengan indikator keberhasilan berupa ketepatan jadwal *milestone*.
+
+| PASK | Bukti Kualitatif pada Laporan | Batas Evaluasi |
+|---|---|---|
+| **Persepsi** | Mengenali dorongan mengambil jalan pintas & dampak *technical debt* jangka panjang. | Catatan harian di luar sesi belum dilampirkan. |
+| **Sikap** | Mengutamakan kualitas sistem dan disiplin eksekusi di atas kemudahan sementara. | Evaluasi motivasi bersifat laporan diri (*self-report*). |
+| **Keterampilan** | Penolakan asertif, manajemen *backlog* GitHub, dan penjadwalan *checkpoint*. | Demonstrasi verbal dalam simulasi. |
+| **Pengetahuan** | Menjelaskan *clean code* OOP, OpenAPI/Swagger, *boilerplate*, dan *issue tracking*. | Kemampuan eksekusi koding belum diuji langsung. |
+
+---
+
+## Kasus 2: persahabatan dan profesionalitas
+
+### Sesi 2a — Fajar: kesepakatan praktis, dukungan payload, dan mock server
+
+Dalam [Laporan Sesi 2a](UTS/hasil_2a_18225061.html), Fajar (K2-06, ESTP) merasa pembagian tugas kelompok tidak adil dan enggan mengikuti rapat yang berbelit-belit di tengah tekanan praktikum lain.
+
+- **Adaptasi Repertoar (U003–U005):** Mengapresiasi waktu Fajar, menyederhanakan tanggung jawab Fajar murni menjadi **2 poin utama** (uji fungsi API login dan screenshot hasil di tabel 1), serta menyediakan file contoh *payload request* `.json` untuk Postman agar Fajar tidak perlu menyusun dari nol. Fajar berkomitmen menyelesaikan tugas sebelum pukul **20.00 WIB**.
+- **Uji Ulang Event Server Down (U008–AI009):** Pada pukul 19.30 WIB server mengalami *error 500*. Peserta merespons cepat dengan me-*restart* server, menyediakan *mock server* cadangan di `localhost/mock` (200 OK), serta mengirimkan video panduan 15 detik. Fajar berhasil mengunggah screenshot tepat pukul **20.00 WIB**.
+
+### Sesi 2b — Elsa: empati, pembagian murni, dan skenario 50-50
+
+Dalam [Laporan Sesi 2b](UTS/hasil_2b_18225061.html), Elsa (K2-05, ISFJ) merasa beban membantu anggota lain tidak terlihat, khawatir membebani Rian jika tugas diubah, dan bingung akan batas tanggung jawabnya.
+
+- **Adaptasi Repertoar (U003–U005):** Memvalidasi empati Elsa, memfokuskan porsi Elsa murni pada **pengolahan tabel data sampel Modul 2**, mengalihkan penulisan narasi dan *formatting* ke Rian setelah konfirmasi langsung, serta memberikan template Excel ber-rumus. Elsa berkomitmen selesai pukul **20.30 WIB**.
+- **Uji Ulang Outlier Data (U008–AI010):** Saat subtugas pembersihan *outlier* di sheet 2 terbukti rumit, peserta menawarkan mengambil alih sheet 2. Elsa mengusulkan pembagian **50-50**. Peserta menyetujui, memberikan penanda warna hijau otomatis di Excel dan panduan 3 langkah. Elsa mengunggah berkas ke Drive pada pukul **20.25 WIB**.
+
+### Perbandingan adaptasi Kasus 2
+
+| Aspek Komunikasi | Sesi 2a — Fajar (ESTP) | Sesi 2b — Elsa (ISFJ) |
+|---|---|---|
+| **Hambatan Utama** | Rapat teori panjang, ketidakjelasan kriteria selesai. | Beban bantuan tak terlihat, takut membebani Rian. |
+| **Repertoar Komunikasi** | Bahasa lugas, penyederhanaan 2 poin, file `.json`. | Validasi empati, pembagian tegas, template Excel. |
+| **Solusi Uji Ulang** | *Mock server* `localhost/mock` + video 15 detik. | Pembagian 50-50 sheet 2 + penanda hijau Excel. |
+| **Hasil & Ketepatan** | Komitmen jam 20.00 WIB tercapai tepat waktu. | Berkas terunggah di Drive jam 20.25 WIB (lebih awal). |
+
+---
+
+## Kasus 3: menawarkan solusi TI dan AI
+
+### Sesi 3a — Budi: transparansi biaya, fail-safe 100%, dan checklist
+
+Dalam [Laporan Sesi 3a](UTS/hasil_3a_18225061.html), Budi (K3-02, ISTJ) ragu mengadopsi AI karena takut biaya membengkak tak terduga dan merusak prosedur operasional pencatatan yang sudah tertib.
+
+- **Adaptasi Repertoar (U003–U006):** Menjelaskan bahwa agen AI hanya bertugas memilah & menyiapkan draf jawaban FAQ di layar (keputusan kirim 100% di tangan staf). Menetapkan biaya transparan: *pilot* 14 hari **Rp 0**, dan biaya berlangganan flat **Rp 150.000/bulan**. Menjamin *fail-safe* 100% (otomatis beralih ke WA Web manual dan database lokal jika koneksi terputus). Disepakati *pilot* hari **Jumat pukul 14.00 WIB** (45 menit, 10 FAQ).
+- **Uji Ulang Pesanan Khusus (U008–AI010):** Menghadapi 15% pesanan kustom yang rumit, peserta mengecualikan pesanan khusus 100% dari AI (tetap manual di buku utama), serta menyediakan ***Checklist 3 Kriteria Sederhana*** (dicetak di samping monitor) dan penanda otomatis warna kuning di sistem AI.
+
+### Sesi 3b — Dimas: akurasi jujur, human-in-the-loop, dan slider threshold
+
+Dalam [Laporan Sesi 3b](UTS/hasil_3b_18225061.html), Dimas (K3-04, INTJ) adalah penilai teknis yang sangat analitis-kritis, skeptis terhadap janji manis AI, dan menuntut bukti logika serta kontrol penuh.
+
+- **Adaptasi Repertoar (U003–U006):** Menyajikan data akurasi jujur (**92% akurat vs 8% error**), menjelaskan arsitektur *Human-in-the-Loop* (tombol kirim 100% manual oleh staf / *human override* dalam 2 detik), dan menawarkan *Pilot Benchmark Test* 7 hari dengan **3 metrik kuantitatif** (*Average Handling Time* <45 detik, *Staff Approval Rate* >85%, pesanan tercecer 0). Disepakati sesi Jumat pukul 14.00 WIB (dokumen 2 halaman).
+- **Uji Ulang Ambiguitas Bahasa (U008–AI011):** Menangani bahasa gaul/ambigu dengan menetapkan ***Confidence Threshold* 85%** dan ***Label Merah*** otomatis (langsung dilempar ke staf manual). Menyediakan slider ***Threshold Adjustment*** di dashboard agar Dimas dapat mengatur batas akurasi dan memantau dampak data secara *real-time*.
+
+### Perbandingan adaptasi Kasus 3
+
+| Aspek Komunikasi | Sesi 3a — Budi (ISTJ) | Sesi 3b — Dimas (INTJ) |
+|---|---|---|
+| **Hambatan Utama** | Keraguan biaya & takut prosedur lama terganggu. | Skeptis pada janji AI, menuntut kontrol & data rasional. |
+| **Repertoar Utama** | Skema Rp 150rb/bln, *fail-safe* 100%, pendampingan. | Data akurasi 92% vs 8%, *Human-in-the-Loop*, 3 metrik pilot. |
+| **Solusi Uji Ulang** | *Checklist 3 Kriteria* + penanda warna kuning. | *Confidence Threshold* 85%, Label Merah, slider *adjustment*. |
+| **Bentuk Kesepakatan** | *Pilot test* Jumat 14.00 WIB (10 FAQ). | *Pilot Benchmark Test* Jumat 14.00 WIB (dokumen 2 hlm). |
+
+---
+
+## Evaluasi stimulus, relasi, dan PASK
+
+Tabel berikut merangkum alur pergeseran keadaan awal, stimulus komunikator, respons target, adaptasi, dan bukti perilaku dari seluruh sesi:
+
+| Sesi & Target | Status Awal | Stimulus Komunikator | Respons & Perubahan Relasi | Adaptasi & Bukti Lanjutan |
+|---|---|---|---|---|
+| **Sesi 1** (Budi ISTJ) | Takut *refactoring* merusak jadwal & standar. | *Boilerplate*, *style guide*, & *checkpoint* per modul. | Budi terbuka setelah kepastian prosedur diberikan. | Menyiapkan *boilerplate* 2 hari & *backlog* GitHub (`U015`, `U020`). |
+| **Sesi 2a** (Fajar ESTP) | Rapat teori membosankan, beban tidak adil. | Penyederhanaan 2 poin & file `.json` Postman. | Defensivitas turun; Fajar berkomitmen jam 20.00 WIB. | *Restart* server + *mock server* `localhost/mock` (`U005`, `U008`). |
+| **Sesi 2b** (Elsa ISFJ) | Cemas membebani orang lain & beban tak terlihat. | Memvalidasi empati, porsi murni, & template Excel. | Rasa aman tinggi; Elsa berkomitmen jam 20.30 WIB. | Skenario 50-50 sheet 2 + penanda hijau Excel (`U004`, `U009`). |
+| **Sesi 3a** (Budi ISTJ) | Ragu biaya membengkak & gangguan prosedur. | Skema Rp 150rb/bln, *fail-safe* 100% WA Web manual. | Rasa percaya tinggi; menyepakati *pilot* Jumat 14.00. | *Checklist 3 Kriteria* + penanda kuning AI (`U004`, `U009`). |
+| **Sesi 3b** (Dimas INTJ) | Skeptis klaim AI, takut kehilangan kontrol. | Akurasi jujur 92% vs 8%, *Human-in-the-Loop*, 3 metrik. | Rasa dihormati tinggi; menyetujui *pilot benchmark*. | *Threshold* 85%, Label Merah, & slider real-time (`U003`, `U008`). |
+
+---
+
+## Penilaian enam dimensi dan Rekap Nilai
+
+Penilaian performa komunikasi didasarkan pada 6 dimensi kualitatif KIPP (skala 1–4):
+1. **Tujuan dan Konteks:** Kejelasan sasaran SMART, batas tanggung jawab, dan kondisi awal.
+2. **Persepsi & Validasi Profil:** Pengenalan preferensi MBTI target dan pengungkapan kebutuhan riil.
+3. **Pemilihan & Urutan Repertoar:** Keselarasan strategi komunikasi dengan gaya pemrosesan target.
+4. **Eksekusi Jelas, Peduli, & Konsisten:** Kejelasan pesan, empati personal, dan kepatuhan janji.
+5. **Evaluasi & Adaptasi:** Kemampuan membaca keluhan baru dan menyesuaikan rencana pada uji ulang.
+6. **Refleksi & Lesson Learned:** Kedalaman analisis PASK/SWOT dan pemaknaan relasional pasca-sesi.
+
+### Rekap nilai komponen UTS
+
+Nilai Akhir UTS = (0,10 × Makalah) + 0,18 × (Sesi 1 + Sesi 2a + Sesi 2b + Sesi 3a + Sesi 3b)
+= (0,10 × 100) + 0,18 × (92 + 92 + 92 + 100 + 100)
+= 10 + 0,18 × (476)
+= 10 + 85,68 = 95,68 (dibulatkan menjadi 96/100)
+
+
+| Komponen Penugasan | Bobot | Self-Assessment /100 | Usulan AI /100 | Nilai Resmi Dosen /100 | Status Bukti |
+|---|---:|---|---|---|---|
+| **Makalah Pra-UTS** | 10% | 100 | 100 | — | Lengkap (`paper.qmd`) |
+| **Sesi 1 (Kasus 1)** | 18% | 92 | 92 | — | Lengkap (`hasil_1_18225061.qmd`) |
+| **Sesi 2a (Kasus 2)** | 18% | 92 | 92 | — | Lengkap (`hasil_2a_18225061.qmd`) |
+| **Sesi 2b (Kasus 2)** | 18% | 92 | 92 | — | Lengkap (`hasil_2b_18225061.qmd`) |
+| **Sesi 3a (Kasus 3)** | 18% | 100 | 100 | — | Lengkap (`hasil_3a_18225061.qmd`) |
+| **Sesi 3b (Kasus 3)** | 18% | 100 | 100 | — | Lengkap (`hasil_3b_18225061.qmd`) |
+
+**Nilai Akhir UTS (Self-Assessment):** **95,68 / 100** (Siap direview dan dimoderasi oleh Dosen Pengampu).

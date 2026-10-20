@@ -68,7 +68,9 @@ Bukti percakapan umpan balik rekan (*peer feedback*) dalam bentuk teks penuh tan
 > "Ketika Olsen menjawab pertanyaan tentang Wi-Fi putus dengan memberikan jaminan bahwa buku nota manual tetap ditaruh di meja kasir sebagai *backup*, saya mengamati raut wajah Mbak Maya langsung rileks dan mengangguk lega. Hal itu menunjukkan bahwa *hidden concern* kasir tentang risiko sistem macet berhasil ditangani dengan jujur. Target menunjukkan sinyal *Interest* nyata saat ia secara sukarela mencoba menekan prototipe dan meminta ukuran tombol diperbesar."
 
 ### Catatan Deklarasi Penggunaan AI
-Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio[cite: 1]. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI
+Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI
+
+
 ---
 
 ## Self-Assessment

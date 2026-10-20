@@ -92,7 +92,9 @@ Berikut adalah transkrip umpan balik lisan berbasis bukti dari pengamat (*peer o
 > "Ketika Olsen menyampaikan *honest limits* bahwa aplikasi ini baru diuji untuk 20 transaksi dan belum diuji untuk 500 transaksi, saya mengamati Pak Hendra yang tadinya bersikap defensif dengan menyilangkan tangan langsung menyandarkan badan ke depan dan mengangguk pelan. Pengakuan jujur akan keterbatasan tersebut, ditambah jaminan bahwa buku nota manual tidak dibuang, terbukti menjadi titik balik yang mengubah keraguan target (*Interest with Reservation*) menjadi kesediaan mengambil risiko terukur (*Desire*). Komunikator juga sangat etis karena menutup sesi dengan memberikan kebebasan penuh kepada pemilik stan untuk membatalkan uji coba kapan saja."
 
 ### Catatan Deklarasi Penggunaan AI
-Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio[cite: 1]. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI
+Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI
+
+
 ---
 
 ## Self-Assessment

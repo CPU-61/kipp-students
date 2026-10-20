@@ -2,7 +2,7 @@
 title: "Action & Agreement Challenge"
 week: 10
 status: "Siap dinilai"
-self_score: "18/20"
+self_score: "18"
 assessor_score: "—"
 description: "Barrier, authority, negotiation, agreement, dan action evidence."
 categories: [TAIDA, Action]
@@ -80,7 +80,10 @@ Pelacakan janji mengacu pada lingkar komitmen (*Commitment Loop*). Seluruh evide
 > **Dr. Hendra:** "Hasilnya sangat memuaskan. Kesepakatan awal kita terpenuhi dengan baik. Kita bisa lanjutkan ke tahap pembahasan perluasan lab bulan depan."
 
 ### Catatan Deklarasi Penggunaan AI
-Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI.
+Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI
+
+
+---
 
 ## 5. Self-Assessment
 
@@ -93,3 +96,11 @@ Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, m
 | **Agreement, Action & Relationship** | 4 | Memenuhi seluruh elemen *Agreement Formula* serta menjaga harmoni relasi jalur ganda (*task & relationship track*). |
 
 **Total: 18/20 — Lanjut.**
+
+::: {.assessor-only}
+### Assessment dosen
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai  
+:::

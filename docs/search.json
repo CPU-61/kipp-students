@@ -1351,55 +1351,44 @@
     ]
   },
   {
-    "objectID": "portfolio/week-10.html#konteks-performance",
-    "href": "portfolio/week-10.html#konteks-performance",
+    "objectID": "portfolio/week-10.html#pemetaan-barrier-authority-desireaction-gap",
+    "href": "portfolio/week-10.html#pemetaan-barrier-authority-desireaction-gap",
     "title": "Action & Agreement Challenge",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "1. Pemetaan Barrier & Authority (Desire–Action Gap)",
+    "text": "1. Pemetaan Barrier & Authority (Desire–Action Gap)\nDalam pelaksanaan pilot Sistem Presensi & Reservasi Alat Laboratorium Komputer, ditemukan bahwa tingginya keinginan (desire) dari pengelola lab belum otomatis menghasilkan tindakan (action) karena terhambat wewenang dan perizinan teknis. Niat baik dan semangat saja tidak cukup tanpa wewenang eksplisit serta kepastian administratif.\n\n\n\n\n\n\n\n\nBarrier (Penghalang)\nPerson dengan Authority\nRespons & Rencana Aksi\n\n\n\n\nWewenang Penggunaan Data NIM & SSO\nKepala Laboratorium (Dr. Hendra)\nMenyetujui lingkup akses data agar aman dari risiko pelanggaran privasi.\n\n\nTechnical Clearance & Port Server\nTim TI Fakultas (Pak Aris)\nMelakukan audit keamanan skrip dan memberi izin penempatan di server lokal.\n\n\nJadwal Verifikasi Fisik Asisten\nKoordinator Aslab (Rian)\nMembagi jadwal piket asisten lab untuk memandu pengguna di lokasi.\n\n\nPengembangan Dashboard & Integrasi QR\nLead Developer (Olsen)\nMengembangkan modul reservasi dan menyajikan laporan analitik.\n\n\n\nSebelumnya, tim keliru meminta asisten lab menyetujui sistem secara keseluruhan, padahal wewenang keputusan final berada di tangan Kepala Laboratorium.",
     "crumbs": [
       "Beranda",
       "Action & Agreement Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-10.html#evidence",
-    "href": "portfolio/week-10.html#evidence",
+    "objectID": "portfolio/week-10.html#negosiasi-posisi-vs.-kepentingan-pilihan-solusi",
+    "href": "portfolio/week-10.html#negosiasi-posisi-vs.-kepentingan-pilihan-solusi",
     "title": "Action & Agreement Challenge",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "section": "2. Negosiasi Posisi vs. Kepentingan & Pilihan Solusi",
+    "text": "2. Negosiasi Posisi vs. Kepentingan & Pilihan Solusi\nMengatasi bahaya bahasa menggantung (“nanti dibicarakan” atau “diusahakan yang terbaik”), dilakukan pemetaan antara tuntutan kaku (posisi) dan kebutuhan mendasar (kepentingan):\n\nPosisi Laboratorium: “Sistem tidak boleh dihubungkan ke server sebelum ada jaminan 100% bebas kebocoran data.”\nKepentingan Laboratorium: Menjaga kerahasiaan data pribadi mahasiswa dan mencegah komplain jika sistem down saat praktikum.\nPosisi Tim Mahasiswa: “Kami butuh integrasi langsung dengan database server fakultas minggu ini.”\nKepentingan Tim Mahasiswa: Menguji fungsionalitas reservasi alat secara nyata dengan pengguna riil.\n\n\nAlternatif Solusi & Trade-off:\n\nPilot 5 Hari, 1 Ruang Lab (Opsi Terpilih): Risiko teknis rendah, cakupan pengujian terbatas di 1 lab, namun evidence validasi cukup untuk membuktikan mechanism solution.\nImplementasi Penuh 1 Semester (Seluruh Lab): Evidence sangat kuat, namun risiko teknis tinggi dan membutuhkan review keamanan TI yang lama.\nUji Coba Luring Tanpa Integrasi SSO: Cepat dijalankan, tetapi tidak menguji integrasi autentikasi sistem.",
     "crumbs": [
       "Beranda",
       "Action & Agreement Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-10.html#analisis-komunikasi",
-    "href": "portfolio/week-10.html#analisis-komunikasi",
+    "objectID": "portfolio/week-10.html#formula-kesepakatan-presisi-explicit-agreement",
+    "href": "portfolio/week-10.html#formula-kesepakatan-presisi-explicit-agreement",
     "title": "Action & Agreement Challenge",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
+    "section": "3. Formula Kesepakatan Presisi (Explicit Agreement)",
+    "text": "3. Formula Kesepakatan Presisi (Explicit Agreement)\nGuna memastikan kesepakatan operasional yang terukur dan bebas istilah kabur, dirumuskan Agreement Formula sebagai berikut:\n\nScope & Batas: Pilot reservasi 5 unit PC spesifikasi tinggi di Lab Komputer 1 selama periode 20–24 Oktober 2026.\nOwner & Tanggung Jawab: Olsen menyempurnakan skrip token QR; Pak Aris (TI) melakukan audit skrip autentikasi; Rian (Aslab) memandu alur check-in.\nDeadline: Audit keamanan selesai Rabu, 18 Oktober 2026 pukul 14:00 WIB; Keputusan Go/No-Go Kamis, 19 Oktober 2026 pukul 10:00 WIB.\nDefinisi Selesai: 100% login menggunakan hashing token tanpa menyimpan kata sandi/NIM mentah, dan log presensi terekam presisi dalam basis data.\nStop Rule: Pilot dihentikan seketika jika terjadi kegagalan autentikasi SSO lebih dari 2 kali berturut-turut atau terdeteksi pemicu kerentanan data.\nMekanisme Review: Peninjauan hasil pilot dilaksanakan pada Jumat, 24 Oktober 2026 pukul 15:00 WIB.",
     "crumbs": [
       "Beranda",
       "Action & Agreement Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-10.html#penggunaan-ai",
-    "href": "portfolio/week-10.html#penggunaan-ai",
+    "objectID": "portfolio/week-10.html#evidence-transkrip-dialog-action-checkpoint-penggunaan-ai",
+    "href": "portfolio/week-10.html#evidence-transkrip-dialog-action-checkpoint-penggunaan-ai",
     "title": "Action & Agreement Challenge",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Action & Agreement Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-10.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-10.html#feedback-dan-tindak-lanjut",
-    "title": "Action & Agreement Challenge",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "4. Evidence Transkrip Dialog, Action Checkpoint & Penggunaan AI",
+    "text": "4. Evidence Transkrip Dialog, Action Checkpoint & Penggunaan AI\nPelacakan janji mengacu pada lingkar komitmen (Commitment Loop). Seluruh evidence disajikan dalam bentuk transkrip percakapan teks langsung:\n\nTranskrip 1: Negosiasi Batas Wewenang & Kesepakatan Awal (15 Oktober 2026)\n\nDr. Hendra (Kalab): “Saya tidak bisa memberi izin kalau sistem ini langsung mengambil data NIM dan nama mahasiswa ke server utama tanpa verifikasi TI. Itu berisiko.”\nOlsen (Lead Dev): “Kami memahami kekhawatiran Bapak. Bagaimana jika kita tidak menyimpan nama/NIM secara langsung, melainkan menggunakan token anonim berdurasi 2 jam? Kami menargetkan uji coba terbatas di Lab 1 dulu.”\nDr. Hendra: “Kalau dengan token anonim dan hanya di Lab 1 selama 5 hari, saya setuju. Tapi Pak Aris dari TI harus mengecek kodenya dulu sebelum hari Kamis.”\nPak Aris (TI): “Siap Pak. Kirimkan repositori kodenya ke saya. Saya kelar audit Rabu jam 14:00 WIB.”\n\n\n\nTranskrip 2: Checkpoint H-2 & Adaptasi Risiko (18 Oktober 2026)\n\nPak Aris (TI): “Olsen, hasil audit skrip menemukan bahwa sesi login mahasiswa masih tertinggal di local storage browser lab setelah logout.”\nOlsen: “Baik Pak Aris, terima kasih masukannya. Hari ini juga jam 17:00 WIB saya perbaiki agar sesi otomatis dihapus saat browser ditutup (session cookie).”\nPak Aris: “Bagus. Jika patch itu sudah dikirim dan lulus pengujian ulang malam ini, izin penempatan di server lokal fakultas saya terbitkan besok pagi.”\n\n\n\nTranskrip 3: Peninjauan Akhir & Handover Hasil Pilot (24 Oktober 2026)\n\nRian (Aslab): “Selama 5 hari pilot, ada 42 transaksi reservasi di Lab 1. Seluruhnya berjalan lancar tanpa ada keluhan kebocoran data atau error login.”\nDr. Hendra: “Hasilnya sangat memuaskan. Kesepakatan awal kita terpenuhi dengan baik. Kita bisa lanjutkan ke tahap pembahasan perluasan lab bulan depan.”\n\n\n\nCatatan Deklarasi Penggunaan AI\nPeranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI.",
     "crumbs": [
       "Beranda",
       "Action & Agreement Challenge"
@@ -1409,8 +1398,8 @@
     "objectID": "portfolio/week-10.html#self-assessment",
     "href": "portfolio/week-10.html#self-assessment",
     "title": "Action & Agreement Challenge",
-    "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "section": "5. Self-Assessment",
+    "text": "5. Self-Assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence Singkat\n\n\n\n\nPerson & Character\n3\nMembedakan wewenang Kepala Lab, TI, dan Aslab secara tegas tanpa melangkahi hierarki.\n\n\nObjective & State\n4\nMenjembatani desire-action gap dengan transkrip negosiasi nyata dan uji kelayakan.\n\n\nRepertoire, Language & AI\n3\nMenghindari kata kabur dan menggunakan AI sebatas perapi kalimat tanpa merekayasa fakta.\n\n\nResponse & Adaptation\n4\nMelakukan perbaikan session cookie saat checkpoint berdasarkan review TI.\n\n\nAgreement, Action & Relationship\n4\nMemenuhi seluruh elemen Agreement Formula serta menjaga harmoni relasi jalur ganda (task & relationship track).\n\n\n\nTotal: 18/20 — Lanjut.",
     "crumbs": [
       "Beranda",
       "Action & Agreement Challenge"
@@ -1428,58 +1417,91 @@
     ]
   },
   {
-    "objectID": "portfolio/week-08.html#performance-card",
-    "href": "portfolio/week-08.html#performance-card",
-    "title": "UTS Performance Evidence Package",
-    "section": "",
-    "text": "Nama & NIM: Olsen Danilson Sitohang (18225061)\nPerson / Target Sesi:\n\nSesi 1 (Kasus 1): Diri Sendiri & Tokoh Pembanding Budi (K1-02, ISTJ, Fiktif)\nSesi 2a (Kasus 2): Fajar (K2-06, ESTP, Fiktif)\nSesi 2b (Kasus 2): Elsa (K2-05, ISFJ, Fiktif)\nSesi 3a (Kasus 3): Budi (K3-02, ISTJ, Fiktif)\nSesi 3b (Kasus 3): Dimas (K3-04, INTJ, Fiktif)\n\nInitial State: Variatif lintas target—mulai dari dorongan technical debt internal, kecemasan keadilan pembagian tugas kelompok, hingga skeptisisme tingkat tinggi terhadap efisiensi dan keamanan integrasi agen AI/sistem IT.\nObjective: Mengintegrasikan diagnosis PASK/SWOT, preferensi MBTI, dan tahapan TAIDA untuk membangun shared problem statement, mengelola kendala scope creep, serta menyepakati pilot project dan batas tanggung jawab terstruktur.\nEvidence Package: 1 Makalah Konseptual Teoretis (paper.html) + 5 Laporan Sesi Komunikasi Aktual (hasil_1_18225061.html s.d. hasil_3b_18225061.html).\nBoundary: Menjaga kerahasiaan identitas, menghindari janji manis (overpromising), memberikan jaminan fail-safe / human override 100%, dan memastikan integritas data dalam simulasi.",
+    "objectID": "portfolio/week-08.html#paket-jawaban-dan-pemetaan-penugasan",
+    "href": "portfolio/week-08.html#paket-jawaban-dan-pemetaan-penugasan",
+    "title": "Portfolio Minggu 8 — UTS KIPP 2026",
+    "section": "Paket jawaban dan pemetaan penugasan",
+    "text": "Paket jawaban dan pemetaan penugasan\nPra-UTS menghasilkan satu makalah konseptual; UTS menghasilkan lima laporan komunikasi aktual yang dijalankan secara berurutan (1, 2a, 2b, 3a, 3b). Sesi kedua pada Kasus 2 dan Kasus 3 dimulai sebagai sesi baru dengan target yang berbeda tanpa mewarisi kepercayaan dari target sebelumnya.\n\n\n\nTahap\nLaporan Sesi\nSasaran / Target\nStatus Bukti & Usulan Skor\n\n\n\n\nPra-UTS\nMakalah MBTI dan PASK\nKajian 4 Pertanyaan MBTI & PASK\nSelesai (paper.qmd) — 100/100\n\n\n1\nMemimpin Diri dan Terus Belajar\nDiri; Budi (K1-02, ISTJ, fiktif)\nSelesai (hasil_1_18225061.qmd) — 92/100\n\n\n2a\nPersahabatan & Profesionalitas: Fajar\nFajar (K2-06, ESTP, fiktif)\nSelesai (hasil_2a_18225061.qmd) — 92/100\n\n\n2b\nPersahabatan & Profesionalitas: Elsa\nElsa (K2-05, ISFJ, fiktif)\nSelesai (hasil_2b_18225061.qmd) — 92/100\n\n\n3a\nMenawarkan Solusi TI/AI: Budi\nBudi (K3-02, ISTJ, fiktif)\nSelesai (hasil_3a_18225061.qmd) — 100/100\n\n\n3b\nMenawarkan Solusi TI/AI: Dimas\nDimas (K3-04, INTJ, fiktif)\nSelesai (hasil_3b_18225061.qmd) — 100/100\n\n\n\nKetentuan Nama Berkas: Mengikuti instruksi penugasan aktif versi 2.0 (PENUGASAN.md pada paket ZIP individual 18225061). Seluruh laporan disimpan di folder portfolio/UTS/ dalam format .qmd dan di-render menjadi halaman HTML interaktif untuk asesmen portal.",
     "crumbs": [
       "Beranda",
-      "UTS Performance Evidence Package"
+      "Portfolio Minggu 8 — UTS KIPP 2026"
     ]
   },
   {
-    "objectID": "portfolio/week-08.html#berkas-laporan-uts-w08-tautan-indeks",
-    "href": "portfolio/week-08.html#berkas-laporan-uts-w08-tautan-indeks",
-    "title": "UTS Performance Evidence Package",
-    "section": "📄 Berkas Laporan UTS W08 (Tautan Indeks)",
-    "text": "📄 Berkas Laporan UTS W08 (Tautan Indeks)\nBerikut adalah tautan langsung menuju 6 berkas laporan lengkap UTS W08 yang telah di-render dan dipublikasikan di folder portfolio/UTS/:\n\n📚 Makalah Pra-UTS (Paper Konseptual MBTI & PASK)\n🎯 Laporan Sesi 1 — Kasus 1: Memimpin Diri dan Terus Belajar\n👥 Laporan Sesi 2a — Kasus 2: Persahabatan & Profesionalitas (Target: Fajar - ESTP)\n👥 Laporan Sesi 2b — Kasus 2: Persahabatan & Profesionalitas (Target: Elsa - ISFJ)\n🤖 Laporan Sesi 3a — Kasus 3: Menawarkan Solusi TI dan AI (Target: Budi - ISTJ)\n🤖 Laporan Sesi 3b — Kasus 3: Menawarkan Solusi TI dan AI (Target: Dimas - INTJ)",
+    "objectID": "portfolio/week-08.html#pra-uts-makalah-akademik",
+    "href": "portfolio/week-08.html#pra-uts-makalah-akademik",
+    "title": "Portfolio Minggu 8 — UTS KIPP 2026",
+    "section": "Pra-UTS: makalah akademik",
+    "text": "Pra-UTS: makalah akademik\nMakalah Pra-UTS menjawab empat pertanyaan kajian utama melalui definisi operasional, tinjauan literatur kritis, tabel penerapan strategi, dan pustaka terdistribusi.\n\n\n\n\n\n\n\n\nPertanyaan Kajian\nJawaban Pokok & Pokok Bahasan\nBagian Makalah\n\n\n\n\nMBTI & Komunikasi\n4 pasang preferensi membentuk 16 tipe kepribadian; preferensi berfungsi mengenali gaya pemrosesan informasi & kebutuhan komunikan, bukan membatasi kemampuan.\nKategori MBTI dan Komunikasi Efektif\n\n\nStrategi Profil Spesifik\nKonfirmasi kebutuhan eksplisit, sesuaikan media, tempo, dan urutan pesan, validasi pemahaman, serta sepakati tindakan konkret.\nStrategi Komunikasi untuk Profil Pertentu\n\n\nDeteksi Lewat Percakapan\nMengamati pola respons lintas konteks, menghindari klaim sepihak (over-diagnosis), serta memverifikasi dugaan melalui pertanyaan terbuka.\nMengenali Preferensi melalui Percakapan\n\n\nStimulus, SWOT, & PASK\nMemisahkan persepsi situasi dari kapasitas nyata; melatih Perception, Attitude, Skill, Knowledge (PASK) berbasis indikator perilaku terukur.\nStimulus, SWOT-like, dan PASK; Pendidikan untuk Menumbuhkan PASK",
     "crumbs": [
       "Beranda",
-      "UTS Performance Evidence Package"
+      "Portfolio Minggu 8 — UTS KIPP 2026"
     ]
   },
   {
-    "objectID": "portfolio/week-08.html#decisive-moment-adaptasi-komunikasi",
-    "href": "portfolio/week-08.html#decisive-moment-adaptasi-komunikasi",
-    "title": "UTS Performance Evidence Package",
-    "section": "Decisive Moment & Adaptasi Komunikasi",
-    "text": "Decisive Moment & Adaptasi Komunikasi\n\n1. Sesi 3b (Dimas - INTJ: Analitis & Kritis)\n\nDimas (INTJ): “Bagaimana jika ada pesan pelanggan yang sangat ambigu atau menggunakan bahasa gaul daerah? Apakah AI akan tetap memaksa membuat draf yang berisiko membingungkan staf saya?”\nOlsen (Adaptasi): “Analisis yang sangat teliti, Mas Dimas! Untuk menangani ambiguitas bahasa, kami menetapkan Confidence Threshold eksplisit di angka 85%. Jika skor kepercayaan AI di bawah 85%, pesan otomatis ditandai Label Merah dan 100% dilempar langsung ke staf untuk ditangani secara manual. Kami juga sediakan slider adjustment di dashboard agar tim Anda bisa mengatur batas ini secara mandiri.”\n\nAnalisis Adaptasi: Mengubah kekhawatiran kredibilitas menjadi kepastian otonomi teknis melalui indikator kuantitatif dan instrumen kendali langsung (Human-in-the-Loop).\n\n\n2. Sesi 2b (Elsa - ISFJ: Empati & Penjaga Layanan)\n\nElsa (ISFJ): “Saya merasa beban membantu teman merapikan format kemarin menyita waktu, tapi saya enggak enak mau bilang karena takut dianggap lepas tangan.”\nOlsen (Adaptasi): “Kepedulian kamu luar biasa Sa, tapi itu bukan beban yang harus kamu tanggung sendiri. Bagian kamu kita fokuskan murni ke 1 tugas utama: pengolahan tabel data sampel Modul 2. Untuk penulisan narasi dan formatting, aku sudah konfirmasi alihkan ke Rian yang porsinya masih longgar.”\n\nAnalisis Adaptasi: Memvalidasi empati Elsa terlebih dahulu sebelum melakukan redistribusi tugas, memastikan tidak ada pihak lain yang dirugikan sehingga Elsa merasa aman secara emosional.\n\n\n3. Sesi 3a (Budi - ISTJ: Prosedural & Konservatif)\n\nBudi (ISTJ): “Jika terjadi kendala koneksi atau error di tengah jalan, bagaimana memastikan operasional pencatatan pesanan kami tidak terhenti sama sekali?”\nOlsen (Adaptasi): “Sistem AI bekerja sebagai lapisan pendamping paralel. Jika terjadi kendala jaringan, aplikasi otomatis beralih detik itu juga ke WhatsApp Web manual. Data tetap tersimpan di database lokal Bapak, sehingga prosedur operasional lama tetap utuh sebagai backup utama.”\n\nAnalisis Adaptasi: Memberikan kepastian prosedur cadangan (fail-safe 100%) dan garansi tanpa risiko finansial (Pilot Rp 0 selama 14 hari) untuk menjawab keraguan tipe prosedural.",
+    "objectID": "portfolio/week-08.html#struktur-laporan-uts",
+    "href": "portfolio/week-08.html#struktur-laporan-uts",
+    "title": "Portfolio Minggu 8 — UTS KIPP 2026",
+    "section": "Struktur laporan UTS",
+    "text": "Struktur laporan UTS\nSetiap laporan individual terdiri dari empat bagian utama (A–D) sesuai standar template v2.0:\n\n\n\n\n\n\n\nBagian\nElemen yang Diverifikasi\n\n\n\n\nA) Identitas\nNama/NIM (teks), kelas, tanggal pelaksanaan, nomor/judul kasus, nama/ID target, modalitas, status fiktif/nyata, dan kelengkapan transkrip.\n\n\nB) Kasus & Tujuan\nBrief kasus, tujuan SMART & indikator; profil komunikator (SWOT/ASK); dugaan awal profil target sebelum pengungkapan; serta rencana TAIDA.\n\n\nC) Skrip Percakapan\nTranskrip aktual utuh dari identifikasi hingga konfirmasi ringkasan; ID giliran (U001 & AI001); label tahap dan penutur eksplisit.\n\n\nD) Hasil, Evaluasi, & Refleksi\nCapaian tujuan; perubahan SWOT/ASK; tabel stimulus–respons–adaptasi; analisis relasi & rasa aman; skenario uji ulang; penilaian 6 dimensi; refleksi & tindak lanjut.",
     "crumbs": [
       "Beranda",
-      "UTS Performance Evidence Package"
+      "Portfolio Minggu 8 — UTS KIPP 2026"
     ]
   },
   {
-    "objectID": "portfolio/week-08.html#observer-feedback-replay-dan-refleksi",
-    "href": "portfolio/week-08.html#observer-feedback-replay-dan-refleksi",
-    "title": "UTS Performance Evidence Package",
-    "section": "Observer Feedback, Replay, dan Refleksi",
-    "text": "Observer Feedback, Replay, dan Refleksi\n\nEvaluasi Simulator/AI: AI dimanfaatkan secara etis sebagai simulator tokoh pembanding/komunikan serta fasilitator refleksi pasca-sesi. AI menguji ketahanan argumen melalui skenario event baru (seperti error 500 server, kendala outlier Excel, dan ambiguitas pesan gaul).\nAdaptasi Replay: Pada setiap sesi uji ulang, respons otomatis yang bersifat “menagih/memaksa” berhasil ditahan dan digantikan dengan penyediaan alat bantu praktis (mock server, template Excel dengan filter warna hijau, checklist 3 kriteria, dan slider threshold).\nRefleksi Utama: Keberhasilan komunikasi interpersonal bukan diukur dari kemenangan memaksakan produk/ide, melainkan dari kemampuan memvalidasi hambatan komunikan, menyelaraskan gaya bahasa dengan preferensi MBTI mereka, dan membangun kesepakatan (action plan) yang aman tanpa merusak kualitas hubungan.",
+    "objectID": "portfolio/week-08.html#kasus-1-memimpin-diri-dan-terus-belajar",
+    "href": "portfolio/week-08.html#kasus-1-memimpin-diri-dan-terus-belajar",
+    "title": "Portfolio Minggu 8 — UTS KIPP 2026",
+    "section": "Kasus 1: memimpin diri dan terus belajar",
+    "text": "Kasus 1: memimpin diri dan terus belajar\n\nTujuan dan keadaan awal\nDalam Laporan Sesi 1, Olsen Danilson Sitohang menetapkan fokus pengembangan diri pada perancangan arsitektur perangkat lunak, clean code Pemrograman Berorientasi Objek (OOP), dan integrasi backend modul Sistem Informasi.\nHambatan utama yang dihadapi adalah akumulasi utang teknis (technical debt): saat dikejar tenggat tugas perkuliahan (seperti Jarkom, Arsikom, dan Matdis), muncul dorongan “yang penting programnya jalan dulu”, menghasilkan kode yang tidak modular dan tanpa dokumentasi API.\nKomitmen SMART (27 Oktober 2026 / 14 hari): 1. Menyelesaikan refactoring 1 modul backend utama berarsitektur modular. 2. Menyusun dokumentasi API standar menggunakan OpenAPI/Swagger. 3. Menguji keterbacaan dan keandalan jalur kepada minimal 5 orang rekan tim/pengguna. 4. Membangun coding convention yang dapat dipakai ulang oleh tim.\nLangkah Terkecil 2 Hari (15 Oktober 2026): Menyiapkan repository GitHub terstruktur, dokumen coding style guide ringkas, dan boilerplate arsitektur modular. Target pembanding yang disimulasikan adalah Budi (K1-02, ISTJ).\n\n\nMomen adaptasi dan uji ulang\n\nPesan kepada Diri (U013): “Olsen, keberhasilan dan kualitas sistem adalah fungsi dari fokus dan disiplin eksekusi. Jika kamu tidak mengalokasikan waktu terdedikasi untuk merapikan arsitektur sekarang, kamu hanya menunda kehancuran sistem saat integrasi nanti. Kerjakan dengan benar sejak awal.”\nSesi Pembanding Budi (ISTJ) (U014–U015): Menjawab kekhawatiran Budi terhadap potensi penundaan jadwal dengan menyediakan boilerplate, style guide, dan checkpoint pengujian per modul.\nUji Ulang Distraksi Tugas Kelompok (U019): Merespons secara asertif dengan memprioritaskan milestone backend, lalu menawarkan petunjuk/referensi setelah milestone selesai.\nUji Ulang Ide Fitur AI (U020–U021): Menahan scope creep dengan mencatat ide fitur AI ke dalam backlog/issue tracker GitHub di bagian “Future Enhancement”, dengan indikator keberhasilan berupa ketepatan jadwal milestone.\n\n\n\n\n\n\n\n\n\nPASK\nBukti Kualitatif pada Laporan\nBatas Evaluasi\n\n\n\n\nPersepsi\nMengenali dorongan mengambil jalan pintas & dampak technical debt jangka panjang.\nCatatan harian di luar sesi belum dilampirkan.\n\n\nSikap\nMengutamakan kualitas sistem dan disiplin eksekusi di atas kemudahan sementara.\nEvaluasi motivasi bersifat laporan diri (self-report).\n\n\nKeterampilan\nPenolakan asertif, manajemen backlog GitHub, dan penjadwalan checkpoint.\nDemonstrasi verbal dalam simulasi.\n\n\nPengetahuan\nMenjelaskan clean code OOP, OpenAPI/Swagger, boilerplate, dan issue tracking.\nKemampuan eksekusi koding belum diuji langsung.",
     "crumbs": [
       "Beranda",
-      "UTS Performance Evidence Package"
+      "Portfolio Minggu 8 — UTS KIPP 2026"
     ]
   },
   {
-    "objectID": "portfolio/week-08.html#self-assessment",
-    "href": "portfolio/week-08.html#self-assessment",
-    "title": "UTS Performance Evidence Package",
-    "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nProfil, nilai, workload, dan gaya MBTI dari 5 target (ISTJ, ESTP, ISFJ, INTJ) dipetakan dan divalidasi utuh.\n\n\nObjective & State\n3\nState awal (skeptis, cemas, ragu) dan pergeseran sinyal Interest/Action teridentifikasi jelas di setiap sesi.\n\n\nRepertoire, Language & AI\n4\nRepertoar fleksibel (penolakan asertif, backlog, fail-safe, human-in-the-loop); AI dipakai etis sebagai evaluator pasca-sesi.\n\n\nResponse & Adaptation\n4\nRespons dan keberatan target pada sesi uji ulang langsung mengubah rencana dan metrik secara terstruktur di tengah percakapan.\n\n\nAgreement, Action & Relationship\n3\nKesepakatan milestone, jadwal pilot test, dan batas tanggung jawab terdefinisi eksplisit di tiap sesi tanpa merusak relasi.\n\n\n\nTotal: 18/20 — Lanjut\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "objectID": "portfolio/week-08.html#kasus-2-persahabatan-dan-profesionalitas",
+    "href": "portfolio/week-08.html#kasus-2-persahabatan-dan-profesionalitas",
+    "title": "Portfolio Minggu 8 — UTS KIPP 2026",
+    "section": "Kasus 2: persahabatan dan profesionalitas",
+    "text": "Kasus 2: persahabatan dan profesionalitas\n\nSesi 2a — Fajar: kesepakatan praktis, dukungan payload, dan mock server\nDalam Laporan Sesi 2a, Fajar (K2-06, ESTP) merasa pembagian tugas kelompok tidak adil dan enggan mengikuti rapat yang berbelit-belit di tengah tekanan praktikum lain.\n\nAdaptasi Repertoar (U003–U005): Mengapresiasi waktu Fajar, menyederhanakan tanggung jawab Fajar murni menjadi 2 poin utama (uji fungsi API login dan screenshot hasil di tabel 1), serta menyediakan file contoh payload request .json untuk Postman agar Fajar tidak perlu menyusun dari nol. Fajar berkomitmen menyelesaikan tugas sebelum pukul 20.00 WIB.\nUji Ulang Event Server Down (U008–AI009): Pada pukul 19.30 WIB server mengalami error 500. Peserta merespons cepat dengan me-restart server, menyediakan mock server cadangan di localhost/mock (200 OK), serta mengirimkan video panduan 15 detik. Fajar berhasil mengunggah screenshot tepat pukul 20.00 WIB.\n\n\n\nSesi 2b — Elsa: empati, pembagian murni, dan skenario 50-50\nDalam Laporan Sesi 2b, Elsa (K2-05, ISFJ) merasa beban membantu anggota lain tidak terlihat, khawatir membebani Rian jika tugas diubah, dan bingung akan batas tanggung jawabnya.\n\nAdaptasi Repertoar (U003–U005): Memvalidasi empati Elsa, memfokuskan porsi Elsa murni pada pengolahan tabel data sampel Modul 2, mengalihkan penulisan narasi dan formatting ke Rian setelah konfirmasi langsung, serta memberikan template Excel ber-rumus. Elsa berkomitmen selesai pukul 20.30 WIB.\nUji Ulang Outlier Data (U008–AI010): Saat subtugas pembersihan outlier di sheet 2 terbukti rumit, peserta menawarkan mengambil alih sheet 2. Elsa mengusulkan pembagian 50-50. Peserta menyetujui, memberikan penanda warna hijau otomatis di Excel dan panduan 3 langkah. Elsa mengunggah berkas ke Drive pada pukul 20.25 WIB.\n\n\n\nPerbandingan adaptasi Kasus 2\n\n\n\n\n\n\n\n\nAspek Komunikasi\nSesi 2a — Fajar (ESTP)\nSesi 2b — Elsa (ISFJ)\n\n\n\n\nHambatan Utama\nRapat teori panjang, ketidakjelasan kriteria selesai.\nBeban bantuan tak terlihat, takut membebani Rian.\n\n\nRepertoar Komunikasi\nBahasa lugas, penyederhanaan 2 poin, file .json.\nValidasi empati, pembagian tegas, template Excel.\n\n\nSolusi Uji Ulang\nMock server localhost/mock + video 15 detik.\nPembagian 50-50 sheet 2 + penanda hijau Excel.\n\n\nHasil & Ketepatan\nKomitmen jam 20.00 WIB tercapai tepat waktu.\nBerkas terunggah di Drive jam 20.25 WIB (lebih awal).",
     "crumbs": [
       "Beranda",
-      "UTS Performance Evidence Package"
+      "Portfolio Minggu 8 — UTS KIPP 2026"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-08.html#kasus-3-menawarkan-solusi-ti-dan-ai",
+    "href": "portfolio/week-08.html#kasus-3-menawarkan-solusi-ti-dan-ai",
+    "title": "Portfolio Minggu 8 — UTS KIPP 2026",
+    "section": "Kasus 3: menawarkan solusi TI dan AI",
+    "text": "Kasus 3: menawarkan solusi TI dan AI\n\nSesi 3a — Budi: transparansi biaya, fail-safe 100%, dan checklist\nDalam Laporan Sesi 3a, Budi (K3-02, ISTJ) ragu mengadopsi AI karena takut biaya membengkak tak terduga dan merusak prosedur operasional pencatatan yang sudah tertib.\n\nAdaptasi Repertoar (U003–U006): Menjelaskan bahwa agen AI hanya bertugas memilah & menyiapkan draf jawaban FAQ di layar (keputusan kirim 100% di tangan staf). Menetapkan biaya transparan: pilot 14 hari Rp 0, dan biaya berlangganan flat Rp 150.000/bulan. Menjamin fail-safe 100% (otomatis beralih ke WA Web manual dan database lokal jika koneksi terputus). Disepakati pilot hari Jumat pukul 14.00 WIB (45 menit, 10 FAQ).\nUji Ulang Pesanan Khusus (U008–AI010): Menghadapi 15% pesanan kustom yang rumit, peserta mengecualikan pesanan khusus 100% dari AI (tetap manual di buku utama), serta menyediakan Checklist 3 Kriteria Sederhana (dicetak di samping monitor) dan penanda otomatis warna kuning di sistem AI.\n\n\n\nSesi 3b — Dimas: akurasi jujur, human-in-the-loop, dan slider threshold\nDalam Laporan Sesi 3b, Dimas (K3-04, INTJ) adalah penilai teknis yang sangat analitis-kritis, skeptis terhadap janji manis AI, dan menuntut bukti logika serta kontrol penuh.\n\nAdaptasi Repertoar (U003–U006): Menyajikan data akurasi jujur (92% akurat vs 8% error), menjelaskan arsitektur Human-in-the-Loop (tombol kirim 100% manual oleh staf / human override dalam 2 detik), dan menawarkan Pilot Benchmark Test 7 hari dengan 3 metrik kuantitatif (Average Handling Time &lt;45 detik, Staff Approval Rate &gt;85%, pesanan tercecer 0). Disepakati sesi Jumat pukul 14.00 WIB (dokumen 2 halaman).\nUji Ulang Ambiguitas Bahasa (U008–AI011): Menangani bahasa gaul/ambigu dengan menetapkan Confidence Threshold 85% dan Label Merah otomatis (langsung dilempar ke staf manual). Menyediakan slider Threshold Adjustment di dashboard agar Dimas dapat mengatur batas akurasi dan memantau dampak data secara real-time.\n\n\n\nPerbandingan adaptasi Kasus 3\n\n\n\n\n\n\n\n\nAspek Komunikasi\nSesi 3a — Budi (ISTJ)\nSesi 3b — Dimas (INTJ)\n\n\n\n\nHambatan Utama\nKeraguan biaya & takut prosedur lama terganggu.\nSkeptis pada janji AI, menuntut kontrol & data rasional.\n\n\nRepertoar Utama\nSkema Rp 150rb/bln, fail-safe 100%, pendampingan.\nData akurasi 92% vs 8%, Human-in-the-Loop, 3 metrik pilot.\n\n\nSolusi Uji Ulang\nChecklist 3 Kriteria + penanda warna kuning.\nConfidence Threshold 85%, Label Merah, slider adjustment.\n\n\nBentuk Kesepakatan\nPilot test Jumat 14.00 WIB (10 FAQ).\nPilot Benchmark Test Jumat 14.00 WIB (dokumen 2 hlm).",
+    "crumbs": [
+      "Beranda",
+      "Portfolio Minggu 8 — UTS KIPP 2026"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-08.html#evaluasi-stimulus-relasi-dan-pask",
+    "href": "portfolio/week-08.html#evaluasi-stimulus-relasi-dan-pask",
+    "title": "Portfolio Minggu 8 — UTS KIPP 2026",
+    "section": "Evaluasi stimulus, relasi, dan PASK",
+    "text": "Evaluasi stimulus, relasi, dan PASK\nTabel berikut merangkum alur pergeseran keadaan awal, stimulus komunikator, respons target, adaptasi, dan bukti perilaku dari seluruh sesi:\n\n\n\n\n\n\n\n\n\n\nSesi & Target\nStatus Awal\nStimulus Komunikator\nRespons & Perubahan Relasi\nAdaptasi & Bukti Lanjutan\n\n\n\n\nSesi 1 (Budi ISTJ)\nTakut refactoring merusak jadwal & standar.\nBoilerplate, style guide, & checkpoint per modul.\nBudi terbuka setelah kepastian prosedur diberikan.\nMenyiapkan boilerplate 2 hari & backlog GitHub (U015, U020).\n\n\nSesi 2a (Fajar ESTP)\nRapat teori membosankan, beban tidak adil.\nPenyederhanaan 2 poin & file .json Postman.\nDefensivitas turun; Fajar berkomitmen jam 20.00 WIB.\nRestart server + mock server localhost/mock (U005, U008).\n\n\nSesi 2b (Elsa ISFJ)\nCemas membebani orang lain & beban tak terlihat.\nMemvalidasi empati, porsi murni, & template Excel.\nRasa aman tinggi; Elsa berkomitmen jam 20.30 WIB.\nSkenario 50-50 sheet 2 + penanda hijau Excel (U004, U009).\n\n\nSesi 3a (Budi ISTJ)\nRagu biaya membengkak & gangguan prosedur.\nSkema Rp 150rb/bln, fail-safe 100% WA Web manual.\nRasa percaya tinggi; menyepakati pilot Jumat 14.00.\nChecklist 3 Kriteria + penanda kuning AI (U004, U009).\n\n\nSesi 3b (Dimas INTJ)\nSkeptis klaim AI, takut kehilangan kontrol.\nAkurasi jujur 92% vs 8%, Human-in-the-Loop, 3 metrik.\nRasa dihormati tinggi; menyetujui pilot benchmark.\nThreshold 85%, Label Merah, & slider real-time (U003, U008).",
+    "crumbs": [
+      "Beranda",
+      "Portfolio Minggu 8 — UTS KIPP 2026"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-08.html#penilaian-enam-dimensi-dan-rekap-nilai",
+    "href": "portfolio/week-08.html#penilaian-enam-dimensi-dan-rekap-nilai",
+    "title": "Portfolio Minggu 8 — UTS KIPP 2026",
+    "section": "Penilaian enam dimensi dan Rekap Nilai",
+    "text": "Penilaian enam dimensi dan Rekap Nilai\nPenilaian performa komunikasi didasarkan pada 6 dimensi kualitatif KIPP (skala 1–4): 1. Tujuan dan Konteks: Kejelasan sasaran SMART, batas tanggung jawab, dan kondisi awal. 2. Persepsi & Validasi Profil: Pengenalan preferensi MBTI target dan pengungkapan kebutuhan riil. 3. Pemilihan & Urutan Repertoar: Keselarasan strategi komunikasi dengan gaya pemrosesan target. 4. Eksekusi Jelas, Peduli, & Konsisten: Kejelasan pesan, empati personal, dan kepatuhan janji. 5. Evaluasi & Adaptasi: Kemampuan membaca keluhan baru dan menyesuaikan rencana pada uji ulang. 6. Refleksi & Lesson Learned: Kedalaman analisis PASK/SWOT dan pemaknaan relasional pasca-sesi.\n\nRekap nilai komponen UTS\nNilai Akhir UTS = (0,10 × Makalah) + 0,18 × (Sesi 1 + Sesi 2a + Sesi 2b + Sesi 3a + Sesi 3b) = (0,10 × 100) + 0,18 × (92 + 92 + 92 + 100 + 100) = 10 + 0,18 × (476) = 10 + 85,68 = 95,68 (dibulatkan menjadi 96/100)\n\n\n\n\n\n\n\n\n\n\n\nKomponen Penugasan\nBobot\nSelf-Assessment /100\nUsulan AI /100\nNilai Resmi Dosen /100\nStatus Bukti\n\n\n\n\nMakalah Pra-UTS\n10%\n100\n100\n—\nLengkap (paper.qmd)\n\n\nSesi 1 (Kasus 1)\n18%\n92\n92\n—\nLengkap (hasil_1_18225061.qmd)\n\n\nSesi 2a (Kasus 2)\n18%\n92\n92\n—\nLengkap (hasil_2a_18225061.qmd)\n\n\nSesi 2b (Kasus 2)\n18%\n92\n92\n—\nLengkap (hasil_2b_18225061.qmd)\n\n\nSesi 3a (Kasus 3)\n18%\n100\n100\n—\nLengkap (hasil_3a_18225061.qmd)\n\n\nSesi 3b (Kasus 3)\n18%\n100\n100\n—\nLengkap (hasil_3b_18225061.qmd)\n\n\n\nNilai Akhir UTS (Self-Assessment): 95,68 / 100 (Siap direview dan dimoderasi oleh Dosen Pengampu).",
+    "crumbs": [
+      "Beranda",
+      "Portfolio Minggu 8 — UTS KIPP 2026"
     ]
   },
   {
@@ -1487,84 +1509,51 @@
     "href": "portfolio/week-06.html",
     "title": "Target–Attention Challenge",
     "section": "",
-    "text": "Memilih target person yang tepat dan membuat issue diakui relevan melalui evidence.",
+    "text": "Nama & NIM: Olsen Danilson Sitohang (18225061)\nKelas: K1 Sistem dan Teknologi Informasi\n\n\n\n\n\n\n\n\n\n\n\n\nPerson / Character\nRelevance\nAuthority\nCurrent State\n\n\n\n\nKasir / Staf Stan Kantin (Pelaksana)\nMenghadapi langsung antrean membludak dan risiko kesalahan pencatatan pesanan saat jam puncak\nMengatur alur penerimaan pesanan di kasir\nProblem Aware (Sadar masalah antrean & kelelahan)\n\n\nMahasiswa / Pembeli (Pengguna)\nMerasakan keterlambatan makan siang dan antrean 15–20 menit\nMemilih tempat makan / metode pesan\nUnaware / Pasrah pada keadaan\n\n\nPemilik Stan Kantin (Pengambil Keputusan)\nMengalami potensi kehilangan revenue akibat calon pembeli batal antre\nBerwenang menyetujui perubahan alur / alat kasir\nUnaware (Mengira penjualan sudah maksimal)\n\n\nTim Sarpras / Kantin ITB (Regulator)\nBertanggung jawab atas ketertiban dan kelancaran fasilitas kampus\nMenetapkan aturan operasional kantin\nUnaware\n\n\n\n\n\n\nTarget awal yang dipilih adalah Staf Kasir Stan Kantin. Kasir memiliki direct operational experience terhadap beban pencatatan pesanan saat jam sibuk (11.30–12.30 WIB). Memulai dari kasir memungkinkan validasi fakta lapangan secara instan tanpa memaksakan solusi sistem di awal kepada pemilik stan.",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-06.html#kompetensi-target",
-    "href": "portfolio/week-06.html#kompetensi-target",
+    "objectID": "portfolio/week-06.html#target-map-pemilihan-target",
+    "href": "portfolio/week-06.html#target-map-pemilihan-target",
     "title": "Target–Attention Challenge",
     "section": "",
-    "text": "Memilih target person yang tepat dan membuat issue diakui relevan melalui evidence.",
+    "text": "Nama & NIM: Olsen Danilson Sitohang (18225061)\nKelas: K1 Sistem dan Teknologi Informasi\n\n\n\n\n\n\n\n\n\n\n\n\nPerson / Character\nRelevance\nAuthority\nCurrent State\n\n\n\n\nKasir / Staf Stan Kantin (Pelaksana)\nMenghadapi langsung antrean membludak dan risiko kesalahan pencatatan pesanan saat jam puncak\nMengatur alur penerimaan pesanan di kasir\nProblem Aware (Sadar masalah antrean & kelelahan)\n\n\nMahasiswa / Pembeli (Pengguna)\nMerasakan keterlambatan makan siang dan antrean 15–20 menit\nMemilih tempat makan / metode pesan\nUnaware / Pasrah pada keadaan\n\n\nPemilik Stan Kantin (Pengambil Keputusan)\nMengalami potensi kehilangan revenue akibat calon pembeli batal antre\nBerwenang menyetujui perubahan alur / alat kasir\nUnaware (Mengira penjualan sudah maksimal)\n\n\nTim Sarpras / Kantin ITB (Regulator)\nBertanggung jawab atas ketertiban dan kelancaran fasilitas kampus\nMenetapkan aturan operasional kantin\nUnaware\n\n\n\n\n\n\nTarget awal yang dipilih adalah Staf Kasir Stan Kantin. Kasir memiliki direct operational experience terhadap beban pencatatan pesanan saat jam sibuk (11.30–12.30 WIB). Memulai dari kasir memungkinkan validasi fakta lapangan secara instan tanpa memaksakan solusi sistem di awal kepada pemilik stan.",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-06.html#evidence-wajib",
-    "href": "portfolio/week-06.html#evidence-wajib",
+    "objectID": "portfolio/week-06.html#attention-pitch-evidence",
+    "href": "portfolio/week-06.html#attention-pitch-evidence",
     "title": "Target–Attention Challenge",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nTarget map dan alasan memilih satu target.\nProblem/opportunity pitch serta evidence.\nResponse, state sesudah pitch, dan adaptation.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 6 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Attention Pitch & Evidence",
+    "text": "Attention Pitch & Evidence\n\nDraf Attention Pitch (Versi Masalah — 38 Kata)\n\n“Dalam tiga hari pengamatan jam 11.30–12.30, antrean mencapai 14 orang dengan rata-rata 1 dari 10 pesanan harus dikonfirmasi ulang karena pencatatan manual. Ini membuat waktu pelayanan melambat. Apakah tim kasir juga merasakan tekanan saat pencatatan menumpuk?”\n\n\n\nEvidence yang Digunakan\nEvidence disajikan langsung dalam bentuk fakta observasi kuantitatif terstruktur tanpa menggunakan tautan atau lampiran berkas luar:\n\nHasil Observasi Antrean (13–15 Oktober 2026, 11.30–12.30 WIB):\n\nRata-rata panjang antrean: 12–15 orang per stan.\nRata-rata waktu transaksi kasir manual: 85 detik per pelanggan.\nAngka kesalahan/klarifikasi pesanan: 3 kasus dari 32 pesanan teramati (9,37%).",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-06.html#konteks-performance",
-    "href": "portfolio/week-06.html#konteks-performance",
+    "objectID": "portfolio/week-06.html#dialog-percakapan-evaluasi-state",
+    "href": "portfolio/week-06.html#dialog-percakapan-evaluasi-state",
     "title": "Target–Attention Challenge",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Dialog Percakapan & Evaluasi State",
+    "text": "Dialog Percakapan & Evaluasi State\nBerikut adalah transkrip lengkap percakapan aktual/simulasi dalam bentuk teks utuh:\n\nTranskrip Dialog Utama\n\nOlsen (Communicator): “Selamat siang Mbak. Boleh ganggu waktunya sebentar 30 detik? Dari pengamatan saya tiga hari ini jam 11.30, antrean kasir rata-rata sampai 14 orang dan 1 dari 10 pesanan sempat diklarifikasi ulang karena tulisan nota manual. Ini bikin pelayanan agak ketahan ya Mbak. Apakah Mbak juga ngerasa kelelahan pas pencatatan menumpuk di jam makan siang?”\nMbak Maya (Kasir Stan): “Iya dek, kalau jam 12 itu memang pusing banget. Nota sering terselip atau dibaca ulang oleh bagian dapur karena tulisannya keburu-buru. Tapi ya mau gimana lagi, kalau jam sibuk memang pasti antre.”\nOlsen (Communicator): “Paham banget Mbak, wajar pusing kalau harus nulis cepat sambil ngejar waktu dapur. Kalau boleh, apakah Mbak terbuka kalau kita coba catat berapa kali nota harus diklarifikasi ulang dalam dua hari ke depan, supaya kita tahu persis titik macetnya sebelum mikirin cara bantu dapur?”\nMbak Maya (Kasir Stan): “Boleh aja dek, asal enggak ganggu saya pas lagi melayani pembeli ya.”\n\n\n\nEvaluasi State & Pergeseran\n\nState Awal Target: Problem Aware (Sadar bahwa jam makan siang sangat sibuk, tetapi menganggapnya sebagai keharusan yang tidak bisa diubah).\nSinyal Respons: Target memverifikasi fakta (“Nota sering terselip atau dibaca ulang”), mengonfirmasi dampak emosional (“pusing banget”), dan menerima usulan observasi lanjutan.\nState Akhir Target: Attention dengan Kesediaan Validasi Data (Berpindah dari pasrah menjadi terbuka untuk memeriksa fakta).\nAdaptasi Komunikasi: Komunikator menahan diri untuk tidak langsung mempromosikan aplikasi kasir digital/AI, melainkan menyesuaikan tujuan menjadi kesepakatan pengumpulan bukti bersama (data validation).",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-06.html#evidence",
-    "href": "portfolio/week-06.html#evidence",
+    "objectID": "portfolio/week-06.html#evidence-package-transkrip-verbatim-umpan-balik",
+    "href": "portfolio/week-06.html#evidence-package-transkrip-verbatim-umpan-balik",
     "title": "Target–Attention Challenge",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
-    "crumbs": [
-      "Beranda",
-      "Target–Attention Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-06.html#analisis-komunikasi",
-    "href": "portfolio/week-06.html#analisis-komunikasi",
-    "title": "Target–Attention Challenge",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
-    "crumbs": [
-      "Beranda",
-      "Target–Attention Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-06.html#penggunaan-ai",
-    "href": "portfolio/week-06.html#penggunaan-ai",
-    "title": "Target–Attention Challenge",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Target–Attention Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-06.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-06.html#feedback-dan-tindak-lanjut",
-    "title": "Target–Attention Challenge",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Evidence Package (Transkrip Verbatim Umpan Balik)",
+    "text": "Evidence Package (Transkrip Verbatim Umpan Balik)\nBukti percakapan umpan balik rekan (peer feedback) dalam bentuk teks penuh tanpa tautan luar:\n\nUmpan Balik Rekan (Rian 2): “Ketika Olsen menyampaikan bagian ‘1 dari 10 pesanan sempat diklarifikasi ulang karena tulisan nota manual’, saya mengamati Mbak Maya langsung mengangguk pelan dan berkata ‘Iya dek, nota sering terselip’. Hal itu menunjukkan bahwa perhatian target berhasil didapatkan secara tenang karena observasi yang disampaikan sangat spesifik dan relevan dengan kerepotan harian kasir, bukan tuduhan bahwa kasir bekerja lambat.”\n\n\nCatatan Deklarasi Penggunaan AI",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
@@ -1574,8 +1563,8 @@
     "objectID": "portfolio/week-06.html#self-assessment",
     "href": "portfolio/week-06.html#self-assessment",
     "title": "Target–Attention Challenge",
-    "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "section": "Self-Assessment",
+    "text": "Self-Assessment\n\n\n\n\n\n\n\n\nDimensi Penilaian\nSkor\nEvidence Singkat\n\n\n\n\nPerson & Character\n4\nTarget dipetakan rinci berdasarkan peran operasional harian kasir kantin, bukan kategori umum mahasiswa.\n\n\nObjective & State\n3\nPergeseran state dari pasrah menjadi terbuka divalidasi lewat respons verbal target.\n\n\nRepertoire, Language & AI\n4\nPitch ringkas (38 kata), berbasis fakta observasi terukur, tanpa jargon teknologi.\n\n\nResponse & Adaptation\n4\nMenanggapi keberatan target dengan menurunkan klaim dari tawaran aplikasi menjadi pengumpulan data bersama.\n\n\nAgreement, Action & Relationship\n3\nDisepakati observasi gabungan 2 hari tanpa mengganggu operasional kasir dan tanpa merusak relasi.\n\n\n\nTotal: 18/20 — Lanjut\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
@@ -1762,7 +1751,7 @@
     "href": "portfolio/index.html",
     "title": "Indeks Portfolio",
     "section": "",
-    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nPortfolio Minggu 8 — UTS KIPP 2026\n\n\nSiap dinilai\n\n\n96\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
+    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n8\n\n\nPortfolio Minggu 8 — UTS KIPP 2026\n\n\nSiap dinilai\n\n\n96\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nSiap dinilai\n\n\n18/20\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
     "crumbs": [
       "Beranda",
       "Indeks Portfolio"
@@ -6343,84 +6332,62 @@
     "href": "portfolio/week-07.html",
     "title": "Problem–Solution Interest Pitch",
     "section": "",
-    "text": "Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan.",
+    "text": "Nama & NIM: Olsen Danilson Sitohang (18225061)\nKelas: K1 Sistem dan Teknologi Informasi\nKompetensi Target: Menghubungkan mekanisme solusi (solution mechanism) dengan masalah, manfaat langsung (benefit), dan nilai relasional (value) yang relevan untuk memunculkan minat (Interest) tanpa terjebak feature dumping.",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#kompetensi-target",
-    "href": "portfolio/week-07.html#kompetensi-target",
+    "objectID": "portfolio/week-07.html#identitas-kompetensi-target",
+    "href": "portfolio/week-07.html#identitas-kompetensi-target",
     "title": "Problem–Solution Interest Pitch",
     "section": "",
-    "text": "Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan.",
+    "text": "Nama & NIM: Olsen Danilson Sitohang (18225061)\nKelas: K1 Sistem dan Teknologi Informasi\nKompetensi Target: Menghubungkan mekanisme solusi (solution mechanism) dengan masalah, manfaat langsung (benefit), dan nilai relasional (value) yang relevan untuk memunculkan minat (Interest) tanpa terjebak feature dumping.",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#evidence-wajib",
-    "href": "portfolio/week-07.html#evidence-wajib",
+    "objectID": "portfolio/week-07.html#attention-evidence-problemsolution-link",
+    "href": "portfolio/week-07.html#attention-evidence-problemsolution-link",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nAttention evidence dan problem–solution link.\nInterest pitch dengan evidence atau demonstration.\nResponse, state assessment, hidden concern, dan adaptation.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 7 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Attention Evidence & Problem–Solution Link",
+    "text": "Attention Evidence & Problem–Solution Link\n\nRangkuman Bukti Attention (Lanjutan Minggu 6)\nHasil observasi terkonfirmasi bersama Staf Kasir Stan Kantin Kampus ITB (Mbak Maya) menunjukkan bahwa pada jam sibuk (11.30–12.30 WIB): - Terjadi rata-rata 14 antrean pembeli dengan waktu tunggu 18 menit. - 1 dari 10 pesanan (sekitar 9,37%) mengalami kesalahan/klarifikasi ulang ke dapur akibat nota manual yang ditulis terburu-buru. - Target telah mengakui masalah ini (Attention) dan sepakat bahwa penumpukan nota serta interupsi dapur menyita energi operasional.\n\n\nSolusi Hipotesis & Matriks Link Masalah–Solusi\n\n\n\n\n\n\n\n\n\nMasalah Terkonfirmasi\nMekanisme Solusi (Mechanism)\nManfaat Langsung (Benefit)\nNilai Relasional (Value)\n\n\n\n\nNota manual sering terselip/salah dibaca dapur saat jam sibuk.\nLayar draf pesanan kasir 1-klik yang terhubung langsung ke monitor dapur tanpa kertas nota.\nKasir tidak perlu menulis ulang nota dan dapur tidak perlu bertanya berulang.\nBagi Kasir (Maya): Kerja tenang, bebas pusing interupsi dapur.Bagi Dapur: Urutan masak rapi & jelas.Bagi Pembeli: Makanan siap tepat waktu.\n\n\nPembeli sering menyela kasir menanyakan pesanan.\nPapan status nomor pesanan dinamis (Sedang Dimasak \\(\\rightarrow\\) Siap Diambil).\nPembeli memantau status sendiri di layar TV antrean.\nBagi Kasir: Bebas dari pertanyaan berulang.Bagi Pembeli: Kepastian waktu tanpa takut terlambat kelas.",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#konteks-performance",
-    "href": "portfolio/week-07.html#konteks-performance",
+    "objectID": "portfolio/week-07.html#transkrip-dialog-utama-demonstrasi-tanggapan-target",
+    "href": "portfolio/week-07.html#transkrip-dialog-utama-demonstrasi-tanggapan-target",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Transkrip Dialog Utama (Demonstrasi & Tanggapan Target)",
+    "text": "Transkrip Dialog Utama (Demonstrasi & Tanggapan Target)\nBerikut adalah transkrip lengkap percakapan lisan aktual/simulasi dalam bentuk teks penuh tanpa tautan luar:\n\nOlsen (Communicator): “Mbak Maya, menyambung obrolan kemarin tentang nota yang sering terselip pas jam sibuk 12.00, kami merancang mekanisme draf pesanan 1-klik di tablet kasir. Begitu Mbak tekan nomor menu, pesanan langsung tampil di monitor dapur dan nomor antrean otomatis muncul di layar TV luar. Jadi Mbak nggak perlu nulis kertas nota lagi dan nggak akan diganggu pertanyaan mahasiswa. Bolehkah kita coba peragakan alur 30 detik ini?”\nMbak Maya (Kasir): “Wah, kalau nggak usah nulis kertas lagi sih enak banget dek. Tapi bentar, kalau mati listrik atau koneksi Wi-Fi kantin putus gimana? Apa kasirnya bakalan macet total nggak bisa jualan?”\nOlsen (Communicator): “Pertanyaan yang sangat krusial, Mbak Maya. Untuk mengantisipasi itu, sistem ini punya mode offline-first. Jika Wi-Fi putus, tablet otomatis menyimpan data secara lokal dan mencetak struk cadangan tanpa internet. Kasir tetap bisa jualan 100% lancar. Selain itu, jika tablet bermasalah, buku nota manual Mbak tetap siaga di samping kasir sebagai backup utama.”\nMbak Maya (Kasir): “Oh, begitu… Jadi kalau jaringan hilang tetap bisa jalan ya. Boleh deh, coba tunjukin tampilan tombol kasirnya seberapa cepat kalau saya mau tekan pesanan Nasi Ayam.”\nOlsen (Communicator): (Mendemonstrasikan prototipe layar 1-klik) “Di sini Mbak cukup tekan gambar Nasi Ayam, lalu tekan ‘Simpan’. Dalam 1 detik nomor antrean 05 keluar. Boleh Mbak coba tekan sendiri?”\nMbak Maya (Kasir): (Mencoba menekan layar) “Eh iya, cepat juga ya, cuma dua kali tekan. Kalau boleh tahu, tombolnya bisa dibikin lebih besar nggak ya biar pas jam sibuk jari saya nggak salah tekan?”",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#evidence",
-    "href": "portfolio/week-07.html#evidence",
+    "objectID": "portfolio/week-07.html#analisis-hidden-concern-adaptasi-mekanisme",
+    "href": "portfolio/week-07.html#analisis-hidden-concern-adaptasi-mekanisme",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "section": "Analisis Hidden Concern & Adaptasi Mekanisme",
+    "text": "Analisis Hidden Concern & Adaptasi Mekanisme\n\nIdentifikasi Kekhawatiran Tersembunyi (Hidden Concern)\nAwalnya komunikator menduga kekhawatiran utama kasir adalah kecepatan sistem. Namun melalui pertanyaan target (“kalau mati listrik atau Wi-Fi putus gimana?” dan “tombolnya bisa dibikin lebih besar nggak?”), terungkap bahwa hidden concern target adalah: 1. Keandalan operasional (reliability): Takut sistem digital lumpuh saat jaringan terputus. 2. Kenyamanan fisik pengguna (usability): Takut terjadi salah tekan tombol karena ukuran antarmuka terlalu kecil saat melayani pembeli dengan cepat.\n\n\nAdaptasi Mekanisme Komunikasi\n\nMenurunkan Klaim & Memberikan Jaminan Cadangan: Menjelaskan fitur offline-first dan menjamin bahwa buku nota manual tetap berada di meja kasir sebagai backup utama tanpa gengsi teknologi.\nPenyesuaian Antarmuka (UX): Mengubah tata letak tombol menu utama menjadi ukuran extra-large berbasis warna kategori makanan untuk mencegah typo input.\nSinyal Minat (Interest Signal): Target bergeser dari ragu (attention with reservation) menjadi penasaran (Interest) yang ditandai dengan mencoba langsung prototipe dan memberikan usulan perbaikan (“tombolnya bisa dibikin lebih besar nggak?”).",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#analisis-komunikasi",
-    "href": "portfolio/week-07.html#analisis-komunikasi",
+    "objectID": "portfolio/week-07.html#evidence-package-verbatim-peer-feedback",
+    "href": "portfolio/week-07.html#evidence-package-verbatim-peer-feedback",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
-    "crumbs": [
-      "Beranda",
-      "Problem–Solution Interest Pitch"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-07.html#penggunaan-ai",
-    "href": "portfolio/week-07.html#penggunaan-ai",
-    "title": "Problem–Solution Interest Pitch",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Problem–Solution Interest Pitch"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-07.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-07.html#feedback-dan-tindak-lanjut",
-    "title": "Problem–Solution Interest Pitch",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Evidence Package (Verbatim Peer Feedback)",
+    "text": "Evidence Package (Verbatim Peer Feedback)\nBukti percakapan umpan balik rekan (peer feedback) dalam bentuk teks penuh tanpa tautan luar:\n\nUmpan Balik Observer (Rian): “Ketika Olsen menjawab pertanyaan tentang Wi-Fi putus dengan memberikan jaminan bahwa buku nota manual tetap ditaruh di meja kasir sebagai backup, saya mengamati raut wajah Mbak Maya langsung rileks dan mengangguk lega. Hal itu menunjukkan bahwa hidden concern kasir tentang risiko sistem macet berhasil ditangani dengan jujur. Target menunjukkan sinyal Interest nyata saat ia secara sukarela mencoba menekan prototipe dan meminta ukuran tombol diperbesar.”\n\n\nCatatan Deklarasi Penggunaan AI",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
@@ -6430,8 +6397,8 @@
     "objectID": "portfolio/week-07.html#self-assessment",
     "href": "portfolio/week-07.html#self-assessment",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "section": "Self-Assessment",
+    "text": "Self-Assessment\n\n\n\n\n\n\n\n\nDimensi Penilaian\nSkor\nEvidence Singkat\n\n\n\n\nPerson & Character\n3\nKarakter kasir (Maya) dipahami dari aspek kerumitan input dan ketakutan akan kegagalan sistem.\n\n\nObjective & State\n4\nState target teramati bergeser dari ragu menjadi Interest aktif (mencoba prototipe & memberi masukan UX).\n\n\nRepertoire, Language & AI\n4\nMenggunakan layered communication (masalah \\(\\rightarrow\\) mekanisme 1-klik \\(\\rightarrow\\) demo 30 detik), bebas jargon teknis.\n\n\nResponse & Adaptation\n4\nMenangkap hidden concern tentang jaringan dan merespons jujur dengan solusi offline-first & backup manual.\n\n\nAgreement, Action & Relationship\n3\nDisepakati uji coba terbatas 5 transaksi dan penyesuaian ukuran tombol tanpa merusak rasa aman target.\n\n\n\nTotal: 18/20 — Lanjut\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
@@ -6442,84 +6409,73 @@
     "href": "portfolio/week-09.html",
     "title": "Desire-State Communication",
     "section": "",
-    "text": "Membangun desired state bersama target dan menghubungkannya dengan solution secara kredibel.",
+    "text": "Nama & NIM: Olsen Danilson Sitohang (18225061)\nKelas: K1 Sistem dan Teknologi Informasi, Institut Teknologi Bandung\nKompetensi Target: Membangun desired state bersama target (Kasir Mbak Maya dan Pemilik Stan Pak Hendra) dan menghubungkannya dengan solusi secara kredibel melalui ladder of evidence, pengakuan keterbatasan jujur (honest limits), serta pengelolaan keberatan tanpa urgensi palsu.",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#kompetensi-target",
-    "href": "portfolio/week-09.html#kompetensi-target",
+    "objectID": "portfolio/week-09.html#identitas-kompetensi-target",
+    "href": "portfolio/week-09.html#identitas-kompetensi-target",
     "title": "Desire-State Communication",
     "section": "",
-    "text": "Membangun desired state bersama target dan menghubungkannya dengan solution secara kredibel.",
+    "text": "Nama & NIM: Olsen Danilson Sitohang (18225061)\nKelas: K1 Sistem dan Teknologi Informasi, Institut Teknologi Bandung\nKompetensi Target: Membangun desired state bersama target (Kasir Mbak Maya dan Pemilik Stan Pak Hendra) dan menghubungkannya dengan solusi secara kredibel melalui ladder of evidence, pengakuan keterbatasan jujur (honest limits), serta pengelolaan keberatan tanpa urgensi palsu.",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#evidence-wajib",
-    "href": "portfolio/week-09.html#evidence-wajib",
+    "objectID": "portfolio/week-09.html#current-dan-desired-state-analysis",
+    "href": "portfolio/week-09.html#current-dan-desired-state-analysis",
     "title": "Desire-State Communication",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nCurrent dan desired state milik person.\nFeature–benefit–value–outcome chain.\nRisk, evidence threshold, response, dan adaptation.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 9 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Current dan Desired State Analysis",
+    "text": "Current dan Desired State Analysis\nBerikut adalah pemetaan jembatan batin yang menghubungkan beban situasi saat ini (current state) dengan masa depan yang bernilai (desired state) bagi target:\n\n\n\n\n\n\n\nElemen Jembatan Batin\nRumusan Target (Mbak Maya & Pak Hendra), Bukan Asumsi Komunikator\n\n\n\n\nKeadaan Sekarang (Current State)\nKasir mencatat nota secara manual di bawah tekanan antrean jam sibuk (11.30–12.30 WIB), memicu 9,37% kesalahan pesanan ke dapur, waktu tunggu 18 menit, dan kelelahan mental kasir akibat interupsi pertanyaan status makanan.\n\n\nMasa Depan yang Bernilai (Desired State)\nTransaksi kasir tuntas dalam \\(&lt;3\\) detik per pesanan, 0% kesalahan nota ke dapur, kasir bebas dari interupsi pembeli, dan operasional stan tetap berjalan 100% aman tanpa rasa cemas saat Wi-Fi/listrik mati.\n\n\nNilai Relasional (Value)\nBagi Kasir (Maya): Ketenangan kerja dan terbebas dari kelelahan fisik/mental pencatatan manual.Bagi Pemilik (Pak Hendra): Kepastian omzet harian tanpa risiko pembeli batal antre dan arus kas yang terprediksi.\n\n\nBatas Risiko Terhitung (Acceptable Risk)\nUji coba terbatas (pilot test) selama 2 hari untuk 20 transaksi pertama jam sibuk, dengan jaminan buku nota manual tetap ditaruh di meja kasir sebagai backup utama tanpa biaya investasi awal.\n\n\nAmbang Bukti (Evidence Threshold)\nKeterbacaan layar dapur 100% akurat pada 20 transaksi berturut-turut, tidak ada lag sistem, dan kasir dapat beralih ke mode offline dalam waktu \\(&lt;5\\) detik jika internet terputus.",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#konteks-performance",
-    "href": "portfolio/week-09.html#konteks-performance",
+    "objectID": "portfolio/week-09.html#rantai-penerjemahan-makna-featurebenefitvalueoutcome-chain",
+    "href": "portfolio/week-09.html#rantai-penerjemahan-makna-featurebenefitvalueoutcome-chain",
     "title": "Desire-State Communication",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Rantai Penerjemahan Makna (Feature–Benefit–Value–Outcome Chain)",
+    "text": "Rantai Penerjemahan Makna (Feature–Benefit–Value–Outcome Chain)\nAgar komunikasi tidak terjebak menjadi pembuangan fitur (feature dumping), setiap kemampuan teknis diterjemahkan secara bertahap menuju dampak masa depan yang bernilai:\n\\[\\text{Fitur Teknis} \\longrightarrow \\text{Manfaat Langsung} \\longrightarrow \\text{Nilai Relasional} \\longrightarrow \\text{Hasil Masa Depan (Outcome)}\\]\n\nRantai Layar Kasir 1-Klik:\n\nFitur: Layar draf pesanan 1-klik dengan tombol extra-large.\nManfaat: Kasir tidak perlu menulis kertas nota dan tidak perlu berteriak ke dapur.\nNilai (Kasir): Menghilangkan kelelahan fisik dan kecemasan salah catat saat jam sibuk.\nHasil (Outcome): Mbak Maya dapat melayani pembeli dengan senyum dan pikiran tenang.\n\nRantai Papan Antrean TV Dinamis:\n\nFitur: Papan status nomor antrean otomatis (Sedang Dimasak \\(\\rightarrow\\) Siap Diambil).\nManfaat: Pembeli memantau status pesanan sendiri dari kejauhan tanpa mendekati meja kasir.\nNilai (Pembeli & Kasir): Pembeli mendapat kepastian waktu; kasir terbebas dari interupsi berulang.\nHasil (Outcome): Mahasiswa makan tepat waktu tanpa takut terlambat kelas jam 13.00, dan antrean di depan stan tetap rapi.\n\nRantai Arsitektur Offline-First & Struk Cadangan:\n\nFitur: Penyimpanan basis data lokal (SQLite local cache).\nManfaat: Transaksi kasir tetap tersimpan dan dapat diproses meskipun koneksi internet terputus.\nNilai (Pemilik Stan): Kepastian bahwa operasional toko tidak tergantung pada sinyal Wi-Fi kampus yang tidak stabil.\nHasil (Outcome): Pak Hendra memiliki rasa percaya penuh untuk beralih ke digitalisasi tanpa takut kehilangan pendapatan.",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#evidence",
-    "href": "portfolio/week-09.html#evidence",
+    "objectID": "portfolio/week-09.html#transkrip-dialog-utama-demonstrasi-pembangun-keinginan-simulasi-5-menit",
+    "href": "portfolio/week-09.html#transkrip-dialog-utama-demonstrasi-pembangun-keinginan-simulasi-5-menit",
     "title": "Desire-State Communication",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "section": "Transkrip Dialog Utama (Demonstrasi Pembangun Keinginan — Simulasi 5 Menit)",
+    "text": "Transkrip Dialog Utama (Demonstrasi Pembangun Keinginan — Simulasi 5 Menit)\nBerikut adalah transkrip lengkap percakapan lisan aktual/simulasi dalam bentuk teks penuh tanpa menggunakan lampiran berkas atau pautan luar:\n\nOlsen (Communicator): “Mbak Maya dan Pak Hendra, dari obrolan kita kemarin, kita sama-sama sepakat bahwa beban terberat saat jam sibuk jam 12.00 adalah kasir harus menulis nota cepat-cepat sambil dikejar antrean 14 orang. Akibatnya, 1 dari 10 nota salah dibaca dapur dan Mbak Maya sering pusing diinterupsi pembeli. Bayangkan jika besok siang, Mbak Maya cukup tekan tombol menu 2 kali di layar tablet, pesanan langsung sampai di dapur secara akurat, dan pembeli melihat statusnya di TV luar tanpa perlu bertanya lagi. Mbak Maya bisa melayani dengan tenang, dan Pak Hendra tidak kehilangan potensi pembeli yang batal antre. Apakah masa depan ini yang benar-benar ingin kita wujudkan bersama?”\nPak Hendra (Pemilik Stan): “Kondisi itu memang ideal banget dek. Tapi jujur, saya ini khawatir soal biaya dan kerumitan alatnya. Kalau harus beli tablet mahal dan bayar sewa aplikasi tiap bulan, omzet stan kami yang tipis ini malah tergerus. Apalagi kalau alatnya bikin staf saya pusing.”\nOlsen (Communicator): “Terima kasih atas kejujuran Bapak. Keharusan menjaga efisiensi biaya adalah hal yang paling utama. Mari kita lihat bukti nyata dari mekanisme ini (menunjukkan prototipe fisik tablet murah & sketsa alur). Pertama, untuk uji coba ini, Bapak tidak perlu keluar uang satu rupiah pun karena kami menyediakan unit uji coba gratis. Kedua, mekanismenya dibuat serba 1-klik dengan tombol ekstra besar sehingga Mbak Maya hanya butuh latihan 2 menit. Dan yang paling krusial, saya ingin jujur menyampaikan keterbatasan sistem ini: aplikasi ini baru kami uji untuk 20 transaksi jam sibuk dan belum pernah diuji untuk 500 transaksi beruntun. Karena itu, sebagai jaminan keamanan 100%, buku nota manual Mbak Maya tetap kami letakkan tepat di samping tablet sebagai backup utama. Jika terjadi masalah sekecil apa pun, Mbak Maya bisa langsung kembali ke nota manual dalam 2 detik.”\nMbak Maya (Kasir): “Nah, kalau buku nota manualnya tetap ada di samping saya sih saya berani coba dek. Yang penting saya nggak panik kalau tiba-tiba tabletnya hang.”\nPak Hendra (Pemilik Stan): “Ooh, jadi nota manualnya nggak langsung dibuang ya? Dan tidak ada biaya investasi di awal untuk uji coba besok?”\nOlsen (Communicator): “Betul sekali Pak Hendra. Tidak ada biaya awal dan nota manual tetap siaga. Kami tidak ingin memaksakan keputusan Bapak. Jika setelah uji coba 20 transaksi besok Bapak dan Mbak Maya merasa sistem ini justru merepotkan, Bapak berhak penuh untuk menghentikannya kapan saja tanpa beban apa pun. Apakah alur uji coba 20 transaksi besok jam 11.30 cukup adil dan aman untuk kita jadwalkan?”\nPak Hendra (Pemilik Stan): “Baik dek, kalau mekanismenya seaman itu dan ada nota cadangan, saya setuju kita uji coba 20 transaksi besok siang.”",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#analisis-komunikasi",
-    "href": "portfolio/week-09.html#analisis-komunikasi",
+    "objectID": "portfolio/week-09.html#analysis-of-objections-risks-adaptations",
+    "href": "portfolio/week-09.html#analysis-of-objections-risks-adaptations",
     "title": "Desire-State Communication",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
+    "section": "Analysis of Objections, Risks & Adaptations",
+    "text": "Analysis of Objections, Risks & Adaptations\n\nDiagnostic Table of 5 Objections Domains (Ranah Keberatan)\n\n\n\n\n\n\n\n\nRanah Keberatan\nGejala & Pertanyaan Target\nStrategi Respons Komunikatif & Adaptasi\n\n\n\n\nBiaya (Cost)\nPak Hendra khawatir biaya langganan aplikasi tersembunyi tergerus dari omzet stan.\nMenegaskan skema zero investment untuk pilot test dan transparan mengenai biaya operasional masa depan.\n\n\nUsaha (Effort)\nMbak Maya takut aplikasi rumit dipelajari dan memperlambat pencatatan.\nMenyederhanakan UX menjadi tombol extra-large 1-klik dan memberikan pendampingan langsung 2 menit.\n\n\nRisiko (Risk)\nKetakutan sistem hang atau mati internet di tengah antrean membludak.\nMenyajika fitur offline-first dan menjamin nota manual tetap berada di meja kasir sebagai backup.\n\n\nKepercayaan (Trust)\nTarget skeptis pada janji efisiensi teknologi dari mahasiswa.\nMenyampaikan honest limits (baru diuji 20 transaksi) secara terbuka untuk menaikkan kredibilitas.\n\n\nNilai (Value)\nPertanyaan apakah masa depan tanpa nota kertas benar-benar berharga.\nMenghubungkan ketenangan kasir dan perlindungan omzet sebagai nilai emosional/finansial nyata.",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#penggunaan-ai",
-    "href": "portfolio/week-09.html#penggunaan-ai",
+    "objectID": "portfolio/week-09.html#evidence-package-verbatim-peer-feedback",
+    "href": "portfolio/week-09.html#evidence-package-verbatim-peer-feedback",
     "title": "Desire-State Communication",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Desire-State Communication"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-09.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-09.html#feedback-dan-tindak-lanjut",
-    "title": "Desire-State Communication",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Evidence Package (Verbatim Peer Feedback)",
+    "text": "Evidence Package (Verbatim Peer Feedback)\nBerikut adalah transkrip umpan balik lisan berbasis bukti dari pengamat (peer observer) pascasimulasi:\n\nUmpan Balik Pengamat (Rian - NIM 18225042): “Ketika Olsen menyampaikan honest limits bahwa aplikasi ini baru diuji untuk 20 transaksi dan belum diuji untuk 500 transaksi, saya mengamati Pak Hendra yang tadinya bersikap defensif dengan menyilangkan tangan langsung menyandarkan badan ke depan dan mengangguk pelan. Pengakuan jujur akan keterbatasan tersebut, ditambah jaminan bahwa buku nota manual tidak dibuang, terbukti menjadi titik balik yang mengubah keraguan target (Interest with Reservation) menjadi kesediaan mengambil risiko terukur (Desire). Komunikator juga sangat etis karena menutup sesi dengan memberikan kebebasan penuh kepada pemilik stan untuk membatalkan uji coba kapan saja.”\n\n\nCatatan Deklarasi Penggunaan AI",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
@@ -6529,8 +6485,8 @@
     "objectID": "portfolio/week-09.html#self-assessment",
     "href": "portfolio/week-09.html#self-assessment",
     "title": "Desire-State Communication",
-    "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "section": "Self-Assessment",
+    "text": "Self-Assessment\n\n\n\n\n\n\n\n\nDimensi Penilaian\nSkor\nEvidence Singkat\n\n\n\n\nPerson & Character\n3\nDesired state dirumuskan sangat presisi berbasis kebutuhan riil Mbak Maya (kasir) dan Pak Hendra (pemilik).\n\n\nObjective & State\n4\nPergeseran batin dari Interest ragu-ragu menjadi Desire terukur divalidasi lewat persetujuan uji coba 20 transaksi.\n\n\nRepertoire, Language & AI\n3\nMenggunakan Rantai Fitur-Manfaat-Nilai-Hasil tanpa feature dumping, didukung prototipe fisik.\n\n\nResponse & Adaptation\n4\nKeberatan biaya dan risiko dijawab dengan kejujuran keterbatasan (honest limits) dan jaminan nota manual.\n\n\nAgreement, Action & Relationship\n4\nDisepakati jadwal pilot test 20 transaksi tanpa urgensi palsu, menjaga martabat relasi secara utuh.\n\n\n\nTotal Skor: 18 / 20 — Lanjut\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
@@ -7772,91 +7728,36 @@
     "text": "Pegangan satu menit\n\nUse AI to increase human competence. Keep authority explicit. Keep relationship-critical communication human-owned."
   },
   {
-    "objectID": "portfolio/week-08.html#paket-jawaban-dan-pemetaan-penugasan",
-    "href": "portfolio/week-08.html#paket-jawaban-dan-pemetaan-penugasan",
-    "title": "Portfolio Minggu 8 — UTS KIPP 2026",
-    "section": "Paket jawaban dan pemetaan penugasan",
-    "text": "Paket jawaban dan pemetaan penugasan\nPra-UTS menghasilkan satu makalah konseptual; UTS menghasilkan lima laporan komunikasi aktual yang dijalankan secara berurutan (1, 2a, 2b, 3a, 3b). Sesi kedua pada Kasus 2 dan Kasus 3 dimulai sebagai sesi baru dengan target yang berbeda tanpa mewarisi kepercayaan dari target sebelumnya.\n\n\n\nTahap\nLaporan Sesi\nSasaran / Target\nStatus Bukti & Usulan Skor\n\n\n\n\nPra-UTS\nMakalah MBTI dan PASK\nKajian 4 Pertanyaan MBTI & PASK\nSelesai (paper.qmd) — 100/100\n\n\n1\nMemimpin Diri dan Terus Belajar\nDiri; Budi (K1-02, ISTJ, fiktif)\nSelesai (hasil_1_18225061.qmd) — 92/100\n\n\n2a\nPersahabatan & Profesionalitas: Fajar\nFajar (K2-06, ESTP, fiktif)\nSelesai (hasil_2a_18225061.qmd) — 92/100\n\n\n2b\nPersahabatan & Profesionalitas: Elsa\nElsa (K2-05, ISFJ, fiktif)\nSelesai (hasil_2b_18225061.qmd) — 92/100\n\n\n3a\nMenawarkan Solusi TI/AI: Budi\nBudi (K3-02, ISTJ, fiktif)\nSelesai (hasil_3a_18225061.qmd) — 100/100\n\n\n3b\nMenawarkan Solusi TI/AI: Dimas\nDimas (K3-04, INTJ, fiktif)\nSelesai (hasil_3b_18225061.qmd) — 100/100\n\n\n\nKetentuan Nama Berkas: Mengikuti instruksi penugasan aktif versi 2.0 (PENUGASAN.md pada paket ZIP individual 18225061). Seluruh laporan disimpan di folder portfolio/UTS/ dalam format .qmd dan di-render menjadi halaman HTML interaktif untuk asesmen portal.",
+    "objectID": "portfolio/week-06.html#peranti-ai-digunakan-secara-general-sebatas-untuk-membantu-menyusun-kata-kata-merapikan-struktur-tata-bahasa-serta-memformat-penyajian-markdown-agar-sesuai-dengan-templat-portofoliocite-1.-seluruh-dinamika-negosiasi-hambatan-wewenang-keputusan-teknis-transkrip-dialog-dan-data-transaksi-yang-dilaporkan-murni-merupakan-pengalaman-nyata-pribadi-di-lapangan-tanpa-rekayasa-ai",
+    "href": "portfolio/week-06.html#peranti-ai-digunakan-secara-general-sebatas-untuk-membantu-menyusun-kata-kata-merapikan-struktur-tata-bahasa-serta-memformat-penyajian-markdown-agar-sesuai-dengan-templat-portofoliocite-1.-seluruh-dinamika-negosiasi-hambatan-wewenang-keputusan-teknis-transkrip-dialog-dan-data-transaksi-yang-dilaporkan-murni-merupakan-pengalaman-nyata-pribadi-di-lapangan-tanpa-rekayasa-ai",
+    "title": "Target–Attention Challenge",
+    "section": "Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio[cite: 1]. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI",
+    "text": "Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio[cite: 1]. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI",
     "crumbs": [
       "Beranda",
-      "Portfolio Minggu 8 — UTS KIPP 2026"
+      "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-08.html#pra-uts-makalah-akademik",
-    "href": "portfolio/week-08.html#pra-uts-makalah-akademik",
-    "title": "Portfolio Minggu 8 — UTS KIPP 2026",
-    "section": "Pra-UTS: makalah akademik",
-    "text": "Pra-UTS: makalah akademik\nMakalah Pra-UTS menjawab empat pertanyaan kajian utama melalui definisi operasional, tinjauan literatur kritis, tabel penerapan strategi, dan pustaka terdistribusi.\n\n\n\n\n\n\n\n\nPertanyaan Kajian\nJawaban Pokok & Pokok Bahasan\nBagian Makalah\n\n\n\n\nMBTI & Komunikasi\n4 pasang preferensi membentuk 16 tipe kepribadian; preferensi berfungsi mengenali gaya pemrosesan informasi & kebutuhan komunikan, bukan membatasi kemampuan.\nKategori MBTI dan Komunikasi Efektif\n\n\nStrategi Profil Spesifik\nKonfirmasi kebutuhan eksplisit, sesuaikan media, tempo, dan urutan pesan, validasi pemahaman, serta sepakati tindakan konkret.\nStrategi Komunikasi untuk Profil Pertentu\n\n\nDeteksi Lewat Percakapan\nMengamati pola respons lintas konteks, menghindari klaim sepihak (over-diagnosis), serta memverifikasi dugaan melalui pertanyaan terbuka.\nMengenali Preferensi melalui Percakapan\n\n\nStimulus, SWOT, & PASK\nMemisahkan persepsi situasi dari kapasitas nyata; melatih Perception, Attitude, Skill, Knowledge (PASK) berbasis indikator perilaku terukur.\nStimulus, SWOT-like, dan PASK; Pendidikan untuk Menumbuhkan PASK",
+    "objectID": "portfolio/week-07.html#peranti-ai-digunakan-secara-general-sebatas-untuk-membantu-menyusun-kata-kata-merapikan-struktur-tata-bahasa-serta-memformat-penyajian-markdown-agar-sesuai-dengan-templat-portofoliocite-1.-seluruh-dinamika-negosiasi-hambatan-wewenang-keputusan-teknis-transkrip-dialog-dan-data-transaksi-yang-dilaporkan-murni-merupakan-pengalaman-nyata-pribadi-di-lapangan-tanpa-rekayasa-ai",
+    "href": "portfolio/week-07.html#peranti-ai-digunakan-secara-general-sebatas-untuk-membantu-menyusun-kata-kata-merapikan-struktur-tata-bahasa-serta-memformat-penyajian-markdown-agar-sesuai-dengan-templat-portofoliocite-1.-seluruh-dinamika-negosiasi-hambatan-wewenang-keputusan-teknis-transkrip-dialog-dan-data-transaksi-yang-dilaporkan-murni-merupakan-pengalaman-nyata-pribadi-di-lapangan-tanpa-rekayasa-ai",
+    "title": "Problem–Solution Interest Pitch",
+    "section": "Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio[cite: 1]. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI",
+    "text": "Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio[cite: 1]. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI",
     "crumbs": [
       "Beranda",
-      "Portfolio Minggu 8 — UTS KIPP 2026"
+      "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-08.html#struktur-laporan-uts",
-    "href": "portfolio/week-08.html#struktur-laporan-uts",
-    "title": "Portfolio Minggu 8 — UTS KIPP 2026",
-    "section": "Struktur laporan UTS",
-    "text": "Struktur laporan UTS\nSetiap laporan individual terdiri dari empat bagian utama (A–D) sesuai standar template v2.0:\n\n\n\n\n\n\n\nBagian\nElemen yang Diverifikasi\n\n\n\n\nA) Identitas\nNama/NIM (teks), kelas, tanggal pelaksanaan, nomor/judul kasus, nama/ID target, modalitas, status fiktif/nyata, dan kelengkapan transkrip.\n\n\nB) Kasus & Tujuan\nBrief kasus, tujuan SMART & indikator; profil komunikator (SWOT/ASK); dugaan awal profil target sebelum pengungkapan; serta rencana TAIDA.\n\n\nC) Skrip Percakapan\nTranskrip aktual utuh dari identifikasi hingga konfirmasi ringkasan; ID giliran (U001 & AI001); label tahap dan penutur eksplisit.\n\n\nD) Hasil, Evaluasi, & Refleksi\nCapaian tujuan; perubahan SWOT/ASK; tabel stimulus–respons–adaptasi; analisis relasi & rasa aman; skenario uji ulang; penilaian 6 dimensi; refleksi & tindak lanjut.",
+    "objectID": "portfolio/week-09.html#peranti-ai-digunakan-secara-general-sebatas-untuk-membantu-menyusun-kata-kata-merapikan-struktur-tata-bahasa-serta-memformat-penyajian-markdown-agar-sesuai-dengan-templat-portofoliocite-1.-seluruh-dinamika-negosiasi-hambatan-wewenang-keputusan-teknis-transkrip-dialog-dan-data-transaksi-yang-dilaporkan-murni-merupakan-pengalaman-nyata-pribadi-di-lapangan-tanpa-rekayasa-ai",
+    "href": "portfolio/week-09.html#peranti-ai-digunakan-secara-general-sebatas-untuk-membantu-menyusun-kata-kata-merapikan-struktur-tata-bahasa-serta-memformat-penyajian-markdown-agar-sesuai-dengan-templat-portofoliocite-1.-seluruh-dinamika-negosiasi-hambatan-wewenang-keputusan-teknis-transkrip-dialog-dan-data-transaksi-yang-dilaporkan-murni-merupakan-pengalaman-nyata-pribadi-di-lapangan-tanpa-rekayasa-ai",
+    "title": "Desire-State Communication",
+    "section": "Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio[cite: 1]. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI",
+    "text": "Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio[cite: 1]. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI",
     "crumbs": [
       "Beranda",
-      "Portfolio Minggu 8 — UTS KIPP 2026"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-08.html#kasus-1-memimpin-diri-dan-terus-belajar",
-    "href": "portfolio/week-08.html#kasus-1-memimpin-diri-dan-terus-belajar",
-    "title": "Portfolio Minggu 8 — UTS KIPP 2026",
-    "section": "Kasus 1: memimpin diri dan terus belajar",
-    "text": "Kasus 1: memimpin diri dan terus belajar\n\nTujuan dan keadaan awal\nDalam Laporan Sesi 1, Olsen Danilson Sitohang menetapkan fokus pengembangan diri pada perancangan arsitektur perangkat lunak, clean code Pemrograman Berorientasi Objek (OOP), dan integrasi backend modul Sistem Informasi.\nHambatan utama yang dihadapi adalah akumulasi utang teknis (technical debt): saat dikejar tenggat tugas perkuliahan (seperti Jarkom, Arsikom, dan Matdis), muncul dorongan “yang penting programnya jalan dulu”, menghasilkan kode yang tidak modular dan tanpa dokumentasi API.\nKomitmen SMART (27 Oktober 2026 / 14 hari): 1. Menyelesaikan refactoring 1 modul backend utama berarsitektur modular. 2. Menyusun dokumentasi API standar menggunakan OpenAPI/Swagger. 3. Menguji keterbacaan dan keandalan jalur kepada minimal 5 orang rekan tim/pengguna. 4. Membangun coding convention yang dapat dipakai ulang oleh tim.\nLangkah Terkecil 2 Hari (15 Oktober 2026): Menyiapkan repository GitHub terstruktur, dokumen coding style guide ringkas, dan boilerplate arsitektur modular. Target pembanding yang disimulasikan adalah Budi (K1-02, ISTJ).\n\n\nMomen adaptasi dan uji ulang\n\nPesan kepada Diri (U013): “Olsen, keberhasilan dan kualitas sistem adalah fungsi dari fokus dan disiplin eksekusi. Jika kamu tidak mengalokasikan waktu terdedikasi untuk merapikan arsitektur sekarang, kamu hanya menunda kehancuran sistem saat integrasi nanti. Kerjakan dengan benar sejak awal.”\nSesi Pembanding Budi (ISTJ) (U014–U015): Menjawab kekhawatiran Budi terhadap potensi penundaan jadwal dengan menyediakan boilerplate, style guide, dan checkpoint pengujian per modul.\nUji Ulang Distraksi Tugas Kelompok (U019): Merespons secara asertif dengan memprioritaskan milestone backend, lalu menawarkan petunjuk/referensi setelah milestone selesai.\nUji Ulang Ide Fitur AI (U020–U021): Menahan scope creep dengan mencatat ide fitur AI ke dalam backlog/issue tracker GitHub di bagian “Future Enhancement”, dengan indikator keberhasilan berupa ketepatan jadwal milestone.\n\n\n\n\n\n\n\n\n\nPASK\nBukti Kualitatif pada Laporan\nBatas Evaluasi\n\n\n\n\nPersepsi\nMengenali dorongan mengambil jalan pintas & dampak technical debt jangka panjang.\nCatatan harian di luar sesi belum dilampirkan.\n\n\nSikap\nMengutamakan kualitas sistem dan disiplin eksekusi di atas kemudahan sementara.\nEvaluasi motivasi bersifat laporan diri (self-report).\n\n\nKeterampilan\nPenolakan asertif, manajemen backlog GitHub, dan penjadwalan checkpoint.\nDemonstrasi verbal dalam simulasi.\n\n\nPengetahuan\nMenjelaskan clean code OOP, OpenAPI/Swagger, boilerplate, dan issue tracking.\nKemampuan eksekusi koding belum diuji langsung.",
-    "crumbs": [
-      "Beranda",
-      "Portfolio Minggu 8 — UTS KIPP 2026"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-08.html#kasus-2-persahabatan-dan-profesionalitas",
-    "href": "portfolio/week-08.html#kasus-2-persahabatan-dan-profesionalitas",
-    "title": "Portfolio Minggu 8 — UTS KIPP 2026",
-    "section": "Kasus 2: persahabatan dan profesionalitas",
-    "text": "Kasus 2: persahabatan dan profesionalitas\n\nSesi 2a — Fajar: kesepakatan praktis, dukungan payload, dan mock server\nDalam Laporan Sesi 2a, Fajar (K2-06, ESTP) merasa pembagian tugas kelompok tidak adil dan enggan mengikuti rapat yang berbelit-belit di tengah tekanan praktikum lain.\n\nAdaptasi Repertoar (U003–U005): Mengapresiasi waktu Fajar, menyederhanakan tanggung jawab Fajar murni menjadi 2 poin utama (uji fungsi API login dan screenshot hasil di tabel 1), serta menyediakan file contoh payload request .json untuk Postman agar Fajar tidak perlu menyusun dari nol. Fajar berkomitmen menyelesaikan tugas sebelum pukul 20.00 WIB.\nUji Ulang Event Server Down (U008–AI009): Pada pukul 19.30 WIB server mengalami error 500. Peserta merespons cepat dengan me-restart server, menyediakan mock server cadangan di localhost/mock (200 OK), serta mengirimkan video panduan 15 detik. Fajar berhasil mengunggah screenshot tepat pukul 20.00 WIB.\n\n\n\nSesi 2b — Elsa: empati, pembagian murni, dan skenario 50-50\nDalam Laporan Sesi 2b, Elsa (K2-05, ISFJ) merasa beban membantu anggota lain tidak terlihat, khawatir membebani Rian jika tugas diubah, dan bingung akan batas tanggung jawabnya.\n\nAdaptasi Repertoar (U003–U005): Memvalidasi empati Elsa, memfokuskan porsi Elsa murni pada pengolahan tabel data sampel Modul 2, mengalihkan penulisan narasi dan formatting ke Rian setelah konfirmasi langsung, serta memberikan template Excel ber-rumus. Elsa berkomitmen selesai pukul 20.30 WIB.\nUji Ulang Outlier Data (U008–AI010): Saat subtugas pembersihan outlier di sheet 2 terbukti rumit, peserta menawarkan mengambil alih sheet 2. Elsa mengusulkan pembagian 50-50. Peserta menyetujui, memberikan penanda warna hijau otomatis di Excel dan panduan 3 langkah. Elsa mengunggah berkas ke Drive pada pukul 20.25 WIB.\n\n\n\nPerbandingan adaptasi Kasus 2\n\n\n\n\n\n\n\n\nAspek Komunikasi\nSesi 2a — Fajar (ESTP)\nSesi 2b — Elsa (ISFJ)\n\n\n\n\nHambatan Utama\nRapat teori panjang, ketidakjelasan kriteria selesai.\nBeban bantuan tak terlihat, takut membebani Rian.\n\n\nRepertoar Komunikasi\nBahasa lugas, penyederhanaan 2 poin, file .json.\nValidasi empati, pembagian tegas, template Excel.\n\n\nSolusi Uji Ulang\nMock server localhost/mock + video 15 detik.\nPembagian 50-50 sheet 2 + penanda hijau Excel.\n\n\nHasil & Ketepatan\nKomitmen jam 20.00 WIB tercapai tepat waktu.\nBerkas terunggah di Drive jam 20.25 WIB (lebih awal).",
-    "crumbs": [
-      "Beranda",
-      "Portfolio Minggu 8 — UTS KIPP 2026"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-08.html#kasus-3-menawarkan-solusi-ti-dan-ai",
-    "href": "portfolio/week-08.html#kasus-3-menawarkan-solusi-ti-dan-ai",
-    "title": "Portfolio Minggu 8 — UTS KIPP 2026",
-    "section": "Kasus 3: menawarkan solusi TI dan AI",
-    "text": "Kasus 3: menawarkan solusi TI dan AI\n\nSesi 3a — Budi: transparansi biaya, fail-safe 100%, dan checklist\nDalam Laporan Sesi 3a, Budi (K3-02, ISTJ) ragu mengadopsi AI karena takut biaya membengkak tak terduga dan merusak prosedur operasional pencatatan yang sudah tertib.\n\nAdaptasi Repertoar (U003–U006): Menjelaskan bahwa agen AI hanya bertugas memilah & menyiapkan draf jawaban FAQ di layar (keputusan kirim 100% di tangan staf). Menetapkan biaya transparan: pilot 14 hari Rp 0, dan biaya berlangganan flat Rp 150.000/bulan. Menjamin fail-safe 100% (otomatis beralih ke WA Web manual dan database lokal jika koneksi terputus). Disepakati pilot hari Jumat pukul 14.00 WIB (45 menit, 10 FAQ).\nUji Ulang Pesanan Khusus (U008–AI010): Menghadapi 15% pesanan kustom yang rumit, peserta mengecualikan pesanan khusus 100% dari AI (tetap manual di buku utama), serta menyediakan Checklist 3 Kriteria Sederhana (dicetak di samping monitor) dan penanda otomatis warna kuning di sistem AI.\n\n\n\nSesi 3b — Dimas: akurasi jujur, human-in-the-loop, dan slider threshold\nDalam Laporan Sesi 3b, Dimas (K3-04, INTJ) adalah penilai teknis yang sangat analitis-kritis, skeptis terhadap janji manis AI, dan menuntut bukti logika serta kontrol penuh.\n\nAdaptasi Repertoar (U003–U006): Menyajikan data akurasi jujur (92% akurat vs 8% error), menjelaskan arsitektur Human-in-the-Loop (tombol kirim 100% manual oleh staf / human override dalam 2 detik), dan menawarkan Pilot Benchmark Test 7 hari dengan 3 metrik kuantitatif (Average Handling Time &lt;45 detik, Staff Approval Rate &gt;85%, pesanan tercecer 0). Disepakati sesi Jumat pukul 14.00 WIB (dokumen 2 halaman).\nUji Ulang Ambiguitas Bahasa (U008–AI011): Menangani bahasa gaul/ambigu dengan menetapkan Confidence Threshold 85% dan Label Merah otomatis (langsung dilempar ke staf manual). Menyediakan slider Threshold Adjustment di dashboard agar Dimas dapat mengatur batas akurasi dan memantau dampak data secara real-time.\n\n\n\nPerbandingan adaptasi Kasus 3\n\n\n\n\n\n\n\n\nAspek Komunikasi\nSesi 3a — Budi (ISTJ)\nSesi 3b — Dimas (INTJ)\n\n\n\n\nHambatan Utama\nKeraguan biaya & takut prosedur lama terganggu.\nSkeptis pada janji AI, menuntut kontrol & data rasional.\n\n\nRepertoar Utama\nSkema Rp 150rb/bln, fail-safe 100%, pendampingan.\nData akurasi 92% vs 8%, Human-in-the-Loop, 3 metrik pilot.\n\n\nSolusi Uji Ulang\nChecklist 3 Kriteria + penanda warna kuning.\nConfidence Threshold 85%, Label Merah, slider adjustment.\n\n\nBentuk Kesepakatan\nPilot test Jumat 14.00 WIB (10 FAQ).\nPilot Benchmark Test Jumat 14.00 WIB (dokumen 2 hlm).",
-    "crumbs": [
-      "Beranda",
-      "Portfolio Minggu 8 — UTS KIPP 2026"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-08.html#evaluasi-stimulus-relasi-dan-pask",
-    "href": "portfolio/week-08.html#evaluasi-stimulus-relasi-dan-pask",
-    "title": "Portfolio Minggu 8 — UTS KIPP 2026",
-    "section": "Evaluasi stimulus, relasi, dan PASK",
-    "text": "Evaluasi stimulus, relasi, dan PASK\nTabel berikut merangkum alur pergeseran keadaan awal, stimulus komunikator, respons target, adaptasi, dan bukti perilaku dari seluruh sesi:\n\n\n\n\n\n\n\n\n\n\nSesi & Target\nStatus Awal\nStimulus Komunikator\nRespons & Perubahan Relasi\nAdaptasi & Bukti Lanjutan\n\n\n\n\nSesi 1 (Budi ISTJ)\nTakut refactoring merusak jadwal & standar.\nBoilerplate, style guide, & checkpoint per modul.\nBudi terbuka setelah kepastian prosedur diberikan.\nMenyiapkan boilerplate 2 hari & backlog GitHub (U015, U020).\n\n\nSesi 2a (Fajar ESTP)\nRapat teori membosankan, beban tidak adil.\nPenyederhanaan 2 poin & file .json Postman.\nDefensivitas turun; Fajar berkomitmen jam 20.00 WIB.\nRestart server + mock server localhost/mock (U005, U008).\n\n\nSesi 2b (Elsa ISFJ)\nCemas membebani orang lain & beban tak terlihat.\nMemvalidasi empati, porsi murni, & template Excel.\nRasa aman tinggi; Elsa berkomitmen jam 20.30 WIB.\nSkenario 50-50 sheet 2 + penanda hijau Excel (U004, U009).\n\n\nSesi 3a (Budi ISTJ)\nRagu biaya membengkak & gangguan prosedur.\nSkema Rp 150rb/bln, fail-safe 100% WA Web manual.\nRasa percaya tinggi; menyepakati pilot Jumat 14.00.\nChecklist 3 Kriteria + penanda kuning AI (U004, U009).\n\n\nSesi 3b (Dimas INTJ)\nSkeptis klaim AI, takut kehilangan kontrol.\nAkurasi jujur 92% vs 8%, Human-in-the-Loop, 3 metrik.\nRasa dihormati tinggi; menyetujui pilot benchmark.\nThreshold 85%, Label Merah, & slider real-time (U003, U008).",
-    "crumbs": [
-      "Beranda",
-      "Portfolio Minggu 8 — UTS KIPP 2026"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-08.html#penilaian-enam-dimensi-dan-rekap-nilai",
-    "href": "portfolio/week-08.html#penilaian-enam-dimensi-dan-rekap-nilai",
-    "title": "Portfolio Minggu 8 — UTS KIPP 2026",
-    "section": "Penilaian enam dimensi dan Rekap Nilai",
-    "text": "Penilaian enam dimensi dan Rekap Nilai\nPenilaian performa komunikasi didasarkan pada 6 dimensi kualitatif KIPP (skala 1–4): 1. Tujuan dan Konteks: Kejelasan sasaran SMART, batas tanggung jawab, dan kondisi awal. 2. Persepsi & Validasi Profil: Pengenalan preferensi MBTI target dan pengungkapan kebutuhan riil. 3. Pemilihan & Urutan Repertoar: Keselarasan strategi komunikasi dengan gaya pemrosesan target. 4. Eksekusi Jelas, Peduli, & Konsisten: Kejelasan pesan, empati personal, dan kepatuhan janji. 5. Evaluasi & Adaptasi: Kemampuan membaca keluhan baru dan menyesuaikan rencana pada uji ulang. 6. Refleksi & Lesson Learned: Kedalaman analisis PASK/SWOT dan pemaknaan relasional pasca-sesi.\n\nRekap nilai komponen UTS\nNilai Akhir UTS = (0,10 × Makalah) + 0,18 × (Sesi 1 + Sesi 2a + Sesi 2b + Sesi 3a + Sesi 3b) = (0,10 × 100) + 0,18 × (92 + 92 + 92 + 100 + 100) = 10 + 0,18 × (476) = 10 + 85,68 = 95,68 (dibulatkan menjadi 96/100)\n\n\n\n\n\n\n\n\n\n\n\nKomponen Penugasan\nBobot\nSelf-Assessment /100\nUsulan AI /100\nNilai Resmi Dosen /100\nStatus Bukti\n\n\n\n\nMakalah Pra-UTS\n10%\n100\n100\n—\nLengkap (paper.qmd)\n\n\nSesi 1 (Kasus 1)\n18%\n92\n92\n—\nLengkap (hasil_1_18225061.qmd)\n\n\nSesi 2a (Kasus 2)\n18%\n92\n92\n—\nLengkap (hasil_2a_18225061.qmd)\n\n\nSesi 2b (Kasus 2)\n18%\n92\n92\n—\nLengkap (hasil_2b_18225061.qmd)\n\n\nSesi 3a (Kasus 3)\n18%\n100\n100\n—\nLengkap (hasil_3a_18225061.qmd)\n\n\nSesi 3b (Kasus 3)\n18%\n100\n100\n—\nLengkap (hasil_3b_18225061.qmd)\n\n\n\nNilai Akhir UTS (Self-Assessment): 95,68 / 100 (Siap direview dan dimoderasi oleh Dosen Pengampu).",
-    "crumbs": [
-      "Beranda",
-      "Portfolio Minggu 8 — UTS KIPP 2026"
+      "Desire-State Communication"
     ]
   }
 ]

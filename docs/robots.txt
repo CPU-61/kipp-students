@@ -1,1 +1,0 @@
-Sitemap: git@github-campus:CPU-61/kipp-students.git/sitemap.xml

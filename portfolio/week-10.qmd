@@ -1,8 +1,8 @@
 ---
 title: "Action & Agreement Challenge"
 week: 10
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "18/20"
 assessor_score: "—"
 description: "Barrier, authority, negotiation, agreement, dan action evidence."
 categories: [TAIDA, Action]
@@ -22,4 +22,74 @@ Menemukan desire–action gap dan menghasilkan agreement yang feasible serta eks
 [Buka contoh fiktif Minggu 10](../examples/week-10.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
 :::
 
-{{< include ../includes/evidence-template.md >}}
+## 1. Pemetaan Barrier & Authority (Desire–Action Gap)
+
+Dalam pelaksanaan pilot Sistem Presensi & Reservasi Alat Laboratorium Komputer, ditemukan bahwa tingginya keinginan (*desire*) dari pengelola lab belum otomatis menghasilkan tindakan (*action*) karena terhambat wewenang dan perizinan teknis. Niat baik dan semangat saja tidak cukup tanpa wewenang eksplisit serta kepastian administratif.
+
+| Barrier (Penghalang) | Person dengan Authority | Respons & Rencana Aksi |
+|---|---|---|
+| **Wewenang Penggunaan Data NIM & SSO** | Kepala Laboratorium (Dr. Hendra) | Menyetujui lingkup akses data agar aman dari risiko pelanggaran privasi. |
+| **Technical Clearance & Port Server** | Tim TI Fakultas (Pak Aris) | Melakukan audit keamanan skrip dan memberi izin penempatan di server lokal. |
+| **Jadwal Verifikasi Fisik Asisten** | Koordinator Aslab (Rian) | Membagi jadwal piket asisten lab untuk memandu pengguna di lokasi. |
+| **Pengembangan Dashboard & Integrasi QR** | Lead Developer (Olsen) | Mengembangkan modul reservasi dan menyajikan laporan analitik. |
+
+Sebelumnya, tim keliru meminta asisten lab menyetujui sistem secara keseluruhan, padahal wewenang keputusan final berada di tangan Kepala Laboratorium.
+
+## 2. Negosiasi Posisi vs. Kepentingan & Pilihan Solusi
+
+Mengatasi bahaya bahasa menggantung (*"nanti dibicarakan"* atau *"diusahakan yang terbaik"*), dilakukan pemetaan antara tuntutan kaku (posisi) dan kebutuhan mendasar (kepentingan):
+
+- **Posisi Laboratorium:** "Sistem tidak boleh dihubungkan ke server sebelum ada jaminan 100% bebas kebocoran data."
+- **Kepentingan Laboratorium:** Menjaga kerahasiaan data pribadi mahasiswa dan mencegah komplain jika sistem *down* saat praktikum.
+- **Posisi Tim Mahasiswa:** "Kami butuh integrasi langsung dengan database server fakultas minggu ini."
+- **Kepentingan Tim Mahasiswa:** Menguji fungsionalitas reservasi alat secara nyata dengan pengguna riil.
+
+### Alternatif Solusi & Trade-off:
+1. **Pilot 5 Hari, 1 Ruang Lab (Opsi Terpilih):** Risiko teknis rendah, cakupan pengujian terbatas di 1 lab, namun evidence validasi cukup untuk membuktikan *mechanism solution*.
+2. **Implementasi Penuh 1 Semester (Seluruh Lab):** Evidence sangat kuat, namun risiko teknis tinggi dan membutuhkan review keamanan TI yang lama.
+3. **Uji Coba Luring Tanpa Integrasi SSO:** Cepat dijalankan, tetapi tidak menguji integrasi autentikasi sistem.
+
+## 3. Formula Kesepakatan Presisi (Explicit Agreement)
+
+Guna memastikan kesepakatan operasional yang terukur dan bebas istilah kabur, dirumuskan *Agreement Formula* sebagai berikut:
+
+> **Scope & Batas:** Pilot reservasi 5 unit PC spesifikasi tinggi di Lab Komputer 1 selama periode 20–24 Oktober 2026.  
+> **Owner & Tanggung Jawab:** Olsen menyempurnakan skrip token QR; Pak Aris (TI) melakukan audit skrip autentikasi; Rian (Aslab) memandu alur check-in.  
+> **Deadline:** Audit keamanan selesai Rabu, 18 Oktober 2026 pukul 14:00 WIB; Keputusan Go/No-Go Kamis, 19 Oktober 2026 pukul 10:00 WIB.  
+> **Definisi Selesai:** 100% login menggunakan hashing token tanpa menyimpan kata sandi/NIM mentah, dan log presensi terekam presisi dalam basis data.  
+> **Stop Rule:** Pilot dihentikan seketika jika terjadi kegagalan autentikasi SSO lebih dari 2 kali berturut-turut atau terdeteksi pemicu kerentanan data.  
+> **Mekanisme Review:** Peninjauan hasil pilot dilaksanakan pada Jumat, 24 Oktober 2026 pukul 15:00 WIB.
+
+## 4. Evidence Transkrip Dialog, Action Checkpoint & Penggunaan AI
+
+Pelacakan janji mengacu pada lingkar komitmen (*Commitment Loop*). Seluruh evidence disajikan dalam bentuk transkrip percakapan teks langsung:
+
+### Transkrip 1: Negosiasi Batas Wewenang & Kesepakatan Awal (15 Oktober 2026)
+> **Dr. Hendra (Kalab):** "Saya tidak bisa memberi izin kalau sistem ini langsung mengambil data NIM dan nama mahasiswa ke server utama tanpa verifikasi TI. Itu berisiko."  
+> **Olsen (Lead Dev):** "Kami memahami kekhawatiran Bapak. Bagaimana jika kita tidak menyimpan nama/NIM secara langsung, melainkan menggunakan token anonim berdurasi 2 jam? Kami menargetkan uji coba terbatas di Lab 1 dulu."  
+> **Dr. Hendra:** "Kalau dengan token anonim dan hanya di Lab 1 selama 5 hari, saya setuju. Tapi Pak Aris dari TI harus mengecek kodenya dulu sebelum hari Kamis."  
+> **Pak Aris (TI):** "Siap Pak. Kirimkan repositori kodenya ke saya. Saya kelar audit Rabu jam 14:00 WIB."
+
+### Transkrip 2: Checkpoint H-2 & Adaptasi Risiko (18 Oktober 2026)
+> **Pak Aris (TI):** "Olsen, hasil audit skrip menemukan bahwa sesi login mahasiswa masih tertinggal di *local storage* browser lab setelah *logout*."  
+> **Olsen:** "Baik Pak Aris, terima kasih masukannya. Hari ini juga jam 17:00 WIB saya perbaiki agar sesi otomatis dihapus saat browser ditutup (*session cookie*)."  
+> **Pak Aris:** "Bagus. Jika *patch* itu sudah dikirim dan lulus pengujian ulang malam ini, izin penempatan di server lokal fakultas saya terbitkan besok pagi."
+
+### Transkrip 3: Peninjauan Akhir & Handover Hasil Pilot (24 Oktober 2026)
+> **Rian (Aslab):** "Selama 5 hari pilot, ada 42 transaksi reservasi di Lab 1. Seluruhnya berjalan lancar tanpa ada keluhan kebocoran data atau *error* login."  
+> **Dr. Hendra:** "Hasilnya sangat memuaskan. Kesepakatan awal kita terpenuhi dengan baik. Kita bisa lanjutkan ke tahap pembahasan perluasan lab bulan depan."
+
+### Catatan Deklarasi Penggunaan AI
+Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI.
+
+## 5. Self-Assessment
+
+| Dimensi | Skor | Evidence Singkat |
+|---|---:|---|
+| **Person & Character** | 3 | Membedakan wewenang Kepala Lab, TI, dan Aslab secara tegas tanpa melangkahi hierarki. |
+| **Objective & State** | 4 | Menjembatani *desire-action gap* dengan transkrip negosiasi nyata dan uji kelayakan. |
+| **Repertoire, Language & AI** | 3 | Menghindari kata kabur dan menggunakan AI sebatas perapi kalimat tanpa merekayasa fakta. |
+| **Response & Adaptation** | 4 | Melakukan perbaikan *session cookie* saat checkpoint berdasarkan review TI. |
+| **Agreement, Action & Relationship** | 4 | Memenuhi seluruh elemen *Agreement Formula* serta menjaga harmoni relasi jalur ganda (*task & relationship track*). |
+
+**Total: 18/20 — Lanjut.**

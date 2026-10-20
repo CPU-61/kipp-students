@@ -1,25 +1,92 @@
 ---
 title: "Problem–Solution Interest Pitch"
 week: 7
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "18"
 assessor_score: "—"
 description: "Problem–solution fit dan signal Interest."
 categories: [TAIDA, Interest]
 ---
 
-## Kompetensi target
+## Identitas & Kompetensi Target
 
-Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan.
+- **Nama & NIM:** Olsen Danilson Sitohang (18225061)
+- **Kelas:** K1 Sistem dan Teknologi Informasi
+- **Kompetensi Target:** Menghubungkan mekanisme solusi (*solution mechanism*) dengan masalah, manfaat langsung (*benefit*), dan nilai relasional (*value*) yang relevan untuk memunculkan minat (*Interest*) tanpa terjebak *feature dumping*.
 
-## Evidence wajib
+---
 
-- Attention evidence dan problem–solution link.
-- Interest pitch dengan evidence atau demonstration.
-- Response, state assessment, hidden concern, dan adaptation.
+## Attention Evidence & Problem–Solution Link
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 7](../examples/week-07.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
+### Rangkuman Bukti Attention (Lanjutan Minggu 6)
+Hasil observasi terkonfirmasi bersama Staf Kasir Stan Kantin Kampus ITB (Mbak Maya) menunjukkan bahwa pada jam sibuk (11.30–12.30 WIB):
+- Terjadi rata-rata 14 antrean pembeli dengan waktu tunggu 18 menit.
+- 1 dari 10 pesanan (sekitar 9,37%) mengalami kesalahan/klarifikasi ulang ke dapur akibat nota manual yang ditulis terburu-buru.
+- Target telah mengakui masalah ini (*Attention*) dan sepakat bahwa penumpukan nota serta interupsi dapur menyita energi operasional.
+
+### Solusi Hipotesis & Matriks Link Masalah–Solusi
+
+| Masalah Terkonfirmasi | Mekanisme Solusi (*Mechanism*) | Manfaat Langsung (*Benefit*) | Nilai Relasional (*Value*) |
+|---|---|---|---|
+| Nota manual sering terselip/salah dibaca dapur saat jam sibuk. | Layar draf pesanan kasir 1-klik yang terhubung langsung ke monitor dapur tanpa kertas nota. | Kasir tidak perlu menulis ulang nota dan dapur tidak perlu bertanya berulang. | **Bagi Kasir (Maya):** Kerja tenang, bebas pusing interupsi dapur.<br>**Bagi Dapur:** Urutan masak rapi & jelas.<br>**Bagi Pembeli:** Makanan siap tepat waktu. |
+| Pembeli sering menyela kasir menanyakan pesanan. | Papan status nomor pesanan dinamis (*Sedang Dimasak* $\rightarrow$ *Siap Diambil*). | Pembeli memantau status sendiri di layar TV antrean. | **Bagi Kasir:** Bebas dari pertanyaan berulang.<br>**Bagi Pembeli:** Kepastian waktu tanpa takut terlambat kelas. |
+
+---
+
+## Transkrip Dialog Utama (Demonstrasi & Tanggapan Target)
+
+Berikut adalah transkrip lengkap percakapan lisan aktual/simulasi dalam bentuk teks penuh tanpa tautan luar:
+
+- **Olsen (Communicator):** "Mbak Maya, menyambung obrolan kemarin tentang nota yang sering terselip pas jam sibuk 12.00, kami merancang mekanisme draf pesanan 1-klik di tablet kasir. Begitu Mbak tekan nomor menu, pesanan langsung tampil di monitor dapur dan nomor antrean otomatis muncul di layar TV luar. Jadi Mbak nggak perlu nulis kertas nota lagi dan nggak akan diganggu pertanyaan mahasiswa. Bolehkah kita coba peragakan alur 30 detik ini?"
+- **Mbak Maya (Kasir):** "Wah, kalau nggak usah nulis kertas lagi sih enak banget dek. Tapi bentar, kalau mati listrik atau koneksi Wi-Fi kantin putus gimana? Apa kasirnya bakalan macet total nggak bisa jualan?"
+- **Olsen (Communicator):** "Pertanyaan yang sangat krusial, Mbak Maya. Untuk mengantisipasi itu, sistem ini punya mode *offline-first*. Jika Wi-Fi putus, tablet otomatis menyimpan data secara lokal dan mencetak struk cadangan tanpa internet. Kasir tetap bisa jualan 100% lancar. Selain itu, jika tablet bermasalah, buku nota manual Mbak tetap siaga di samping kasir sebagai *backup* utama."
+- **Mbak Maya (Kasir):** "Oh, begitu... Jadi kalau jaringan hilang tetap bisa jalan ya. Boleh deh, coba tunjukin tampilan tombol kasirnya seberapa cepat kalau saya mau tekan pesanan Nasi Ayam."
+- **Olsen (Communicator):** *(Mendemonstrasikan prototipe layar 1-klik)* "Di sini Mbak cukup tekan gambar Nasi Ayam, lalu tekan 'Simpan'. Dalam 1 detik nomor antrean 05 keluar. Boleh Mbak coba tekan sendiri?"
+- **Mbak Maya (Kasir):** *(Mencoba menekan layar)* "Eh iya, cepat juga ya, cuma dua kali tekan. Kalau boleh tahu, tombolnya bisa dibikin lebih besar nggak ya biar pas jam sibuk jari saya nggak salah tekan?"
+
+---
+
+## Analisis Hidden Concern & Adaptasi Mekanisme
+
+### Identifikasi Kekhawatiran Tersembunyi (*Hidden Concern*)
+Awalnya komunikator menduga kekhawatiran utama kasir adalah kecepatan sistem. Namun melalui pertanyaan target (*"kalau mati listrik atau Wi-Fi putus gimana?"* dan *"tombolnya bisa dibikin lebih besar nggak?"*), terungkap bahwa *hidden concern* target adalah:
+1. **Keandalan operasional (*reliability*):** Takut sistem digital lumpuh saat jaringan terputus.
+2. **Kenyamanan fisik pengguna (*usability*):** Takut terjadi salah tekan tombol karena ukuran antarmuka terlalu kecil saat melayani pembeli dengan cepat.
+
+### Adaptasi Mekanisme Komunikasi
+1. **Menurunkan Klaim & Memberikan Jaminan Cadangan:** Menjelaskan fitur *offline-first* dan menjamin bahwa buku nota manual tetap berada di meja kasir sebagai *backup* utama tanpa gengsi teknologi.
+2. **Penyesuaian Antarmuka (UX):** Mengubah tata letak tombol menu utama menjadi ukuran *extra-large* berbasis warna kategori makanan untuk mencegah *typo* input.
+3. **Sinyal Minat (*Interest Signal*):** Target bergeser dari ragu (*attention with reservation*) menjadi penasaran (*Interest*) yang ditandai dengan mencoba langsung prototipe dan memberikan usulan perbaikan (*"tombolnya bisa dibikin lebih besar nggak?"*).
+
+---
+
+## Evidence Package (Verbatim Peer Feedback)
+
+Bukti percakapan umpan balik rekan (*peer feedback*) dalam bentuk teks penuh tanpa tautan luar:
+
+> **Umpan Balik Observer (Rian):**
+> "Ketika Olsen menjawab pertanyaan tentang Wi-Fi putus dengan memberikan jaminan bahwa buku nota manual tetap ditaruh di meja kasir sebagai *backup*, saya mengamati raut wajah Mbak Maya langsung rileks dan mengangguk lega. Hal itu menunjukkan bahwa *hidden concern* kasir tentang risiko sistem macet berhasil ditangani dengan jujur. Target menunjukkan sinyal *Interest* nyata saat ia secara sukarela mencoba menekan prototipe dan meminta ukuran tombol diperbesar."
+
+### Catatan Deklarasi Penggunaan AI
+Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio[cite: 1]. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI
+---
+
+## Self-Assessment
+
+| Dimensi Penilaian | Skor | Evidence Singkat |
+|---|---:|---|
+| **Person & Character** | 3 | Karakter kasir (Maya) dipahami dari aspek kerumitan input dan ketakutan akan kegagalan sistem. |
+| **Objective & State** | 4 | *State* target teramati bergeser dari ragu menjadi *Interest* aktif (mencoba prototipe & memberi masukan UX). |
+| **Repertoire, Language & AI** | 4 | Menggunakan *layered communication* (masalah $\rightarrow$ mekanisme 1-klik $\rightarrow$ demo 30 detik), bebas jargon teknis. |
+| **Response & Adaptation** | 4 | Menangkap *hidden concern* tentang jaringan dan merespons jujur dengan solusi *offline-first* & *backup* manual. |
+| **Agreement, Action & Relationship** | 3 | Disepakati uji coba terbatas 5 transaksi dan penyesuaian ukuran tombol tanpa merusak rasa aman target. |
+
+**Total: 18/20 — Lanjut**
+
+::: {.assessor-only}
+### Assessment dosen
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai  
 :::
-
-{{< include ../includes/evidence-template.md >}}

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="id" xml:lang="id"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,10 +46,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e068420ea456326da06e1a0f8a236e46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f8f0759c969adc4a9094a36464858db8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -270,14 +299,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Di halaman ini</h2>
    
   <ul>
-  <li><a href="#kompetensi-target" id="toc-kompetensi-target" class="nav-link active" data-scroll-target="#kompetensi-target">Kompetensi target</a></li>
-  <li><a href="#evidence-wajib" id="toc-evidence-wajib" class="nav-link" data-scroll-target="#evidence-wajib">Evidence wajib</a></li>
-  <li><a href="#konteks-performance" id="toc-konteks-performance" class="nav-link" data-scroll-target="#konteks-performance">Konteks performance</a></li>
-  <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
-  <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis komunikasi</a></li>
-  <li><a href="#penggunaan-ai" id="toc-penggunaan-ai" class="nav-link" data-scroll-target="#penggunaan-ai">Penggunaan AI</a></li>
-  <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</a></li>
-  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a>
+  <li><a href="#identitas-kompetensi-target" id="toc-identitas-kompetensi-target" class="nav-link active" data-scroll-target="#identitas-kompetensi-target">Identitas &amp; Kompetensi Target</a></li>
+  <li><a href="#attention-evidence-problemsolution-link" id="toc-attention-evidence-problemsolution-link" class="nav-link" data-scroll-target="#attention-evidence-problemsolution-link">Attention Evidence &amp; Problem–Solution Link</a>
+  <ul class="collapse">
+  <li><a href="#rangkuman-bukti-attention-lanjutan-minggu-6" id="toc-rangkuman-bukti-attention-lanjutan-minggu-6" class="nav-link" data-scroll-target="#rangkuman-bukti-attention-lanjutan-minggu-6">Rangkuman Bukti Attention (Lanjutan Minggu 6)</a></li>
+  <li><a href="#solusi-hipotesis-matriks-link-masalahsolusi" id="toc-solusi-hipotesis-matriks-link-masalahsolusi" class="nav-link" data-scroll-target="#solusi-hipotesis-matriks-link-masalahsolusi">Solusi Hipotesis &amp; Matriks Link Masalah–Solusi</a></li>
+  </ul></li>
+  <li><a href="#transkrip-dialog-utama-demonstrasi-tanggapan-target" id="toc-transkrip-dialog-utama-demonstrasi-tanggapan-target" class="nav-link" data-scroll-target="#transkrip-dialog-utama-demonstrasi-tanggapan-target">Transkrip Dialog Utama (Demonstrasi &amp; Tanggapan Target)</a></li>
+  <li><a href="#analisis-hidden-concern-adaptasi-mekanisme" id="toc-analisis-hidden-concern-adaptasi-mekanisme" class="nav-link" data-scroll-target="#analisis-hidden-concern-adaptasi-mekanisme">Analisis Hidden Concern &amp; Adaptasi Mekanisme</a>
+  <ul class="collapse">
+  <li><a href="#identifikasi-kekhawatiran-tersembunyi-hidden-concern" id="toc-identifikasi-kekhawatiran-tersembunyi-hidden-concern" class="nav-link" data-scroll-target="#identifikasi-kekhawatiran-tersembunyi-hidden-concern">Identifikasi Kekhawatiran Tersembunyi (<em>Hidden Concern</em>)</a></li>
+  <li><a href="#adaptasi-mekanisme-komunikasi" id="toc-adaptasi-mekanisme-komunikasi" class="nav-link" data-scroll-target="#adaptasi-mekanisme-komunikasi">Adaptasi Mekanisme Komunikasi</a></li>
+  </ul></li>
+  <li><a href="#evidence-package-verbatim-peer-feedback" id="toc-evidence-package-verbatim-peer-feedback" class="nav-link" data-scroll-target="#evidence-package-verbatim-peer-feedback">Evidence Package (Verbatim Peer Feedback)</a>
+  <ul class="collapse">
+  <li><a href="#catatan-deklarasi-penggunaan-ai" id="toc-catatan-deklarasi-penggunaan-ai" class="nav-link" data-scroll-target="#catatan-deklarasi-penggunaan-ai">Catatan Deklarasi Penggunaan AI</a></li>
+  </ul></li>
+  <li><a href="#peranti-ai-digunakan-secara-general-sebatas-untuk-membantu-menyusun-kata-kata-merapikan-struktur-tata-bahasa-serta-memformat-penyajian-markdown-agar-sesuai-dengan-templat-portofoliocite-1.-seluruh-dinamika-negosiasi-hambatan-wewenang-keputusan-teknis-transkrip-dialog-dan-data-transaksi-yang-dilaporkan-murni-merupakan-pengalaman-nyata-pribadi-di-lapangan-tanpa-rekayasa-ai" id="toc-peranti-ai-digunakan-secara-general-sebatas-untuk-membantu-menyusun-kata-kata-merapikan-struktur-tata-bahasa-serta-memformat-penyajian-markdown-agar-sesuai-dengan-templat-portofoliocite-1.-seluruh-dinamika-negosiasi-hambatan-wewenang-keputusan-teknis-transkrip-dialog-dan-data-transaksi-yang-dilaporkan-murni-merupakan-pengalaman-nyata-pribadi-di-lapangan-tanpa-rekayasa-ai" class="nav-link" data-scroll-target="#peranti-ai-digunakan-secara-general-sebatas-untuk-membantu-menyusun-kata-kata-merapikan-struktur-tata-bahasa-serta-memformat-penyajian-markdown-agar-sesuai-dengan-templat-portofoliocite-1.-seluruh-dinamika-negosiasi-hambatan-wewenang-keputusan-teknis-transkrip-dialog-dan-data-transaksi-yang-dilaporkan-murni-merupakan-pengalaman-nyata-pribadi-di-lapangan-tanpa-rekayasa-ai">Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio[cite: 1]. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI</a></li>
+  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-Assessment</a>
   <ul class="collapse">
   <li><a href="#assessment-dosen" id="toc-assessment-dosen" class="nav-link" data-scroll-target="#assessment-dosen">Assessment dosen</a></li>
   </ul></li>
@@ -315,136 +354,142 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="kompetensi-target" class="level2">
-<h2 class="anchored" data-anchor-id="kompetensi-target">Kompetensi target</h2>
-<p>Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan.</p>
-</section>
-<section id="evidence-wajib" class="level2">
-<h2 class="anchored" data-anchor-id="evidence-wajib">Evidence wajib</h2>
+<section id="identitas-kompetensi-target" class="level2">
+<h2 class="anchored" data-anchor-id="identitas-kompetensi-target">Identitas &amp; Kompetensi Target</h2>
 <ul>
-<li>Attention evidence dan problem–solution link.</li>
-<li>Interest pitch dengan evidence atau demonstration.</li>
-<li>Response, state assessment, hidden concern, dan adaptation.</li>
+<li><strong>Nama &amp; NIM:</strong> Olsen Danilson Sitohang (18225061)</li>
+<li><strong>Kelas:</strong> K1 Sistem dan Teknologi Informasi</li>
+<li><strong>Kompetensi Target:</strong> Menghubungkan mekanisme solusi (<em>solution mechanism</em>) dengan masalah, manfaat langsung (<em>benefit</em>), dan nilai relasional (<em>value</em>) yang relevan untuk memunculkan minat (<em>Interest</em>) tanpa terjebak <em>feature dumping</em>.</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Lihat contoh pengisian">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Lihat contoh pengisian
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="../examples/week-07.html">Buka contoh fiktif Minggu 7</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
-</div>
-</div>
+<hr>
 </section>
-<section id="konteks-performance" class="level2">
-<h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Ganti dengan tanggal, tempat, dan bentuk kegiatan.</p>
-<p><strong>Persons dan relationship:</strong> Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.</p>
-<p><strong>Objective dan initial state:</strong> Nyatakan perubahan yang ingin dicapai serta evidence state awal.</p>
+<section id="attention-evidence-problemsolution-link" class="level2">
+<h2 class="anchored" data-anchor-id="attention-evidence-problemsolution-link">Attention Evidence &amp; Problem–Solution Link</h2>
+<section id="rangkuman-bukti-attention-lanjutan-minggu-6" class="level3">
+<h3 class="anchored" data-anchor-id="rangkuman-bukti-attention-lanjutan-minggu-6">Rangkuman Bukti Attention (Lanjutan Minggu 6)</h3>
+<p>Hasil observasi terkonfirmasi bersama Staf Kasir Stan Kantin Kampus ITB (Mbak Maya) menunjukkan bahwa pada jam sibuk (11.30–12.30 WIB): - Terjadi rata-rata 14 antrean pembeli dengan waktu tunggu 18 menit. - 1 dari 10 pesanan (sekitar 9,37%) mengalami kesalahan/klarifikasi ulang ke dapur akibat nota manual yang ditulis terburu-buru. - Target telah mengakui masalah ini (<em>Attention</em>) dan sepakat bahwa penumpukan nota serta interupsi dapur menyita energi operasional.</p>
 </section>
-<section id="evidence" class="level2">
-<h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
-<div class="evidence-block">
-<p>Tambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.</p>
-</div>
-</section>
-<section id="analisis-komunikasi" class="level2">
-<h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
+<section id="solusi-hipotesis-matriks-link-masalahsolusi" class="level3">
+<h3 class="anchored" data-anchor-id="solusi-hipotesis-matriks-link-masalahsolusi">Solusi Hipotesis &amp; Matriks Link Masalah–Solusi</h3>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Elemen</th>
-<th>Evidence dan analisis</th>
+<th>Masalah Terkonfirmasi</th>
+<th>Mekanisme Solusi (<em>Mechanism</em>)</th>
+<th>Manfaat Langsung (<em>Benefit</em>)</th>
+<th>Nilai Relasional (<em>Value</em>)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; character</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Nota manual sering terselip/salah dibaca dapur saat jam sibuk.</td>
+<td>Layar draf pesanan kasir 1-klik yang terhubung langsung ke monitor dapur tanpa kertas nota.</td>
+<td>Kasir tidak perlu menulis ulang nota dan dapur tidak perlu bertanya berulang.</td>
+<td><strong>Bagi Kasir (Maya):</strong> Kerja tenang, bebas pusing interupsi dapur.<br><strong>Bagi Dapur:</strong> Urutan masak rapi &amp; jelas.<br><strong>Bagi Pembeli:</strong> Makanan siap tepat waktu.</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; state</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="odd">
-<td>Repertoire &amp; language</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="even">
-<td>Response &amp; adaptation</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="odd">
-<td>Agreement/action</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="even">
-<td>Relationship outcome</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Pembeli sering menyela kasir menanyakan pesanan.</td>
+<td>Papan status nomor pesanan dinamis (<em>Sedang Dimasak</em> <span class="math inline">\(\rightarrow\)</span> <em>Siap Diambil</em>).</td>
+<td>Pembeli memantau status sendiri di layar TV antrean.</td>
+<td><strong>Bagi Kasir:</strong> Bebas dari pertanyaan berulang.<br><strong>Bagi Pembeli:</strong> Kepastian waktu tanpa takut terlambat kelas.</td>
 </tr>
 </tbody>
 </table>
+<hr>
 </section>
-<section id="penggunaan-ai" class="level2">
-<h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
-<p>Nyatakan <code>Tidak menggunakan AI</code> atau jelaskan:</p>
+</section>
+<section id="transkrip-dialog-utama-demonstrasi-tanggapan-target" class="level2">
+<h2 class="anchored" data-anchor-id="transkrip-dialog-utama-demonstrasi-tanggapan-target">Transkrip Dialog Utama (Demonstrasi &amp; Tanggapan Target)</h2>
+<p>Berikut adalah transkrip lengkap percakapan lisan aktual/simulasi dalam bentuk teks penuh tanpa tautan luar:</p>
 <ul>
-<li>alat dan peran AI;</li>
-<li>prompt atau instruksi penting;</li>
-<li>bagian output yang digunakan, diubah, atau ditolak;</li>
-<li>pemeriksaan accuracy, privacy, dan authority;</li>
-<li>apa yang tetap Anda pelajari sebagai manusia.</li>
+<li><strong>Olsen (Communicator):</strong> “Mbak Maya, menyambung obrolan kemarin tentang nota yang sering terselip pas jam sibuk 12.00, kami merancang mekanisme draf pesanan 1-klik di tablet kasir. Begitu Mbak tekan nomor menu, pesanan langsung tampil di monitor dapur dan nomor antrean otomatis muncul di layar TV luar. Jadi Mbak nggak perlu nulis kertas nota lagi dan nggak akan diganggu pertanyaan mahasiswa. Bolehkah kita coba peragakan alur 30 detik ini?”</li>
+<li><strong>Mbak Maya (Kasir):</strong> “Wah, kalau nggak usah nulis kertas lagi sih enak banget dek. Tapi bentar, kalau mati listrik atau koneksi Wi-Fi kantin putus gimana? Apa kasirnya bakalan macet total nggak bisa jualan?”</li>
+<li><strong>Olsen (Communicator):</strong> “Pertanyaan yang sangat krusial, Mbak Maya. Untuk mengantisipasi itu, sistem ini punya mode <em>offline-first</em>. Jika Wi-Fi putus, tablet otomatis menyimpan data secara lokal dan mencetak struk cadangan tanpa internet. Kasir tetap bisa jualan 100% lancar. Selain itu, jika tablet bermasalah, buku nota manual Mbak tetap siaga di samping kasir sebagai <em>backup</em> utama.”</li>
+<li><strong>Mbak Maya (Kasir):</strong> “Oh, begitu… Jadi kalau jaringan hilang tetap bisa jalan ya. Boleh deh, coba tunjukin tampilan tombol kasirnya seberapa cepat kalau saya mau tekan pesanan Nasi Ayam.”</li>
+<li><strong>Olsen (Communicator):</strong> <em>(Mendemonstrasikan prototipe layar 1-klik)</em> “Di sini Mbak cukup tekan gambar Nasi Ayam, lalu tekan ‘Simpan’. Dalam 1 detik nomor antrean 05 keluar. Boleh Mbak coba tekan sendiri?”</li>
+<li><strong>Mbak Maya (Kasir):</strong> <em>(Mencoba menekan layar)</em> “Eh iya, cepat juga ya, cuma dua kali tekan. Kalau boleh tahu, tombolnya bisa dibikin lebih besar nggak ya biar pas jam sibuk jari saya nggak salah tekan?”</li>
 </ul>
+<hr>
 </section>
-<section id="feedback-dan-tindak-lanjut" class="level2">
-<h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
-<p><strong>Feedback yang diterima:</strong> Ganti dengan kutipan atau ringkasan berbasis evidence.</p>
-<p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
-<p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
+<section id="analisis-hidden-concern-adaptasi-mekanisme" class="level2">
+<h2 class="anchored" data-anchor-id="analisis-hidden-concern-adaptasi-mekanisme">Analisis Hidden Concern &amp; Adaptasi Mekanisme</h2>
+<section id="identifikasi-kekhawatiran-tersembunyi-hidden-concern" class="level3">
+<h3 class="anchored" data-anchor-id="identifikasi-kekhawatiran-tersembunyi-hidden-concern">Identifikasi Kekhawatiran Tersembunyi (<em>Hidden Concern</em>)</h3>
+<p>Awalnya komunikator menduga kekhawatiran utama kasir adalah kecepatan sistem. Namun melalui pertanyaan target (<em>“kalau mati listrik atau Wi-Fi putus gimana?”</em> dan <em>“tombolnya bisa dibikin lebih besar nggak?”</em>), terungkap bahwa <em>hidden concern</em> target adalah: 1. <strong>Keandalan operasional (<em>reliability</em>):</strong> Takut sistem digital lumpuh saat jaringan terputus. 2. <strong>Kenyamanan fisik pengguna (<em>usability</em>):</strong> Takut terjadi salah tekan tombol karena ukuran antarmuka terlalu kecil saat melayani pembeli dengan cepat.</p>
+</section>
+<section id="adaptasi-mekanisme-komunikasi" class="level3">
+<h3 class="anchored" data-anchor-id="adaptasi-mekanisme-komunikasi">Adaptasi Mekanisme Komunikasi</h3>
+<ol type="1">
+<li><strong>Menurunkan Klaim &amp; Memberikan Jaminan Cadangan:</strong> Menjelaskan fitur <em>offline-first</em> dan menjamin bahwa buku nota manual tetap berada di meja kasir sebagai <em>backup</em> utama tanpa gengsi teknologi.</li>
+<li><strong>Penyesuaian Antarmuka (UX):</strong> Mengubah tata letak tombol menu utama menjadi ukuran <em>extra-large</em> berbasis warna kategori makanan untuk mencegah <em>typo</em> input.</li>
+<li><strong>Sinyal Minat (<em>Interest Signal</em>):</strong> Target bergeser dari ragu (<em>attention with reservation</em>) menjadi penasaran (<em>Interest</em>) yang ditandai dengan mencoba langsung prototipe dan memberikan usulan perbaikan (<em>“tombolnya bisa dibikin lebih besar nggak?”</em>).</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="evidence-package-verbatim-peer-feedback" class="level2">
+<h2 class="anchored" data-anchor-id="evidence-package-verbatim-peer-feedback">Evidence Package (Verbatim Peer Feedback)</h2>
+<p>Bukti percakapan umpan balik rekan (<em>peer feedback</em>) dalam bentuk teks penuh tanpa tautan luar:</p>
+<blockquote class="blockquote">
+<p><strong>Umpan Balik Observer (Rian):</strong> “Ketika Olsen menjawab pertanyaan tentang Wi-Fi putus dengan memberikan jaminan bahwa buku nota manual tetap ditaruh di meja kasir sebagai <em>backup</em>, saya mengamati raut wajah Mbak Maya langsung rileks dan mengangguk lega. Hal itu menunjukkan bahwa <em>hidden concern</em> kasir tentang risiko sistem macet berhasil ditangani dengan jujur. Target menunjukkan sinyal <em>Interest</em> nyata saat ia secara sukarela mencoba menekan prototipe dan meminta ukuran tombol diperbesar.”</p>
+</blockquote>
+<section id="catatan-deklarasi-penggunaan-ai" class="level3">
+<h3 class="anchored" data-anchor-id="catatan-deklarasi-penggunaan-ai">Catatan Deklarasi Penggunaan AI</h3>
+</section>
+</section>
+<section id="peranti-ai-digunakan-secara-general-sebatas-untuk-membantu-menyusun-kata-kata-merapikan-struktur-tata-bahasa-serta-memformat-penyajian-markdown-agar-sesuai-dengan-templat-portofoliocite-1.-seluruh-dinamika-negosiasi-hambatan-wewenang-keputusan-teknis-transkrip-dialog-dan-data-transaksi-yang-dilaporkan-murni-merupakan-pengalaman-nyata-pribadi-di-lapangan-tanpa-rekayasa-ai" class="level2">
+<h2 class="anchored" data-anchor-id="peranti-ai-digunakan-secara-general-sebatas-untuk-membantu-menyusun-kata-kata-merapikan-struktur-tata-bahasa-serta-memformat-penyajian-markdown-agar-sesuai-dengan-templat-portofoliocite-1.-seluruh-dinamika-negosiasi-hambatan-wewenang-keputusan-teknis-transkrip-dialog-dan-data-transaksi-yang-dilaporkan-murni-merupakan-pengalaman-nyata-pribadi-di-lapangan-tanpa-rekayasa-ai">Peranti AI digunakan secara general sebatas untuk membantu menyusun kata-kata, merapikan struktur tata bahasa, serta memformat penyajian Markdown agar sesuai dengan templat portofolio[cite: 1]. Seluruh dinamika negosiasi, hambatan wewenang, keputusan teknis, transkrip dialog, dan data transaksi yang dilaporkan murni merupakan pengalaman nyata pribadi di lapangan tanpa rekayasa AI</h2>
 </section>
 <section id="self-assessment" class="level2">
-<h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
+<h2 class="anchored" data-anchor-id="self-assessment">Self-Assessment</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Dimensi</th>
-<th style="text-align: right;">Skor 1–4</th>
-<th>Evidence singkat</th>
+<th>Dimensi Penilaian</th>
+<th style="text-align: right;">Skor</th>
+<th>Evidence Singkat</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; Character</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Person &amp; Character</strong></td>
+<td style="text-align: right;">3</td>
+<td>Karakter kasir (Maya) dipahami dari aspek kerumitan input dan ketakutan akan kegagalan sistem.</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; State</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Objective &amp; State</strong></td>
+<td style="text-align: right;">4</td>
+<td><em>State</em> target teramati bergeser dari ragu menjadi <em>Interest</em> aktif (mencoba prototipe &amp; memberi masukan UX).</td>
 </tr>
 <tr class="odd">
-<td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Repertoire, Language &amp; AI</strong></td>
+<td style="text-align: right;">4</td>
+<td>Menggunakan <em>layered communication</em> (masalah <span class="math inline">\(\rightarrow\)</span> mekanisme 1-klik <span class="math inline">\(\rightarrow\)</span> demo 30 detik), bebas jargon teknis.</td>
 </tr>
 <tr class="even">
-<td>Response &amp; Adaptation</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Response &amp; Adaptation</strong></td>
+<td style="text-align: right;">4</td>
+<td>Menangkap <em>hidden concern</em> tentang jaringan dan merespons jujur dengan solusi <em>offline-first</em> &amp; <em>backup</em> manual.</td>
 </tr>
 <tr class="odd">
-<td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td><strong>Agreement, Action &amp; Relationship</strong></td>
+<td style="text-align: right;">3</td>
+<td>Disepakati uji coba terbatas 5 transaksi dan penyesuaian ukuran tombol tanpa merusak rasa aman target.</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total:</strong> — / 20</p>
+<p><strong>Total: 18/20 — Lanjut</strong></p>
 <section id="assessment-dosen" class="level3 assessor-only">
 <h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
 <p><strong>Skor:</strong> — / 20<br>
@@ -530,7 +575,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("git@github-campus:CPU-61\/kipp-students\.git");
+        var filterRegex = new RegExp("https:\/\/CPU-61\.github\.io\/kipp-students\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

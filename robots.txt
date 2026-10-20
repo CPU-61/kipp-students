@@ -1,1 +1,1 @@
-Sitemap: git@github-campus:CPU-61/kipp-students.git/sitemap.xml
+Sitemap: https://CPU-61.github.io/kipp-students/sitemap.xml
